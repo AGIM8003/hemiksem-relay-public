@@ -1,0 +1,428 @@
+{
+  "index_version": "2.1",
+  "project_id": "hemiksem-gemeentediensten",
+  "capability_count": 16,
+  "capabilities": [
+    {
+      "capability_id": "CAP001",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP001: Systeem & Levering",
+      "domain": "Systeem & Levering",
+      "reference_file": "000.KB_DELIVERY_SSOT.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM001"
+      ],
+      "admission_refs": [
+        "ART_000_KB_DELIVERY_SSOT_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP002",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP002: Routering & Index",
+      "domain": "Routering & Index",
+      "reference_file": "000.KB_RETRIEVAL_ROUTING_INDEX.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM002"
+      ],
+      "admission_refs": [
+        "ART_000_KB_RETRIEVAL_ROUTING_INDEX_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP003",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP003: Subsidies & Mondiaal Beleid",
+      "domain": "Subsidies & Mondiaal Beleid",
+      "reference_file": "001.NOORD_ZUIDRAAD_SUBSIDIEREGLEMENT_FTPRODUCTEN.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM003"
+      ],
+      "admission_refs": [
+        "ART_001_NOORD_ZUIDRAAD_SUBSIDIEREGLEMENT_FTPRODUCTEN_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP004",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP004: Leven & Identiteit",
+      "domain": "Leven & Identiteit",
+      "reference_file": "002.WERKGEVERSATTEST_INSCHRIJVING_EU_ONDERDANEN.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM004"
+      ],
+      "admission_refs": [
+        "ART_002_WERKGEVERSATTEST_INSCHRIJVING_EU_ONDERDANEN_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP005",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP005: Leven & Identiteit",
+      "domain": "Leven & Identiteit",
+      "reference_file": "003.OMZENDBRIEF_KBBJ_ABB_2024_1_BIJLAGE1_VERKLARING_LAATSTE_WILSBESCHIKKING.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM005"
+      ],
+      "admission_refs": [
+        "ART_003_OMZENDBRIEF_KBBJ_ABB_2024_1_BIJLAGE1_VERKLARING_LAATSTE_WILSBESCHIKKING_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP006",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP006: Cultuur, Sport & Vrije Tijd",
+      "domain": "Cultuur, Sport & Vrije Tijd",
+      "reference_file": "004.BROCHURE_OPSTAPPAS_2026.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM006"
+      ],
+      "admission_refs": [
+        "ART_004_BROCHURE_OPSTAPPAS_2026_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP007",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP007: Nieuws & Bekendmakingen",
+      "domain": "Nieuws & Bekendmakingen",
+      "reference_file": "005.HH_JANUARI_21.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM007"
+      ],
+      "admission_refs": [
+        "ART_005_HH_JANUARI_21_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP008",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP008: Gemeente & Bestuur",
+      "domain": "Gemeente & Bestuur",
+      "reference_file": "006.KENNISGEVING_ROND_VOORDRACHT_VAN_KANDIDATEN_VOOR_DE_GEMEENTERAADSVERKIEZ.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM008"
+      ],
+      "admission_refs": [
+        "ART_006_KENNISGEVING_ROND_VOORDRACHT_VAN_KANDIDATEN_VOOR_DE_GEMEENTERAADSVERKIEZ_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP009",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP009: Water & Nutsvoorzieningen",
+      "domain": "Water & Nutsvoorzieningen",
+      "reference_file": "007.STATUTEN_WATER_LINK_L_2021.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM009"
+      ],
+      "admission_refs": [
+        "ART_007_STATUTEN_WATER_LINK_L_2021_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP010",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP010: Gemeente & Bestuur",
+      "domain": "Gemeente & Bestuur",
+      "reference_file": "008.VERSLAG_21_FEBRUARI_2024.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM010"
+      ],
+      "admission_refs": [
+        "ART_008_VERSLAG_21_FEBRUARI_2024_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP011",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP011: Verkeer & Mobiliteit",
+      "domain": "Verkeer & Mobiliteit",
+      "reference_file": "009.GR_17_03_2015_GOEDKEUREN_REGLEMENT_SPEELSTRAAT.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM011"
+      ],
+      "admission_refs": [
+        "ART_009_GR_17_03_2015_GOEDKEUREN_REGLEMENT_SPEELSTRAAT_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP012",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP012: Praktische Info & Loketten",
+      "domain": "Praktische Info & Loketten",
+      "reference_file": "01.HEMIKSEM_GEMEENTE_WEBSITE_EN_DIENSTEN.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM012"
+      ],
+      "admission_refs": [
+        "ART_01_HEMIKSEM_GEMEENTE_WEBSITE_EN_DIENSTEN_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP013",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP013: Financi\u00ebn",
+      "domain": "Financi\u00ebn",
+      "reference_file": "010.JAARREKENING_2024_JAARREKENING_2024_DOCUMENTATIE_DEF.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM013"
+      ],
+      "admission_refs": [
+        "ART_010_JAARREKENING_2024_JAARREKENING_2024_DOCUMENTATIE_DEF_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP014",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP014: Financi\u00ebn & Belastingen",
+      "domain": "Financi\u00ebn & Belastingen",
+      "reference_file": "011.AANGIFTEFORMULIER_BELASTING_OP_TWEEDE_VERBLIJVEN.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM014"
+      ],
+      "admission_refs": [
+        "ART_011_AANGIFTEFORMULIER_BELASTING_OP_TWEEDE_VERBLIJVEN_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP015",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP015: Financi\u00ebn & Beleid",
+      "domain": "Financi\u00ebn & Beleid",
+      "reference_file": "012.TOELICHTING_AANPASSING_MEERJARENPLAN_2020_2025.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM015"
+      ],
+      "admission_refs": [
+        "ART_012_TOELICHTING_AANPASSING_MEERJARENPLAN_2020_2025_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    },
+    {
+      "capability_id": "CAP016",
+      "provider_project": "hemiksem-gemeentediensten",
+      "name": "Capability CAP016: Personeel & HR",
+      "domain": "Personeel & HR",
+      "reference_file": "013.PERSONEEL_RPR_HEMIKSEM_20260112.md",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "introduced_in_release": "rel-hemiksem-v2.0-prod",
+      "last_semantic_change_release": "rel-hemiksem-v2.1-prod",
+      "supersedes": [],
+      "superseded_by": [],
+      "claim_ids": [
+        "CLM016"
+      ],
+      "admission_refs": [
+        "ART_013_PERSONEEL_RPR_HEMIKSEM_20260112_md"
+      ],
+      "maturity_state": "CONNECTED_VERIFIED",
+      "proven_gates": [
+        "G01_BLUEPRINT",
+        "G02_JSON_SYNTAX",
+        "G06_EVIDENCE_INTEGRITY",
+        "G46_COMMIT_PINNED"
+      ]
+    }
+  ],
+  "release_id": "rel-hemiksem-v2.3-prod",
+  "release_version": "2.3.0",
+  "private_source_commit": "427b8e5fd39406508ad77b6f4dd0dcf4d193b330",
+  "manifest_sha256": "a530860f28188b27f1874786cb9e848ccd9f4dec127e39778a43536f117176d5",
+  "generated_at_utc": "2026-08-28T21:11:46.545817+00:00"
+}

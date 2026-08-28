@@ -1,0 +1,14 @@
+{
+  "index_version": "2.1",
+  "project_id": "hemiksem-gemeentediensten",
+  "evaluated_at_utc": "2026-08-28T20:00:06.346447+00:00",
+  "status": "NONE_DETECTED_BY_IMPLEMENTED_CHECKS",
+  "conflict_count": 0,
+  "conflicts": [],
+  "detector_receipt_id": "REC-CONFLICT-DETECTION-HEMIKSEM-V2.1",
+  "release_id": "rel-hemiksem-v2.3-prod",
+  "release_version": "2.3.0",
+  "private_source_commit": "427b8e5fd39406508ad77b6f4dd0dcf4d193b330",
+  "manifest_sha256": "a530860f28188b27f1874786cb9e848ccd9f4dec127e39778a43536f117176d5",
+  "generated_at_utc": "2026-08-28T21:11:46.545817+00:00"
+}

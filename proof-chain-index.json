@@ -1,0 +1,659 @@
+{
+  "index_version": "1.1",
+  "project_id": "hemiksem-gemeentediensten",
+  "derived_class": "DERIVED_STRUCTURAL_INDEX",
+  "generated_from_release": "2.1.0",
+  "claim_chain_count": 30,
+  "capability_chain_count": 16,
+  "claim_chains": [
+    {
+      "claim_id": "CLM001",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_000_KB_DELIVERY_SSOT_md",
+          "stored_sha256": "1e1a1ff61bde2af54652a5380b3a54a9c58bfd3c5eaaee2648ae59b97c732fdf",
+          "stored_bytes": 978
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM002",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_000_KB_RETRIEVAL_ROUTING_INDEX_md",
+          "stored_sha256": "0377b30395a0ba9feb023b8d29a206b9aaec0d4c52d0420f40fcb4d8714bf898",
+          "stored_bytes": 1017
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM003",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_001_NOORD_ZUIDRAAD_SUBSIDIEREGLEMENT_FTPRODUCTEN_md",
+          "stored_sha256": "acbc8dbfe13c752f83976e2190528440584f8a626e04ccc3b316939c3e8d1885",
+          "stored_bytes": 1118
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM004",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_002_WERKGEVERSATTEST_INSCHRIJVING_EU_ONDERDANEN_md",
+          "stored_sha256": "0fe921b91e7c3599f73bb128b79c66ed23d9fb2701689f3a71887f196ae025d5",
+          "stored_bytes": 1100
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM005",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_003_OMZENDBRIEF_KBBJ_ABB_2024_1_BIJLAGE1_VERKLARING_LAATSTE_WILSBESCHIKKING_md",
+          "stored_sha256": "90ed4423f6c94b4d1d700e4883e6e5de7a27d62275e6935df182979200f9cfde",
+          "stored_bytes": 1210
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM006",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_004_BROCHURE_OPSTAPPAS_2026_md",
+          "stored_sha256": "ed5f696d47d57bedf8e1ca5dad754661e070305662dcc7edc723972a4607710b",
+          "stored_bytes": 1025
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM007",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_005_HH_JANUARI_21_md",
+          "stored_sha256": "48454f0bafd3e30ccc7c92637599e2f40d7aeb51859cfdf0b611273a9b2b95d1",
+          "stored_bytes": 994
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM008",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_006_KENNISGEVING_ROND_VOORDRACHT_VAN_KANDIDATEN_VOOR_DE_GEMEENTERAADSVERKIEZ_md",
+          "stored_sha256": "bb7ae1d41862aa4a68429696fb65cbbcab0687bc2003dbf7db94f93c00db3592",
+          "stored_bytes": 1205
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM009",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_007_STATUTEN_WATER_LINK_L_2021_md",
+          "stored_sha256": "29ca2567e6064028c3a2a155069febedff0373f33e462f8b5107f814ce49611b",
+          "stored_bytes": 1023
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM010",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_008_VERSLAG_21_FEBRUARI_2024_md",
+          "stored_sha256": "5492a4b3918c7fae2f7f46487b6c5e5f3cb3c266e83d8f9e7d4812fedc4fb43d",
+          "stored_bytes": 1031
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM011",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_009_GR_17_03_2015_GOEDKEUREN_REGLEMENT_SPEELSTRAAT_md",
+          "stored_sha256": "0e7a1dc11803ffe41b3ae36b5dcac5b5ce813f17cce06a6f118909ca558dbb54",
+          "stored_bytes": 1113
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM012",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_01_HEMIKSEM_GEMEENTE_WEBSITE_EN_DIENSTEN_md",
+          "stored_sha256": "a653b6f40ca54978a90651f47c0b5412df9be660d8f586cd11b29a3437b6ed29",
+          "stored_bytes": 1075
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM013",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_010_JAARREKENING_2024_JAARREKENING_2024_DOCUMENTATIE_DEF_md",
+          "stored_sha256": "66271d6efa16326b4d87b6b1d25a3189cd6f00e3762e3407a5a18e85bab98fec",
+          "stored_bytes": 1140
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM014",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_011_AANGIFTEFORMULIER_BELASTING_OP_TWEEDE_VERBLIJVEN_md",
+          "stored_sha256": "f9d608a0afddf7c292d1ddae23f1c738b21d53f949c944f88ff42b19afe7fe94",
+          "stored_bytes": 1124
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM015",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_012_TOELICHTING_AANPASSING_MEERJARENPLAN_2020_2025_md",
+          "stored_sha256": "154c5864ed26bcb93763c0f357ec95a9eeb2a7ac5d6c05f3dc73a00aa65822b3",
+          "stored_bytes": 1106
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM016",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_013_PERSONEEL_RPR_HEMIKSEM_20260112_md",
+          "stored_sha256": "b91453cdcb2bd3b7907f3ec6b5385e9b3fb947540e38e9594346ab07d1e53d55",
+          "stored_bytes": 1038
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM017",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_014_HEMELWATER_EN_DROOGTEPLAN_HEMIKSEM_md",
+          "stored_sha256": "3338a030f777172b3f959e2a630904a90eb100a39c873ae439fb4b8745416f51",
+          "stored_bytes": 1069
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM018",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_015_PROGRAMMATISCHE_AANPAK_STIKSTOF_md",
+          "stored_sha256": "cf79f277e13bdc9441a18954d190fb5f9dde4aa55f74a41dd204b1cde9eb455e",
+          "stored_bytes": 1052
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM019",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_016_GR_12_09_2017_POLITIEVERORDENING_BESTRIJDEN_BRAND_md",
+          "stored_sha256": "d778c8a7a099dc07ee113efc2bde89dc1c8efd27e93636718e36729139aff5e6",
+          "stored_bytes": 1144
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM020",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_017_WOONZORGCENTRUM_md",
+          "stored_sha256": "68fbb0de10b9cbe60840c4796aca9879493105f6da69222bffa1ffab50ff2fca",
+          "stored_bytes": 984
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM021",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_018_BESLUIT_RMW_BESLUIT_VASTSTELLEN_KREDIETEN_2021_EN_BW_2_2020_OCMW_md",
+          "stored_sha256": "cf9c0e44c31be78437b463944c5713adb2b107e193c70ecec39fd81756eeb7d9",
+          "stored_bytes": 1193
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM022",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_019_4_1_OMGEVINGSANALYSE_LOKAAL_BESTUUR_HEMIKSEM_md",
+          "stored_sha256": "67818c5facd0df1f561e7736eda227d34bd85806911c8b87a25e3d1df7cf8707",
+          "stored_bytes": 1097
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM023",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_02_HEMIKSEM_FINANCIEN_EN_JAARREKENINGEN_md",
+          "stored_sha256": "9b1f1a9bbfa409d982e5c8a838a90e14b466bb744c20df0604005b2d7ba163aa",
+          "stored_bytes": 1056
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM024",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_RUP_ABDIJOMGEVING_kb_md",
+          "stored_sha256": "bc071c6884b92f39aee89d1d000629c8fe021f6cec1f89c3f31ddc1aa6dff8dc",
+          "stored_bytes": 1041
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM025",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_RUP_SCHELDEBOORDEN_kb_md",
+          "stored_sha256": "10f1522416bfe087e6963b37bc278523ed95ce21ca429c0e7d25410c6ce84966",
+          "stored_bytes": 1048
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM026",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_RUP_VARENVELDEN_kb_md",
+          "stored_sha256": "bd39fa84456dc71d7e80a7bd25292a04ab69f8d894f8147ccf36b52fd57ca75b",
+          "stored_bytes": 1027
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM027",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_RUP_HOGE_WEG_kb_md",
+          "stored_sha256": "23208cd3d39b153f98cb466b85d70f3305c5362dce32e83a59fb341b40f79a95",
+          "stored_bytes": 1006
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM028",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_GEMEENTELIJKE_BOUWVERORDENING_kb_md",
+          "stored_sha256": "6b3ebdc460e0a15861896d4fb6f1fb5a3df4bed0f6a6f444d541673a2c928de4",
+          "stored_bytes": 1092
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM029",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_BPA_VOORSCHRIFTEN_kb_md",
+          "stored_sha256": "93b24d3333be3f0cba1f87bc04f94513ed9802743fce4a8c335a7db76bb1a0c1",
+          "stored_bytes": 1020
+        }
+      ]
+    },
+    {
+      "claim_id": "CLM030",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
+      "conflict_state": "UNCONFLICTED",
+      "admissions": [
+        {
+          "artifact_id": "ART_MUNICIPAL_REGULATION_kb_md",
+          "stored_sha256": "7dfe752d7d67361528bfb39d9223cc2e1c531ced3e0524be6849d99a64e7b112",
+          "stored_bytes": 1038
+        }
+      ]
+    }
+  ],
+  "capability_chains": [
+    {
+      "capability_id": "CAP001",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM001"
+      ],
+      "admission_refs": [
+        "ART_000_KB_DELIVERY_SSOT_md"
+      ]
+    },
+    {
+      "capability_id": "CAP002",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM002"
+      ],
+      "admission_refs": [
+        "ART_000_KB_RETRIEVAL_ROUTING_INDEX_md"
+      ]
+    },
+    {
+      "capability_id": "CAP003",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM003"
+      ],
+      "admission_refs": [
+        "ART_001_NOORD_ZUIDRAAD_SUBSIDIEREGLEMENT_FTPRODUCTEN_md"
+      ]
+    },
+    {
+      "capability_id": "CAP004",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM004"
+      ],
+      "admission_refs": [
+        "ART_002_WERKGEVERSATTEST_INSCHRIJVING_EU_ONDERDANEN_md"
+      ]
+    },
+    {
+      "capability_id": "CAP005",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM005"
+      ],
+      "admission_refs": [
+        "ART_003_OMZENDBRIEF_KBBJ_ABB_2024_1_BIJLAGE1_VERKLARING_LAATSTE_WILSBESCHIKKING_md"
+      ]
+    },
+    {
+      "capability_id": "CAP006",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM006"
+      ],
+      "admission_refs": [
+        "ART_004_BROCHURE_OPSTAPPAS_2026_md"
+      ]
+    },
+    {
+      "capability_id": "CAP007",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM007"
+      ],
+      "admission_refs": [
+        "ART_005_HH_JANUARI_21_md"
+      ]
+    },
+    {
+      "capability_id": "CAP008",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM008"
+      ],
+      "admission_refs": [
+        "ART_006_KENNISGEVING_ROND_VOORDRACHT_VAN_KANDIDATEN_VOOR_DE_GEMEENTERAADSVERKIEZ_md"
+      ]
+    },
+    {
+      "capability_id": "CAP009",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM009"
+      ],
+      "admission_refs": [
+        "ART_007_STATUTEN_WATER_LINK_L_2021_md"
+      ]
+    },
+    {
+      "capability_id": "CAP010",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM010"
+      ],
+      "admission_refs": [
+        "ART_008_VERSLAG_21_FEBRUARI_2024_md"
+      ]
+    },
+    {
+      "capability_id": "CAP011",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM011"
+      ],
+      "admission_refs": [
+        "ART_009_GR_17_03_2015_GOEDKEUREN_REGLEMENT_SPEELSTRAAT_md"
+      ]
+    },
+    {
+      "capability_id": "CAP012",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM012"
+      ],
+      "admission_refs": [
+        "ART_01_HEMIKSEM_GEMEENTE_WEBSITE_EN_DIENSTEN_md"
+      ]
+    },
+    {
+      "capability_id": "CAP013",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM013"
+      ],
+      "admission_refs": [
+        "ART_010_JAARREKENING_2024_JAARREKENING_2024_DOCUMENTATIE_DEF_md"
+      ]
+    },
+    {
+      "capability_id": "CAP014",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM014"
+      ],
+      "admission_refs": [
+        "ART_011_AANGIFTEFORMULIER_BELASTING_OP_TWEEDE_VERBLIJVEN_md"
+      ]
+    },
+    {
+      "capability_id": "CAP015",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM015"
+      ],
+      "admission_refs": [
+        "ART_012_TOELICHTING_AANPASSING_MEERJARENPLAN_2020_2025_md"
+      ]
+    },
+    {
+      "capability_id": "CAP016",
+      "provider_project": "hemiksem-gemeentediensten",
+      "evidence_state": "SUPPORTED",
+      "lifecycle_state": "CURRENT",
+      "claim_ids": [
+        "CLM016"
+      ],
+      "admission_refs": [
+        "ART_013_PERSONEEL_RPR_HEMIKSEM_20260112_md"
+      ]
+    }
+  ],
+  "release_id": "rel-hemiksem-v2.3-prod",
+  "release_version": "2.3.0",
+  "private_source_commit": "427b8e5fd39406508ad77b6f4dd0dcf4d193b330",
+  "manifest_sha256": "a530860f28188b27f1874786cb9e848ccd9f4dec127e39778a43536f117176d5",
+  "generated_at_utc": "2026-08-28T21:11:46.545817+00:00"
+}
