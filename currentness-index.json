@@ -334,8 +334,8 @@
       "evidence_hash": "7dfe752d7d67361528bfb39d9223cc2e1c531ced3e0524be6849d99a64e7b112"
     }
   ],
-  "release_id": "rel-hemiksem-v2.3-prod",
-  "release_version": "2.3.0",
+  "release_id": "rel-hemiksem-v3.0-prod",
+  "release_version": "3.0.0",
   "private_source_commit": "427b8e5fd39406508ad77b6f4dd0dcf4d193b330",
   "manifest_sha256": "a530860f28188b27f1874786cb9e848ccd9f4dec127e39778a43536f117176d5",
   "generated_at_utc": "2026-08-28T21:11:46.545817+00:00"
