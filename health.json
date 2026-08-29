@@ -1,15 +1,18 @@
 {
   "project_id": "hemiksem-gemeentediensten",
-  "release_id": "rel-hemiksem-v3.0-prod",
-  "release_version": "3.0.0",
-  "private_source_commit": "427b8e5fd39406508ad77b6f4dd0dcf4d193b330",
-  "manifest_sha256": "a530860f28188b27f1874786cb9e848ccd9f4dec127e39778a43536f117176d5",
-  "generated_at_utc": "2026-08-28T21:11:46.545817+00:00",
+  "release_id": "rel-hemiksem-v4.0-prod",
+  "release_version": "4.0.0",
+  "generated_at_utc": "2026-08-29T13:16:00+00:00",
   "product_name": "AI EXPERT \u2014 HEMIKSEM GEMEENTEDIENSTEN",
+  "product_identity": "MUNICIPALITY_WIDE",
   "relay_mode": "STATIC_INDEX_RELAY",
   "authentication": "NONE",
   "write_capability": "NONE",
-  "server_recall": "INTENTIONALLY_NOT_CONFIGURED",
+  "server_recall": "CONFIGURED_V4",
   "deployment_provider": "github_pages",
-  "relay_export_sha256": "2e30e60890dc970860ed563b50d3f24b61fea7addc7a6250db6d6c70ee327a65"
+  "permit_default_route": "NONE",
+  "planning_global_boost": "NONE",
+  "corpus_scope": "FULL_MUNICIPAL",
+  "domains_covered": 22,
+  "upgrade_notes": "V4.0: Full municipal corpus activation. Planning is ONE domain among 22+. No permit-centric bias. Full HEMIKSEM RAG indexed."
 }
