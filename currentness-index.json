@@ -138,7 +138,7 @@
     {
       "claim_id": "CLM013",
       "artifact_id": "ART_010_JAARREKENING_2024_JAARREKENING_2024_DOCUMENTATIE_DEF_md",
-      "domain": "Financi\u00ebn",
+      "domain": "Financiën",
       "external_currentness_state": "KB_CONFIRMED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "currentness_state": "KB_CONFIRMED_FOR_DATE",
@@ -149,7 +149,7 @@
     {
       "claim_id": "CLM014",
       "artifact_id": "ART_011_AANGIFTEFORMULIER_BELASTING_OP_TWEEDE_VERBLIJVEN_md",
-      "domain": "Financi\u00ebn & Belastingen",
+      "domain": "Financiën & Belastingen",
       "external_currentness_state": "KB_CONFIRMED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "currentness_state": "KB_CONFIRMED_FOR_DATE",
@@ -160,7 +160,7 @@
     {
       "claim_id": "CLM015",
       "artifact_id": "ART_012_TOELICHTING_AANPASSING_MEERJARENPLAN_2020_2025_md",
-      "domain": "Financi\u00ebn & Beleid",
+      "domain": "Financiën & Beleid",
       "external_currentness_state": "KB_CONFIRMED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "currentness_state": "KB_CONFIRMED_FOR_DATE",
@@ -248,7 +248,7 @@
     {
       "claim_id": "CLM023",
       "artifact_id": "ART_02_HEMIKSEM_FINANCIEN_EN_JAARREKENINGEN_md",
-      "domain": "Financi\u00ebn",
+      "domain": "Financiën",
       "external_currentness_state": "KB_CONFIRMED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "currentness_state": "KB_CONFIRMED_FOR_DATE",
@@ -334,9 +334,11 @@
       "evidence_hash": "7dfe752d7d67361528bfb39d9223cc2e1c531ced3e0524be6849d99a64e7b112"
     }
   ],
-  "release_id": "rel-hemiksem-v3.0-prod",
-  "release_version": "3.0.0",
+  "release_id": "rel-hemiksem-v4.9-prod",
+  "release_version": "4.9.0",
   "private_source_commit": "427b8e5fd39406508ad77b6f4dd0dcf4d193b330",
   "manifest_sha256": "a530860f28188b27f1874786cb9e848ccd9f4dec127e39778a43536f117176d5",
-  "generated_at_utc": "2026-08-28T21:11:46.545817+00:00"
+  "generated_at_utc": "2026-08-28T21:11:46.545817+00:00",
+  "municipality": "Hemiksem",
+  "updated_at_utc": "2026-08-30T15:08:31.764748+00:00"
 }

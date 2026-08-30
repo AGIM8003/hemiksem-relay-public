@@ -245,7 +245,7 @@
       "source_bytes": 4398828,
       "stored_bytes": 1140,
       "document_uid": "DOC_HEM_010_JAARREKENING_2024_JAARREKENING_2024_DOCUMENTATIE_DEF_md",
-      "domain": "Financi\u00ebn",
+      "domain": "Financiën",
       "authority_class": "A_CANONICAL",
       "retrieval_zone": "A_CANONICAL",
       "currentness_state": "KB_CONFIRMED_FOR_DATE",
@@ -263,7 +263,7 @@
       "source_bytes": 4396619,
       "stored_bytes": 1124,
       "document_uid": "DOC_HEM_011_AANGIFTEFORMULIER_BELASTING_OP_TWEEDE_VERBLIJVEN_md",
-      "domain": "Financi\u00ebn & Belastingen",
+      "domain": "Financiën & Belastingen",
       "authority_class": "A_CANONICAL",
       "retrieval_zone": "A_CANONICAL",
       "currentness_state": "KB_CONFIRMED_FOR_DATE",
@@ -281,7 +281,7 @@
       "source_bytes": 4401230,
       "stored_bytes": 1106,
       "document_uid": "DOC_HEM_012_TOELICHTING_AANPASSING_MEERJARENPLAN_2020_2025_md",
-      "domain": "Financi\u00ebn & Beleid",
+      "domain": "Financiën & Beleid",
       "authority_class": "A_CANONICAL",
       "retrieval_zone": "A_CANONICAL",
       "currentness_state": "KB_CONFIRMED_FOR_DATE",
@@ -425,7 +425,7 @@
       "source_bytes": 3327526,
       "stored_bytes": 1056,
       "document_uid": "DOC_HEM_02_HEMIKSEM_FINANCIEN_EN_JAARREKENINGEN_md",
-      "domain": "Financi\u00ebn",
+      "domain": "Financiën",
       "authority_class": "B_ACTIVE_SUPPORT",
       "retrieval_zone": "B_ACTIVE_SUPPORT",
       "currentness_state": "KB_CONFIRMED_FOR_DATE",
@@ -560,9 +560,11 @@
       "admitted_at_utc": "2026-08-28T20:00:06.346447+00:00"
     }
   ],
-  "release_id": "rel-hemiksem-v3.0-prod",
-  "release_version": "3.0.0",
+  "release_id": "rel-hemiksem-v4.9-prod",
+  "release_version": "4.9.0",
   "private_source_commit": "427b8e5fd39406508ad77b6f4dd0dcf4d193b330",
   "manifest_sha256": "a530860f28188b27f1874786cb9e848ccd9f4dec127e39778a43536f117176d5",
-  "generated_at_utc": "2026-08-28T21:11:46.545817+00:00"
+  "generated_at_utc": "2026-08-28T21:11:46.545817+00:00",
+  "municipality": "Hemiksem",
+  "updated_at_utc": "2026-08-30T15:08:31.764748+00:00"
 }

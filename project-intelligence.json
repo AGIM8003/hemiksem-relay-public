@@ -1,8 +1,8 @@
 {
   "project_id": "hemiksem-gemeentediensten",
   "project_name": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "release_id": "rel-hemiksem-v3.0-prod",
-  "version": "2.1.0",
+  "release_id": "rel-hemiksem-v4.9-prod",
+  "version": "4.9.0",
   "content_commit": "0e6748d3cffa8ee21b85f49eb498de529d8220e6",
   "runtime_ref": "0e6748d3cffa8ee21b85f49eb498de529d8220e6",
   "hosted_challenge_id": "CHAL-HEMIKSEM-V2.1-001",
@@ -99,8 +99,9 @@
   "built_at_utc": "2026-08-28T22:00:06.346447+02:00",
   "zero_api_key_policy": "ENFORCED",
   "commit_pinning_policy": "ENFORCED_EXACT_SHA",
-  "release_version": "3.0.0",
+  "release_version": "4.9.0",
   "private_source_commit": "427b8e5fd39406508ad77b6f4dd0dcf4d193b330",
   "manifest_sha256": "a530860f28188b27f1874786cb9e848ccd9f4dec127e39778a43536f117176d5",
-  "generated_at_utc": "2026-08-28T23:11:46.545817+02:00"
+  "generated_at_utc": "2026-08-28T23:11:46.545817+02:00",
+  "updated_at_utc": "2026-08-30T15:08:31.764748+00:00"
 }
