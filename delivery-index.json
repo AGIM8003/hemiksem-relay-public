@@ -1,0 +1,206 @@
+{
+  "index_version": "1.0",
+  "project_id": "hemiksem-gemeentediensten",
+  "source_label": "HEMIKSEM-E2E-PROOF",
+  "generated_at_utc": "2026-08-23T10:33:04.2916468Z",
+  "scan_mode": "RECURSIVE_METADATA_ONLY",
+  "content_access": false,
+  "file_count": 24,
+  "total_bytes": 10218394,
+  "files": [
+    {
+      "relative_path": "00_execution_manifest.json",
+      "extension": ".json",
+      "bytes": 97,
+      "sha256": "012ffeb1ef539835f4b76a26bddbfbd3bc00038e228586325a53b88e53b721d1",
+      "last_write_utc": "2026-08-22T20:39:34.1595910Z",
+      "validation_state": "JSON_PARSED"
+    },
+    {
+      "relative_path": "01_file_integrity.jsonl",
+      "extension": ".jsonl",
+      "bytes": 903328,
+      "sha256": "ac267d19f4efdcdbc4318079d66a431c49f37f9a7552859a93bc2e57542e4a35",
+      "last_write_utc": "2026-08-22T20:38:12.2249266Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "02_manifest_reconciliation.jsonl",
+      "extension": ".jsonl",
+      "bytes": 196,
+      "sha256": "63d9a71ab613f9945e579025641270649537a4f2b294e6d5f9cd0c7e05a944f4",
+      "last_write_utc": "2026-08-22T20:38:12.2259238Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "03_chunk_integrity.jsonl",
+      "extension": ".jsonl",
+      "bytes": 3197466,
+      "sha256": "a2ca3b00f87ce4b38f59e01dd0ccb6a81824bd3c43467a8553b9e655d7e27493",
+      "last_write_utc": "2026-08-22T20:39:24.7033658Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "04_provenance_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 3512922,
+      "sha256": "c3c572593aa716ab01929884c98609fce0651789da8036c13753f2ca377bff0e",
+      "last_write_utc": "2026-08-22T20:39:24.7281962Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "05_source_fidelity_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 1837115,
+      "sha256": "2dab360eb02febf87487d753fa6c322581a9bb1c862697f71d23d50a4f9bf24d",
+      "last_write_utc": "2026-08-22T20:39:24.7567081Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "06_exact_retrieval_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 83272,
+      "sha256": "731d8be471bdfe5faf81a6c4606883ec395d9afe7f99394e11d72a541cda28b2",
+      "last_write_utc": "2026-08-22T20:52:01.4217941Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "07_lexical_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 72033,
+      "sha256": "677cb5e9beb44b102c72461b0fa9966dee97c353df2fac829c6a8325a8671c8b",
+      "last_write_utc": "2026-08-22T20:52:02.0891213Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "08_graph_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 30921,
+      "sha256": "0ab36e756449c878c0454687956ad34e40d61311995758f662d0fbbc261cf114",
+      "last_write_utc": "2026-08-22T20:52:02.1035669Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "09_rrf_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 222582,
+      "sha256": "3c584bb1eaaafce657dc0de1b87cfeca1456d1642d11783be8736ec2463a4fc7",
+      "last_write_utc": "2026-08-22T20:52:03.0819799Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "10_reranker_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 104018,
+      "sha256": "9741084553285eef18e15dac187bb1f793d6db48c28f772245fe9bd68bf1bdc5",
+      "last_write_utc": "2026-08-22T20:52:04.2810613Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "11_crag_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 48777,
+      "sha256": "f80a31c809a722d5838310e46957d7783b73fc884907691417288db4d04c4a06",
+      "last_write_utc": "2026-08-22T20:52:05.9072270Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "12_rff_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 27432,
+      "sha256": "8b172a23f26606071e274929305522a70f1b7b83614fe6e06270f2fdb382aa78",
+      "last_write_utc": "2026-08-22T20:52:06.6204643Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "13_counterevidence_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 15025,
+      "sha256": "3e4e2d14d20a5881dbf70691f3d399a3d2e902c9401e40f747cef4a613d0eb1c",
+      "last_write_utc": "2026-08-22T20:52:07.3623168Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "14_gad_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 38414,
+      "sha256": "8c1909409f1d4e79758b5c2450fbd799e00c9eb2d2735745b20be90778ccf117",
+      "last_write_utc": "2026-08-22T20:52:09.1227120Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "15_metacognition_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 101670,
+      "sha256": "ef7ca993c3243eae8191da26d1815d117699a055fe6c1e95837acbe89e30c982",
+      "last_write_utc": "2026-08-22T20:52:11.3467166Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "16_claim_truth_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 9936,
+      "sha256": "b58040b226ca7dc52c5dc15d31e32a661a5b294ddd791b7aada755175c6c342f",
+      "last_write_utc": "2026-08-22T20:52:11.8938692Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "17_adversarial_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 3068,
+      "sha256": "c363f7a310950f891a4ed5860e12173d5c76aafc8878e2937b725e6ef21134cd",
+      "last_write_utc": "2026-08-22T20:52:12.0688546Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "18_performance_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 388,
+      "sha256": "5e9f8694681ab8bf2dd491ae28f2e42069dccd6ef3e34a8c1258f6180fd7bbe0",
+      "last_write_utc": "2026-08-22T20:52:12.0688546Z",
+      "validation_state": "FILE_HASHED"
+    },
+    {
+      "relative_path": "19_regression_results.jsonl",
+      "extension": ".jsonl",
+      "bytes": 87,
+      "sha256": "6238e612bb820754a6faf688a791222d30cbfcf0a6f6a5c0ea95e98bf0f253f9",
+      "last_write_utc": "2026-08-22T20:52:45.2603285Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "20_truth_scorecard.json",
+      "extension": ".json",
+      "bytes": 582,
+      "sha256": "76ef4f948220bb298cad366e1fe549defa99d8efc2533c98f56cf81518658950",
+      "last_write_utc": "2026-08-22T20:52:45.2614434Z",
+      "validation_state": "JSON_PARSED"
+    },
+    {
+      "relative_path": "21_failures.jsonl",
+      "extension": ".jsonl",
+      "bytes": 412,
+      "sha256": "82c89cc37911b6004d787fce1973ef0c76eefcaa6b53cda7cea626ad009fec26",
+      "last_write_utc": "2026-08-23T10:33:04.2916468Z",
+      "validation_state": "JSONL_READABLE"
+    },
+    {
+      "relative_path": "22_final_execution_receipt.json",
+      "extension": ".json",
+      "bytes": 834,
+      "sha256": "0aae45839cd468af69f8feae6027fdd5ca9889773a02cea147db05ffe9d769aa",
+      "last_write_utc": "2026-08-22T20:52:45.2625413Z",
+      "validation_state": "JSON_PARSED"
+    },
+    {
+      "relative_path": "30_remediation_register.jsonl",
+      "extension": ".jsonl",
+      "bytes": 7819,
+      "sha256": "9716796d5eeb2137ee40f5e0b9a67aef6ba0256f7ff5205a730c3bb6a3ebdaaa",
+      "last_write_utc": "2026-08-22T20:52:45.2642072Z",
+      "validation_state": "JSONL_READABLE"
+    }
+  ],
+  "relay_publication_utc": "2026-08-30T14:02:08.267989+00:00",
+  "release_id": "rel-hemiksem-v4.9-prod"
+}

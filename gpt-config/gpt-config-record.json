@@ -1,0 +1,151 @@
+{
+  "record_version": "1.0",
+  "gpt_id": "g-6a91d06e87988191b8093c6b44002503",
+  "gpt_editor_url": "https://chatgpt.com/gpts/editor/g-6a91d06e87988191b8093c6b44002503",
+  "gpt_name": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
+  "runtime_instructions_path": "custom-gpt/GPT_RUNTIME_INSTRUCTIONS.md",
+  "runtime_instructions_sha256": "002c70ecd40a36b46aa33ddc5d008a5736a637a886855a9a8d5c8c1f8acba04f",
+  "action_contract_path": "api/custom-gpt-action.yaml",
+  "action_contract_sha256": "2e0de264632bf606315100b0783de8b0769d52ca689455585af14e1854f7eae4",
+  "action_domain": "agim8003.github.io",
+  "additional_action_contracts": [
+    {
+      "role": "SERVER_RECALL",
+      "path": "api/server-recall-action.yaml",
+      "sha256": "bcb66eb1fc887c9da0394a603a10417a4b0f1efb6b52b8071531008517b074fb",
+      "domain": "127.0.0.1:8088"
+    }
+  ],
+  "apps_enabled": false,
+  "actions_enabled": true,
+  "model_configuration": "gpt-4o",
+  "visibility": "PRIVATE",
+  "privacy_policy_url": null,
+  "knowledge_files": [
+    {
+      "filename": "01.NEO_RUNTIME.md",
+      "path": "AI HEMIKSEM PRO/01.NEO_RUNTIME.md",
+      "size_bytes": 2468272,
+      "sha256": "1549d67fafce79749e5666215148283e7be69b3eca38b2b02dff47992a5c26c2"
+    },
+    {
+      "filename": "02.NEO_RCCF_OUTPUT_LOCK_ORCHESTRATION_KB_SPEC.md",
+      "path": "AI HEMIKSEM PRO/02.NEO_RCCF_OUTPUT_LOCK_ORCHESTRATION_KB_SPEC.md",
+      "size_bytes": 2120885,
+      "sha256": "4d8bfdd1961cb1506211515c2730ba0d25ddf4a668a72059137767bde3be24a6"
+    },
+    {
+      "filename": "03.NEO_WEB_SEARCH_RAG_ORCHESTRATOR_KB.md",
+      "path": "AI HEMIKSEM PRO/03.NEO_WEB_SEARCH_RAG_ORCHESTRATOR_KB.md",
+      "size_bytes": 2278258,
+      "sha256": "84a2186682aff6a67fdae69563f737c2f490dcb07e7c172d3f231da797899e4d"
+    },
+    {
+      "filename": "04.NEO_INTAKE_AND_PROMPT_CANONIZER_PROTOCOL.md",
+      "path": "AI HEMIKSEM PRO/04.NEO_INTAKE_AND_PROMPT_CANONIZER_PROTOCOL.md",
+      "size_bytes": 2039956,
+      "sha256": "c819496d830b8d9e7ab8b60dd39f3953cfe1574a2ae547d6cbf1cc97fbfb86ed"
+    },
+    {
+      "filename": "05.NEO_ROBUSTNESS_FAILCLOSED_AND_QUALITY_KB.md",
+      "path": "AI HEMIKSEM PRO/05.NEO_ROBUSTNESS_FAILCLOSED_AND_QUALITY_KB.md",
+      "size_bytes": 2401186,
+      "sha256": "f0f047df9ea4016985973981f34a885007b2c3216bc99a65e5db1ca7934a11ba"
+    },
+    {
+      "filename": "06.NEO_REPO_MAINTAINER_BUILD_AND_HARDENING.md",
+      "path": "AI HEMIKSEM PRO/06.NEO_REPO_MAINTAINER_BUILD_AND_HARDENING.md",
+      "size_bytes": 2127336,
+      "sha256": "cd4fce2536376a7959b68deaed8777a98e6b9fd0a224f4b06012dd287382d46a"
+    },
+    {
+      "filename": "07.NEO_DETERMINISTIC_SWARM_AND_TRANSCENDENCE.md",
+      "path": "AI HEMIKSEM PRO/07.NEO_DETERMINISTIC_SWARM_AND_TRANSCENDENCE.md",
+      "size_bytes": 1967407,
+      "sha256": "5b6ffc4fc14ee0ae14e0356e46eb929ea39e611c280b7d926e2bba484ae94ede"
+    },
+    {
+      "filename": "08.NEO_LIVING_DOCUMENT_PROTOCOL_KB.md",
+      "path": "AI HEMIKSEM PRO/08.NEO_LIVING_DOCUMENT_PROTOCOL_KB.md",
+      "size_bytes": 1212893,
+      "sha256": "3d5b1e3e9af327a77bb965aea8a3d15f8c4fed55c9861fb3f8df57cdef9724c6"
+    },
+    {
+      "filename": "09.NEO_KB_COMPLETION_MASTER_SPEC_MAX.md",
+      "path": "AI HEMIKSEM PRO/09.NEO_KB_COMPLETION_MASTER_SPEC_MAX.md",
+      "size_bytes": 4199487,
+      "sha256": "26c2a8ab89ba0534d439c90b210ef75cd0386d90e9fb9f96d00f26f5f6693f26"
+    },
+    {
+      "filename": "10.NEO_SALES_AND_MARKETING.md",
+      "path": "AI HEMIKSEM PRO/10.NEO_SALES_AND_MARKETING.md",
+      "size_bytes": 1703159,
+      "sha256": "bbf1ae272c2350b47f33ab4bee8380e04dd0134c953f336d8416b599341c85d8"
+    },
+    {
+      "filename": "11.SOFTWARE_DEV_AND_CODING_STANDARDS.md",
+      "path": "AI HEMIKSEM PRO/11.SOFTWARE_DEV_AND_CODING_STANDARDS.md",
+      "size_bytes": 1758250,
+      "sha256": "2d857c8dbb9023df98a7a7b171377ba369fe86ab2869580f0b016b27eba00590"
+    },
+    {
+      "filename": "12.NEO_MCP_BRIDGE_AND_CEOS_SPEC.md",
+      "path": "AI HEMIKSEM PRO/12.NEO_MCP_BRIDGE_AND_CEOS_SPEC.md",
+      "size_bytes": 1269878,
+      "sha256": "ea2f5cf448b4fbc6e839aea5ac8f5e612d1fac1d2f2841ab30fcb3ca3b5b6b7b"
+    },
+    {
+      "filename": "13.NEO_CUSTOM_GPT_STOREFRONT_DESCRIPTION.md",
+      "path": "AI HEMIKSEM PRO/13.NEO_CUSTOM_GPT_STOREFRONT_DESCRIPTION.md",
+      "size_bytes": 1835452,
+      "sha256": "dd5bf1ca21efdfb180f0a46b4656bc7d6320d70f420233cc0f29ee98fc494c55"
+    },
+    {
+      "filename": "14.NEO_EMAIL_AND_CUSTOMER_SUPPORT.md",
+      "path": "AI HEMIKSEM PRO/14.NEO_EMAIL_AND_CUSTOMER_SUPPORT.md",
+      "size_bytes": 2282039,
+      "sha256": "3d4bd6c8bb125196f928816eef371e0d028ca48ac6a88a47b29db5bb28826d80"
+    },
+    {
+      "filename": "15.NEO_EXCEL_SOLUTIONS.md",
+      "path": "AI HEMIKSEM PRO/15.NEO_EXCEL_SOLUTIONS.md",
+      "size_bytes": 2412512,
+      "sha256": "83e9b3ca6bf8a745eb12b935e21fa4328db45069996ebca963b63a6c0d00194e"
+    },
+    {
+      "filename": "16.NEO_HUMAN_TO_AI_TRANSLATOR.md",
+      "path": "AI HEMIKSEM PRO/16.NEO_HUMAN_TO_AI_TRANSLATOR.md",
+      "size_bytes": 2136447,
+      "sha256": "42c77df14dad4c7ef01e9a6bd9b36eb6e9849694c8a1fa344bddd2c559b2a8b1"
+    },
+    {
+      "filename": "17.NEO_LEGAL_AND_COMPLIANCE.md",
+      "path": "AI HEMIKSEM PRO/17.NEO_LEGAL_AND_COMPLIANCE.md",
+      "size_bytes": 3235581,
+      "sha256": "fb572c2064eeb8c709a77a4de340d0969cfa8ec9440217fbd07d784c72ba4f0d"
+    },
+    {
+      "filename": "18.NEO_WEB_SEARCH_AND_FRESHNESS.md",
+      "path": "AI HEMIKSEM PRO/18.NEO_WEB_SEARCH_AND_FRESHNESS.md",
+      "size_bytes": 2279958,
+      "sha256": "bc27fef89c6968f91e54cd1e5532f0988084da8f56d0d008526ca2810e82c38a"
+    },
+    {
+      "filename": "19.NOTARY-BE.md",
+      "path": "AI HEMIKSEM PRO/19.NOTARY-BE.md",
+      "size_bytes": 3649135,
+      "sha256": "aa68c1bd62ab334bf0a9178e29ec7e959319244fe85b98bdf431d016c3bc5ec0"
+    },
+    {
+      "filename": "20.WORD_DOCUMENTS.md",
+      "path": "AI HEMIKSEM PRO/20.WORD_DOCUMENTS.md",
+      "size_bytes": 1815913,
+      "sha256": "7762419de2065bbd62c79ae3cbb9de027ce10c8d98e5d03dcba4698db48843fd"
+    }
+  ],
+  "knowledge_authority_state": "VERIFIED_20_PRO_KNOWLEDGE_FILES_REGISTERED",
+  "observed_at_utc": "2026-08-28T19:26:40.027754+00:00",
+  "pro_instruction_kernel_path": "AI HEMIKSEM PRO/00.INSTRUCTIONS.md",
+  "relay_publication_utc": "2026-08-30T14:02:08.267989+00:00",
+  "release_id": "rel-hemiksem-v4.9-prod"
+}

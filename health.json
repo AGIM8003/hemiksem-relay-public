@@ -1,9 +1,9 @@
 {
   "project_id": "hemiksem-gemeentediensten",
-  "release_id": "rel-hemiksem-v4.0-prod",
-  "release_version": "4.0.0",
-  "generated_at_utc": "2026-08-29T13:16:00+00:00",
-  "product_name": "AI EXPERT \u2014 HEMIKSEM GEMEENTEDIENSTEN",
+  "release_id": "rel-hemiksem-v4.9-prod",
+  "release_version": "4.9.0",
+  "generated_at_utc": "2026-08-30T14:02:08.267989+00:00",
+  "product_name": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
   "product_identity": "MUNICIPALITY_WIDE",
   "relay_mode": "STATIC_INDEX_RELAY",
   "authentication": "NONE",
@@ -14,5 +14,6 @@
   "planning_global_boost": "NONE",
   "corpus_scope": "FULL_MUNICIPAL",
   "domains_covered": 22,
-  "upgrade_notes": "V4.0: Full municipal corpus activation. Planning is ONE domain among 22+. No permit-centric bias. Full HEMIKSEM RAG indexed."
+  "engine_version": "V8.0",
+  "upgrade_notes": "V4.9: Full production-hardened release. 14,601 segments, 23 indexes, 31 engine modules, 21 AI PRO modules. Complete contamination scan PASS."
 }
