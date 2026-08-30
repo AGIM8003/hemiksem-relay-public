@@ -147,5 +147,8 @@
   "observed_at_utc": "2026-08-28T19:26:40.027754+00:00",
   "pro_instruction_kernel_path": "AI HEMIKSEM PRO/00.INSTRUCTIONS.md",
   "relay_publication_utc": "2026-08-30T14:02:08.267989+00:00",
-  "release_id": "rel-hemiksem-v4.9-prod"
+  "release_id": "rel-hemiksem-v4.9-prod",
+  "project_id": "hemiksem-gemeentediensten",
+  "release_version": "4.9.0",
+  "municipality": "Hemiksem"
 }

@@ -5,7 +5,7 @@
   "release_version": "4.9.0",
   "generated_at_utc": "2026-08-30T14:02:08.267989+00:00",
   "product_name": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "municipality": "Gemeente Hemiksem",
+  "municipality": "Hemiksem",
   "attestation_type": "RELEASE_PROVENANCE",
   "connected_attestation": {
     "attestation_version": "1.0",
@@ -46,7 +46,9 @@
     "predecessor_release": "rel-hemiksem-v2.0-prod",
     "predecessor_tag": "relay-v2.0.0",
     "last_known_good_tag": "relay-v2.0.0",
-    "overall_status": "PASS"
+    "overall_status": "PASS",
+    "release_id": "rel-hemiksem-v4.9-prod",
+    "release_version": "4.9.0"
   },
   "ssot_root": "D:\\COSTUM AI -GPT & GEMS\\Hemiksem AI",
   "corpus_metrics": {

@@ -202,5 +202,7 @@
     }
   ],
   "relay_publication_utc": "2026-08-30T14:02:08.267989+00:00",
-  "release_id": "rel-hemiksem-v4.9-prod"
+  "release_id": "rel-hemiksem-v4.9-prod",
+  "release_version": "4.9.0",
+  "municipality": "Hemiksem"
 }
