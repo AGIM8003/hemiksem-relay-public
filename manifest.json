@@ -1,35 +1,51 @@
 {
-  "manifest_version": "4.9",
   "project_id": "hemiksem-gemeentediensten",
-  "release_id": "rel-hemiksem-v4.9-prod",
-  "release_version": "4.9.0",
-  "product_name": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "municipality": "Gemeente Hemiksem",
-  "jurisdiction": "BE-VLG",
-  "generated_at_utc": "2026-08-30T14:02:08.267989+00:00",
-  "relay_mode": "STATIC_INDEX_RELAY",
-  "authentication": "NONE",
-  "write_capability": "NONE",
-  "server_recall": "CONFIGURED_V4",
-  "deployment_provider": "github_pages",
-  "corpus_scope": "FULL_MUNICIPAL",
-  "domains_covered": 22,
-  "kb_families": 14,
-  "kb_segments": 14601,
-  "indexes": 23,
-  "engine_version": "V8.0",
-  "ai_pro_modules": 21,
-  "engine_modules": 31,
-  "relay_url": "https://agim8003.github.io/hemiksem-relay-public",
-  "ssot_fingerprint": "a702cd817207f521d2c95554be2a7117a51068d347b2fedd0c0b6c253d8365d0",
-  "endpoints": {
-    "health": "/health.json",
-    "kb_binding": "/kb-binding.json",
-    "manifest": "/manifest.json",
-    "delivery_index": "/delivery-index.json",
-    "attestation": "/evidence/attestation.json",
-    "proof_chain": "/evidence/proof-chain-index.json",
-    "release_credential": "/credentials/release-credential.json",
-    "gpt_config": "/gpt-config/gpt-config-record.json"
+  "municipality": "Hemiksem",
+  "country": "Belgium",
+  "region": "Flanders",
+  "province": "Antwerp",
+  "release_id": "rel-hemiksem-v4.9.1-prod",
+  "release_version": "4.9.1",
+  "spec_version": "4.9.6",
+  "engine_version": "4.9.1",
+  "schema_version": "hemiksem-kb-v1.1",
+  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
+  "product_identity": "MUNICIPALITY_WIDE",
+  "search_parameter": "q",
+  "build_timestamp": "2026-08-30T16:24:59.138557+00:00",
+  "manifest_type": "RELEASE_MANIFEST",
+  "artifacts": {
+    "health.json": {
+      "sha256": "d129a1c97fa203916e56bcb554a778c6c1c6b9aba42c0a0da061b17444adb747",
+      "size": 917
+    },
+    "admission-index.json": {
+      "sha256": "775b57350facb4b9143f9c888a3b570ff6c75141071acfd83c36fd98ea1bb8a6",
+      "size": 1031
+    },
+    "project-intelligence.json": {
+      "sha256": "3da6702d663deae01670bd5f83776bd072eed4564eef9ddcbfdb89c5298d2f0f",
+      "size": 1087
+    },
+    "proof-chain.json": {
+      "sha256": "2a09514be619ecdf46c24923f5ea340f5ab01e75916ebf0e2ebe60cbb97beb20",
+      "size": 1567
+    },
+    "currentness-index.json": {
+      "sha256": "d49babcddd5d9d4eab043808f8fff4a36b5914e6f7fefe723c98c319f56344d8",
+      "size": 1269
+    },
+    "conflict-index.json": {
+      "sha256": "71236261ade5063a06ef80a22a4a8b768c302241c617cfbc3abef0803f41d404",
+      "size": 906
+    },
+    "capability-registry.json": {
+      "sha256": "9c54b1463609e52079ef1040e6e6aad539f6888b5802d1201641d7633b69b8a7",
+      "size": 1633
+    },
+    "manifest.json": {
+      "sha256": "b386e85b159f2538396b72175a8d49b8a0a37f32b41711f98449bc6f87ea098b",
+      "size": 1584
+    }
   }
 }
