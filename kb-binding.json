@@ -1,16 +1,15 @@
 {
-  "project_id": "hemiksem-gemeentediensten",
-  "release_id": "rel-hemiksem-v4.9-prod",
-  "release_version": "4.9.0",
-  "private_source_commit": "4ec444a6adb734a0b2e6c657b27addf4261046f6",
-  "manifest_sha256": "a702cd817207f521d2c95554be2a7117a51068d347b2fedd0c0b6c253d8365d0",
-  "generated_at_utc": "2026-08-30T14:02:08.267989+00:00",
-  "product_name": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "auth_model": "NONE",
-  "retrieval_mode": "INDEX_ONLY",
-  "duration_policy": "NO_CONFIGURED_EXPIRATION",
   "admitted_artifacts_count": 30,
+  "auth_model": "NONE",
+  "duration_policy": "NO_CONFIGURED_EXPIRATION",
+  "engine_version": "4.9.2",
+  "generated_at": "2026-08-31T14:29:35.985640+00:00",
   "kb_families": 14,
   "kb_segments": 14601,
-  "engine_version": "V8.0"
+  "product_name": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
+  "project_id": "hemiksem-gemeentediensten",
+  "release_id": "rel-hemiksem-v4.9.2-rc1",
+  "release_version": "4.9.2",
+  "retrieval_mode": "INDEX_ONLY",
+  "schema_version": "hemiksem-kb-v1.1"
 }

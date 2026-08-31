@@ -1,64 +1,83 @@
 {
-  "project_id": "hemiksem-gemeentediensten",
-  "municipality": "Hemiksem",
-  "country": "Belgium",
-  "region": "Flanders",
-  "province": "Antwerp",
-  "release_id": "rel-hemiksem-v4.9.1-prod",
-  "release_version": "4.9.1",
-  "spec_version": "4.9.6",
-  "engine_version": "4.9.1",
-  "schema_version": "hemiksem-kb-v1.1",
-  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_identity": "MUNICIPALITY_WIDE",
-  "search_parameter": "q",
-  "build_timestamp": "2026-08-30T16:24:59.138557+00:00",
+  "all_read_only": true,
+  "build_timestamp": "2026-08-31T14:29:35.985640+00:00",
   "capabilities": [
     {
+      "effect": "READ",
       "id": "getHemiksemServerHealth",
       "method": "GET",
-      "path": "/v4/status",
-      "effect": "READ"
+      "path": "/v4/status"
     },
     {
+      "effect": "READ",
       "id": "getHemiksemCurrentRelease",
       "method": "GET",
-      "path": "/v4/release",
-      "effect": "READ"
+      "path": "/v4/release"
     },
     {
+      "effect": "READ",
       "id": "listMunicipalDomains",
       "method": "GET",
-      "path": "/v4/domains",
-      "effect": "READ"
+      "path": "/v4/domains"
     },
     {
+      "effect": "READ",
       "id": "searchMunicipalKnowledge",
       "method": "GET",
-      "path": "/v4/search",
       "param": "q",
-      "effect": "READ"
+      "path": "/v4/search"
     },
     {
+      "effect": "READ",
       "id": "getHemiksemDocument",
       "method": "GET",
-      "path": "/v4/document/{document_id}",
-      "effect": "READ"
+      "path": "/v4/document/{document_id}"
     },
     {
+      "effect": "READ",
       "id": "getHemiksemSegment",
       "method": "GET",
-      "path": "/v4/segment/{segment_uid}",
-      "effect": "READ"
+      "path": "/v4/segment/{segment_uid}"
     },
     {
-      "id": "searchCapabilities",
+      "effect": "READ",
+      "id": "getHemiksemEvidencePack",
       "method": "GET",
-      "path": "/v4/capabilities",
-      "effect": "READ"
+      "path": "/v4/evidence-pack"
+    },
+    {
+      "effect": "READ",
+      "id": "checkHemiksemCurrentness",
+      "method": "GET",
+      "path": "/v4/currentness"
+    },
+    {
+      "effect": "READ",
+      "id": "checkHemiksemApplicability",
+      "method": "GET",
+      "path": "/v4/applicability"
+    },
+    {
+      "effect": "READ",
+      "id": "describeCapabilities",
+      "method": "GET",
+      "path": "/v4/capabilities"
     }
   ],
-  "all_read_only": true,
-  "x_openai_isConsequential": false,
-  "generated_at": "2026-08-30T16:24:59.138557+00:00"
+  "capability_count": 10,
+  "country": "Belgium",
+  "engine_version": "4.9.2",
+  "generated_at": "2026-08-31T14:29:35.985640+00:00",
+  "municipality": "Hemiksem",
+  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
+  "product_identity": "MUNICIPALITY_WIDE",
+  "project_id": "hemiksem-gemeentediensten",
+  "province": "Antwerp",
+  "region": "Flanders",
+  "release_id": "rel-hemiksem-v4.9.2-rc1",
+  "release_version": "4.9.2",
+  "schema_version": "hemiksem-kb-v1.1",
+  "search_parameter": "q",
+  "spec_version": "4.9.8",
+  "x_openai_isConsequential": false
 }

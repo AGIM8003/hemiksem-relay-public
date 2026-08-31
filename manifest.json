@@ -1,51 +1,53 @@
 {
-  "project_id": "hemiksem-gemeentediensten",
-  "municipality": "Hemiksem",
-  "country": "Belgium",
-  "region": "Flanders",
-  "province": "Antwerp",
-  "release_id": "rel-hemiksem-v4.9.1-prod",
-  "release_version": "4.9.1",
-  "spec_version": "4.9.6",
-  "engine_version": "4.9.1",
-  "schema_version": "hemiksem-kb-v1.1",
-  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_identity": "MUNICIPALITY_WIDE",
-  "search_parameter": "q",
-  "build_timestamp": "2026-08-30T16:24:59.138557+00:00",
-  "manifest_type": "RELEASE_MANIFEST",
+  "_note": "manifest_payload_sha256 is computed over the manifest excluding this field",
   "artifacts": {
-    "health.json": {
-      "sha256": "d129a1c97fa203916e56bcb554a778c6c1c6b9aba42c0a0da061b17444adb747",
-      "size": 917
-    },
     "admission-index.json": {
-      "sha256": "775b57350facb4b9143f9c888a3b570ff6c75141071acfd83c36fd98ea1bb8a6",
-      "size": 1031
-    },
-    "project-intelligence.json": {
-      "sha256": "3da6702d663deae01670bd5f83776bd072eed4564eef9ddcbfdb89c5298d2f0f",
-      "size": 1087
-    },
-    "proof-chain.json": {
-      "sha256": "2a09514be619ecdf46c24923f5ea340f5ab01e75916ebf0e2ebe60cbb97beb20",
-      "size": 1567
-    },
-    "currentness-index.json": {
-      "sha256": "d49babcddd5d9d4eab043808f8fff4a36b5914e6f7fefe723c98c319f56344d8",
-      "size": 1269
-    },
-    "conflict-index.json": {
-      "sha256": "71236261ade5063a06ef80a22a4a8b768c302241c617cfbc3abef0803f41d404",
-      "size": 906
+      "sha256": "0d4a11b9f1444bf271cc0385202983f99484b507552a2de9074e90a8dcd8366a",
+      "size": 693
     },
     "capability-registry.json": {
-      "sha256": "9c54b1463609e52079ef1040e6e6aad539f6888b5802d1201641d7633b69b8a7",
-      "size": 1633
+      "sha256": "6caf9be4d0656f0617ffd344c366658f2a05d2d7be1a0ce614a72060ca3eb284",
+      "size": 1999
     },
-    "manifest.json": {
-      "sha256": "b386e85b159f2538396b72175a8d49b8a0a37f32b41711f98449bc6f87ea098b",
-      "size": 1584
+    "conflict-index.json": {
+      "sha256": "3b792ec5c55112495764573efaad1758b3817d6435ca3c0529ca75e43dac7d70",
+      "size": 689
+    },
+    "currentness-index.json": {
+      "sha256": "23c5bd4c5e1ca095f0c84855aac3b2da6de395035b22fb8571af501a644d7e77",
+      "size": 705
+    },
+    "health.json": {
+      "sha256": "2e6523058e194d465b9caf28af48d62db96d287bcacde3192ce93860cc5dd0dc",
+      "size": 912
+    },
+    "kb-binding.json": {
+      "sha256": "95be5aaa86918ba520dfdb253eacb2bce86d9ce515e9ee08ba2e056f5937e7fe",
+      "size": 491
+    },
+    "project-intelligence.json": {
+      "sha256": "e9b63d487535109f2eac02ee091824a9a9d6657ab0e2ea2b0e1ab3026aa457f7",
+      "size": 914
+    },
+    "proof-chain.json": {
+      "sha256": "de1204dd550e7296121d01db0216ac1d1a422834b345dea56e71a796b0b7bee2",
+      "size": 2046
     }
-  }
+  },
+  "build_timestamp": "2026-08-31T14:29:35.985640+00:00",
+  "country": "Belgium",
+  "engine_version": "4.9.2",
+  "manifest_payload_sha256": "dcf85b149c7982d0a37dc7d2fa2022923c2781da847429b885a676bb3c0ca8e3",
+  "manifest_type": "RELEASE_MANIFEST",
+  "municipality": "Hemiksem",
+  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
+  "product_identity": "MUNICIPALITY_WIDE",
+  "project_id": "hemiksem-gemeentediensten",
+  "province": "Antwerp",
+  "region": "Flanders",
+  "release_id": "rel-hemiksem-v4.9.2-rc1",
+  "release_version": "4.9.2",
+  "schema_version": "hemiksem-kb-v1.1",
+  "search_parameter": "q",
+  "spec_version": "4.9.8"
 }

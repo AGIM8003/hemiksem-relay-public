@@ -1,34 +1,22 @@
 {
-  "project_id": "hemiksem-gemeentediensten",
+  "admission_policy": "MUNICIPALITY_BOUNDARY_ENFORCED",
+  "admitted_documents": 1540,
+  "build_timestamp": "2026-08-31T14:29:35.985640+00:00",
+  "generated_at": "2026-08-31T14:29:35.985640+00:00",
   "municipality": "Hemiksem",
-  "country": "Belgium",
-  "region": "Flanders",
-  "province": "Antwerp",
-  "release_id": "rel-hemiksem-v4.9.1-prod",
-  "release_version": "4.9.1",
-  "spec_version": "4.9.6",
-  "engine_version": "4.9.1",
-  "schema_version": "hemiksem-kb-v1.1",
-  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_identity": "MUNICIPALITY_WIDE",
-  "search_parameter": "q",
-  "build_timestamp": "2026-08-30T16:24:59.138557+00:00",
-  "admission_policy": "HEMIKSEM_MUNICIPAL_CORPUS_ONLY",
-  "admitted_sources": {
-    "HEMIKSEM_RAG": {
-      "status": "ADMITTED",
-      "document_count": 1540
-    },
-    "ACTIVE_KB": {
-      "status": "ADMITTED",
-      "segment_families": 14,
-      "segments": 14601
-    }
-  },
-  "excluded_sources": {
-    "ACTIVE_KB_COPY": "DUPLICATE_EXCLUDED",
-    "EXTERNAL_PROJECTS": "BOUNDARY_EXCLUDED"
-  },
-  "corpus_boundary": "STRICT_HEMIKSEM_ONLY",
-  "generated_at": "2026-08-30T16:24:59.138557+00:00"
+  "municipality_filter": "Hemiksem",
+  "project_id": "hemiksem-gemeentediensten",
+  "quarantined_documents": 0,
+  "release_id": "rel-hemiksem-v4.9.2-rc1",
+  "release_version": "4.9.2",
+  "total_documents": 1540,
+  "trust_classes": [
+    "TRUST_CANONICAL_HEMIKSEM",
+    "TRUST_COMPETENT_OFFICIAL_EXTERNAL",
+    "TRUST_ADMITTED_HEMIKSEM_SUPPORT",
+    "TRUST_HISTORICAL_HEMIKSEM",
+    "TRUST_COUNTEREVIDENCE",
+    "TRUST_INFRASTRUCTURE",
+    "TRUST_QUARANTINE"
+  ]
 }

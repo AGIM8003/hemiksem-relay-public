@@ -1,67 +1,67 @@
 {
-  "project_id": "hemiksem-gemeentediensten",
-  "municipality": "Hemiksem",
-  "country": "Belgium",
-  "region": "Flanders",
-  "province": "Antwerp",
-  "release_id": "rel-hemiksem-v4.9.1-prod",
-  "release_version": "4.9.1",
-  "spec_version": "4.9.6",
-  "engine_version": "4.9.1",
-  "schema_version": "hemiksem-kb-v1.1",
-  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_identity": "MUNICIPALITY_WIDE",
-  "search_parameter": "q",
-  "build_timestamp": "2026-08-30T16:24:59.138557+00:00",
+  "artifact_hashes": {
+    "admission-index.json": "0d4a11b9f1444bf271cc0385202983f99484b507552a2de9074e90a8dcd8366a",
+    "capability-registry.json": "6caf9be4d0656f0617ffd344c366658f2a05d2d7be1a0ce614a72060ca3eb284",
+    "conflict-index.json": "3b792ec5c55112495764573efaad1758b3817d6435ca3c0529ca75e43dac7d70",
+    "currentness-index.json": "23c5bd4c5e1ca095f0c84855aac3b2da6de395035b22fb8571af501a644d7e77",
+    "health.json": "2e6523058e194d465b9caf28af48d62db96d287bcacde3192ce93860cc5dd0dc",
+    "kb-binding.json": "95be5aaa86918ba520dfdb253eacb2bce86d9ce515e9ee08ba2e056f5937e7fe",
+    "project-intelligence.json": "e9b63d487535109f2eac02ee091824a9a9d6657ab0e2ea2b0e1ab3026aa457f7"
+  },
+  "build_timestamp": "2026-08-31T14:29:35.985640+00:00",
   "chain": [
     {
-      "step": "SOURCE_ADMISSION",
+      "gate": "HEMIKSEM_CORPUS_ONLY",
       "status": "VERIFIED",
-      "gate": "HEMIKSEM_CORPUS_ONLY"
+      "step": "SOURCE_ADMISSION"
     },
     {
-      "step": "DOCUMENT_REGISTRY",
+      "documents": 1540,
       "status": "BUILT",
-      "documents": 1540
+      "step": "DOCUMENT_REGISTRY"
     },
     {
-      "step": "SEGMENT_INDEX",
+      "segments": 143089,
       "status": "BUILT",
-      "segments": 143089
+      "step": "SEGMENT_INDEX"
     },
     {
-      "step": "DOMAIN_INDEX",
+      "domains": 23,
       "status": "BUILT",
-      "domains": 23
+      "step": "DOMAIN_INDEX"
     },
     {
-      "step": "API_CONTRACT",
+      "source": "ENGINE/release_controller.py",
+      "status": "ACTIVE",
+      "step": "RELEASE_CONTROLLER"
+    },
+    {
+      "operations": 10,
       "status": "VERIFIED",
-      "tests_passed": 18,
-      "tests_total": 18
+      "step": "CAPABILITY_PARITY"
     },
     {
-      "step": "DOMAIN_FAIL_CLOSED",
-      "status": "VERIFIED"
-    },
-    {
-      "step": "QUERY_VALIDATION",
-      "status": "VERIFIED"
-    },
-    {
-      "step": "PORT_COHERENCE",
+      "port": 8000,
       "status": "VERIFIED",
-      "port": 8000
+      "step": "PORT_COHERENCE"
     },
     {
-      "step": "VERSION_IDENTITY",
-      "status": "VERIFIED",
-      "version": "4.9.1"
-    },
-    {
-      "step": "STATIC_RELAY",
-      "status": "REGENERATED"
+      "status": "REGENERATED",
+      "step": "STATIC_RELAY"
     }
   ],
-  "generated_at": "2026-08-30T16:24:59.138557+00:00"
+  "country": "Belgium",
+  "engine_version": "4.9.2",
+  "generated_at": "2026-08-31T14:29:35.985640+00:00",
+  "municipality": "Hemiksem",
+  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
+  "product_identity": "MUNICIPALITY_WIDE",
+  "project_id": "hemiksem-gemeentediensten",
+  "province": "Antwerp",
+  "region": "Flanders",
+  "release_id": "rel-hemiksem-v4.9.2-rc1",
+  "release_version": "4.9.2",
+  "schema_version": "hemiksem-kb-v1.1",
+  "search_parameter": "q",
+  "spec_version": "4.9.8"
 }

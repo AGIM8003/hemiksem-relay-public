@@ -1,19 +1,19 @@
 {
-  "project_id": "hemiksem-gemeentediensten",
+  "build_timestamp": "2026-08-31T14:29:35.985640+00:00",
+  "currentness_model": "CLAIM_LEVEL",
+  "generated_at": "2026-08-31T14:29:35.985640+00:00",
   "municipality": "Hemiksem",
-  "country": "Belgium",
-  "region": "Flanders",
-  "province": "Antwerp",
-  "release_id": "rel-hemiksem-v4.9.1-prod",
-  "release_version": "4.9.1",
-  "spec_version": "4.9.6",
-  "engine_version": "4.9.1",
-  "schema_version": "hemiksem-kb-v1.1",
-  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_identity": "MUNICIPALITY_WIDE",
-  "search_parameter": "q",
-  "build_timestamp": "2026-08-30T16:24:59.138557+00:00",
-  "currentness_policy": "CLAIM_LEVEL",
+  "official_source_priority": [
+    "CONTROLLING_OFFICIAL_HEMIKSEM_SOURCE",
+    "COMPETENT_MUNICIPAL_INTERMUNICIPAL",
+    "COMPETENT_FLEMISH",
+    "COMPETENT_BELGIAN_FEDERAL",
+    "COMPETENT_EU",
+    "OTHER_OFFICIAL_COMPETENT"
+  ],
+  "project_id": "hemiksem-gemeentediensten",
+  "release_id": "rel-hemiksem-v4.9.2-rc1",
+  "release_version": "4.9.2",
   "states": [
     "VERIFIED_FOR_DATE",
     "CURRENT_WITH_TRANSITION",
@@ -22,24 +22,5 @@
     "SUPERSEDED",
     "NOT_CONFIRMED",
     "CONFLICTED"
-  ],
-  "official_source_priority": [
-    "CONTROLLING_OFFICIAL_HEMIKSEM_SOURCE",
-    "COMPETENT_MUNICIPAL_INTERMUNICIPAL_AUTHORITY",
-    "COMPETENT_FLEMISH_AUTHORITY",
-    "COMPETENT_BELGIAN_FEDERAL_AUTHORITY",
-    "COMPETENT_EU_AUTHORITY",
-    "OTHER_OFFICIAL_COMPETENT_AUTHORITY"
-  ],
-  "volatile_fields_tracked": [
-    "tax_rate",
-    "fee_amount",
-    "deadline",
-    "opening_hours",
-    "phone_number",
-    "email",
-    "form_url",
-    "plan_status"
-  ],
-  "generated_at": "2026-08-30T16:24:59.138557+00:00"
+  ]
 }

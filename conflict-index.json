@@ -1,30 +1,26 @@
 {
-  "project_id": "hemiksem-gemeentediensten",
+  "build_timestamp": "2026-08-31T14:29:35.985640+00:00",
+  "comparable_groups": 0,
+  "compare_axes": [
+    "RELEASE_IDENTITY",
+    "SOURCE_VERSION",
+    "CURRENTNESS",
+    "NUMERIC_VALUES",
+    "EFFECTIVE_DATES",
+    "RULE_PROPOSITIONS",
+    "APPLICABILITY",
+    "OFFICIAL_AUTHORITY",
+    "PROCEDURAL_REQUIREMENTS"
+  ],
+  "comparisons_executed": 0,
+  "conflict_model": "COMPARATIVE",
+  "conflicts_found": 0,
+  "generated_at": "2026-08-31T14:29:35.985640+00:00",
   "municipality": "Hemiksem",
-  "country": "Belgium",
-  "region": "Flanders",
-  "province": "Antwerp",
-  "release_id": "rel-hemiksem-v4.9.1-prod",
-  "release_version": "4.9.1",
-  "spec_version": "4.9.6",
-  "engine_version": "4.9.1",
-  "schema_version": "hemiksem-kb-v1.1",
-  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_identity": "MUNICIPALITY_WIDE",
-  "search_parameter": "q",
-  "build_timestamp": "2026-08-30T16:24:59.138557+00:00",
-  "conflict_detection": {
-    "cross_registry_checks": [
-      "release_id",
-      "release_version",
-      "manifest_sha256",
-      "corpus_sha256",
-      "engine_version",
-      "schema_version"
-    ],
-    "conflict_resolution": "FAIL_CLOSED_IF_UNRESOLVED"
-  },
-  "active_conflicts": [],
-  "active_conflict_count": 0,
-  "generated_at": "2026-08-30T16:24:59.138557+00:00"
+  "project_id": "hemiksem-gemeentediensten",
+  "release_id": "rel-hemiksem-v4.9.2-rc1",
+  "release_version": "4.9.2",
+  "resolved": 0,
+  "unresolved": 0,
+  "zero_comparisons_is_not_pass": true
 }
