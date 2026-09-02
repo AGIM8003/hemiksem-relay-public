@@ -32,7 +32,7 @@
   "project_id": "hemiksem-gemeentediensten",
   "province": "Antwerp",
   "region": "Flanders",
-  "release_id": "rel-hemiksem-v4.9.2-rc1",
+  "release_id": "rel-hemiksem-v4.9.2-prod",
   "release_version": "4.9.2",
   "runtime_domains": 23,
   "total_documents": 1540,

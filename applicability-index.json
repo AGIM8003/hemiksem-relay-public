@@ -1,0 +1,35 @@
+{
+  "build_timestamp": "2026-09-02T18:27:57.030172+00:00",
+  "generated_at": "2026-09-02T18:27:57.030172+00:00",
+  "municipality": "Hemiksem",
+  "project_id": "hemiksem-gemeentediensten",
+  "release_id": "rel-hemiksem-v4.9.2-prod",
+  "release_version": "4.9.2",
+  "dimensions": [
+    "municipality",
+    "jurisdiction",
+    "parcel",
+    "address",
+    "plan",
+    "zone",
+    "article",
+    "activity",
+    "actor",
+    "building_type",
+    "effective_date",
+    "conditions",
+    "exceptions"
+  ],
+  "states": [
+    "VERIFIED_APPLICABLE",
+    "VERIFIED_NOT_APPLICABLE",
+    "CONDITIONAL",
+    "NOT_CONFIRMED",
+    "CONFLICTED"
+  ],
+  "model": "MULTI_DIMENSIONAL_V2",
+  "rule": "NOT_CONFIRMED may never be interpreted as implicit yes",
+  "plan_count": 13,
+  "zone_count": 14,
+  "parcel_count": 4679
+}

@@ -7,7 +7,7 @@
   "municipality_filter": "Hemiksem",
   "project_id": "hemiksem-gemeentediensten",
   "quarantined_documents": 0,
-  "release_id": "rel-hemiksem-v4.9.2-rc1",
+  "release_id": "rel-hemiksem-v4.9.2-prod",
   "release_version": "4.9.2",
   "total_documents": 1540,
   "trust_classes": [

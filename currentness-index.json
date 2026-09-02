@@ -12,7 +12,7 @@
     "OTHER_OFFICIAL_COMPETENT"
   ],
   "project_id": "hemiksem-gemeentediensten",
-  "release_id": "rel-hemiksem-v4.9.2-rc1",
+  "release_id": "rel-hemiksem-v4.9.2-prod",
   "release_version": "4.9.2",
   "states": [
     "VERIFIED_FOR_DATE",
