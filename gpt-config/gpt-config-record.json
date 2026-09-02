@@ -4,16 +4,16 @@
   "gpt_editor_url": "https://chatgpt.com/gpts/editor/g-6a91d06e87988191b8093c6b44002503",
   "gpt_name": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
   "runtime_instructions_path": "custom-gpt/GPT_RUNTIME_INSTRUCTIONS.md",
-  "runtime_instructions_sha256": "002c70ecd40a36b46aa33ddc5d008a5736a637a886855a9a8d5c8c1f8acba04f",
+  "runtime_instructions_sha256": "54edf9347214a6be5168d9b2ecf08fc37fbe36955f70ed33be5caaadcb6e8c59",
   "action_contract_path": "api/custom-gpt-action.yaml",
-  "action_contract_sha256": "2e0de264632bf606315100b0783de8b0769d52ca689455585af14e1854f7eae4",
+  "action_contract_sha256": "917907f244ca6402bcf7b54b874c3e4a1d26e9737a7e0061c3d2f06a27be385f",
   "action_domain": "agim8003.github.io",
   "additional_action_contracts": [
     {
       "role": "SERVER_RECALL",
       "path": "api/server-recall-action.yaml",
-      "sha256": "bcb66eb1fc887c9da0394a603a10417a4b0f1efb6b52b8071531008517b074fb",
-      "domain": "127.0.0.1:8088"
+      "sha256": "82f52156a8dc8030c5c92b2b5785ded5eda2939e48d592394e12674e640c8b1d",
+      "domain": "127.0.0.1:8000"
     }
   ],
   "apps_enabled": false,
@@ -150,6 +150,6 @@
   "x_openai_isConsequential": false,
   "auto_execute_reads": true,
   "auto_municipality_routing": true,
-  "version": "4.9.0",
-  "updated_at_utc": "2026-08-30T14:45:08.772556+00:00"
+  "version": "4.9.2",
+  "updated_at_utc": "2026-09-02T11:20:00.000000+00:00"
 }
