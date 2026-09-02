@@ -1,5 +1,5 @@
 {
-  "build_timestamp": "2026-09-02T18:31:56.354623+00:00",
+  "build_timestamp": "2026-09-02T19:05:07.376105+00:00",
   "comparable_groups": 227,
   "compare_axes": [
     "RELEASE_IDENTITY",
@@ -14,14 +14,16 @@
   ],
   "comparisons_executed": 33262,
   "conflict_model": "COMPARATIVE_V2",
-  "conflicts_found": 24532,
-  "generated_at": "2026-09-02T18:31:56.354623+00:00",
+  "conflicts_found": 24363,
+  "generated_at": "2026-09-02T19:05:07.376105+00:00",
   "municipality": "Hemiksem",
   "project_id": "hemiksem-gemeentediensten",
   "release_id": "rel-hemiksem-v4.9.2-prod",
   "release_version": "4.9.2",
   "resolved": 0,
-  "unresolved": 24532,
+  "unresolved": 24363,
+  "false_positives": 0,
+  "material_conflicts": 24363,
   "zero_comparisons_is_not_pass": true,
   "conflicts": [
     {
@@ -30,7 +32,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0655E8E240D18660",
       "seg_a": "hemiksem:seg:bpa_nr_14:000001:18c1b898dadda18b",
-      "seg_b": "hemiksem:seg:bpa_nr_14:000003:07d74016ccc50350"
+      "seg_b": "hemiksem:seg:bpa_nr_14:000003:07d74016ccc50350",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_NR_14:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -38,7 +43,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "2B1C41EDB3CA5AEA",
       "seg_a": "hemiksem:seg:bpa_nr_14:000001:18c1b898dadda18b",
-      "seg_b": "hemiksem:seg:bpa_nr_14:000004:c5cbfda701733d78"
+      "seg_b": "hemiksem:seg:bpa_nr_14:000004:c5cbfda701733d78",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_NR_14:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -46,7 +54,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0655E8E240D18660",
       "seg_a": "hemiksem:seg:bpa_nr_14:000002:eb52e83a42e726e7",
-      "seg_b": "hemiksem:seg:bpa_nr_14:000003:07d74016ccc50350"
+      "seg_b": "hemiksem:seg:bpa_nr_14:000003:07d74016ccc50350",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_NR_14:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -54,7 +65,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "2B1C41EDB3CA5AEA",
       "seg_a": "hemiksem:seg:bpa_nr_14:000002:eb52e83a42e726e7",
-      "seg_b": "hemiksem:seg:bpa_nr_14:000004:c5cbfda701733d78"
+      "seg_b": "hemiksem:seg:bpa_nr_14:000004:c5cbfda701733d78",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_NR_14:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -62,7 +76,10 @@
       "hash_a": "0655E8E240D18660",
       "hash_b": "2B1C41EDB3CA5AEA",
       "seg_a": "hemiksem:seg:bpa_nr_14:000003:07d74016ccc50350",
-      "seg_b": "hemiksem:seg:bpa_nr_14:000004:c5cbfda701733d78"
+      "seg_b": "hemiksem:seg:bpa_nr_14:000004:c5cbfda701733d78",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_NR_14:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -70,7 +87,10 @@
       "hash_a": "0CA4F744BA720650",
       "hash_b": "0655E8E240D18660",
       "seg_a": "hemiksem:seg:bpa_nr_8:000001:c3b14c2c7933fc90",
-      "seg_b": "hemiksem:seg:bpa_nr_8:000003:57abb0a4493babc7"
+      "seg_b": "hemiksem:seg:bpa_nr_8:000003:57abb0a4493babc7",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_NR_8:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -78,7 +98,10 @@
       "hash_a": "0CA4F744BA720650",
       "hash_b": "678C44BE212F0E6A",
       "seg_a": "hemiksem:seg:bpa_nr_8:000001:c3b14c2c7933fc90",
-      "seg_b": "hemiksem:seg:bpa_nr_8:000004:72162ce10ad18dce"
+      "seg_b": "hemiksem:seg:bpa_nr_8:000004:72162ce10ad18dce",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_NR_8:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -86,7 +109,10 @@
       "hash_a": "0CA4F744BA720650",
       "hash_b": "0655E8E240D18660",
       "seg_a": "hemiksem:seg:bpa_nr_8:000002:bcf3a979e049fc40",
-      "seg_b": "hemiksem:seg:bpa_nr_8:000003:57abb0a4493babc7"
+      "seg_b": "hemiksem:seg:bpa_nr_8:000003:57abb0a4493babc7",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_NR_8:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -94,7 +120,10 @@
       "hash_a": "0CA4F744BA720650",
       "hash_b": "678C44BE212F0E6A",
       "seg_a": "hemiksem:seg:bpa_nr_8:000002:bcf3a979e049fc40",
-      "seg_b": "hemiksem:seg:bpa_nr_8:000004:72162ce10ad18dce"
+      "seg_b": "hemiksem:seg:bpa_nr_8:000004:72162ce10ad18dce",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_NR_8:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -102,7 +131,10 @@
       "hash_a": "0655E8E240D18660",
       "hash_b": "678C44BE212F0E6A",
       "seg_a": "hemiksem:seg:bpa_nr_8:000003:57abb0a4493babc7",
-      "seg_b": "hemiksem:seg:bpa_nr_8:000004:72162ce10ad18dce"
+      "seg_b": "hemiksem:seg:bpa_nr_8:000004:72162ce10ad18dce",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_NR_8:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -110,7 +142,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000044:251df1f7ce1750b5"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000044:251df1f7ce1750b5",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -118,7 +153,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000045:ad0ecf2031ceebc3"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000045:ad0ecf2031ceebc3",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -126,7 +164,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000046:5449a1cdc65f27cd"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000046:5449a1cdc65f27cd",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -134,7 +175,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000047:b2bfe0808030dc2f"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000047:b2bfe0808030dc2f",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -142,7 +186,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000048:01f698d4f941f9f9"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000048:01f698d4f941f9f9",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -150,7 +197,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000049:40120d11b5c7185e"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000049:40120d11b5c7185e",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -158,7 +208,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000050:e4f2e8b560f8e1f8"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000050:e4f2e8b560f8e1f8",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -166,7 +219,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000051:48b1fa115da54989"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000051:48b1fa115da54989",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -174,7 +230,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000052:ab738feb7919f814"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000052:ab738feb7919f814",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -182,7 +241,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000053:c512536d254ccac4"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000053:c512536d254ccac4",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -190,7 +252,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000054:025ce776e20cfbb6"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000054:025ce776e20cfbb6",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -198,7 +263,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000001:1683d476f37ad5d5",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000055:674158e1e71f5e17"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000055:674158e1e71f5e17",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -206,7 +274,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000044:251df1f7ce1750b5"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000044:251df1f7ce1750b5",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -214,7 +285,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000045:ad0ecf2031ceebc3"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000045:ad0ecf2031ceebc3",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -222,7 +296,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000046:5449a1cdc65f27cd"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000046:5449a1cdc65f27cd",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -230,7 +307,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000047:b2bfe0808030dc2f"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000047:b2bfe0808030dc2f",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -238,7 +318,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000048:01f698d4f941f9f9"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000048:01f698d4f941f9f9",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -246,7 +329,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000049:40120d11b5c7185e"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000049:40120d11b5c7185e",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -254,7 +340,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000050:e4f2e8b560f8e1f8"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000050:e4f2e8b560f8e1f8",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -262,7 +351,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000051:48b1fa115da54989"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000051:48b1fa115da54989",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -270,7 +362,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000052:ab738feb7919f814"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000052:ab738feb7919f814",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -278,7 +373,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000053:c512536d254ccac4"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000053:c512536d254ccac4",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -286,7 +384,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000054:025ce776e20cfbb6"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000054:025ce776e20cfbb6",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -294,7 +395,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000002:05a4ae54883b132a",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000055:674158e1e71f5e17"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000055:674158e1e71f5e17",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -302,7 +406,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000044:251df1f7ce1750b5"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000044:251df1f7ce1750b5",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -310,7 +417,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000045:ad0ecf2031ceebc3"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000045:ad0ecf2031ceebc3",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -318,7 +428,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000046:5449a1cdc65f27cd"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000046:5449a1cdc65f27cd",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -326,7 +439,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000047:b2bfe0808030dc2f"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000047:b2bfe0808030dc2f",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -334,7 +450,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000048:01f698d4f941f9f9"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000048:01f698d4f941f9f9",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -342,7 +461,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000049:40120d11b5c7185e"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000049:40120d11b5c7185e",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -350,7 +472,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000050:e4f2e8b560f8e1f8"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000050:e4f2e8b560f8e1f8",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -358,7 +483,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000051:48b1fa115da54989"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000051:48b1fa115da54989",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -366,7 +494,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000052:ab738feb7919f814"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000052:ab738feb7919f814",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -374,7 +505,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000053:c512536d254ccac4"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000053:c512536d254ccac4",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -382,7 +516,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000054:025ce776e20cfbb6"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000054:025ce776e20cfbb6",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -390,7 +527,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000003:e4ebbb3440ae9ed4",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000055:674158e1e71f5e17"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000055:674158e1e71f5e17",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -398,7 +538,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000004:4d9eb563d75e8f82",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000044:251df1f7ce1750b5"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000044:251df1f7ce1750b5",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -406,7 +549,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000004:4d9eb563d75e8f82",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000045:ad0ecf2031ceebc3"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000045:ad0ecf2031ceebc3",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -414,7 +560,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000004:4d9eb563d75e8f82",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000046:5449a1cdc65f27cd"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000046:5449a1cdc65f27cd",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     },
     {
       "axis": "SOURCE_VERSION",
@@ -422,7 +571,10 @@
       "hash_a": "8C76016ECF20D832",
       "hash_b": "0CA4F744BA720650",
       "seg_a": "hemiksem:seg:bpa_voorschriften:000004:4d9eb563d75e8f82",
-      "seg_b": "hemiksem:seg:bpa_voorschriften:000047:b2bfe0808030dc2f"
+      "seg_b": "hemiksem:seg:bpa_voorschriften:000047:b2bfe0808030dc2f",
+      "resolution_state": "UNRESOLVED",
+      "confidence": 0.5,
+      "group_key": "plan:BPA_VOORSCHRIFTEN:art:GENERAL_SECTION"
     }
   ],
   "axis_breakdown": {
@@ -433,7 +585,7 @@
     "EFFECTIVE_DATES": 0,
     "RULE_PROPOSITIONS": 0,
     "APPLICABILITY": 0,
-    "OFFICIAL_AUTHORITY": 4249,
+    "OFFICIAL_AUTHORITY": 4080,
     "PROCEDURAL_REQUIREMENTS": 0
   }
 }
