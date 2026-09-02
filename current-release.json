@@ -1,0 +1,14 @@
+{
+  "release_id": "rel-hemiksem-v4.9.2-prod",
+  "product_version": "4.9.2",
+  "engine_runtime_version": "8.0",
+  "gateway_version": "3.1.0-bespoke",
+  "public_api_version": "hemiksem-v1",
+  "action_surface": "hemiksem_edge_api",
+  "schema_version": "hemiksem-kb-v1.1",
+  "status": "OPERATIONAL",
+  "api_base_path": "/hemiksem/v1",
+  "municipality": "Hemiksem",
+  "country": "Belgium",
+  "updated_at": "2026-09-02T21:30:00Z"
+}
