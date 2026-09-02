@@ -16,6 +16,7 @@
   "static_relay": "https://agim8003.github.io/hemiksem-relay-public",
   "kb_families": 14,
   "kb_segments": 14601,
+  "corpus_segments": 143089,
   "admitted_documents": 1540,
   "evidence_artifacts": 37,
   "relay_endpoints": [
