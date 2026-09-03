@@ -1,86 +1,183 @@
 {
-  "all_read_only": true,
-  "build_timestamp": "2026-08-31T14:29:35.985640+00:00",
-  "capabilities": [
-    {
-      "effect": "READ",
-      "id": "getHemiksemServerHealth",
-      "method": "GET",
-      "path": "/v4/status"
-    },
-    {
-      "effect": "READ",
-      "id": "getHemiksemCurrentRelease",
-      "method": "GET",
-      "path": "/v4/release"
-    },
-    {
-      "effect": "READ",
-      "id": "listMunicipalDomains",
-      "method": "GET",
-      "path": "/v4/domains"
-    },
-    {
-      "effect": "READ",
-      "id": "searchMunicipalKnowledge",
-      "method": "GET",
-      "param": "q",
-      "path": "/v4/search"
-    },
-    {
-      "effect": "READ",
-      "id": "getHemiksemDocument",
-      "method": "GET",
-      "path": "/v4/document/{document_id}"
-    },
-    {
-      "effect": "READ",
-      "id": "getHemiksemSegment",
-      "method": "GET",
-      "path": "/v4/segment/{segment_uid}"
-    },
-    {
-      "effect": "READ",
-      "id": "getHemiksemEvidencePack",
-      "method": "GET",
-      "path": "/v4/evidence-pack"
-    },
-    {
-      "effect": "READ",
-      "id": "checkHemiksemCurrentness",
-      "method": "GET",
-      "path": "/v4/currentness"
-    },
-    {
-      "effect": "READ",
-      "id": "checkHemiksemApplicability",
-      "method": "GET",
-      "path": "/v4/applicability"
-    },
-    {
-      "effect": "READ",
-      "id": "describeCapabilities",
-      "method": "GET",
-      "path": "/v4/capabilities"
-    }
-  ],
-  "capability_count": 10,
-  "country": "Belgium",
-  "engine_version": "8.0",
-  "generated_at": "2026-09-02T13:39:00.000000+00:00",
-  "municipality": "Hemiksem",
   "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
   "product_identity": "MUNICIPALITY_WIDE",
   "project_id": "hemiksem-gemeentediensten",
+  "municipality": "Hemiksem",
   "province": "Antwerp",
   "region": "Flanders",
+  "country": "Belgium",
   "release_id": "rel-hemiksem-v4.9.2-prod",
   "release_version": "4.9.2",
+  "product_version": "4.9.2",
+  "engine_version": "8.0",
+  "public_api_version": "v4",
+  "gateway_version": "3.1.0-bespoke",
   "schema_version": "hemiksem-kb-v1.1",
   "search_parameter": "q",
-  "spec_version": "4.9.2",
-  "active_test_suites": 5,
-  "total_test_cases": 121,
-  "npdx_sources": 10,
-  "x_openai_isConsequential": false
+  "all_read_only": true,
+  "x_openai_isConsequential": false,
+  "capability_count": 12,
+  "capabilities": [
+    {
+      "id": "getHemiksemServerHealth",
+      "method": "GET",
+      "path": "/v4/status",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true
+    },
+    {
+      "id": "getHemiksemCurrentRelease",
+      "method": "GET",
+      "path": "/v4/release",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true
+    },
+    {
+      "id": "listMunicipalDomains",
+      "method": "GET",
+      "path": "/v4/domains",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true
+    },
+    {
+      "id": "searchMunicipalKnowledge",
+      "method": "GET",
+      "path": "/v4/search",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true,
+      "param": "q"
+    },
+    {
+      "id": "searchMunicipalKnowledgePost",
+      "method": "POST",
+      "path": "/v4/search",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true
+    },
+    {
+      "id": "getHemiksemDocument",
+      "method": "GET",
+      "path": "/v4/document/{document_id}",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true
+    },
+    {
+      "id": "getHemiksemSegment",
+      "method": "GET",
+      "path": "/v4/segment/{segment_uid}",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true
+    },
+    {
+      "id": "getHemiksemEvidencePack",
+      "method": "GET",
+      "path": "/v4/evidence-pack",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true,
+      "param": "q"
+    },
+    {
+      "id": "checkHemiksemCurrentness",
+      "method": "GET",
+      "path": "/v4/currentness",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true,
+      "param": "q"
+    },
+    {
+      "id": "checkHemiksemApplicability",
+      "method": "GET",
+      "path": "/v4/applicability",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true,
+      "param": "q"
+    },
+    {
+      "id": "describeCapabilities",
+      "method": "GET",
+      "path": "/v4/capabilities",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true
+    },
+    {
+      "id": "selfTest",
+      "method": "GET",
+      "path": "/v4/self-test",
+      "effect": "READ",
+      "defined": true,
+      "implemented": true,
+      "deployed": true,
+      "exposed": true,
+      "reachable": true,
+      "executed": true,
+      "passed": true
+    }
+  ],
+  "generated_at": "2026-09-03T08:30:49.104689+00:00"
 }

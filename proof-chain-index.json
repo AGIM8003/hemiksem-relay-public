@@ -2,7 +2,8 @@
   "index_version": "1.1",
   "project_id": "hemiksem-gemeentediensten",
   "derived_class": "DERIVED_STRUCTURAL_INDEX",
-  "generated_from_release": "2.1.0",
+  "generated_from_release": "rel-hemiksem-v4.9.2-prod",
+  "release_version": "4.9.2",
   "claim_chain_count": 30,
   "capability_chain_count": 16,
   "claim_chains": [
