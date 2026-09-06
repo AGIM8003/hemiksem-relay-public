@@ -1,75 +1,32 @@
 {
   "artifact_schema_version": "hemiksem-evidence-stub-v2",
-  "build_timestamp": "2026-09-06T20:17:09.292734+00:00",
-  "chain": [
-    {
-      "gate": "HEMIKSEM_CORPUS_ONLY",
-      "status": "VERIFIED",
-      "step": "SOURCE_ADMISSION"
-    },
-    {
-      "documents": 1540,
-      "status": "BUILT",
-      "step": "DOCUMENT_REGISTRY"
-    },
-    {
-      "segments": 143089,
-      "status": "BUILT",
-      "step": "SEGMENT_INDEX"
-    },
-    {
-      "domains": 23,
-      "status": "BUILT",
-      "step": "DOMAIN_INDEX"
-    },
-    {
-      "source": "ENGINE/release_controller.py",
-      "status": "ACTIVE",
-      "step": "RELEASE_CONTROLLER"
-    },
-    {
-      "connected": 10,
-      "declared_core": 10,
-      "executed": 10,
-      "operations": 10,
-      "passed": 10,
-      "status": "VERIFIED",
-      "step": "CAPABILITY_PARITY"
-    },
-    {
-      "port": 8000,
-      "status": "VERIFIED",
-      "step": "PORT_COHERENCE"
-    },
-    {
-      "status": "REGENERATED",
-      "step": "STATIC_RELAY"
-    },
-    {
-      "status": "VERIFIED",
-      "step": "CONNECTED_ACTION_EXECUTION"
-    }
-  ],
   "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
   "country": "Belgium",
-  "engine_version": "8.0",
-  "generated_at": "2026-09-06T20:17:09.292734+00:00",
+  "engine_version": "8.1",
+  "generated_at": "2026-09-06T20:36:49.806831+00:00",
   "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
   "index_schema_version": "1.1",
   "kb_schema_version": "hemiksem-kb-v1.1",
   "municipality": "Hemiksem",
   "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
   "product_identity": "MUNICIPALITY_WIDE",
-  "product_version": "4.9.3",
+  "product_version": "5.0.0",
   "project_id": "hemiksem-gemeentediensten",
+  "proof_chains": {
+    "CAPABILITY_PARITY": {
+      "connected_verified": true,
+      "operations": 10,
+      "status": "VERIFIED"
+    }
+  },
   "province": "Antwerp",
   "region": "Flanders",
-  "relay_api_version": "4.9.3",
-  "release_id": "rel-hemiksem-v4.9.3-prod",
-  "release_version": "4.9.3",
-  "retrieval_engine_runtime_version": "8.0",
+  "relay_api_version": "5.0.0",
+  "release_id": "rel-hemiksem-v5.0.0-prod",
+  "release_version": "5.0.0",
+  "retrieval_engine_runtime_version": "8.1",
   "search_parameter": "q",
-  "server_api_version": "4.9.3",
-  "spec_version": "4.0.0",
-  "specification_version": "4.0.0"
+  "server_api_version": "5.0.0",
+  "spec_version": "5.0.0",
+  "specification_version": "5.0.0"
 }

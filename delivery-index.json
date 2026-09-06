@@ -1,33 +1,40 @@
 {
-  "content_access": true,
+  "artifact_schema_version": "hemiksem-evidence-stub-v2",
+  "build_timestamp": "2026-09-06T20:36:49.806831+00:00",
+  "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
+  "country": "Belgium",
   "deliveries": [
     {
-      "delivery_id": "DELIV-V4.9.3",
+      "delivery_id": "DELIV-V5.0.0",
       "evidence_artifact_count": 37,
-      "release_id": "rel-hemiksem-v4.9.3-prod",
+      "release_id": "rel-hemiksem-v5.0.0-prod",
       "status": "PRODUCTION_VERIFIED",
-      "timestamp": "2026-09-06T20:17:09.292734+00:00"
+      "timestamp": "2026-09-06T20:36:49.806831+00:00"
     }
   ],
-  "generated_at_utc": "2026-09-06T20:17:09.292734+00:00",
-  "index_version": "2.0",
-  "product_version": "4.9.3",
+  "engine_version": "8.1",
+  "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
+  "index_schema_version": "1.1",
+  "kb_schema_version": "hemiksem-kb-v1.1",
+  "municipality": "Hemiksem",
+  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
+  "product_identity": "MUNICIPALITY_WIDE",
+  "product_version": "5.0.0",
   "project_id": "hemiksem-gemeentediensten",
-  "release_id": "rel-hemiksem-v4.9.3-prod",
-  "release_test_summary": {
-    "completed_at": "2026-09-06T20:17:09.292734+00:00",
-    "execution_id": "EXEC-1788725829",
-    "failure_ids": [],
-    "receipt_sha256": "REC-S16-1788725459635",
-    "release_id": "rel-hemiksem-v4.9.3-prod",
-    "started_at": "2026-09-06T20:17:09.292734+00:00",
-    "suite_id": "MASTER_PYRAMID_S16",
-    "tests_blocked": 0,
-    "tests_failed": 0,
-    "tests_passed": 25,
-    "tests_total": 25
+  "province": "Antwerp",
+  "region": "Flanders",
+  "relay_api_version": "5.0.0",
+  "release_id": "rel-hemiksem-v5.0.0-prod",
+  "release_summary": {
+    "admitted_evidence_artifacts": 37,
+    "product_version": "5.0.0",
+    "release_id": "rel-hemiksem-v5.0.0-prod",
+    "status": "PRODUCTION_VERIFIED"
   },
-  "release_version": "4.9.3",
-  "scan_mode": "FULL_CONTENT_INTEGRITY",
-  "source_label": "HEMIKSEM-E2E-PROOF"
+  "release_version": "5.0.0",
+  "retrieval_engine_runtime_version": "8.1",
+  "search_parameter": "q",
+  "server_api_version": "5.0.0",
+  "spec_version": "5.0.0",
+  "specification_version": "5.0.0"
 }

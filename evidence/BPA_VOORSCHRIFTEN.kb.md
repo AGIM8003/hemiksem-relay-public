@@ -7,13 +7,13 @@ title: "Bpa Voorschriften.Kb"
 source_document_id: DOC-HEM-029
 source_file: BPA_VOORSCHRIFTEN.kb.md
 source_sha256: 825d1aca998a4f73024cde9c334f244bcb413fb95debbdda9a3be85df0e33523
-source_size_bytes: 1360
+source_size_bytes: 1024
 artifact_sha256: 825d1aca998a4f73024cde9c334f244bcb413fb95debbdda9a3be85df0e33523
-release_id: rel-hemiksem-v4.9.3-prod
-release_version: 4.9.3
-generated_at: 2026-09-06T20:17:09.292734+00:00
+release_id: rel-hemiksem-v5.0.0-prod
+release_version: 5.0.0
+generated_at: 2026-09-06T20:36:49.807832+00:00
 retrieval_channel: server_recall
-server_query_hint: "/v4/search?q=bpa+voorschriften"
+server_query_hint: "/v4/search"
 municipality: Hemiksem
 jurisdiction: BE-VLG
 issuing_authority: "Gemeente Hemiksem"
@@ -28,7 +28,7 @@ lifecycle_state: CURRENT_AUTHORITATIVE
 Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kenniscorpus van Gemeente Hemiksem.
 
 - **Artifact ID:** `ART_BPA_VOORSCHRIFTEN_kb`
-- **Claim ID:** `CLM029`
+- **Claim ID:** `PROOF-CHAIN-CLM029`
 - **Bron/Dossier:** `BPA_VOORSCHRIFTEN.kb.md`
 - **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
 - **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)

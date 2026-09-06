@@ -1,9 +1,10 @@
 {
-  "applicability_model": "SPATIAL_GRAPH_13_DIM",
-  "artifact_schema_version": "hemiksem-evidence-stub-v2",
-  "build_timestamp": "2026-09-06T20:17:09.292734+00:00",
-  "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
-  "country": "Belgium",
+  "build_timestamp": "2026-09-06T20:36:50.210127+00:00",
+  "generated_at": "2026-09-06T20:36:50.210127+00:00",
+  "municipality": "Hemiksem",
+  "project_id": "hemiksem-gemeentediensten",
+  "release_id": "rel-hemiksem-v5.0.0-prod",
+  "release_version": "5.0.0",
   "dimensions": [
     "municipality",
     "jurisdiction",
@@ -19,28 +20,6 @@
     "conditions",
     "exceptions"
   ],
-  "engine_version": "8.0",
-  "generated_at": "2026-09-06T20:17:09.292734+00:00",
-  "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
-  "index_schema_version": "1.1",
-  "kb_schema_version": "hemiksem-kb-v1.1",
-  "municipality": "Hemiksem",
-  "parcels_registered": 4679,
-  "plans_registered": 9,
-  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_identity": "MUNICIPALITY_WIDE",
-  "product_version": "4.9.3",
-  "project_id": "hemiksem-gemeentediensten",
-  "province": "Antwerp",
-  "region": "Flanders",
-  "relay_api_version": "4.9.3",
-  "release_id": "rel-hemiksem-v4.9.3-prod",
-  "release_version": "4.9.3",
-  "retrieval_engine_runtime_version": "8.0",
-  "search_parameter": "q",
-  "server_api_version": "4.9.3",
-  "spec_version": "4.0.0",
-  "specification_version": "4.0.0",
   "states": [
     "APPLIES",
     "DOES_NOT_APPLY",
@@ -48,5 +27,9 @@
     "AMBIGUOUS",
     "UNKNOWN"
   ],
-  "zones_registered": 14
+  "model": "SPATIAL_GRAPH_V3",
+  "rule": "UNKNOWN and NOT_CONFIRMED may never be interpreted as implicit permission",
+  "plan_count": 13,
+  "zone_count": 14,
+  "parcel_count": 4679
 }

@@ -7,13 +7,13 @@ title: "Rup Varenvelden.Kb"
 source_document_id: DOC-HEM-037
 source_file: RUP_VARENVELDEN.kb.md
 source_sha256: 11bc01e2db77fb6daa5f70fd755969d47447ce52bd0565424c6302642cd93c6b
-source_size_bytes: 1344
+source_size_bytes: 1024
 artifact_sha256: 11bc01e2db77fb6daa5f70fd755969d47447ce52bd0565424c6302642cd93c6b
-release_id: rel-hemiksem-v4.9.3-prod
-release_version: 4.9.3
-generated_at: 2026-09-06T20:17:09.292734+00:00
+release_id: rel-hemiksem-v5.0.0-prod
+release_version: 5.0.0
+generated_at: 2026-09-06T20:36:49.807832+00:00
 retrieval_channel: server_recall
-server_query_hint: "/v4/search?q=rup+varenvelden"
+server_query_hint: "/v4/search"
 municipality: Hemiksem
 jurisdiction: BE-VLG
 issuing_authority: "Gemeente Hemiksem"
@@ -28,7 +28,7 @@ lifecycle_state: CURRENT_AUTHORITATIVE
 Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kenniscorpus van Gemeente Hemiksem.
 
 - **Artifact ID:** `ART_RUP_VARENVELDEN_kb`
-- **Claim ID:** `CLM037`
+- **Claim ID:** `PROOF-CHAIN-CLM037`
 - **Bron/Dossier:** `RUP_VARENVELDEN.kb.md`
 - **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
 - **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)

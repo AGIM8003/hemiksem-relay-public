@@ -1,79 +1,70 @@
 {
-  "_note": "manifest_payload_sha256 is computed over the manifest excluding this field",
-  "artifact_schema_version": "hemiksem-evidence-stub-v2",
+  "artifact_count": 12,
   "artifacts": {
     "admission-index.json": {
+      "release_id": "rel-hemiksem-v5.0.0-prod",
       "sha256": "ef784a80ee7c41da0d28dc81b61f3f87cf50fc3a1a55f04c7f04acb0b84cbe64",
-      "size": 1399
+      "size_bytes": 1399
     },
     "applicability-index.json": {
-      "sha256": "aa9013ef0b55589b4ea1c86e49fb495dcfa03cb78d445af6efc92a2cc336a4b2",
-      "size": 1519
+      "release_id": "rel-hemiksem-v5.0.0-prod",
+      "sha256": "e9f6059897e266631a9edabfdcabd46f655f408861c0dce907d629b1673f2a3b",
+      "size_bytes": 822
     },
     "capability-registry.json": {
+      "release_id": "rel-hemiksem-v5.0.0-prod",
       "sha256": "c25c3bfed565c36f9e315e33d97efdab62a430c00912e620e021211ff68d6478",
-      "size": 4913
+      "size_bytes": 4913
     },
     "conflict-index.json": {
-      "sha256": "fe456a5e097d6e692f843cac71ce5067c8cca9b0edd854793514965e1f044ae2",
-      "size": 26283
+      "release_id": "rel-hemiksem-v5.0.0-prod",
+      "sha256": "eb78d9e7e511bedad5d19301f88bd661c9cab532ca70d026e76354dae8f65aeb",
+      "size_bytes": 26283
     },
     "current-release.json": {
-      "sha256": "57b74a67964d9efe375d5fcf10acc3121be1ba9cc70bbf39dcb7520220550e6f",
-      "size": 619
+      "release_id": "rel-hemiksem-v5.0.0-prod",
+      "sha256": "66956f448ee5270584550b17c7f1b33e10b36db1f3dc4234f610caa945a97ffe",
+      "size_bytes": 330
     },
     "currentness-index.json": {
-      "sha256": "03cee6541b2c4ef91c94bac51ba03134e1f796563002d3e9a3f0fdea98e5b348",
-      "size": 30069
+      "release_id": "rel-hemiksem-v5.0.0-prod",
+      "sha256": "d323c0586429be8199d579ccae88413129bab43fb703ae58284d490a4ecfdccc",
+      "size_bytes": 29769
     },
     "delivery-index.json": {
-      "sha256": "0ecebc536970cc3503b4d02774c074e8df9669e3386249ac5ac11b7e8335b57c",
-      "size": 1053
+      "release_id": "rel-hemiksem-v5.0.0-prod",
+      "sha256": "bf34fb7394a55d2b60d85d69831da7e1cc9cc764a9535b46a05d57de36447745",
+      "size_bytes": 1410
     },
     "health.json": {
-      "sha256": "e7e0364526f3131a0bc0bc0b93a1b180e61a28de41b664363ba68fde09488b0a",
-      "size": 2039
+      "release_id": "rel-hemiksem-v5.0.0-prod",
+      "sha256": "348ef04707a482b79e9134f898b8971bb79f9cc3438b2f678fa5c81bc49b8231",
+      "size_bytes": 2039
     },
     "kb-binding.json": {
+      "release_id": "rel-hemiksem-v5.0.0-prod",
       "sha256": "8844980ec10324386c969ba0540f9881b160b6725106d859140e6fbe662e4157",
-      "size": 1529
+      "size_bytes": 1529
     },
     "project-intelligence.json": {
+      "release_id": "rel-hemiksem-v5.0.0-prod",
       "sha256": "9b8cfe9da4510ef12cf204c906ac6a2945dd59711aa05e01c703b07102e401c8",
-      "size": 1656
+      "size_bytes": 1656
     },
     "proof-chain-index.json": {
-      "sha256": "72dd8b59a766cabd26f01af15654ef24349b896d16a6d2cff1779ea8c06b472d",
-      "size": 26423
+      "release_id": "rel-hemiksem-v5.0.0-prod",
+      "sha256": "f72462c34b6fc604365540204f6ec54d9e2dd462677e838b6885627d0055654f",
+      "size_bytes": 27336
     },
     "proof-chain.json": {
-      "sha256": "cb047aedfcf4410e44a5989a41b765d3a20ad44183685efa1b15aa8cfb869b25",
-      "size": 2038
+      "release_id": "rel-hemiksem-v5.0.0-prod",
+      "sha256": "63e08893f9269f66e0fde8e7bb2a8926fba6dd43945ba4cbfbdc0d972dd3cc17",
+      "size_bytes": 1111
     }
   },
-  "artifacts_count": 12,
-  "build_timestamp": "2026-09-06T20:17:09.292734+00:00",
-  "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
-  "country": "Belgium",
-  "engine_version": "8.0",
-  "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
-  "index_schema_version": "1.1",
-  "kb_schema_version": "hemiksem-kb-v1.1",
-  "manifest_payload_sha256": "310276429974ebb0955e415abe5aef0d99e644cdad447a7157b30658af03f1b0",
-  "manifest_type": "RELEASE_MANIFEST_CLOSURE",
-  "municipality": "Hemiksem",
-  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_identity": "MUNICIPALITY_WIDE",
-  "product_version": "4.9.3",
-  "project_id": "hemiksem-gemeentediensten",
-  "province": "Antwerp",
-  "region": "Flanders",
-  "relay_api_version": "4.9.3",
-  "release_id": "rel-hemiksem-v4.9.3-prod",
-  "release_version": "4.9.3",
-  "retrieval_engine_runtime_version": "8.0",
-  "search_parameter": "q",
-  "server_api_version": "4.9.3",
-  "spec_version": "4.0.0",
-  "specification_version": "4.0.0"
+  "generated_at": "2026-09-06T20:36:49.806831+00:00",
+  "manifest_schema": "hemiksem-relay-manifest-v2",
+  "product_version": "5.0.0",
+  "release_id": "rel-hemiksem-v5.0.0-prod",
+  "release_version": "5.0.0"
 }

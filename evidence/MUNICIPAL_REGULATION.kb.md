@@ -7,13 +7,13 @@ title: "Municipal Regulation.Kb"
 source_document_id: DOC-HEM-032
 source_file: MUNICIPAL_REGULATION.kb.md
 source_sha256: e4a8de5d9dbdbe124515c850dbfdbeefb981b90a35b3e0953f39303014a1cc2a
-source_size_bytes: 1384
+source_size_bytes: 1024
 artifact_sha256: e4a8de5d9dbdbe124515c850dbfdbeefb981b90a35b3e0953f39303014a1cc2a
-release_id: rel-hemiksem-v4.9.3-prod
-release_version: 4.9.3
-generated_at: 2026-09-06T20:17:09.292734+00:00
+release_id: rel-hemiksem-v5.0.0-prod
+release_version: 5.0.0
+generated_at: 2026-09-06T20:36:49.807832+00:00
 retrieval_channel: server_recall
-server_query_hint: "/v4/search?q=municipal+regulation"
+server_query_hint: "/v4/search"
 municipality: Hemiksem
 jurisdiction: BE-VLG
 issuing_authority: "Gemeente Hemiksem"
@@ -28,7 +28,7 @@ lifecycle_state: CURRENT_AUTHORITATIVE
 Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kenniscorpus van Gemeente Hemiksem.
 
 - **Artifact ID:** `ART_MUNICIPAL_REGULATION_kb`
-- **Claim ID:** `CLM032`
+- **Claim ID:** `PROOF-CHAIN-CLM032`
 - **Bron/Dossier:** `MUNICIPAL_REGULATION.kb.md`
 - **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
 - **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)
