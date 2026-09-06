@@ -16,14 +16,14 @@
   "spec_version": "4.9.2",
   "schema_version": "hemiksem-kb-v1.1",
   "search_parameter": "q",
-  "build_timestamp": "2026-09-06T19:22:18.987757+00:00",
+  "build_timestamp": "2026-09-06T19:31:51.172818+00:00",
   "artifacts": {
     "health.json": {
-      "sha256": "6b6e7add0dbc3ceb165eeb898985606a2358759ff9956cd2caef7b54dd78dff7",
-      "size": 1841
+      "sha256": "e37d5c809e2b425c195b7bd98dbe3bc7bfe60a8c838b03d6cff119872d5d403b",
+      "size": 2260
     },
     "kb-binding.json": {
-      "sha256": "d79729d2c90a1c5951073222eeed9d17ed01b32ad79ac53a3c66189b515cf101",
+      "sha256": "f68103b4082841b65951b452c9f18d05ad4a316f7228c1f4b6db58fc1ad6f8fe",
       "size": 580
     },
     "admission-index.json": {
@@ -51,11 +51,11 @@
       "size": 2047
     },
     "proof-chain-index.json": {
-      "sha256": "04d2c995e567b5a3394655d4bd09e32fce92de7c4adff7d5a4fd5f17ee3e7ff8",
+      "sha256": "03ea971cd8b8c3ad7e422ad91c7e12008c8931ff74b1fe47725166fedc63ff81",
       "size": 21786
     },
     "delivery-index.json": {
-      "sha256": "f643a345cbabea7cbfae41e0f620349c1bf415693bd8e074da521e5ce318896b",
+      "sha256": "281ffbc72782534164363793f75f8ee953625fc84837107e01b4628a4f34860a",
       "size": 7878
     },
     "applicability-index.json": {
@@ -67,5 +67,5 @@
       "size": 785
     }
   },
-  "manifest_payload_sha256": "875a494c1f7365d4632c8a42f46c97831a78c94ad9961d896baa46c3a096e9d6"
+  "manifest_payload_sha256": "f9ae18dcb55d77ec81b615ace9abddc4a4f209a74019c7ec3ab2dd1f7fbc994d"
 }

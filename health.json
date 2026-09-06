@@ -54,8 +54,18 @@
   "bm25_vocab_terms": 175830,
   "zone_designations": 14,
   "cadastral_parcels": 4679,
-  "build_timestamp": "2026-09-06T19:22:18.937045+00:00",
-  "generated_at": "2026-09-06T19:22:18.937045+00:00",
+  "build_timestamp": "2026-09-06T19:31:51.141078+00:00",
+  "generated_at": "2026-09-06T19:31:51.141078+00:00",
   "product_version": "4.9.2",
-  "retrieval_engine_runtime_version": "8.0"
+  "retrieval_engine_runtime_version": "8.0",
+  "relay_status": "OPERATIONAL",
+  "server_recall_status": "OPERATIONAL",
+  "action_contract_status": "PARITY_VERIFIED",
+  "release_binding_status": "BOUND_AND_VERIFIED",
+  "retrieval_status": "OPERATIONAL",
+  "currentness_status": "OPERATIONAL",
+  "applicability_status": "OPERATIONAL",
+  "conflict_gate_status": "OPERATIONAL",
+  "proof_chain_status": "OPERATIONAL",
+  "overall_status": "FULLY_OPERATIONAL"
 }
