@@ -1,6 +1,6 @@
 {
-  "build_timestamp": "2026-09-02T18:34:59.843352+00:00",
-  "generated_at": "2026-09-02T18:34:59.843352+00:00",
+  "build_timestamp": "2026-09-06T19:04:00.031416+00:00",
+  "generated_at": "2026-09-06T19:04:00.031416+00:00",
   "municipality": "Hemiksem",
   "project_id": "hemiksem-gemeentediensten",
   "release_id": "rel-hemiksem-v4.9.2-prod",
@@ -21,14 +21,14 @@
     "exceptions"
   ],
   "states": [
-    "VERIFIED_APPLICABLE",
-    "VERIFIED_NOT_APPLICABLE",
+    "APPLIES",
+    "DOES_NOT_APPLY",
     "CONDITIONAL",
-    "NOT_CONFIRMED",
-    "CONFLICTED"
+    "AMBIGUOUS",
+    "UNKNOWN"
   ],
-  "model": "MULTI_DIMENSIONAL_V2",
-  "rule": "NOT_CONFIRMED may never be interpreted as implicit yes",
+  "model": "SPATIAL_GRAPH_V3",
+  "rule": "UNKNOWN and NOT_CONFIRMED may never be interpreted as implicit permission",
   "plan_count": 13,
   "zone_count": 14,
   "parcel_count": 4679

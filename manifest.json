@@ -1,53 +1,71 @@
 {
-  "_note": "manifest_payload_sha256 is computed over the manifest excluding this field",
-  "artifacts": {
-    "admission-index.json": {
-      "sha256": "0d4a11b9f1444bf271cc0385202983f99484b507552a2de9074e90a8dcd8366a",
-      "size": 693
-    },
-    "capability-registry.json": {
-      "sha256": "6caf9be4d0656f0617ffd344c366658f2a05d2d7be1a0ce614a72060ca3eb284",
-      "size": 1999
-    },
-    "conflict-index.json": {
-      "sha256": "3b792ec5c55112495764573efaad1758b3817d6435ca3c0529ca75e43dac7d70",
-      "size": 689
-    },
-    "currentness-index.json": {
-      "sha256": "23c5bd4c5e1ca095f0c84855aac3b2da6de395035b22fb8571af501a644d7e77",
-      "size": 705
-    },
-    "health.json": {
-      "sha256": "2e6523058e194d465b9caf28af48d62db96d287bcacde3192ce93860cc5dd0dc",
-      "size": 912
-    },
-    "kb-binding.json": {
-      "sha256": "95be5aaa86918ba520dfdb253eacb2bce86d9ce515e9ee08ba2e056f5937e7fe",
-      "size": 491
-    },
-    "project-intelligence.json": {
-      "sha256": "e9b63d487535109f2eac02ee091824a9a9d6657ab0e2ea2b0e1ab3026aa457f7",
-      "size": 914
-    },
-    "proof-chain.json": {
-      "sha256": "de1204dd550e7296121d01db0216ac1d1a422834b345dea56e71a796b0b7bee2",
-      "size": 2046
-    }
-  },
-  "build_timestamp": "2026-08-31T14:29:35.985640+00:00",
-  "country": "Belgium",
-  "engine_version": "4.9.2",
-  "manifest_payload_sha256": "dcf85b149c7982d0a37dc7d2fa2022923c2781da847429b885a676bb3c0ca8e3",
+  "_note": "manifest_payload_sha256 is computed over the manifest excluding this field and manifest_payload_sha256 itself",
   "manifest_type": "RELEASE_MANIFEST",
-  "municipality": "Hemiksem",
   "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
   "product_identity": "MUNICIPALITY_WIDE",
   "project_id": "hemiksem-gemeentediensten",
+  "municipality": "Hemiksem",
   "province": "Antwerp",
   "region": "Flanders",
+  "country": "Belgium",
   "release_id": "rel-hemiksem-v4.9.2-prod",
   "release_version": "4.9.2",
+  "product_version": "4.9.2",
+  "engine_version": "8.0",
+  "retrieval_engine_runtime_version": "8.0",
+  "spec_version": "4.9.2",
   "schema_version": "hemiksem-kb-v1.1",
   "search_parameter": "q",
-  "spec_version": "4.9.8"
+  "build_timestamp": "2026-09-06T19:22:18.987757+00:00",
+  "artifacts": {
+    "health.json": {
+      "sha256": "6b6e7add0dbc3ceb165eeb898985606a2358759ff9956cd2caef7b54dd78dff7",
+      "size": 1841
+    },
+    "kb-binding.json": {
+      "sha256": "d79729d2c90a1c5951073222eeed9d17ed01b32ad79ac53a3c66189b515cf101",
+      "size": 580
+    },
+    "admission-index.json": {
+      "sha256": "796eac0a599e27424d702fa13d470c3e1a6fd9f12e7192306ddd5b822059e841",
+      "size": 694
+    },
+    "project-intelligence.json": {
+      "sha256": "3dc3a716378f72f70588f5a71cb19e6ed856d8331b1d40c3a460c0cba0b680f0",
+      "size": 915
+    },
+    "currentness-index.json": {
+      "sha256": "fff0c7ce7919238d1767b520b02bf7c1cf755e36f2ea59ead296ab27fe2c2fef",
+      "size": 706
+    },
+    "conflict-index.json": {
+      "sha256": "54d28a8f67cc270f13064dce0da43aec6e9bfcb8ace0f0d76081a8d00f20a837",
+      "size": 26283
+    },
+    "capability-registry.json": {
+      "sha256": "d2eabe89cc8830f32cbb9d47893bb94e36650cfc6495dd595ea2c0185f5d5e4c",
+      "size": 4515
+    },
+    "proof-chain.json": {
+      "sha256": "71e0f6e54bd2a7fa6a36afede4ab615f6c537c94fd5cc585c6fa6c859e05af27",
+      "size": 2047
+    },
+    "proof-chain-index.json": {
+      "sha256": "04d2c995e567b5a3394655d4bd09e32fce92de7c4adff7d5a4fd5f17ee3e7ff8",
+      "size": 21786
+    },
+    "delivery-index.json": {
+      "sha256": "f643a345cbabea7cbfae41e0f620349c1bf415693bd8e074da521e5ce318896b",
+      "size": 7878
+    },
+    "applicability-index.json": {
+      "sha256": "2329d8ea925d85ac3112c480cbac28eb15c44700287a0ba2d75a0b9d092bfef6",
+      "size": 822
+    },
+    "current-release.json": {
+      "sha256": "8bf282c8dc97df51b3eeca8d9bd4c684400abc53abb51cb6be2e0b48045176f1",
+      "size": 785
+    }
+  },
+  "manifest_payload_sha256": "875a494c1f7365d4632c8a42f46c97831a78c94ad9961d896baa46c3a096e9d6"
 }

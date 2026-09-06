@@ -1,5 +1,5 @@
 {
-  "build_timestamp": "2026-09-03T08:27:33.898403+00:00",
+  "build_timestamp": "2026-09-06T19:22:14.719480+00:00",
   "comparable_groups": 227,
   "compare_axes": [
     "RELEASE_IDENTITY",
@@ -12,31 +12,44 @@
     "OFFICIAL_AUTHORITY",
     "PROCEDURAL_REQUIREMENTS"
   ],
-  "comparisons_executed": 33262,
-  "conflict_model": "COMPARATIVE_V2",
-  "conflicts_found": 4080,
-  "generated_at": "2026-09-03T08:27:33.898403+00:00",
+  "comparisons_executed": 25049,
+  "conflict_model": "PROPOSITION_V3",
+  "conflicts_found": 3078,
+  "generated_at": "2026-09-06T19:22:14.719480+00:00",
   "municipality": "Hemiksem",
   "project_id": "hemiksem-gemeentediensten",
   "release_id": "rel-hemiksem-v4.9.2-prod",
   "release_version": "4.9.2",
-  "resolved": 0,
-  "unresolved": 4080,
-  "unresolved_controlling_conflicts": 4080,
-  "unresolved_non_material_conflicts": 0,
+  "resolved": 2904,
+  "unresolved": 174,
+  "unresolved_controlling_conflicts": 1,
+  "unresolved_non_material_conflicts": 173,
   "false_positives": 0,
-  "material_conflicts": 4080,
+  "material_conflicts": 1,
   "zero_comparisons_is_not_pass": true,
   "conflicts": [
     {
+      "axis": "NUMERIC_VALUES",
+      "context": "hoogte",
+      "value_a": "12",
+      "value_b": "16",
+      "seg_a": "SYNTH_CONF_002_A",
+      "seg_b": "SYNTH_CONF_002_B",
+      "resolution_state": "UNRESOLVED_CONTROLLING",
+      "confidence": 0.9,
+      "group_key": "plan:RUP_SCHELDEBOORDEN:art:ART_4",
+      "is_synthetic_benchmark": true
+    },
+    {
       "axis": "OFFICIAL_AUTHORITY",
       "authority_a": "OFFICIAL_PRIMARY",
       "authority_b": "COUNCIL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:002646:7321722730d81088",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -44,9 +57,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:002649:70e1077b38dda6ea",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -54,9 +68,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:002676:573822fe6e2bd45a",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -64,9 +79,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:003244:bb372d3efcbb5cb2",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -74,9 +90,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:003356:5525cb0e48f1f20a",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -84,9 +101,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:003359:6385ed333173c295",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -94,9 +112,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:003475:7e194d007da44cb6",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -104,9 +123,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:003763:87770f5981907140",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -114,9 +134,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:003777:518af8a0b7cff7a6",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -124,9 +145,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:004024:187b4dc6ce8a3875",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -134,9 +156,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:004034:67269f0a0871f277",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -144,9 +167,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:004103:7b1860452009ca88",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -154,9 +178,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:004523:a3e2477f4e2f1f6e",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -164,9 +189,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:004541:6b44347c5f9f443b",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -174,9 +200,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:004627:5bd775882a94544e",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -184,9 +211,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:004682:e4eaed35df93d196",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -194,9 +222,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:005058:0c6b995765f35e01",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -204,89 +233,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
       "seg_b": "hemiksem:seg:municipal_regulation:005123:2aa79078c5372966",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005296:8c545806f20600f6",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005551:870b88a1ec331c80",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005603:8d1a17ef9866ad85",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005672:6b437926a2767696",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "COUNCIL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005779:7eae193cead3014c",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005946:ee97b7a9bb967c53",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
-      "seg_b": "hemiksem:seg:municipal_regulation:006125:556d0f4db3a22a95",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "ADMIN_INFORMATION",
-      "seg_a": "hemiksem:seg:municipal_regulation:000003:68d4dbc27cb2bffb",
-      "seg_b": "hemiksem:seg:municipal_regulation:006395:e252f528f3751b3e",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -294,9 +244,10 @@
       "authority_b": "COUNCIL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:002646:7321722730d81088",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -304,9 +255,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:002649:70e1077b38dda6ea",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -314,9 +266,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:002676:573822fe6e2bd45a",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -324,9 +277,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:003244:bb372d3efcbb5cb2",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -334,9 +288,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:003356:5525cb0e48f1f20a",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -344,9 +299,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:003359:6385ed333173c295",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -354,9 +310,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:003475:7e194d007da44cb6",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -364,9 +321,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:003763:87770f5981907140",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -374,9 +332,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:003777:518af8a0b7cff7a6",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -384,9 +343,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:004024:187b4dc6ce8a3875",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -394,9 +354,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:004034:67269f0a0871f277",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -404,9 +365,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:004103:7b1860452009ca88",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -414,9 +376,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:004523:a3e2477f4e2f1f6e",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -424,9 +387,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:004541:6b44347c5f9f443b",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -434,9 +398,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:004627:5bd775882a94544e",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -444,9 +409,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:004682:e4eaed35df93d196",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -454,9 +420,10 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:005058:0c6b995765f35e01",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
@@ -464,80 +431,164 @@
       "authority_b": "MUNICIPAL_RECORD",
       "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
       "seg_b": "hemiksem:seg:municipal_regulation:005123:2aa79078c5372966",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005296:8c545806f20600f6",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005551:870b88a1ec331c80",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005603:8d1a17ef9866ad85",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
-    },
-    {
-      "axis": "OFFICIAL_AUTHORITY",
-      "authority_a": "OFFICIAL_PRIMARY",
-      "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005672:6b437926a2767696",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
       "authority_a": "OFFICIAL_PRIMARY",
       "authority_b": "COUNCIL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005779:7eae193cead3014c",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:002646:7321722730d81088",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     },
     {
       "axis": "OFFICIAL_AUTHORITY",
       "authority_a": "OFFICIAL_PRIMARY",
       "authority_b": "MUNICIPAL_RECORD",
-      "seg_a": "hemiksem:seg:municipal_regulation:000044:a81a2efd68b882bb",
-      "seg_b": "hemiksem:seg:municipal_regulation:005946:ee97b7a9bb967c53",
-      "resolution_state": "UNRESOLVED_CONTROLLING",
-      "confidence": 0.75,
-      "group_key": "plan:None:art:ARTICLE_7"
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:002649:70e1077b38dda6ea",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:002676:573822fe6e2bd45a",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:003244:bb372d3efcbb5cb2",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:003356:5525cb0e48f1f20a",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:003359:6385ed333173c295",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:003475:7e194d007da44cb6",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:003763:87770f5981907140",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:003777:518af8a0b7cff7a6",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:004024:187b4dc6ce8a3875",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:004034:67269f0a0871f277",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:004103:7b1860452009ca88",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
+    },
+    {
+      "axis": "OFFICIAL_AUTHORITY",
+      "authority_a": "OFFICIAL_PRIMARY",
+      "authority_b": "MUNICIPAL_RECORD",
+      "seg_a": "hemiksem:seg:municipal_regulation:000054:364119a82c1171a8",
+      "seg_b": "hemiksem:seg:municipal_regulation:004523:a3e2477f4e2f1f6e",
+      "resolution_state": "RESOLVED_AUTHORITY",
+      "controlling_authority": "OFFICIAL_PRIMARY",
+      "confidence": 0.92,
+      "group_key": "doc:hemiksem:doc:municipal_regulation:ef8c770fcde3:art:ARTICLE_7"
     }
   ],
   "axis_breakdown": {
     "RELEASE_IDENTITY": 0,
     "SOURCE_VERSION": 0,
     "CURRENTNESS": 0,
-    "NUMERIC_VALUES": 0,
+    "NUMERIC_VALUES": 1,
     "EFFECTIVE_DATES": 0,
     "RULE_PROPOSITIONS": 0,
     "APPLICABILITY": 0,
-    "OFFICIAL_AUTHORITY": 4080,
+    "OFFICIAL_AUTHORITY": 3077,
     "PROCEDURAL_REQUIREMENTS": 0
   }
 }

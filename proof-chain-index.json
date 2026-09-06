@@ -11,7 +11,7 @@
       "claim_id": "CLM001",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -26,7 +26,7 @@
       "claim_id": "CLM002",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -41,7 +41,7 @@
       "claim_id": "CLM003",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -56,7 +56,7 @@
       "claim_id": "CLM004",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -71,7 +71,7 @@
       "claim_id": "CLM005",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -86,7 +86,7 @@
       "claim_id": "CLM006",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -101,7 +101,7 @@
       "claim_id": "CLM007",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -116,7 +116,7 @@
       "claim_id": "CLM008",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -131,7 +131,7 @@
       "claim_id": "CLM009",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -146,7 +146,7 @@
       "claim_id": "CLM010",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -161,7 +161,7 @@
       "claim_id": "CLM011",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -176,7 +176,7 @@
       "claim_id": "CLM012",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -191,7 +191,7 @@
       "claim_id": "CLM013",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -206,7 +206,7 @@
       "claim_id": "CLM014",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -221,7 +221,7 @@
       "claim_id": "CLM015",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -236,7 +236,7 @@
       "claim_id": "CLM016",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -251,7 +251,7 @@
       "claim_id": "CLM017",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -266,7 +266,7 @@
       "claim_id": "CLM018",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -281,7 +281,7 @@
       "claim_id": "CLM019",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -296,7 +296,7 @@
       "claim_id": "CLM020",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -311,7 +311,7 @@
       "claim_id": "CLM021",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -326,7 +326,7 @@
       "claim_id": "CLM022",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -341,7 +341,7 @@
       "claim_id": "CLM023",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -356,7 +356,7 @@
       "claim_id": "CLM024",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -371,7 +371,7 @@
       "claim_id": "CLM025",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -386,7 +386,7 @@
       "claim_id": "CLM026",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -401,7 +401,7 @@
       "claim_id": "CLM027",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -416,7 +416,7 @@
       "claim_id": "CLM028",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -431,7 +431,7 @@
       "claim_id": "CLM029",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -446,7 +446,7 @@
       "claim_id": "CLM030",
       "evidence_state": "SUPPORTED",
       "lifecycle_state": "CURRENT",
-      "currentness_state": "KB_CONFIRMED_FOR_DATE",
+      "currentness_state": "VERIFIED_FOR_DATE",
       "internal_snapshot_state": "CONFIRMED_EXACT_CORPUS_HASH",
       "conflict_state": "UNCONFLICTED",
       "admissions": [
@@ -652,9 +652,9 @@
       ]
     }
   ],
-  "release_id": "rel-hemiksem-v3.0-prod",
-  "release_version": "3.0.0",
+  "release_id": "rel-hemiksem-v4.9.2-prod",
   "private_source_commit": "427b8e5fd39406508ad77b6f4dd0dcf4d193b330",
   "manifest_sha256": "a530860f28188b27f1874786cb9e848ccd9f4dec127e39778a43536f117176d5",
-  "generated_at_utc": "2026-08-28T21:11:46.545817+00:00"
+  "generated_at_utc": "2026-09-06T19:22:18.937045+00:00",
+  "all_claims_admitted": true
 }
