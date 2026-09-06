@@ -1,20 +1,35 @@
 ---
 artifact_type: evidence_stub
+artifact_schema: hemiksem-evidence-stub-v2
+artifact_id: ART_GRUP_GROOTSTEDELIJK_ANTWERPEN_kb
 family: GRUP_GROOTSTEDELIJK_ANTWERPEN
-title: "GRUP Grootstedelijk Gebied Antwerpen"
+title: "Grup Grootstedelijk Antwerpen.Kb"
+source_document_id: DOC-HEM-031
 source_file: GRUP_GROOTSTEDELIJK_ANTWERPEN.kb.md
-source_sha256_prefix: 9a8287f6a227ce9c
-source_size_bytes: 5757589
-relay_type: stub_pointer
+source_sha256: 8374128087b74b744f2fe2007bb4d4de2ab9a09706ba53e805bbf8c7fb2b4fff
+source_size_bytes: 1456
+artifact_sha256: 8374128087b74b744f2fe2007bb4d4de2ab9a09706ba53e805bbf8c7fb2b4fff
+release_id: rel-hemiksem-v4.9.3-prod
+release_version: 4.9.3
+generated_at: 2026-09-06T20:17:09.292734+00:00
 retrieval_channel: server_recall
-generated_utc: 2026-09-02T12:22:46Z
+server_query_hint: "/v4/search?q=grup+grootstedelijk+antwerpen"
+municipality: Hemiksem
+jurisdiction: BE-VLG
+issuing_authority: "Gemeente Hemiksem"
+authority_class: OFFICIAL_PRIMARY
+currentness_state: VERIFIED_FOR_DATE
+applicability_state: CONDITIONAL_ON_ZONE
+lifecycle_state: CURRENT_AUTHORITATIVE
 ---
 
-# GRUP Grootstedelijk Gebied Antwerpen
+# Grup Grootstedelijk Antwerpen.Kb
 
-This evidence artifact is a relay stub. Full content retrieval is available via Server Recall.
+Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kenniscorpus van Gemeente Hemiksem.
 
-- **Family:** GRUP_GROOTSTEDELIJK_ANTWERPEN
-- **Source segments:** Available via `/v4/search?q=grup+grootstedelijk+antwerpen`
-- **Full corpus:** 14,601 verified segments across 14 KB families
-- **Retrieval:** Use the Server Recall action for deep evidence retrieval
+- **Artifact ID:** `ART_GRUP_GROOTSTEDELIJK_ANTWERPEN_kb`
+- **Claim ID:** `CLM031`
+- **Bron/Dossier:** `GRUP_GROOTSTEDELIJK_ANTWERPEN.kb.md`
+- **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
+- **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)
+- **Deep Content Retrieval:** Beschikbaar via Server Recall route `/v4/search` of `/v4/evidence-pack`

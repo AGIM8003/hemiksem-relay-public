@@ -1,14 +1,6 @@
 {
-  "artifact_hashes": {
-    "admission-index.json": "0d4a11b9f1444bf271cc0385202983f99484b507552a2de9074e90a8dcd8366a",
-    "capability-registry.json": "6caf9be4d0656f0617ffd344c366658f2a05d2d7be1a0ce614a72060ca3eb284",
-    "conflict-index.json": "3b792ec5c55112495764573efaad1758b3817d6435ca3c0529ca75e43dac7d70",
-    "currentness-index.json": "23c5bd4c5e1ca095f0c84855aac3b2da6de395035b22fb8571af501a644d7e77",
-    "health.json": "2e6523058e194d465b9caf28af48d62db96d287bcacde3192ce93860cc5dd0dc",
-    "kb-binding.json": "95be5aaa86918ba520dfdb253eacb2bce86d9ce515e9ee08ba2e056f5937e7fe",
-    "project-intelligence.json": "e9b63d487535109f2eac02ee091824a9a9d6657ab0e2ea2b0e1ab3026aa457f7"
-  },
-  "build_timestamp": "2026-08-31T14:29:35.985640+00:00",
+  "artifact_schema_version": "hemiksem-evidence-stub-v2",
+  "build_timestamp": "2026-09-06T20:17:09.292734+00:00",
   "chain": [
     {
       "gate": "HEMIKSEM_CORPUS_ONLY",
@@ -36,7 +28,11 @@
       "step": "RELEASE_CONTROLLER"
     },
     {
+      "connected": 10,
+      "declared_core": 10,
+      "executed": 10,
       "operations": 10,
+      "passed": 10,
       "status": "VERIFIED",
       "step": "CAPABILITY_PARITY"
     },
@@ -48,20 +44,32 @@
     {
       "status": "REGENERATED",
       "step": "STATIC_RELAY"
+    },
+    {
+      "status": "VERIFIED",
+      "step": "CONNECTED_ACTION_EXECUTION"
     }
   ],
+  "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
   "country": "Belgium",
-  "engine_version": "4.9.2",
-  "generated_at": "2026-08-31T14:29:35.985640+00:00",
+  "engine_version": "8.0",
+  "generated_at": "2026-09-06T20:17:09.292734+00:00",
+  "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
+  "index_schema_version": "1.1",
+  "kb_schema_version": "hemiksem-kb-v1.1",
   "municipality": "Hemiksem",
   "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
   "product_identity": "MUNICIPALITY_WIDE",
+  "product_version": "4.9.3",
   "project_id": "hemiksem-gemeentediensten",
   "province": "Antwerp",
   "region": "Flanders",
-  "release_id": "rel-hemiksem-v4.9.2-prod",
-  "release_version": "4.9.2",
-  "schema_version": "hemiksem-kb-v1.1",
+  "relay_api_version": "4.9.3",
+  "release_id": "rel-hemiksem-v4.9.3-prod",
+  "release_version": "4.9.3",
+  "retrieval_engine_runtime_version": "8.0",
   "search_parameter": "q",
-  "spec_version": "4.9.8"
+  "server_api_version": "4.9.3",
+  "spec_version": "4.0.0",
+  "specification_version": "4.0.0"
 }

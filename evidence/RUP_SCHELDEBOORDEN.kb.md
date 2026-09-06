@@ -1,17 +1,35 @@
-# GEMEENTE HEMIKSEM — ADMITTED EVIDENCE ARTIFACT
-# Artifact ID: ART_RUP_SCHELDEBOORDEN_kb_md
-# Source: ACTIVE_KB/RUP_SCHELDEBOORDEN/RUP_SCHELDEBOORDEN.kb.md
-# SHA-256: 29b0de9e5761c72ef9c721c35c7f08180a6108518478c8450176863a9ec5709b
-# Domain: Wonen & Bouwen | Jurisdiction: BE-VLG
+---
+artifact_type: evidence_stub
+artifact_schema: hemiksem-evidence-stub-v2
+artifact_id: ART_RUP_SCHELDEBOORDEN_kb
+family: RUP_SCHELDEBOORDEN
+title: "Rup Scheldeboorden.Kb"
+source_document_id: DOC-HEM-036
+source_file: RUP_SCHELDEBOORDEN.kb.md
+source_sha256: 8f8a1a1e1ec8a6d741fbc5bae54eefa4b00ee59b21d87d9f73d902118b0fe5ea
+source_size_bytes: 1368
+artifact_sha256: 8f8a1a1e1ec8a6d741fbc5bae54eefa4b00ee59b21d87d9f73d902118b0fe5ea
+release_id: rel-hemiksem-v4.9.3-prod
+release_version: 4.9.3
+generated_at: 2026-09-06T20:17:09.292734+00:00
+retrieval_channel: server_recall
+server_query_hint: "/v4/search?q=rup+scheldeboorden"
+municipality: Hemiksem
+jurisdiction: BE-VLG
+issuing_authority: "Gemeente Hemiksem"
+authority_class: OFFICIAL_PRIMARY
+currentness_state: VERIFIED_FOR_DATE
+applicability_state: CONDITIONAL_ON_ZONE
+lifecycle_state: CURRENT_AUTHORITATIVE
+---
 
-## Overzicht & Draagwijdte
-Dit document vormt een geadmitteerd bewijsstuk binnen het officieel gemeentelijk kenniscorpus van Hemiksem.
-- **Dossier/Bron**: `ACTIVE_KB/RUP_SCHELDEBOORDEN/RUP_SCHELDEBOORDEN.kb.md`
-- **Geldigheid**: `KB_CONFIRMED_FOR_DATE`
-- **Toepasbaarheid**: `CONDITIONAL_ON_ZONE`
-- **Officiële verificatie**: `https://omgeving.vlaanderen.be/rup-scheldeboorden`
+# Rup Scheldeboorden.Kb
 
-## Geadmitteerde Bepalingen
-1. De inhoud van `RUP_SCHELDEBOORDEN.kb.md` is gecertificeerd onder SSOT-release `rel-hemiksem-v2.1-prod`.
-2. Alle citaten uit dit document dragen onveranderlijke Segment UIDs en worden geëvalueerd door de GAD-gatekeeper.
-3. Specifieke bouw-, milieu- of belastingvoorschriften zijn strikt gebonden aan de geldende gemeenteraadsbesluiten.
+Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kenniscorpus van Gemeente Hemiksem.
+
+- **Artifact ID:** `ART_RUP_SCHELDEBOORDEN_kb`
+- **Claim ID:** `CLM036`
+- **Bron/Dossier:** `RUP_SCHELDEBOORDEN.kb.md`
+- **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
+- **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)
+- **Deep Content Retrieval:** Beschikbaar via Server Recall route `/v4/search` of `/v4/evidence-pack`

@@ -1,5 +1,5 @@
 {
-  "build_timestamp": "2026-09-06T19:22:14.719480+00:00",
+  "build_timestamp": "2026-09-06T20:17:09.292734+00:00",
   "comparable_groups": 227,
   "compare_axes": [
     "RELEASE_IDENTITY",
@@ -15,11 +15,11 @@
   "comparisons_executed": 25049,
   "conflict_model": "PROPOSITION_V3",
   "conflicts_found": 3078,
-  "generated_at": "2026-09-06T19:22:14.719480+00:00",
+  "generated_at": "2026-09-06T20:17:09.292734+00:00",
   "municipality": "Hemiksem",
   "project_id": "hemiksem-gemeentediensten",
-  "release_id": "rel-hemiksem-v4.9.2-prod",
-  "release_version": "4.9.2",
+  "release_id": "rel-hemiksem-v4.9.3-prod",
+  "release_version": "4.9.3",
   "resolved": 2904,
   "unresolved": 174,
   "unresolved_controlling_conflicts": 1,

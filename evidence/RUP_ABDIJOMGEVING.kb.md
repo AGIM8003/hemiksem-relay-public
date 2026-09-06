@@ -1,17 +1,35 @@
-# GEMEENTE HEMIKSEM — ADMITTED EVIDENCE ARTIFACT
-# Artifact ID: ART_RUP_ABDIJOMGEVING_kb_md
-# Source: ACTIVE_KB/RUP_ABDIJOMGEVING/RUP_ABDIJOMGEVING.kb.md
-# SHA-256: 2cfa369e6fbb82fa9d39f90f9118f2c9326326636a9b88bae5c716bb3942d99e
-# Domain: Wonen & Bouwen | Jurisdiction: BE-VLG
+---
+artifact_type: evidence_stub
+artifact_schema: hemiksem-evidence-stub-v2
+artifact_id: ART_RUP_ABDIJOMGEVING_kb
+family: RUP_ABDIJOMGEVING
+title: "Rup Abdijomgeving.Kb"
+source_document_id: DOC-HEM-034
+source_file: RUP_ABDIJOMGEVING.kb.md
+source_sha256: 699c9e0da493e4ff084d4c50e821fc5f80e720422e5bf2cc9d650c9d68857730
+source_size_bytes: 1360
+artifact_sha256: 699c9e0da493e4ff084d4c50e821fc5f80e720422e5bf2cc9d650c9d68857730
+release_id: rel-hemiksem-v4.9.3-prod
+release_version: 4.9.3
+generated_at: 2026-09-06T20:17:09.292734+00:00
+retrieval_channel: server_recall
+server_query_hint: "/v4/search?q=rup+abdijomgeving"
+municipality: Hemiksem
+jurisdiction: BE-VLG
+issuing_authority: "Gemeente Hemiksem"
+authority_class: OFFICIAL_PRIMARY
+currentness_state: VERIFIED_FOR_DATE
+applicability_state: CONDITIONAL_ON_ZONE
+lifecycle_state: CURRENT_AUTHORITATIVE
+---
 
-## Overzicht & Draagwijdte
-Dit document vormt een geadmitteerd bewijsstuk binnen het officieel gemeentelijk kenniscorpus van Hemiksem.
-- **Dossier/Bron**: `ACTIVE_KB/RUP_ABDIJOMGEVING/RUP_ABDIJOMGEVING.kb.md`
-- **Geldigheid**: `KB_CONFIRMED_FOR_DATE`
-- **Toepasbaarheid**: `CONDITIONAL_ON_ZONE`
-- **Officiële verificatie**: `https://omgeving.vlaanderen.be/rup-abdijomgeving`
+# Rup Abdijomgeving.Kb
 
-## Geadmitteerde Bepalingen
-1. De inhoud van `RUP_ABDIJOMGEVING.kb.md` is gecertificeerd onder SSOT-release `rel-hemiksem-v2.1-prod`.
-2. Alle citaten uit dit document dragen onveranderlijke Segment UIDs en worden geëvalueerd door de GAD-gatekeeper.
-3. Specifieke bouw-, milieu- of belastingvoorschriften zijn strikt gebonden aan de geldende gemeenteraadsbesluiten.
+Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kenniscorpus van Gemeente Hemiksem.
+
+- **Artifact ID:** `ART_RUP_ABDIJOMGEVING_kb`
+- **Claim ID:** `CLM034`
+- **Bron/Dossier:** `RUP_ABDIJOMGEVING.kb.md`
+- **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
+- **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)
+- **Deep Content Retrieval:** Beschikbaar via Server Recall route `/v4/search` of `/v4/evidence-pack`

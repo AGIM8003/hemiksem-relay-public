@@ -1,20 +1,35 @@
 ---
 artifact_type: evidence_stub
+artifact_schema: hemiksem-evidence-stub-v2
+artifact_id: ART_BPA_NR_8_kb
 family: BPA_NR_8
-title: "BPA Nr. 8 - Bijzonder Plan van Aanleg Nr. 8 Hemiksem"
+title: "Bpa Nr 8.Kb"
+source_document_id: DOC-HEM-028
 source_file: BPA_NR_8.kb.md
-source_sha256_prefix: 8b1842159fa0e1ae
-source_size_bytes: 20891
-relay_type: stub_pointer
+source_sha256: ed1dc932da79bcf8ca3bedc597e4f92527e68d694e8642d6427deb903f0fa32a
+source_size_bytes: 1288
+artifact_sha256: ed1dc932da79bcf8ca3bedc597e4f92527e68d694e8642d6427deb903f0fa32a
+release_id: rel-hemiksem-v4.9.3-prod
+release_version: 4.9.3
+generated_at: 2026-09-06T20:17:09.292734+00:00
 retrieval_channel: server_recall
-generated_utc: 2026-09-02T12:22:46Z
+server_query_hint: "/v4/search?q=bpa+nr+8"
+municipality: Hemiksem
+jurisdiction: BE-VLG
+issuing_authority: "Gemeente Hemiksem"
+authority_class: OFFICIAL_PRIMARY
+currentness_state: VERIFIED_FOR_DATE
+applicability_state: CONDITIONAL_ON_ZONE
+lifecycle_state: CURRENT_AUTHORITATIVE
 ---
 
-# BPA Nr. 8 - Bijzonder Plan van Aanleg Nr. 8 Hemiksem
+# Bpa Nr 8.Kb
 
-This evidence artifact is a relay stub. Full content retrieval is available via Server Recall.
+Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kenniscorpus van Gemeente Hemiksem.
 
-- **Family:** BPA_NR_8
-- **Source segments:** Available via `/v4/search?q=bpa+nr+8`
-- **Full corpus:** 14,601 verified segments across 14 KB families
-- **Retrieval:** Use the Server Recall action for deep evidence retrieval
+- **Artifact ID:** `ART_BPA_NR_8_kb`
+- **Claim ID:** `CLM028`
+- **Bron/Dossier:** `BPA_NR_8.kb.md`
+- **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
+- **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)
+- **Deep Content Retrieval:** Beschikbaar via Server Recall route `/v4/search` of `/v4/evidence-pack`

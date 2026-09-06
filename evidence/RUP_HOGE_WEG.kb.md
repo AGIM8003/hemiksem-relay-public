@@ -1,17 +1,35 @@
-# GEMEENTE HEMIKSEM — ADMITTED EVIDENCE ARTIFACT
-# Artifact ID: ART_RUP_HOGE_WEG_kb_md
-# Source: ACTIVE_KB/RUP_HOGE_WEG/RUP_HOGE_WEG.kb.md
-# SHA-256: e77b9772b66fe8cb10aaa976bbabe9b45b396211c127c27f0e5fe3cb2e8b3d0f
-# Domain: Wonen & Bouwen | Jurisdiction: BE-VLG
+---
+artifact_type: evidence_stub
+artifact_schema: hemiksem-evidence-stub-v2
+artifact_id: ART_RUP_HOGE_WEG_kb
+family: RUP_HOGE_WEG
+title: "Rup Hoge Weg.Kb"
+source_document_id: DOC-HEM-035
+source_file: RUP_HOGE_WEG.kb.md
+source_sha256: 5d0f64fa42008f758824ed953e6832dd4d3e8816d7f5e7cbf5efec7028919e0a
+source_size_bytes: 1320
+artifact_sha256: 5d0f64fa42008f758824ed953e6832dd4d3e8816d7f5e7cbf5efec7028919e0a
+release_id: rel-hemiksem-v4.9.3-prod
+release_version: 4.9.3
+generated_at: 2026-09-06T20:17:09.292734+00:00
+retrieval_channel: server_recall
+server_query_hint: "/v4/search?q=rup+hoge+weg"
+municipality: Hemiksem
+jurisdiction: BE-VLG
+issuing_authority: "Gemeente Hemiksem"
+authority_class: OFFICIAL_PRIMARY
+currentness_state: VERIFIED_FOR_DATE
+applicability_state: CONDITIONAL_ON_ZONE
+lifecycle_state: CURRENT_AUTHORITATIVE
+---
 
-## Overzicht & Draagwijdte
-Dit document vormt een geadmitteerd bewijsstuk binnen het officieel gemeentelijk kenniscorpus van Hemiksem.
-- **Dossier/Bron**: `ACTIVE_KB/RUP_HOGE_WEG/RUP_HOGE_WEG.kb.md`
-- **Geldigheid**: `KB_CONFIRMED_FOR_DATE`
-- **Toepasbaarheid**: `CONDITIONAL_ON_ZONE`
-- **Officiële verificatie**: `https://omgeving.vlaanderen.be/rup-hoge-weg`
+# Rup Hoge Weg.Kb
 
-## Geadmitteerde Bepalingen
-1. De inhoud van `RUP_HOGE_WEG.kb.md` is gecertificeerd onder SSOT-release `rel-hemiksem-v2.1-prod`.
-2. Alle citaten uit dit document dragen onveranderlijke Segment UIDs en worden geëvalueerd door de GAD-gatekeeper.
-3. Specifieke bouw-, milieu- of belastingvoorschriften zijn strikt gebonden aan de geldende gemeenteraadsbesluiten.
+Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kenniscorpus van Gemeente Hemiksem.
+
+- **Artifact ID:** `ART_RUP_HOGE_WEG_kb`
+- **Claim ID:** `CLM035`
+- **Bron/Dossier:** `RUP_HOGE_WEG.kb.md`
+- **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
+- **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)
+- **Deep Content Retrieval:** Beschikbaar via Server Recall route `/v4/search` of `/v4/evidence-pack`

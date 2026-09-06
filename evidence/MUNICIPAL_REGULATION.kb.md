@@ -1,17 +1,35 @@
-# GEMEENTE HEMIKSEM — ADMITTED EVIDENCE ARTIFACT
-# Artifact ID: ART_MUNICIPAL_REGULATION_kb_md
-# Source: ACTIVE_KB/MUNICIPAL_REGULATION/MUNICIPAL_REGULATION.kb.md
-# SHA-256: 345467a1155577c0ab755c903598e14eca4bf458063233d2c978a029676d015b
-# Domain: Gemeente & Bestuur | Jurisdiction: BE-VLG
+---
+artifact_type: evidence_stub
+artifact_schema: hemiksem-evidence-stub-v2
+artifact_id: ART_MUNICIPAL_REGULATION_kb
+family: MUNICIPAL_REGULATION
+title: "Municipal Regulation.Kb"
+source_document_id: DOC-HEM-032
+source_file: MUNICIPAL_REGULATION.kb.md
+source_sha256: e4a8de5d9dbdbe124515c850dbfdbeefb981b90a35b3e0953f39303014a1cc2a
+source_size_bytes: 1384
+artifact_sha256: e4a8de5d9dbdbe124515c850dbfdbeefb981b90a35b3e0953f39303014a1cc2a
+release_id: rel-hemiksem-v4.9.3-prod
+release_version: 4.9.3
+generated_at: 2026-09-06T20:17:09.292734+00:00
+retrieval_channel: server_recall
+server_query_hint: "/v4/search?q=municipal+regulation"
+municipality: Hemiksem
+jurisdiction: BE-VLG
+issuing_authority: "Gemeente Hemiksem"
+authority_class: OFFICIAL_PRIMARY
+currentness_state: VERIFIED_FOR_DATE
+applicability_state: CONDITIONAL_ON_ZONE
+lifecycle_state: CURRENT_AUTHORITATIVE
+---
 
-## Overzicht & Draagwijdte
-Dit document vormt een geadmitteerd bewijsstuk binnen het officieel gemeentelijk kenniscorpus van Hemiksem.
-- **Dossier/Bron**: `ACTIVE_KB/MUNICIPAL_REGULATION/MUNICIPAL_REGULATION.kb.md`
-- **Geldigheid**: `KB_CONFIRMED_FOR_DATE`
-- **Toepasbaarheid**: `APPLIES`
-- **Officiële verificatie**: `https://www.hemiksem.be/reglementen`
+# Municipal Regulation.Kb
 
-## Geadmitteerde Bepalingen
-1. De inhoud van `MUNICIPAL_REGULATION.kb.md` is gecertificeerd onder SSOT-release `rel-hemiksem-v2.1-prod`.
-2. Alle citaten uit dit document dragen onveranderlijke Segment UIDs en worden geëvalueerd door de GAD-gatekeeper.
-3. Specifieke bouw-, milieu- of belastingvoorschriften zijn strikt gebonden aan de geldende gemeenteraadsbesluiten.
+Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kenniscorpus van Gemeente Hemiksem.
+
+- **Artifact ID:** `ART_MUNICIPAL_REGULATION_kb`
+- **Claim ID:** `CLM032`
+- **Bron/Dossier:** `MUNICIPAL_REGULATION.kb.md`
+- **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
+- **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)
+- **Deep Content Retrieval:** Beschikbaar via Server Recall route `/v4/search` of `/v4/evidence-pack`
