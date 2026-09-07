@@ -1,15 +1,15 @@
 {
   "admission_policy": "MUNICIPALITY_BOUNDARY_ENFORCED",
   "admitted_documents": 1524,
-  "build_timestamp": "2026-09-07T10:33:31.919621+00:00",
+  "build_timestamp": "2026-09-07T11:36:36.922126+00:00",
   "engine_version": "8.1",
-  "generated_at": "2026-09-07T10:33:31.919621+00:00",
+  "generated_at": "2026-09-07T11:36:36.922126+00:00",
   "municipality": "Hemiksem",
   "municipality_filter": "Hemiksem",
-  "product_version": "5.0.1",
+  "product_version": "5.0.2",
   "project_id": "hemiksem-gemeentediensten",
   "quarantined_documents": 0,
-  "release_id": "rel-hemiksem-v5.0.1-prod",
-  "release_version": "5.0.1",
+  "release_id": "rel-hemiksem-v5.0.2-prod",
+  "release_version": "5.0.2",
   "total_documents": 1524
 }

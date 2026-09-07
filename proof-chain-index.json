@@ -2,8 +2,8 @@
   "chain_nodes": 15,
   "claim_chain_count": 37,
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T10:33:31.919621+00:00",
-  "product_version": "5.0.1",
-  "release_id": "rel-hemiksem-v5.0.1-prod",
-  "release_version": "5.0.1"
+  "generated_at": "2026-09-07T11:36:36.922126+00:00",
+  "product_version": "5.0.2",
+  "release_id": "rel-hemiksem-v5.0.2-prod",
+  "release_version": "5.0.2"
 }
