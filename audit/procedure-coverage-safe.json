@@ -1,12 +1,11 @@
 {
-  "complete": 16,
-  "currentness_verified": 16,
-  "domains_covered": 12,
-  "generated_at": "2026-09-07T15:42:45.808572+00:00",
-  "partial": 0,
-  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
-  "stale": 0,
-  "status": "PASS",
-  "total_procedures": 16,
-  "unknown": 0
+  "audit_exposure": "SAFE_SUMMARY_METADATA_ONLY",
+  "complete_procedures": 35,
+  "currentness_verified_count": 35,
+  "domains_covered": 21,
+  "fields_complete_count": 35,
+  "generated_at": "2026-09-07T16:46:30.469190+00:00",
+  "known_gaps_count": 0,
+  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
+  "total_procedures_indexed": 35
 }

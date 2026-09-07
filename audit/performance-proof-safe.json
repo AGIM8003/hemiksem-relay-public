@@ -1,26 +1,32 @@
 {
   "layers": {
-    "CONNECTED_GPT_ACTION": {
+    "CONNECTED_ACTION": {
       "error_rate": 0.0,
-      "p50_ms": 140.0,
-      "p95_ms": 220.0,
-      "p99_ms": 250.0
+      "max_ms": 275.0,
+      "p50_ms": 145.0,
+      "p95_ms": 230.0,
+      "p99_ms": 260.0,
+      "sample_count": 10
     },
-    "DIRECT_LOCAL_HTTP": {
+    "LOCAL_LOOPBACK": {
       "error_rate": 0.0,
-      "p50_ms": 12.5,
-      "p95_ms": 24.1,
-      "p99_ms": 38.0
+      "max_ms": 55.0,
+      "p50_ms": 14.2,
+      "p95_ms": 28.5,
+      "p99_ms": 42.1,
+      "sample_count": 50
     },
-    "DIRECT_PUBLIC_HTTP": {
+    "PUBLIC_INGRESS": {
       "error_rate": 0.0,
-      "p50_ms": 95.0,
-      "p95_ms": 145.0,
-      "p99_ms": 190.0
+      "max_ms": 245.0,
+      "p50_ms": 110.4,
+      "p95_ms": 165.2,
+      "p99_ms": 210.8,
+      "sample_count": 50
     }
   },
-  "measured_at": "2026-09-07T15:42:45.808572+00:00",
+  "measured_at": "2026-09-07T16:46:30.469190+00:00",
   "performance_budget_pass": true,
-  "release_id": "rel-hemiksem-v5.1.0-prod",
-  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE"
+  "release_id": "rel-hemiksem-v5.1.1-prod",
+  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2"
 }

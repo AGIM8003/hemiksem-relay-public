@@ -1,10 +1,11 @@
 {
-  "active_release_id": "rel-hemiksem-v5.1.0-prod",
-  "engine_version": "8.1",
-  "generated_at": "2026-09-07T12:45:51.934868+00:00",
-  "product_version": "5.1.0",
-  "project_id": "hemiksem-gemeentediensten",
-  "release_version": "5.1.0",
-  "retrieval_engine_runtime_version": "8.1",
-  "status": "CURRENT_AUTHORITATIVE"
+  "release_id": "rel-hemiksem-v5.1.1-prod",
+  "product_version": "5.1.1",
+  "engine_runtime": "8.1",
+  "proof_revision": "R1",
+  "spec_id": "HEMIKSEM-AI-V510R2-TO-V511-WHOLE-STATE-CONVERGENCE",
+  "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
+  "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
+  "status": "CURRENT_AUTHORITATIVE",
+  "released_at": "2026-09-07T16:46:30.389304+00:00"
 }

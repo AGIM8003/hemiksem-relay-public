@@ -9,7 +9,7 @@
   "country": "Belgium",
   "engine_runtime": "8.1",
   "engine_runtime_version": "8.1",
-  "generated_at": "2026-09-07T12:44:51.780443+00:00",
+  "generated_at": "2026-09-07T16:46:30.469190+00:00",
   "invariants": [
     "ANSWER_STRENGTH <= VERIFIED_EVIDENCE_STRENGTH",
     "RELEASE_STRENGTH <= VERIFIED_DEPLOYED_EXECUTION_PROOF",
@@ -21,10 +21,10 @@
   "jurisdiction": "BE-VLG",
   "municipality": "Hemiksem",
   "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_version": "5.1.0",
+  "product_version": "5.1.1",
   "province": "Antwerp",
   "region": "Flanders",
-  "release_id": "rel-hemiksem-v5.1.0-prod",
-  "serving_release_id": "rel-hemiksem-v5.1.0-prod",
+  "release_id": "rel-hemiksem-v5.1.1-prod",
+  "serving_release_id": "rel-hemiksem-v5.1.1-prod",
   "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2"
 }

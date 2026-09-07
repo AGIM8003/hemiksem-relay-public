@@ -1,19 +1,30 @@
 {
-  "admission_release_id": "rel-hemiksem-v5.0.0-prod",
-  "candidate_id": "CAND-HEMIKSEM-V510-R1",
+  "architecture": {
+    "action_contract": "hemiksem_action_contract.yaml",
+    "control_authority": "ONE_AUTHORITATIVE_WORKSPACE",
+    "lineage_model": "FOUR_TIER_RECURSIVE_RELEASE_LINEAGE",
+    "server_runtime": "Standard Python HTTP Server (Zero-Dependency)",
+    "static_relay": "https://agim8003.github.io/hemiksem-relay-public"
+  },
   "country": "Belgium",
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T15:53:38.092546+00:00",
+  "engine_runtime_version": "8.1",
+  "generated_at": "2026-09-07T16:46:30.469190+00:00",
+  "invariants": [
+    "ANSWER_STRENGTH <= VERIFIED_EVIDENCE_STRENGTH",
+    "RELEASE_STRENGTH <= VERIFIED_DEPLOYED_EXECUTION_PROOF",
+    "SERVING_RELEASE MUST BE UNAMBIGUOUS AT EVERY RESPONSE DEPTH",
+    "HISTORICAL_ORIGIN_RELEASE MUST NEVER BE SILENTLY REWRITTEN",
+    "NOT_DIRECTLY_ACCESSIBLE != NONEXISTENT",
+    "AUDITABILITY MUST NOT REQUIRE ARBITRARY REMOTE FILESYSTEM ACCESS"
+  ],
   "jurisdiction": "BE-VLG",
   "municipality": "Hemiksem",
-  "origin_release_id": "rel-hemiksem-v5.0.0-prod",
-  "product_name": "AI EXPERT \u2014 HEMIKSEM GEMEENTEDIENSTEN",
-  "product_version": "5.1.0",
-  "proof_revision": "R1",
+  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
+  "product_version": "5.1.1",
+  "province": "Antwerp",
   "region": "Flanders",
-  "release_id": "rel-hemiksem-v5.1.0-prod",
-  "serving_release_id": "rel-hemiksem-v5.1.0-prod",
-  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
-  "tested_source_commit_sha": "09643c2539a61b63b56fd976f4eb6bacf0a2b97a",
-  "tested_source_tree_sha": "28ce146ee86d703df0d4406d592c1db00ff4573e"
+  "release_id": "rel-hemiksem-v5.1.1-prod",
+  "serving_release_id": "rel-hemiksem-v5.1.1-prod",
+  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2"
 }

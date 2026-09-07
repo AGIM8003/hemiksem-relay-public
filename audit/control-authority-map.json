@@ -1,10 +1,108 @@
 {
-  "audit_source_registry": "%HEMIKSEM_ROOT%/00.CONTROL/AUDIT_MEMBER_SOURCE_REGISTRY.json",
-  "canonical_domain_registry": "%HEMIKSEM_ROOT%/00.CONTROL/MUNICIPAL_DOMAIN_REGISTRY.json",
-  "control_authority": "%HEMIKSEM_ROOT%/00.CONTROL",
-  "evidence_schema_registry": "%HEMIKSEM_ROOT%/00.CONTROL/EVIDENCE_SCHEMA_REGISTRY.json",
-  "generated_at": "2026-09-07T15:42:45.808572+00:00",
-  "precedence_order": 1,
-  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
-  "ssot_root": "%HEMIKSEM_ROOT%"
+  "control_authority_root": "%HEMIKSEM_ROOT%/00.CONTROL",
+  "f00_kernel": "00.INSTRUCTIONS.md",
+  "f01_f20_knowledge_owners": [
+    {
+      "authority": "F01",
+      "domain": "Runtime execution & deterministic clocks",
+      "module": "01.NEO_RUNTIME.md"
+    },
+    {
+      "authority": "F02",
+      "domain": "Claim extraction & output lock",
+      "module": "02.NEO_RCCF.md"
+    },
+    {
+      "authority": "F03",
+      "domain": "Web search RAG orchestrator",
+      "module": "03.NEO_WEB_SEARCH.md"
+    },
+    {
+      "authority": "F04",
+      "domain": "Intake canonization & prompt normalization",
+      "module": "04.NEO_INTAKE.md"
+    },
+    {
+      "authority": "F05",
+      "domain": "Fail-closed safety & adversarial firewall",
+      "module": "05.NEO_ROBUSTNESS.md"
+    },
+    {
+      "authority": "F06",
+      "domain": "Repo maintenance & build integrity",
+      "module": "06.NEO_REPO_MAINTAINER.md"
+    },
+    {
+      "authority": "F07",
+      "domain": "Deterministic state machines",
+      "module": "07.NEO_DETERMINISTIC_SWARM.md"
+    },
+    {
+      "authority": "F08",
+      "domain": "Document versioning & audit trail",
+      "module": "08.NEO_LIVING_DOCUMENT.md"
+    },
+    {
+      "authority": "F09",
+      "domain": "Quality evaluation & release gates",
+      "module": "09.NEO_KB_COMPLETION.md"
+    },
+    {
+      "authority": "F10",
+      "domain": "Enterprise & commercial justification",
+      "module": "10.NEO_SALES_MARKETING.md"
+    },
+    {
+      "authority": "F11",
+      "domain": "Software engineering standards",
+      "module": "11.SOFTWARE_DEV_CODING.md"
+    },
+    {
+      "authority": "F12",
+      "domain": "MCP bridge & protocols",
+      "module": "12.NEO_MCP_BRIDGE.md"
+    },
+    {
+      "authority": "F13",
+      "domain": "Storefront & public positioning",
+      "module": "13.NEO_STOREFRONT.md"
+    },
+    {
+      "authority": "F14",
+      "domain": "Citizen email support & ticketing",
+      "module": "14.NEO_EMAIL_SUPPORT.md"
+    },
+    {
+      "authority": "F15",
+      "domain": "Municipal taxes & financial formulas",
+      "module": "15.NEO_EXCEL_SOLUTIONS.md"
+    },
+    {
+      "authority": "F16",
+      "domain": "Trilingual translation (NL/FR/EN)",
+      "module": "16.NEO_HUMAN_AI_TRANSLATOR.md"
+    },
+    {
+      "authority": "F17",
+      "domain": "Belgian legal compliance & GDPR",
+      "module": "17.NEO_LEGAL_COMPLIANCE.md"
+    },
+    {
+      "authority": "F18",
+      "domain": "Bitemporal tracking & freshness",
+      "module": "18.NEO_WEB_FRESHNESS.md"
+    },
+    {
+      "authority": "F19",
+      "domain": "Belgian notary & property deeds",
+      "module": "19.NOTARY_BE.md"
+    },
+    {
+      "authority": "F20",
+      "domain": "Document formatting & official templates",
+      "module": "20.WORD_DOCUMENTS.md"
+    }
+  ],
+  "generated_at": "2026-09-07T16:46:30.469190+00:00",
+  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2"
 }
