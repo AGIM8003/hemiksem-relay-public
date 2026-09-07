@@ -1,28 +1,27 @@
 {
-  "artifact_hashes": {
-    "admission-index.json": "d179f62c53e8f29514cdf053d34de22b1f577a6859ebf49448646d273834521b",
-    "applicability-index.json": "8cbd8dc4243c05c2ef19f651835e4b7aaaf66019ff2ee9a3c836ef299bdca6ad",
-    "capability-registry.json": "81000f4dc8f0083cd81a4bdd8241851161fc9f89402d2eeb39a110523a6a6549",
-    "conflict-index.json": "776fe60d15ff22521d070eeeb8dfc08fbb21c6c65211cd957b47b2b5bab31216",
-    "current-release.json": "d2d545845f22f36745d6c4246bdd26b09d51606fa49f3a134a39b547c24fd08b",
-    "currentness-index.json": "e5099715c957667e379b857e613bf636716d0b1e26933b1887b9715ea08d180a",
-    "delivery-index.json": "ec8f98b918fba883fb458abe1891f8fc94285d756c8126f1131c666371ae4452",
-    "denominator-dictionary.json": "c8b58250da4b0ae5ab821d2d0750b29b978d120dd2369f8dc6039e0aaedbcbe6",
-    "health.json": "a537a20ed728c450492ba37c3effb0134780377e50a5b9e255983b1d3b152f24",
-    "kb-binding.json": "1abcebb5231be5dd2813f07a90db01cc07b2eb6676a965888944e2696840a251",
-    "privacy-status.json": "d84d0152927d1cb23525ee4c9e13034f9b958a3c71e646cfe0586821e55e8a28",
-    "project-intelligence.json": "6a9b555e0b3a31d703624c676fb998cb5171305b232b6d9a2eb3a73a573e014a",
-    "proof-chain-index.json": "1b0cf1ec2bd9d79fd2375ea2ece1f3e1aa9ca3f5871dfa4bc16945af563e59b2",
-    "release-gates.json": "9cf71e139ad442e921a0b12f1de698517c3c60a4c1c7f29465914646df59a8ba",
-    "rollback-proof.json": "4aea06498fe9cc020cd1cffab7e09e60870ba99881c8214084efca28ca403b50",
-    "safe-audit-bundle.json": "2fece35a60d60572a4457fec408dc16754521bb0d46214ddd904a6a10211b123",
-    "test-proof.json": "0678a1ae0f8cd3063ecf9853f7bf9d65bf590edc75f51a18a5e2c132c03a8cd9"
-  },
-  "build_timestamp": "2026-09-07T12:45:51.934868+00:00",
+  "acyclic_proof_state": "PROVEN_ACYCLIC",
   "chain_verdict": "VALID",
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T12:45:51.934868+00:00",
+  "generated_at": "2026-09-07T13:29:36.706013+00:00",
+  "layer": "LAYER_2_PROOF_CHAIN",
+  "lineage_policy": "LIN-R3-001",
+  "manifest_binding": {
+    "layer0_payload_count": 22,
+    "path": "manifest.json",
+    "sha256": "d5361be119c553db293bf617675b4965cdd5c1c19993c747fdc058b5758f238d"
+  },
   "product_version": "5.0.3",
+  "receipt_commitments": {
+    "connected_action_ref": "REPORTS/V503R3_CONNECTED_ACTION_RECEIPT.json",
+    "gate_receipt_ref": "REPORTS/V503R3_GATE_PROOF_RECEIPT.json",
+    "lineage_receipt_ref": "REPORTS/V503R3_LINEAGE_SEMANTICS_RECEIPT.json",
+    "openapi_receipt_ref": "REPORTS/V503R3_OPENAPI_PARITY_RECEIPT.json",
+    "rollback_receipt_ref": "hemiksem-relay-public/rollback-proof.json",
+    "safe_audit_receipt_ref": "REPORTS/V503R3_SAFE_AUDIT_RECEIPT.json",
+    "test_receipt_ref": "REPORTS/V503R3_TEST_EXECUTION_RECEIPT.json"
+  },
   "release_id": "rel-hemiksem-v5.0.3-prod",
-  "release_version": "5.0.3"
+  "release_version": "5.0.3",
+  "schema_version": "hemiksem-proof-chain-v3",
+  "spec_id": "HEMIKSEM-AI-V503-R3-FINAL-PROOF-CONVERGENCE"
 }

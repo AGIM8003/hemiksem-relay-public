@@ -1,0 +1,27 @@
+{
+  "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
+  "generated_at": "2026-09-07T12:44:51.780443+00:00",
+  "kb_families": [
+    "burgerzaken.kb.md",
+    "cultuur_vrije_tijd.kb.md",
+    "financien.kb.md",
+    "milieu_natuur.kb.md",
+    "mobiliteit.kb.md",
+    "onderwijs.kb.md",
+    "openbare_werken.kb.md",
+    "personeel.kb.md",
+    "ruimtelijke_ordening.kb.md",
+    "veiligheid.kb.md",
+    "wonen_bouwen.kb.md",
+    "algemeen_bestuur.kb.md",
+    "lokale_economie.kb.md",
+    "welzijn_zorg.kb.md"
+  ],
+  "kb_family_count": 14,
+  "kb_schema_version": "hemiksem-kb-v1.1",
+  "origin_release_provenance": "PRESERVED_IMMUTABLE",
+  "raw_source_documents_total": 1524,
+  "searchable_documents_count": 430,
+  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
+  "verified_segments_total": 14601
+}

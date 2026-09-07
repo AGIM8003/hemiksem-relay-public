@@ -1,13 +1,18 @@
 {
+  "HTTPS_status": "HTTP_200",
   "HTTP_state": "CONFIGURED",
-  "compliance_state": "COMPLIANT_HUMAN_REVIEW_PASSED",
+  "compliance_state": "TECHNICAL_POLICY_CONFIGURED",
   "configured": true,
   "content_hash": "39a8061b333442758706b4a927b3d6350ad35a0a81fb15553d4a42a5d01ae718",
-  "generated_at": "2026-09-07T12:45:51.934868+00:00",
-  "human_review_state": "APPROVED",
-  "last_verified": "2026-09-07T12:45:51.934868+00:00",
+  "dpo_review_status": "NO_FORMAL_DPO_RECEIPT",
+  "generated_at": "2026-09-07T13:12:34.976004+00:00",
+  "human_review_state": "NOT_LEGALLY_VERIFIED",
+  "last_verified": "2026-09-07T13:12:34.976004+00:00",
+  "legal_review_state": "NOT_LEGALLY_VERIFIED",
   "privacy_policy_url": "https://agim8003.github.io/hemiksem-relay-public/privacy.html",
   "product_version": "5.0.3",
   "release_id": "rel-hemiksem-v5.0.3-prod",
-  "reviewer": "Gemeente Hemiksem Governance & DPO"
+  "reviewer": "NONE_STANDING_TECHNICAL_AUTOMATION_ONLY",
+  "technical_authorization": "STANDING_AUTOMATION_AUTHORIZATION",
+  "technical_state": "PUBLISHED_AND_CONFIGURED"
 }

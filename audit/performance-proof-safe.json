@@ -1,0 +1,32 @@
+{
+  "layers": {
+    "CONNECTED_ACTION": {
+      "error_rate": 0.0,
+      "max_ms": 275.0,
+      "p50_ms": 145.0,
+      "p95_ms": 230.0,
+      "p99_ms": 260.0,
+      "sample_count": 10
+    },
+    "LOCAL_LOOPBACK": {
+      "error_rate": 0.0,
+      "max_ms": 55.0,
+      "p50_ms": 14.2,
+      "p95_ms": 28.5,
+      "p99_ms": 42.1,
+      "sample_count": 50
+    },
+    "PUBLIC_INGRESS": {
+      "error_rate": 0.0,
+      "max_ms": 245.0,
+      "p50_ms": 110.4,
+      "p95_ms": 165.2,
+      "p99_ms": 210.8,
+      "sample_count": 50
+    }
+  },
+  "measured_at": "2026-09-07T12:44:51.780443+00:00",
+  "performance_budget_pass": true,
+  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2"
+}

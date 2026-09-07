@@ -1,0 +1,185 @@
+{
+  "generated_at": "2026-09-07T12:44:51.780443+00:00",
+  "indexes": [
+    {
+      "exists": true,
+      "index_name": "BM25_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/BM25_INDEX.json",
+      "sha256": "7536bacbb8a76a416dda05a111a68cd2d01c8f0f7f8a23c9ef31035ae9cb748a",
+      "size_bytes": 157607745,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "GRAPH_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/GRAPH_INDEX.json",
+      "sha256": "cd86dfde39c57dc2abf440dffa336cb46245d8c2fcc5228edba06eaa490bb183",
+      "size_bytes": 73624604,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "PARCEL_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/PARCEL_INDEX.json",
+      "sha256": "7f5d0bc5b041bf0133407f73d467e90e79df6bba6adf0faddf3a836742c73c82",
+      "size_bytes": 2697273,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "PLAN_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/PLAN_INDEX.json",
+      "sha256": "f2f911b6613de16de7160cf0320e545996c1c225738022ff58487efff6d13d19",
+      "size_bytes": 596773,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "ARTICLE_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/ARTICLE_INDEX.json",
+      "sha256": "edfc4dbc5b1b18fd5fd0f8285bcf4f92be99829899456cb8ba0348c2cfd49802",
+      "size_bytes": 507619,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "ZONE_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/ZONE_INDEX.json",
+      "sha256": "7c15b17c330a509ff44a5c71c0e5de9f7949fa7f534f9b98d636d5dd2848d20d",
+      "size_bytes": 2194752,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "DOCUMENT_REGISTRY.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/DOCUMENT_REGISTRY.json",
+      "sha256": "38b7e131de120cfd68adc0444ba67b5f22d13b34e2399e56888ef9f7323fc153",
+      "size_bytes": 264827,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "SEGMENT_REGISTRY.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/SEGMENT_REGISTRY.json",
+      "sha256": "3c06d6bebcbbbf1eaa3f29c6f824292bce354d18656dd93f31098b593852c5d5",
+      "size_bytes": 12711406,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "EXACT_ENTITY_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/EXACT_ENTITY_INDEX.json",
+      "sha256": "88c46c41d8fffc69e1709bf2393c7c86e49de42ee7cf15d3c1457df79c40cadc",
+      "size_bytes": 6112161,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "EXACT_IDENTIFIER_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/EXACT_IDENTIFIER_INDEX.json",
+      "sha256": "0eb24b37740bac9852e7395406c7358b5ae08b8bc1fe318e2ce1a6aeb1eed2c3",
+      "size_bytes": 2853795,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "STREET_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/STREET_INDEX.json",
+      "sha256": "d8da3bfd9623f7201eec59ee85af49f5c969e02d81d720860fb23fd9f4aa80d3",
+      "size_bytes": 115756,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "TEMPORAL_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/TEMPORAL_INDEX.json",
+      "sha256": "4f23e7038bcbeec48a8286cc2d2e2a5cebe84b9845e8b26140754488d37fff05",
+      "size_bytes": 996150,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "AUTHORITY_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/AUTHORITY_INDEX.json",
+      "sha256": "b2272bc19270484bfa7d1436d0f9489eda61fb63e2e6476fb64fccb94a45c9f6",
+      "size_bytes": 996269,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "PROVENANCE_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/PROVENANCE_INDEX.json",
+      "sha256": "1a9954a5e0ac63498383974aae97e9a6fd9013a988658748eecbe7145e357fd6",
+      "size_bytes": 5207689,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "SOURCE_FILE_REGISTRY.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/SOURCE_FILE_REGISTRY.json",
+      "sha256": "48462c90ab27a601285c866957beed076f709ab16aedd88c880b7583eddcd18f",
+      "size_bytes": 170484,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "SPECIALIZED_PLAN_REGISTRY.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/SPECIALIZED_PLAN_REGISTRY.json",
+      "sha256": "a67336d84fc4f01d5120ee212e30757940200f55a64ecb7eb834c8d72270e7ab",
+      "size_bytes": 4302,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "SPECIALIZED_RULES_REGISTRY.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/SPECIALIZED_RULES_REGISTRY.json",
+      "sha256": "86819157d06a362cc0d84874339a1160653cfd564c8c20a291310a2f00377b0f",
+      "size_bytes": 36469,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "FORMULA_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/FORMULA_INDEX.json",
+      "sha256": "16f9cb46caaddbc2ddbd9cdcee1575a1d2bdbe6828abaf38cb2915ae57f7b8d3",
+      "size_bytes": 2392,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "NUMERIC_METRIC_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/NUMERIC_METRIC_INDEX.json",
+      "sha256": "343acf92c4b5f91c0823682518ab0a79ca6560bb09eb496de49ddc86e6266c3d",
+      "size_bytes": 991,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "TABLE_CELL_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/TABLE_CELL_INDEX.json",
+      "sha256": "f36c1e041bf29eaed86c0ff917a36ae5cd45d42f98244133d843acaee6ea0db7",
+      "size_bytes": 5813,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "VISUAL_MAP_INDEX.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/VISUAL_MAP_INDEX.json",
+      "sha256": "7bf031cef0c962790099a559776e2ed3c9386bde7df7472af7cc24198672a460",
+      "size_bytes": 2845,
+      "status": "VALID"
+    },
+    {
+      "exists": true,
+      "index_name": "ALIAS_REGISTRY.json",
+      "relative_path": "%HEMIKSEM_ROOT%/INDEX/ALIAS_REGISTRY.json",
+      "sha256": "ba83447d8ec3e26d84126a2d423e03d0d6fbec1c1e7b086d94ceca43b35f3d8a",
+      "size_bytes": 28148,
+      "status": "VALID"
+    }
+  ],
+  "master_index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
+  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
+  "total_indexes": 22,
+  "valid_indexes": 22
+}

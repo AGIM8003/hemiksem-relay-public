@@ -1,0 +1,1547 @@
+{
+  "generated_at": "2026-09-07T12:44:51.780443+00:00",
+  "receipts": [
+    {
+      "receipt_file": "ACTION_EXECUTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/ACTION_EXECUTION_RECEIPT.json",
+      "sha256": "57ac589f621d98f79c1c7dcaca76dd7e9c7534e9f1f81b50fcaf41d6a6dfe839",
+      "size_bytes": 8328,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "ACTION_EXECUTION_RECEIPT_V5.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/ACTION_EXECUTION_RECEIPT_V5.json",
+      "sha256": "bd8837d535cfa2deb48b73a806dea99c049ca6e4c95bfa184304a11854de4d8e",
+      "size_bytes": 479,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "CONNECTED_E2E_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/CONNECTED_E2E_RECEIPT.json",
+      "sha256": "44481b72d49c1d6d751b5c900d0826dbd298d11b18ea5b24246914c70255afa2",
+      "size_bytes": 28480,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "CROSS_CHANNEL_BINDING_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/CROSS_CHANNEL_BINDING_RECEIPT.json",
+      "sha256": "4cc1820185264c21ef5ec357165b795fd7bfae6547bd1495669ea70867e533ea",
+      "size_bytes": 1848,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "CROSS_CHANNEL_BINDING_RECEIPT_V5.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/CROSS_CHANNEL_BINDING_RECEIPT_V5.json",
+      "sha256": "3dfcc179d4df23447de409037af9ff50aff9ae866bde3865a7979b03820b29de",
+      "size_bytes": 622,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "DEPLOYMENT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/DEPLOYMENT_RECEIPT.json",
+      "sha256": "e2265796009c65916031924ea7f797ec877f5bd78890fe207197231eda1ce2ea",
+      "size_bytes": 1661,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/FINAL_RELEASE_RECEIPT.json",
+      "sha256": "75211b71d3f0c251a3ccf5cc390f78b82a9836e3a887587be00fd5b32519a77a",
+      "size_bytes": 3132,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "FINAL_RELEASE_RECEIPT_V5.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/FINAL_RELEASE_RECEIPT_V5.json",
+      "sha256": "2e1e3558ceb883846e639f287bc5dca45dbd9138f660cad6fdb8d5878c8c01ea",
+      "size_bytes": 3132,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "GITHUB_UPDATE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/GITHUB_UPDATE_RECEIPT.json",
+      "sha256": "667b91c049b5ebc76b581ba328d8706c6b4c70e4e422382e2e2ae90500cdc513",
+      "size_bytes": 1694,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "GITHUB_UPDATE_RECEIPT_V5.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/GITHUB_UPDATE_RECEIPT_V5.json",
+      "sha256": "68ade22f4cade61a994659dcea66c046ad4cfa50e3ad5720ec2a18b1f9fdd0ac",
+      "size_bytes": 499,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "GPT_CORE_BEHAVIOR_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/GPT_CORE_BEHAVIOR_RECEIPT.json",
+      "sha256": "c365b9cae4e347460ee484cc2a86cc8f6e100f9502ab0c7ac90010edbe9b6374",
+      "size_bytes": 1967,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "LIVE_REHIT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/LIVE_REHIT_RECEIPT.json",
+      "sha256": "38da4fa5da787b3b33aa3b11d07ffcadaf9629b5820b19dcdad883c14e7cffb6",
+      "size_bytes": 4685,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "RECEIPT_TRIAD_VALIDATION.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/RECEIPT_TRIAD_VALIDATION.json",
+      "sha256": "3266900ffa05ac2dbbf8603104272a7744c84f22664adcdaf8d8613f5270adec",
+      "size_bytes": 405,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "RELEASE_GRAPH_RECEIPT_V5.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/RELEASE_GRAPH_RECEIPT_V5.json",
+      "sha256": "ca3a0c5c3f53b010c1724e5700975f1cf31e72377cec9a583bb96404e6bf0436",
+      "size_bytes": 1347,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "ROLLBACK_RECEIPT_V5.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/ROLLBACK_RECEIPT_V5.json",
+      "sha256": "9a905c0d1ac3bb56fc1b15c2311b78f9a83df693de76b217d75f4abc5a96d1df",
+      "size_bytes": 3623,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "RUNTIME_DRIFT_RECEIPT_V5.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/RUNTIME_DRIFT_RECEIPT_V5.json",
+      "sha256": "0d52da9c113a953d6dd228cfa9b12c5b75c477e09d7f1798144fcbffacc9b25e",
+      "size_bytes": 602,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "SECURITY_RECEIPT_V5.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/SECURITY_RECEIPT_V5.json",
+      "sha256": "37ba49c1ef247f69bcd87988075749ce3e83f4befecc60cf1bfeef26c42dfde6",
+      "size_bytes": 568,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "SERVER_SUPERVISOR_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/SERVER_SUPERVISOR_RECEIPT.json",
+      "sha256": "eac76fb48990b9f30983405e1750ae27d1157a6c8fc4e0426f27a55e7128127b",
+      "size_bytes": 2541,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_APPLICABILITY_PROVENANCE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_APPLICABILITY_PROVENANCE_RECEIPT.json",
+      "sha256": "212911866e9185c3bc1619a594a1bdb1b79f5ce568c108401c976d0e6cd56f28",
+      "size_bytes": 913,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_BASELINE_FREEZE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_BASELINE_FREEZE_RECEIPT.json",
+      "sha256": "4569f5937eb3233a5645c9ff76810fb5a5dc693c7d7e074e988a5c8363703f41",
+      "size_bytes": 3970,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_CLAIM_PREDICATE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_CLAIM_PREDICATE_RECEIPT.json",
+      "sha256": "43e099a9ac0afc9a4b792e7efc37560f69d2866aebd2700a09143fae959eaa60",
+      "size_bytes": 1194,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_CONFLICT_METRIC_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_CONFLICT_METRIC_RECEIPT.json",
+      "sha256": "b08b225fde7dd701064363621dc837f94833d3da2e899177d12ac4d03118b07a",
+      "size_bytes": 486,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_CONNECTED_SOAK_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_CONNECTED_SOAK_RECEIPT.json",
+      "sha256": "61c2c4b65974405f0623f16f062daeb976361d825f0f4519dbb471151b39e42e",
+      "size_bytes": 388,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_CROSS_CHANNEL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_CROSS_CHANNEL_RECEIPT.json",
+      "sha256": "6de946e45cfe7691fd7efa4a86df3d6385e208ba54f6ae4c5f2c45623add29a3",
+      "size_bytes": 744,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_CROSS_ENGINE_CONTEXT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_CROSS_ENGINE_CONTEXT_RECEIPT.json",
+      "sha256": "630223d5ce92161591d174143ba57debb42d7eb2bba7b998c9278b46adf1e02e",
+      "size_bytes": 1162,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_DEPLOYED_ADVERSARIAL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_DEPLOYED_ADVERSARIAL_RECEIPT.json",
+      "sha256": "b0de78a34204f8a81374f4253f9f50913e01d07457ce624fd497170f4ddecdc8",
+      "size_bytes": 211,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_DEPLOYED_GOLDEN_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_DEPLOYED_GOLDEN_RECEIPT.json",
+      "sha256": "4f3223247d60221e7ddd33ed8bc6a70e4a3b354b1f91042311a6acd45786212a",
+      "size_bytes": 211,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_DEPLOYED_HOLDOUT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_DEPLOYED_HOLDOUT_RECEIPT.json",
+      "sha256": "9011c1d3553db34aa5545aa8eba707d78c5b24f0da6fe127b3948a72cd6ea9bf",
+      "size_bytes": 211,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "17b02c99b3885221eeb53ea873affac2624bb7f0d3419831d24b0ea62167ff26",
+      "size_bytes": 15732,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_GITHUB_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_GITHUB_RECEIPT.json",
+      "sha256": "be6f8f68a2c70f25f20a3ac5028f0f361aa4a326f48b8c40f7fe3aef76d56cb3",
+      "size_bytes": 563,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_GPT_CONNECTED_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_GPT_CONNECTED_RECEIPT.json",
+      "sha256": "94730c2a3369cffff2a71d6edfb7885e39c9926205b0ed6b9471e048badb644a",
+      "size_bytes": 2076,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_INGRESS_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_INGRESS_RECEIPT.json",
+      "sha256": "fde64ac455df5e9686979e1ff516acba1d5edc0e7439d117e26ab37d976e7a11",
+      "size_bytes": 742,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_KB_BINDING_REBUILD_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_KB_BINDING_REBUILD_RECEIPT.json",
+      "sha256": "1d06d39b744011bf735ad07516788c530c17a47324790f358a62a597529553bc",
+      "size_bytes": 1109,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_METRIC_DENOMINATOR_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_METRIC_DENOMINATOR_RECEIPT.json",
+      "sha256": "98260f74720298ba4f69bba58b7cea41ac48d2c18bedabbf04f88307edbe9665",
+      "size_bytes": 3524,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_PRIVACY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_PRIVACY_RECEIPT.json",
+      "sha256": "e57a1bd868512a12eb2d7bee0138b14b2446b30f3f2fd98fa5f733cc1c5feddc",
+      "size_bytes": 522,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_R2_CANDIDATE_FREEZE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_R2_CANDIDATE_FREEZE_RECEIPT.json",
+      "sha256": "12d2dd9464345270e9ba268c79b9290488add90dd650c104e02a749da1d68c57",
+      "size_bytes": 1478,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_R2_DEPLOYED_ADVERSARIAL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_R2_DEPLOYED_ADVERSARIAL_RECEIPT.json",
+      "sha256": "4e165f8955d6aed1408d3b94ea073d14f4820ef47356ef4251983504bb8c0a7f",
+      "size_bytes": 2356,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_R2_DEPLOYED_GOLDEN_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_R2_DEPLOYED_GOLDEN_RECEIPT.json",
+      "sha256": "5efaaf45d924a6d1960ab1de5ac608cce04602d7950786d8f34b0a3b5bc87843",
+      "size_bytes": 3752,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_R2_DEPLOYED_HOLDOUT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_R2_DEPLOYED_HOLDOUT_RECEIPT.json",
+      "sha256": "cee56b682dc918605b69275864e82168bfcd6d470b2daad68edeafb9ab631b70",
+      "size_bytes": 2910,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_R2_DIRECT_PUBLIC_SOAK_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_R2_DIRECT_PUBLIC_SOAK_RECEIPT.json",
+      "sha256": "1f66f7b30de2b34d78c55de577f73bfbe87ec6d977fdb780934d1294b2042d38",
+      "size_bytes": 394,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_R2_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_R2_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "bcc75601083c6819502533a84c0e1c62b43b5343e05d7567b240d2ce501858e5",
+      "size_bytes": 38013,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_R2_GITHUB_PUBLICATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_R2_GITHUB_PUBLICATION_RECEIPT.json",
+      "sha256": "b67f09232b1f9f442af31bd8d4d861a0d513d55eff8e124a624ef1140441e5a1",
+      "size_bytes": 967,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_R2_GIT_PUSH_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_R2_GIT_PUSH_RECEIPT.json",
+      "sha256": "06c95ca57d1fa53597c35042160bfc53a6526d893667fb191a5732beefe22778",
+      "size_bytes": 910,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_R2_GPT_CONNECTED_OPERATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_R2_GPT_CONNECTED_OPERATION_RECEIPT.json",
+      "sha256": "0187c841e2fbf91cc5577c1ac17c64ba6cf1a6dc3e06fb7fc8e6a276e17e923f",
+      "size_bytes": 7829,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_RELAY_SEMANTIC_CLOSURE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_RELAY_SEMANTIC_CLOSURE_RECEIPT.json",
+      "sha256": "3dfb2539e1d51b24377721e394aeb86cde6901e070d3091320fd1e3bf4b994c9",
+      "size_bytes": 667,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_RELEASE_SURFACE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_RELEASE_SURFACE_RECEIPT.json",
+      "sha256": "6337052738bf8530f0600ec3cadfe88d20d7cbe11d63e307a42e70b637e5c987",
+      "size_bytes": 10562,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_ROLLBACK_EXECUTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_ROLLBACK_EXECUTION_RECEIPT.json",
+      "sha256": "cb6229befbcd21d968c30bc23f6a3b92a01198836421e0facd8f5a1020d29c4c",
+      "size_bytes": 5563,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_SECURITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_SECURITY_RECEIPT.json",
+      "sha256": "0e3840fc0562599ab08660448d6667ad9c4fe38b20b206ba67815503414fd260",
+      "size_bytes": 367,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_SEMANTIC_SCAN_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_SEMANTIC_SCAN_RECEIPT.json",
+      "sha256": "4bfb5616faa91bb370e840fab14d9bdc430748d1bd8b58443348774ed7623e10",
+      "size_bytes": 571,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_SERVER_DIRECT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_SERVER_DIRECT_RECEIPT.json",
+      "sha256": "1d3f9271ab0ab5d591c064149a987b3847b9bc2badfa542aa81f930888b30ed5",
+      "size_bytes": 2027,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_TEST_EXECUTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_TEST_EXECUTION_RECEIPT.json",
+      "sha256": "380a7e47d075fe61ede77d4bf5c7c77600e5699770b4969c95f8142cfc86799f",
+      "size_bytes": 751,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V501_ZERO_COST_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V501_ZERO_COST_RECEIPT.json",
+      "sha256": "b30f138741de3e8573226818672c8bc2395a2203f7d56d51469797be92298a59",
+      "size_bytes": 348,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502R3_BASELINE_CERTIFICATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502R3_BASELINE_CERTIFICATION_RECEIPT.json",
+      "sha256": "fbd10b5a8073579766f3a662b5f5687cd0fe98bf5cef28a68cda2697a6cb2454",
+      "size_bytes": 1004,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502R3_GATE_PROOF_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502R3_GATE_PROOF_RECEIPT.json",
+      "sha256": "90ba18075e64c3beba1e3a83ec89abe7b66eeda6df8f8c16a4c78184b097e002",
+      "size_bytes": 497,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502R3_PRIVACY_PROOF_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502R3_PRIVACY_PROOF_RECEIPT.json",
+      "sha256": "069621b5c484abea07151dfa5b50f9351e2ca10e1ddc75a895f13e092dd60e61",
+      "size_bytes": 515,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502R3_PUBLICATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502R3_PUBLICATION_RECEIPT.json",
+      "sha256": "b88d2eafb682fca85b0eafaf3e0c28baf78fb126ac24ea6d5a41a87d2232f5a5",
+      "size_bytes": 581,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502R3_ROLLBACK_PROOF_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502R3_ROLLBACK_PROOF_RECEIPT.json",
+      "sha256": "8d734d5ddbff975d24dce36f493bd3facbe5e4f5c775cdf1cbdc7ec3b271dfe6",
+      "size_bytes": 490,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502R3_TEST_PROOF_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502R3_TEST_PROOF_RECEIPT.json",
+      "sha256": "5317edc4db8f77a41d2346c3a47a6f4943b2d6e6bdcc968c170a2d8d7b888b4e",
+      "size_bytes": 568,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_ACCESS_CAPABILITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_ACCESS_CAPABILITY_RECEIPT.json",
+      "sha256": "cd754a0456b1662e0417097935c3912717f2a9941fe83f0dbe86da8fa530c637",
+      "size_bytes": 488,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_APPLICABILITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_APPLICABILITY_RECEIPT.json",
+      "sha256": "6e52455b4015f589e2135fa7fce408e9fe50ea952f2c13cec95292f2ea6988b2",
+      "size_bytes": 620,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_BASELINE_FREEZE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_BASELINE_FREEZE_RECEIPT.json",
+      "sha256": "62293b16f954310e9566d4f69f537dc58d80770264f2375ec0422edcead67408",
+      "size_bytes": 985,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_CLAIM_PREDICATE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_CLAIM_PREDICATE_RECEIPT.json",
+      "sha256": "542fa2b90ac61e50410fffb85a541fd8024c2f6e25bb21ccb0bb7fc2f81e5667",
+      "size_bytes": 604,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_CROSS_CHANNEL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_CROSS_CHANNEL_RECEIPT.json",
+      "sha256": "973ccbba4e209fc836556beacbe7eab7ce780a6c16839361d08ddfb490ac951e",
+      "size_bytes": 1180,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_CURRENTNESS_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_CURRENTNESS_RECEIPT.json",
+      "sha256": "6537897281cb424a87466815d0d02aee5e4f077f20468707f4050447021a6327",
+      "size_bytes": 627,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_DOMAIN_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_DOMAIN_COVERAGE_RECEIPT.json",
+      "sha256": "0f865fb3262849272caff04ad1fd7a06aa3a52d850cdf4c6994209c71e9cd9d7",
+      "size_bytes": 1307,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "153b606dda53edd7eea0a27d1bea492882b1caeee6313205bd3ced2101659381",
+      "size_bytes": 3707,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_GITHUB_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_GITHUB_RECEIPT.json",
+      "sha256": "f845faa2732ed5a969fe0d1167df2c179fc289cb0af071a7d33d01e02456f7b4",
+      "size_bytes": 911,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_GIT_STATE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_GIT_STATE_RECEIPT.json",
+      "sha256": "c9fe920627e8cf9fc455519ee5f910824ca56df966ac103b49cbdc86fe072ffb",
+      "size_bytes": 795,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_GPT_CONNECTED_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_GPT_CONNECTED_RECEIPT.json",
+      "sha256": "e609dbb040165959f970eedabbcc8d7691b3ee8f2e13fdf8fc2d85e04452bf4c",
+      "size_bytes": 766,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_LINEAGE_MIGRATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_LINEAGE_MIGRATION_RECEIPT.json",
+      "sha256": "aa98a78c4df3f9c3e64898bb15c4734f3d28a9003abb77697077835b7e146445",
+      "size_bytes": 918,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_OPENAPI_STATE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_OPENAPI_STATE_RECEIPT.json",
+      "sha256": "2e3bbd59db3f1dcf70dc45cd167f705a5756b6e5335961e5487c54f3cc64a5c4",
+      "size_bytes": 1159,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_PERFORMANCE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_PERFORMANCE_RECEIPT.json",
+      "sha256": "530dcd7a8a9060217644ec1dbb3435fecdea8d35ac8b41b6093033f741a9b468",
+      "size_bytes": 979,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_PRIVACY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_PRIVACY_RECEIPT.json",
+      "sha256": "f6f22801cd2054a6c1d7bb26a89168560ba676a2f97449d19174f63bfc1a3b76",
+      "size_bytes": 583,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_PROCEDURE_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_PROCEDURE_COVERAGE_RECEIPT.json",
+      "sha256": "f9c47a94a25615222d9f92cfd6d64d64e3664fe034253b43420c4f398e5b64fc",
+      "size_bytes": 1856,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_RECURSIVE_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_RECURSIVE_RELEASE_RECEIPT.json",
+      "sha256": "99caff1f85b10d1b4f3d2f89c0bc85924efa5664dab233f0674f8e48b0a3c8aa",
+      "size_bytes": 699,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_RETRIEVAL_LANE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_RETRIEVAL_LANE_RECEIPT.json",
+      "sha256": "9962b206ad8630a5dba5abad21a45a1d42ecbb7d50de07ad89f28b9ee0524449",
+      "size_bytes": 987,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_ROLLBACK_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_ROLLBACK_RECEIPT.json",
+      "sha256": "8705cd1b55ee7ca874a4571cefb0db3e6ef599ebaeff83b92a1a8780a140f6a8",
+      "size_bytes": 955,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_SAFE_AUDIT_BUNDLE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_SAFE_AUDIT_BUNDLE_RECEIPT.json",
+      "sha256": "eb762972057ed898ad3521b49a75175c5335ecbaf373841574b1efae305eb681",
+      "size_bytes": 470,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_SECURITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_SECURITY_RECEIPT.json",
+      "sha256": "d11e0e1b61cee76fb6f26b9475cafd7c81bee65b74601d9f2be7d82f7f6dace0",
+      "size_bytes": 804,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_SERVER_DIRECT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_SERVER_DIRECT_RECEIPT.json",
+      "sha256": "febc32397ab77586fb9d82cf8a67a04181da2147fa6e3fb1b10289b1710531f8",
+      "size_bytes": 2036,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_STATIC_RELAY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_STATIC_RELAY_RECEIPT.json",
+      "sha256": "9fb46005058498d8b3bb3b17bfd64937d10be13b80145bc737bbd2dc2318a09d",
+      "size_bytes": 728,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_TEST_EXECUTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_TEST_EXECUTION_RECEIPT.json",
+      "sha256": "3427465d75ee67ec438cdb4ed5e5cf858250625eef72417c3699665ed8d5b0f9",
+      "size_bytes": 1694,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_WORKSPACE_INVENTORY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_WORKSPACE_INVENTORY_RECEIPT.json",
+      "sha256": "ba6431d95c45b5619b962a2e5325d1d68b3ca5ea473bab42f737b0105a6eda89",
+      "size_bytes": 420,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V502_ZERO_COST_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V502_ZERO_COST_RECEIPT.json",
+      "sha256": "b53a5db7866279d06f77f8c513c537b69a2f072f31cce7f17ef981c9a1703618",
+      "size_bytes": 620,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_BASELINE_FREEZE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_BASELINE_FREEZE_RECEIPT.json",
+      "sha256": "1aa0e3150faa8c3a9b1f65d9fb6e50f500213125cb2048cb13813b5361645f02",
+      "size_bytes": 586,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_CLASSIFICATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_CLASSIFICATION_RECEIPT.json",
+      "sha256": "49d214f60d2053de1dad933a2d95d022cf35de5ccd09c52dd005d4f7a0f15faf",
+      "size_bytes": 363,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_CROSS_CHANNEL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_CROSS_CHANNEL_RECEIPT.json",
+      "sha256": "894e3d93b65a5a66a311556099aed9ff7615d9a0deeec153e08084517badcf48",
+      "size_bytes": 548,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_DIRECTORY_CLOSURE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_DIRECTORY_CLOSURE_RECEIPT.json",
+      "sha256": "04fa2a7ee13bfa609f5f52f8a16d69cc98b27cb2c377f8652888f572414aff98",
+      "size_bytes": 398,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_DOCUMENT_CLOSURE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_DOCUMENT_CLOSURE_RECEIPT.json",
+      "sha256": "bf67b78863751669dfa5ddbd8358d79ead2afd5792c60c9a6c165125ac00f90f",
+      "size_bytes": 378,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_EPOCH_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_EPOCH_RECEIPT.json",
+      "sha256": "9ab5da510045e207974b57aae2f49b98ef80c2b4767865a3ca8762d7999d2de4",
+      "size_bytes": 370,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "b6d407072cd30f2092eb56a86dc49973b9073a0b5de58dd7517175034674924d",
+      "size_bytes": 1264,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_GPT_CONNECTED_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_GPT_CONNECTED_RECEIPT.json",
+      "sha256": "1e19c1e3f27c5c415d55954d3a63de5e7a55a9faddeb0231fb6bbacfc80fb6a8",
+      "size_bytes": 522,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_INDEX_CLOSURE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_INDEX_CLOSURE_RECEIPT.json",
+      "sha256": "be67942f11f23715f02be2b417e7e478879fd10b82101c5c431a87e1ae3b2e7c",
+      "size_bytes": 378,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_KNOWLEDGE_ELIGIBILITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_KNOWLEDGE_ELIGIBILITY_RECEIPT.json",
+      "sha256": "77372707dc1f363bf0e7ea1802d6ea3eba241b86985054d6829de97f9c4f9fed",
+      "size_bytes": 358,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_ORPHAN_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_ORPHAN_RECEIPT.json",
+      "sha256": "0ae972773103aa6806b375155b541f966de5499fa2785c113b587dd5f4a44bff",
+      "size_bytes": 435,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_READABILITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_READABILITY_RECEIPT.json",
+      "sha256": "c5b743d0d76b7fd690ce9e3ae3f5eb73de39422e20323a98a8c908cd09037d15",
+      "size_bytes": 351,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_RETRIEVAL_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_RETRIEVAL_COVERAGE_RECEIPT.json",
+      "sha256": "43a8e4b64114e6666019ce7abdc8486a1af9f01eb579bf3199c015fe4b607942",
+      "size_bytes": 383,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_RETRIEVAL_LANE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_RETRIEVAL_LANE_RECEIPT.json",
+      "sha256": "e4f58bc6fbfe030775e0171513fa6a0001824ed56eab839bf5772d1376ee56f1",
+      "size_bytes": 533,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_ROLLBACK_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_ROLLBACK_RECEIPT.json",
+      "sha256": "8ace8fed946eb9ea57e958aa06bb5fb15e6e8c3024bccd3f123f5acfedf0879e",
+      "size_bytes": 377,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_SECURITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_SECURITY_RECEIPT.json",
+      "sha256": "657b61b8b12e8f2b931e14e49c1c1463d846d2caa14c4b914454bfad8f576592",
+      "size_bytes": 856,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_SEGMENT_CLOSURE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_SEGMENT_CLOSURE_RECEIPT.json",
+      "sha256": "e9cf5d92eb03c27dd9d28d3e28b9a51de38a177c96a2c8c088ed73d8f3cf37ce",
+      "size_bytes": 377,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_SERVER_DIRECT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_SERVER_DIRECT_RECEIPT.json",
+      "sha256": "95ae12f5ff8c9cf13d38f39f188943282875b769d4bf01aa4af3ee2fd42fc845",
+      "size_bytes": 517,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_SOURCE_CLOSURE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_SOURCE_CLOSURE_RECEIPT.json",
+      "sha256": "542818965e6aa72b9e88e0b73c5ce4896f630bb5e8d673b86c546801471ebc78",
+      "size_bytes": 376,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_TEST_EXECUTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_TEST_EXECUTION_RECEIPT.json",
+      "sha256": "f0dd455a9b456bf0dd12e031f6052079883954f35832d2462ea473cd24fdaa39",
+      "size_bytes": 5714,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_WORKSPACE_DISCOVERY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_WORKSPACE_DISCOVERY_RECEIPT.json",
+      "sha256": "2ad2c6b56c4ea8bb3d93994d2d78fddcf3539d41cd8bb929da96f03127c9ed13",
+      "size_bytes": 1649,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_WORKSPACE_DRIFT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_WORKSPACE_DRIFT_RECEIPT.json",
+      "sha256": "fbe5b1b30f15cfda20bd322ca88448ab3de1a280496c346e13a2e886ee5f4daf",
+      "size_bytes": 396,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_WORKSPACE_OBJECT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_WORKSPACE_OBJECT_RECEIPT.json",
+      "sha256": "d20ae70fde33e503c21de7d16fb70e174db3446cb06ebb60b9eff2e6d4244c7f",
+      "size_bytes": 361,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V503_ZERO_COST_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_ZERO_COST_RECEIPT.json",
+      "sha256": "2687a2388900db5919bfb30af183bc347c6765ba9ad0017a6457d46c5bc6ed6c",
+      "size_bytes": 514,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_ADMISSION_QUEUE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_ADMISSION_QUEUE_RECEIPT.json",
+      "sha256": "c5e9e88c33319783d62a9e9a86d45834b3692fffdeafb1ab021b1162f6275598",
+      "size_bytes": 1175,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_ANSWER_EVALUATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_ANSWER_EVALUATION_RECEIPT.json",
+      "sha256": "d6b183beed28904b3433f635bf218ed94b3e49b6917c96026c1088231a4ac277",
+      "size_bytes": 3907,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_CURRENTNESS_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_CURRENTNESS_COVERAGE_RECEIPT.json",
+      "sha256": "a9237bb4cb6c475c4ac5d767679e5d358ff52e4a0b3d8fde9bfa24ab9d33e36f",
+      "size_bytes": 1280,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_DOMAIN_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_DOMAIN_COVERAGE_RECEIPT.json",
+      "sha256": "5dc549920ec6783b7245fb0a1b0ad5d826a508e2caa4b96de773e1a49d0a6a2d",
+      "size_bytes": 1457,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "bf6cf61b2ba8af69397cdc5e1be7ca8e08413c7d2ff2ee95a71d81be0952e9c9",
+      "size_bytes": 4945,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_GPT_KNOWLEDGE_HYGIENE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_GPT_KNOWLEDGE_HYGIENE_RECEIPT.json",
+      "sha256": "a8af690e5e5fcbc03ee80aa8f7d43f70fd97bc4d9d5c78ce1e9804d41065a48d",
+      "size_bytes": 933,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_INCREMENTAL_INGESTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_INCREMENTAL_INGESTION_RECEIPT.json",
+      "sha256": "99bb192aa317657a729ac59aba6f229151d7b86819b12425f307b1ad574f319c",
+      "size_bytes": 463,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_INGRESS_CONTINUITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_INGRESS_CONTINUITY_RECEIPT.json",
+      "sha256": "e556f9d354a5b042a6bdea52662d05f035a708b0879b8ec5d013ca918cf3c33a",
+      "size_bytes": 566,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_PERFORMANCE_BASELINE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_PERFORMANCE_BASELINE_RECEIPT.json",
+      "sha256": "897fb476a66dc8476a3d9a81d252c8ebaefa9e0af283db093c84f17b69fd3e2e",
+      "size_bytes": 6059,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_PERFORMANCE_SCOPE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_PERFORMANCE_SCOPE_RECEIPT.json",
+      "sha256": "031fa801cec28383e1c3b122d1c898402b3cb1ab2df478c90aa0ca603bee5b2d",
+      "size_bytes": 1009,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_PROCEDURE_REGISTRY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_PROCEDURE_REGISTRY_RECEIPT.json",
+      "sha256": "758b43970f70e1b8b52ea0de7daa10abd842f044991a21c0cd2c7226649c4c16",
+      "size_bytes": 289,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_RETRIEVAL_EVALUATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_RETRIEVAL_EVALUATION_RECEIPT.json",
+      "sha256": "0de2203084d9736ac0ab1f59674c88f62ad26e20caeedd822e67a9eede94230b",
+      "size_bytes": 3552,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_SOURCE_AUTHORITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_SOURCE_AUTHORITY_RECEIPT.json",
+      "sha256": "49c398d98c3c64327a0d4e1617ed71d90613fb30876e6fec1e6189bbbf321798",
+      "size_bytes": 1001,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_SOURCE_CHANGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_SOURCE_CHANGE_RECEIPT.json",
+      "sha256": "82273ad7306a3f24c714dda6600e376dfa23362ad0c95a476f863acc8ab44349",
+      "size_bytes": 902,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_SUPERSESSION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_SUPERSESSION_RECEIPT.json",
+      "sha256": "c018193ff1ed967743ea1efe68335a4a8384168d042e62330f292e06283dd6b0",
+      "size_bytes": 1705,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_TEXT_QUALITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_TEXT_QUALITY_RECEIPT.json",
+      "sha256": "1371eb27c37cae4e2b0268e74c785d40a03c35e88106ce0415cff3ee80506e91",
+      "size_bytes": 347,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V53_VOLATILE_FACT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_VOLATILE_FACT_RECEIPT.json",
+      "sha256": "9caaeb99d56921bcacd8c6d4c6ad86565f6be723e2353537fa0dfeecebae3c23",
+      "size_bytes": 269,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_ADMISSION_EXECUTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_ADMISSION_EXECUTION_RECEIPT.json",
+      "sha256": "2ab8cd903c7f5eddca877d8b48b144958b0bf40b86b6645b5e3b4279ff950234",
+      "size_bytes": 936,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_ADMISSION_TARGET_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_ADMISSION_TARGET_RECEIPT.json",
+      "sha256": "a46516cdaf422226f7eef23b20292d79f44065ba42680555d5d7583e69b3f30b",
+      "size_bytes": 833,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_ANSWER_EVALUATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_ANSWER_EVALUATION_RECEIPT.json",
+      "sha256": "a8b046329a421775064963e2e9c73ff21f848f7ca3993ff3d79f11cf12f2cd15",
+      "size_bytes": 814,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_AUTHORITY_VERIFICATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_AUTHORITY_VERIFICATION_RECEIPT.json",
+      "sha256": "36ea25b879031e82a67321be40cd4e3badbfc532f986f0f6d83628ac6d2ea0ad",
+      "size_bytes": 795,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_BASELINE_FREEZE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_BASELINE_FREEZE_RECEIPT.json",
+      "sha256": "f553f0a951adb3bd08c60c71029649d48bb7037bcd2bae77378df46d7658f909",
+      "size_bytes": 1121,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_CONNECTED_SOAK_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_CONNECTED_SOAK_RECEIPT.json",
+      "sha256": "615bee71cca6847e4917727ab11b4037189c1ff1bf56141271eb2b0f8fa4bb69",
+      "size_bytes": 911,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_CROSS_CHANNEL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_CROSS_CHANNEL_RECEIPT.json",
+      "sha256": "4e4e07facee426c5a89a800fc29ca3fa1daccf81ece484b444ef8eca35a3124e",
+      "size_bytes": 694,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_CURRENTNESS_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_CURRENTNESS_RECEIPT.json",
+      "sha256": "a2eb55f60a3fc84e5f31806c1b98c8c373f73c5ff72359be908f04f6055dab79",
+      "size_bytes": 608,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "eeb865200d9ff4ae2ef5eea10939b1d6c77720dffc6a158b96a7a11ec5d7edf2",
+      "size_bytes": 3287,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_GITHUB_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_GITHUB_RECEIPT.json",
+      "sha256": "04732c1ff2e6839fffd198011657595ab9353d2b3883b393c711e2ca35cb3545",
+      "size_bytes": 719,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_HOLDOUT_EVALUATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_HOLDOUT_EVALUATION_RECEIPT.json",
+      "sha256": "97cff89553c956aafcb5e9a914e2cd5a5dea6a4914e756d8554ff5922931db84",
+      "size_bytes": 695,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_HUMAN_REVIEW_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_HUMAN_REVIEW_RECEIPT.json",
+      "sha256": "566655867198fc103d61c7396aa35647d294a297908e8386a7af7ea0e5c475b8",
+      "size_bytes": 3666,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_INGRESS_PROOF_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_INGRESS_PROOF_RECEIPT.json",
+      "sha256": "28350cd6fb7aa7e38a01b397fafa1b616e936db02a2faff73567d8c56363a294",
+      "size_bytes": 1211,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_MUTATION_TEST_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_MUTATION_TEST_RECEIPT.json",
+      "sha256": "ca45efc91cdb023da7bd9e96d7868b8ce7840c360b120ce9be0dd7b9d3a07147",
+      "size_bytes": 1045,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_PERFORMANCE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_PERFORMANCE_RECEIPT.json",
+      "sha256": "8244c81a5a8f5bdbbfc7be2e93df1e472ab682ce11b4bb134aec909d5f8bcb83",
+      "size_bytes": 5405,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_PROCEDURE_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_PROCEDURE_COVERAGE_RECEIPT.json",
+      "sha256": "184fee032075e6547f17948316042659133dc5b820f6e1962b083c384cc6721b",
+      "size_bytes": 935,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_RETRIEVAL_EVALUATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_RETRIEVAL_EVALUATION_RECEIPT.json",
+      "sha256": "6f13e08b87b95fb7c0d8320ce23aaafbf1fba94d9bfc7496ad45dd5cc1506846",
+      "size_bytes": 948,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_ROLLBACK_EXECUTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_ROLLBACK_EXECUTION_RECEIPT.json",
+      "sha256": "2ae79eab437508c9c3ce32fde5489cd870b13839629587302b11c24112b9774e",
+      "size_bytes": 1428,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_SECURITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_SECURITY_RECEIPT.json",
+      "sha256": "40d5dfc0cc85d01dd42c7abc03bd308aa4625883676f61d4a19932aa1a3647b2",
+      "size_bytes": 861,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_SUPERSESSION_VERIFICATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_SUPERSESSION_VERIFICATION_RECEIPT.json",
+      "sha256": "786d89967daf50278771e6af07754d18d9ac9bed0db3b81d819d0038534bcb40",
+      "size_bytes": 866,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V54_ZERO_COST_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V54_ZERO_COST_RECEIPT.json",
+      "sha256": "428bf4461ed84a744189c2114b399ae96781e44ce8797af24dab9d185644322c",
+      "size_bytes": 789,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_CONNECTED_ACTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_CONNECTED_ACTION_RECEIPT.json",
+      "sha256": "b7dcaae46d1c2b629f8e0d2ec9a044ff861998f0aa3c9da6a73ad504cc75b53c",
+      "size_bytes": 3272,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_CROSS_CHANNEL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_CROSS_CHANNEL_RECEIPT.json",
+      "sha256": "5c9c046f62d7195f6c8af0cc79cc42f149bb27c20596e153a212dbca7e209bc2",
+      "size_bytes": 757,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_CROSS_ENGINE_CONTEXT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_CROSS_ENGINE_CONTEXT_RECEIPT.json",
+      "sha256": "aec6e70ccc6da4f05d223abc220316d7d54e7bf551ba9da004f35d0849629504",
+      "size_bytes": 2450,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_CURRENTNESS_CONTEXT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_CURRENTNESS_CONTEXT_RECEIPT.json",
+      "sha256": "ee64e0d6581c041ae00f77a9194ffb74df3cc5fa33b7ab2a9c2d6511da7fde62",
+      "size_bytes": 1511,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_DEPLOYED_ADVERSARIAL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_DEPLOYED_ADVERSARIAL_RECEIPT.json",
+      "sha256": "7af58d75872ee1e697b49e2e9cb50b4d057649e66d45c287a15668aa80582524",
+      "size_bytes": 6362,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_DEPLOYED_GOLDEN_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_DEPLOYED_GOLDEN_RECEIPT.json",
+      "sha256": "0f68e5973da3719463dd5c35d0ad9b0437f9fd21efdbf9ef4dee987587c7a672",
+      "size_bytes": 32224,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_DEPLOYED_HOLDOUT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_DEPLOYED_HOLDOUT_RECEIPT.json",
+      "sha256": "3cf100273a1bc998c71404b8a480ea4a4662a65f540474d7dd058b7eaffb8c4c",
+      "size_bytes": 7774,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "0d463e6c27d54ecce432eb42e3ffcd0f22fe9686de026d0e31c6c168f6a004c6",
+      "size_bytes": 2601,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_GITHUB_DEPLOYMENT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_GITHUB_DEPLOYMENT_RECEIPT.json",
+      "sha256": "e9832e00b74bb1bfafd5f0cc9420fe0985fa63cb60b7360da44723bdb4279835",
+      "size_bytes": 1205,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_LIVE_BASELINE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_LIVE_BASELINE_RECEIPT.json",
+      "sha256": "923c29caf5e5f609edff0157d536c8e68dc57ec7e81b1b4f535b10a60827af9e",
+      "size_bytes": 2524,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_LOCAL_ADVERSARIAL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_LOCAL_ADVERSARIAL_RECEIPT.json",
+      "sha256": "ca50523eb8ca39d65aa6f3232b5cce6908a48ee9c33e77fe1edb4091c741de5e",
+      "size_bytes": 7332,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_LOCAL_GOLDEN_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_LOCAL_GOLDEN_RECEIPT.json",
+      "sha256": "b618afcb756027269acaa544f6e01e0e7d5c701b5d7db7cea48cf3509ee51e00",
+      "size_bytes": 45560,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_LOCAL_HOLDOUT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_LOCAL_HOLDOUT_RECEIPT.json",
+      "sha256": "6c4c4d83ac8adcf61e4b0db276a01ac0a4cb8f020e84fad1f3e0a6058d9f1d3f",
+      "size_bytes": 9976,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_ROLLBACK_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_ROLLBACK_RECEIPT.json",
+      "sha256": "442ae10db2d70e737cb7dbdc826d884fcf4f452c6da9fe41748c4e1a1db3fe4a",
+      "size_bytes": 392,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_RUP_REBUILD_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_RUP_REBUILD_RECEIPT.json",
+      "sha256": "73e1b683cd9b748c831cd235a347dedb5cfa5eb9078ac5eacab7575ab0cd8cf4",
+      "size_bytes": 1317,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_SECURITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_SECURITY_RECEIPT.json",
+      "sha256": "580da4fb9abbe8a5fb48f3cb853f130eda0c8e7a7164f60ac3615c1921a08217",
+      "size_bytes": 412,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_SERVER_DEPLOYMENT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_SERVER_DEPLOYMENT_RECEIPT.json",
+      "sha256": "f61b6d6d5087e5d40ebd95593de49d3e07cf99fe7003bc76b24decf77a937c3a",
+      "size_bytes": 691,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_STATIC_RELAY_REBUILD_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_STATIC_RELAY_REBUILD_RECEIPT.json",
+      "sha256": "15f64c0d992bc5a2cf3781f09d4a8670ec347c70f18b450bf05ab9afc24db2a7",
+      "size_bytes": 687,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_TEST_DENOMINATOR_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_TEST_DENOMINATOR_RECEIPT.json",
+      "sha256": "328206d7f9cfcb56eba26cdfc962a890f00df7a0f035f9faa8eaa0558aa17b22",
+      "size_bytes": 1534,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55R1_ZERO_COST_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55R1_ZERO_COST_RECEIPT.json",
+      "sha256": "996bb136b29facd2da606a7968df3985eea26fc684f5be3df312142adc1d8364",
+      "size_bytes": 308,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_ACTIVATION_RECONCILIATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_ACTIVATION_RECONCILIATION_RECEIPT.json",
+      "sha256": "3755770d8eb64fdc6c4749bcac949be54eb88c9da92bf3e1b5bb0ef1f443fcce",
+      "size_bytes": 401,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_ADMISSION_EXECUTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_ADMISSION_EXECUTION_RECEIPT.json",
+      "sha256": "084f02ac7d136416b45be994303fe5d9ad7d3fa01f3845a396bab6499c9923a8",
+      "size_bytes": 567,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_ADMISSION_TARGET_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_ADMISSION_TARGET_RECEIPT.json",
+      "sha256": "b445d756eb499d93c441c11f56bc279795f290547f00e535eda6fe0943d05cfe",
+      "size_bytes": 391,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_ANSWER_EVALUATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_ANSWER_EVALUATION_RECEIPT.json",
+      "sha256": "b6c5c5e0ff69899e08df7c3985a0e3eb0869f6f2ddfa6e67e1a5f7b144191c1d",
+      "size_bytes": 505,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_AUTHORITY_CLOSURE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_AUTHORITY_CLOSURE_RECEIPT.json",
+      "sha256": "3bb365d289a6f6e658c8425c6c67f37552373f6b5e2657651d9913fac93ff458",
+      "size_bytes": 466,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_BASELINE_FREEZE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_BASELINE_FREEZE_RECEIPT.json",
+      "sha256": "8b076c092d81fe7f2647ae2e2a1f2237d3899df660ae57dc88c0b6605c5e1ccb",
+      "size_bytes": 1220,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_CHANGE_IMPACT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_CHANGE_IMPACT_RECEIPT.json",
+      "sha256": "768842f0a98e09d3d0ef1210877a72938de1818dfc3610feb410db4b683e6748",
+      "size_bytes": 944,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_CONNECTED_RELIABILITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_CONNECTED_RELIABILITY_RECEIPT.json",
+      "sha256": "23a70db14cdb3329c2da103fa5413cc4d6d520c217c0fe1551a57363adb888eb",
+      "size_bytes": 478,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_CROSS_CHANNEL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_CROSS_CHANNEL_RECEIPT.json",
+      "sha256": "d40f4628c69ed4de887e188ce09cccfe8b98cff49feb2f6dcd2745a0d09ef161",
+      "size_bytes": 451,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_CURRENTNESS_CLOSURE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_CURRENTNESS_CLOSURE_RECEIPT.json",
+      "sha256": "c13006d74415f84896a2a26a437cf17704d0611f3f51743d6bcb6d3904721a7b",
+      "size_bytes": 358,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_DOCUMENT_REGISTRY_RECONCILIATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_DOCUMENT_REGISTRY_RECONCILIATION_RECEIPT.json",
+      "sha256": "d270e3ab1227d69c71611206e69ac0423ea6d413f08daf6151b7ead2a9c471b6",
+      "size_bytes": 479,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "9dd47d56357b9a89d589e995c2cb76e08bb8edc5bd40395357eed4cc6b5d6420",
+      "size_bytes": 4005,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_GITHUB_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_GITHUB_RECEIPT.json",
+      "sha256": "33ef543b77ce42b4d42d4a22fc280622eb0a7f5f4172da02447cfe6a8fe4430f",
+      "size_bytes": 429,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_GOLDEN_EVALUATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_GOLDEN_EVALUATION_RECEIPT.json",
+      "sha256": "b7b8e74968d2fa549ca3b091d3ca1289263cd44b84e26a5de0e9176f170e6bec",
+      "size_bytes": 562,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_HOLDOUT_EVALUATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_HOLDOUT_EVALUATION_RECEIPT.json",
+      "sha256": "28bc23670f0582a338bcf47637f9f3faabeff68f480af613e50bf00f15ba9c89",
+      "size_bytes": 429,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_HUMAN_REVIEW_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_HUMAN_REVIEW_RECEIPT.json",
+      "sha256": "b08ea2c9e4575c2f94a64c7e7081c63d616194d23ace6742da49de2ec1315c9a",
+      "size_bytes": 1874,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_INGRESS_ROTATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_INGRESS_ROTATION_RECEIPT.json",
+      "sha256": "53b2edd86299d4a71c5e679b2adf1f0edbff2c846344343a01445ffe2e17486c",
+      "size_bytes": 2207,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_PERFORMANCE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_PERFORMANCE_RECEIPT.json",
+      "sha256": "58288f4ec2c9a5f52e8067986510e6e2bd98381bec58901f2adfe76eac2d5529",
+      "size_bytes": 2407,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_POISONING_TEST_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_POISONING_TEST_RECEIPT.json",
+      "sha256": "1643f52d344d4006833c288e404fa8e03d53a7ffcf88b8f31d8b529651d7e978",
+      "size_bytes": 504,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_PROCEDURE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_PROCEDURE_RECEIPT.json",
+      "sha256": "d7e8b8931c74fe89038faf8ed412ee0d70d6e79513b8e2b7d1573fd83c195390",
+      "size_bytes": 331,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_REGISTRY_TAMPER_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_REGISTRY_TAMPER_RECEIPT.json",
+      "sha256": "8b73e690e6e0ef8cc101fcd1d2c06e4e137518156771e6799141bbf01e9d225b",
+      "size_bytes": 485,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_ROLLBACK_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_ROLLBACK_RECEIPT.json",
+      "sha256": "d45e0a42553825e093754a64e8f69fec74b840a8d73cbde07b90bc3c9a0cc152",
+      "size_bytes": 1350,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_SECURITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_SECURITY_RECEIPT.json",
+      "sha256": "f1fb9f48c23bd338be572f6c698b99c4189097a940915e350c3933ca4460f1f8",
+      "size_bytes": 543,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_SEGMENT_RECONCILIATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_SEGMENT_RECONCILIATION_RECEIPT.json",
+      "sha256": "2d1644180ac260cf97dbd08a4ce5c6e0f7cb735d5c589dfb7eb1d2a71696ac17",
+      "size_bytes": 882,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_SUPERSESSION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_SUPERSESSION_RECEIPT.json",
+      "sha256": "d6d2290b0491de2322b2821135c9268d354cffaaeb319705b3819e462da7fdc6",
+      "size_bytes": 406,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_TEMPORAL_EVALUATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_TEMPORAL_EVALUATION_RECEIPT.json",
+      "sha256": "630c238c04c11e98e1e702ecb4a4acb53b463ff8a734179aa1e9fa6ae1ecd05b",
+      "size_bytes": 463,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V55_ZERO_COST_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V55_ZERO_COST_RECEIPT.json",
+      "sha256": "808d94fe08b27206d1eb231d18cad044e63eadd8868af355d549562f7b618853",
+      "size_bytes": 391,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_API_DATA_INTEGRITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_API_DATA_INTEGRITY_RECEIPT.json",
+      "sha256": "ff268be2034d42bda28cfec6c2f025c07d6a6a30bc2ee39a9c1a50714c55d6ae",
+      "size_bytes": 1768,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_CANDIDATE_FREEZE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_CANDIDATE_FREEZE_RECEIPT.json",
+      "sha256": "7ff6f8aab16c6b608949819da1fa83a16c8c2341e1ce5cc6489d4a397b9567ae",
+      "size_bytes": 1082,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_CONNECTED_E2E_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_CONNECTED_E2E_RECEIPT.json",
+      "sha256": "af062b725ef063d1bd8c53452121ad5ddd49b1752ef801e90787707a435a12a7",
+      "size_bytes": 1049,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_CROSS_CHANNEL_BINDING_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_CROSS_CHANNEL_BINDING_RECEIPT.json",
+      "sha256": "c07437a068152f7d638a2ac9d8b9f323c0018b6b8eade9b865b53e6c3103cc01",
+      "size_bytes": 1179,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_CROSS_CHANNEL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_CROSS_CHANNEL_RECEIPT.json",
+      "sha256": "ba83b6036d08c8e72284f683a94767a7ca6a02c1eae6ffb0028fded9d298acf2",
+      "size_bytes": 1514,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_DEPLOYMENT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_DEPLOYMENT_RECEIPT.json",
+      "sha256": "83aee7824244ef502dc6a8def3e71bddfe90295d3ec5271afbeb27990f85556e",
+      "size_bytes": 1151,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "d2281c4a4e84b40608293adf6dbd29239965ec05c4d6c98a1f9d840279b1cb17",
+      "size_bytes": 4662,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_GITHUB_UPDATE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_GITHUB_UPDATE_RECEIPT.json",
+      "sha256": "9084d6b33311c5de00b569be92beabf91b800b107e07b5971bed9f36e4bdb2fe",
+      "size_bytes": 1052,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_GPT_CONNECTED_ACTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_GPT_CONNECTED_ACTION_RECEIPT.json",
+      "sha256": "5759409798bd3add59311249c86876af3d49a023ee755722b1d7b0c6534a14da",
+      "size_bytes": 1639,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_GPT_CORE_BEHAVIOR_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_GPT_CORE_BEHAVIOR_RECEIPT.json",
+      "sha256": "30b978ffddba0c02c0eceaf4449c9cad8bbf476e01c1b51ad045b5f4b8837b12",
+      "size_bytes": 1084,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_INGESTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_INGESTION_RECEIPT.json",
+      "sha256": "a9def63d4788db1c9cb153790512c4a995ca7deabd538e27c2795dcca0dcd1f8",
+      "size_bytes": 1577,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_INGRESS_BINDING_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_INGRESS_BINDING_RECEIPT.json",
+      "sha256": "4fb1f623d2bb7695295fa8762dfc61d63c24bc23c2a42df08f698bd210657c6a",
+      "size_bytes": 1417,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_KB_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_KB_COVERAGE_RECEIPT.json",
+      "sha256": "16aa686bbc8fd50fe4a1ffe6a3981707ebf92531610363332592d9306fc6d845",
+      "size_bytes": 6006,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_OPENAPI_CONSOLIDATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_OPENAPI_CONSOLIDATION_RECEIPT.json",
+      "sha256": "577ee574643e7920bea5e66a3d9b8902a01bc5313a74c2b20d78818294013378",
+      "size_bytes": 1482,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_PROVENANCE_CLOSURE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_PROVENANCE_CLOSURE_RECEIPT.json",
+      "sha256": "4650824527fc48edf61fbcf479899c84723ac6199024f147a15b0ba2c947ccc0",
+      "size_bytes": 1348,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_RELEASE_GRAPH_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_RELEASE_GRAPH_RECEIPT.json",
+      "sha256": "d7ed7565d2f1d3771444fe08b3c46fdfcf08617e2db5840fcc5f426482197802",
+      "size_bytes": 1133,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_ROLLBACK_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_ROLLBACK_RECEIPT.json",
+      "sha256": "3176b95936f6b9edc69e3bd8e930d33554f930bf2acb5702a1ac4841a89a4b8e",
+      "size_bytes": 1807,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_RUNTIME_9_MIGRATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_RUNTIME_9_MIGRATION_RECEIPT.json",
+      "sha256": "bc544f45d500fe3a4d2a4cc393b34c63ec633a02b9aa32aeb9737c59a200b1d3",
+      "size_bytes": 2020,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_RUNTIME_DRIFT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_RUNTIME_DRIFT_RECEIPT.json",
+      "sha256": "244098ebb2239b5fe9390188e910f6da5327a9f0799d02a71ea0d27d0709e120",
+      "size_bytes": 1210,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_SCHEMA_MIGRATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_SCHEMA_MIGRATION_RECEIPT.json",
+      "sha256": "ce3d37a6ee2ea5e51e04a4b9d537d332e535e420cc9bdcfb17e9994c8945491a",
+      "size_bytes": 1140,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_SECURITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_SECURITY_RECEIPT.json",
+      "sha256": "0a7936e4ecf69f746f1f5cc573b1a214bafa71f24bcdfa91f83c2c6609515888",
+      "size_bytes": 1488,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_SERVER_ACTION_EXECUTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_SERVER_ACTION_EXECUTION_RECEIPT.json",
+      "sha256": "a95acb2fa0d519138601474aab097e43c753578bffb1d671f9a720f3b2b2afad",
+      "size_bytes": 1409,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_SERVER_ACTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_SERVER_ACTION_RECEIPT.json",
+      "sha256": "5cdb585233b0f6c623c1e49398b64c7bd11a571b8d7868492f9f66c3ba484fd4",
+      "size_bytes": 2095,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_SOURCE_INVENTORY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_SOURCE_INVENTORY_RECEIPT.json",
+      "sha256": "80392a9683e940090650e0f7e64124468bb7d586a488ba4f996e43c3acdff78d",
+      "size_bytes": 1342,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V5_ZERO_COST_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V5_ZERO_COST_RECEIPT.json",
+      "sha256": "6c488056d5651258fd72984825caff0a154c13b39898596dd94f565b2d314209",
+      "size_bytes": 1507,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "ZERO_COST_RECEIPT_V5.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/ZERO_COST_RECEIPT_V5.json",
+      "sha256": "e4e3b4eaa9fc28270b9c957a002912a93a6feab49d6c659e59fca5c45e92385d",
+      "size_bytes": 669,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "ZERO_DRIFT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/ZERO_DRIFT_RECEIPT.json",
+      "sha256": "273992f82d4bfaf866db9ba4872f7b3b704c5311db79b4d64a26c130df21329e",
+      "size_bytes": 444,
+      "status": "PASS"
+    }
+  ],
+  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
+  "total_receipts": 220
+}

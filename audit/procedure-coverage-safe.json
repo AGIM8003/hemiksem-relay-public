@@ -1,0 +1,11 @@
+{
+  "audit_exposure": "SAFE_SUMMARY_METADATA_ONLY",
+  "complete_procedures": 35,
+  "currentness_verified_count": 35,
+  "domains_covered": 21,
+  "fields_complete_count": 35,
+  "generated_at": "2026-09-07T12:44:51.780443+00:00",
+  "known_gaps_count": 0,
+  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
+  "total_procedures_indexed": 35
+}

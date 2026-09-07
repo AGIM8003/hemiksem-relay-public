@@ -1,44 +1,16 @@
 {
-  "bundle_manifest_sha256": "bb207c434ace9aab12132f52451d5f33fb4dfaf67344f02f8f66561fcbcb81b6",
-  "bundle_status": "VERIFIED_SAFE",
+  "absolute_path_leaks": 0,
+  "audit_directory": "audit/",
+  "audit_manifest": "audit/audit-manifest.json",
+  "audit_manifest_sha256": "8441bbe026afd354e7268297df38c1683148d790f07a6ca2efd671e350cdd2d1",
+  "bundle_hash": "9d3d97b6a16e885ea5096e14348c6e8bb20595f2b377a784abe377c53a5fcb19",
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T12:45:03.789751+00:00",
-  "hash_closure_rate": "100.0%",
-  "members": {
-    "access-capability.json": "fc4575e6e2fbb7decfc628c9de35ed0c92eeddefa37074dcfd395004029c8673",
-    "control-authority-map.json": "56e25e40e9be4fb5de3743716e77af4f6ea45fb6a23ea8c0f7e6923698c2fb4a",
-    "domain-coverage-safe.json": "648dbd6d12f529d67f019be8f7a7bb6f2583d6ae4a57dac84132a8c92aab18ac",
-    "git-state-safe.json": "b9f193e9aa20baf396791b19e3286d5f6ae81f4037464680701eef30f3dc098e",
-    "index-state-safe.json": "61104ba3f4760cb6e1418b94b31b73f0769b076bab25c00fd1ffdd6dbaa3ae95",
-    "knowledge-state-safe.json": "b3d24e962f4d6e58930b0e042844cbaeb23a186568dc2b3786bb917769b256af",
-    "openapi-state-safe.json": "d0e75898ebfa613a0a9eeff674312f42365e9abbcdbb654235186aac757cd60c",
-    "performance-proof-safe.json": "0392100405a04cb8acecf2f6fb45a65eb816b21ce64fed74b46b937e9fb4add2",
-    "privacy-proof-safe.json": "cedf5526394cc43862d8d66e7d324b7a2f6782313373839ffe00d5248541538f",
-    "procedure-coverage-safe.json": "d00e76791f5b386d8b936fa468e931f5207ea8e5330ffd9e6c45d71eb542f53e",
-    "receipt-index.json": "285764881603fd549ecc5b23c0aa577dbbf648c55e503b94736ef404d08c6467",
-    "release-surface-matrix.json": "d9a98496f44d9381e4374f9037db3a331c538e82c1756b409a775901fa6e873e",
-    "retrieval-lane-proof-safe.json": "d4a55eb7869ff12e9b054e83e9cb966a8865dfdb598e2ae9753a128270ecd440",
-    "rollback-proof-safe.json": "744fbf7b9db7e294a861338c450a2174db02f5af3f7c2b22e9ed90b82d662454",
-    "security-proof-safe.json": "9d199d6877ab3bf22c1ba6182410e01cef0564f078d33ac6c54c6620582dbb47",
-    "system-identity.json": "c3b5dd026d91bbbb7c9b72d5fc4c312b503214b48799415f871f178a540c18a1",
-    "test-proof-full-safe.json": "eff7a9a8d48ec989467be1d87845aa02dbae7db9d7f6e9b6711cbb75b7faf4d6",
-    "workspace-inventory-safe.json": "1cdf827c984243becdd7302ddd52e41a0739debe7e72bc1ec22ddc2a2c7f9be1"
-  },
-  "path_masking": {
-    "alias_enforced": "%HEMIKSEM_ROOT%",
-    "forbidden_path_leaks": 0,
-    "status": "PASS"
-  },
+  "private_content_leaks": 0,
   "product_version": "5.0.3",
   "release_id": "rel-hemiksem-v5.0.3-prod",
-  "secret_scan": {
-    "forbidden_patterns_found": 0,
-    "secret_leaks": 0,
-    "status": "PASS"
-  },
-  "spec_id": "HEMIKSEM-AI-SAFE-AUDIT-BUNDLE-V5.0.3-R2",
-  "total_members": 19,
-  "validator_timestamp": "2026-09-07T12:45:03.789751+00:00",
-  "validator_verdict": "PASS",
-  "workspace_files_inventoried": 3896
+  "schema_version": "hemiksem-safe-audit-bundle-v3",
+  "secret_leaks": 0,
+  "total_members": 31,
+  "validation_state": "PASS",
+  "verified_at": "2026-09-07T13:15:43.003041+00:00"
 }

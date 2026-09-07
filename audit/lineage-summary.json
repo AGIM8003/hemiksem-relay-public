@@ -1,0 +1,16 @@
+{
+  "admission_release_id": "rel-hemiksem-v5.0.0-prod",
+  "generated_at": "2026-09-07T13:15:43.003041+00:00",
+  "lineage_conflicted": 0,
+  "lineage_current_native": 0,
+  "lineage_inherited_verified": 37,
+  "lineage_rule": "LIN-R3-001",
+  "lineage_unknown": 0,
+  "lineage_validation_state": "PASS",
+  "origin_release_id": "rel-hemiksem-v5.0.0-prod",
+  "product_version": "5.0.3",
+  "public_evidence_projections": 37,
+  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "schema_version": "hemiksem-lineage-summary-v1",
+  "serving_release_id": "rel-hemiksem-v5.0.3-prod"
+}
