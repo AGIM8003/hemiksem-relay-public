@@ -21,10 +21,10 @@
   "jurisdiction": "BE-VLG",
   "municipality": "Hemiksem",
   "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_version": "5.0.3",
+  "product_version": "5.1.0",
   "province": "Antwerp",
   "region": "Flanders",
-  "release_id": "rel-hemiksem-v5.0.3-prod",
-  "serving_release_id": "rel-hemiksem-v5.0.3-prod",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
+  "serving_release_id": "rel-hemiksem-v5.1.0-prod",
   "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2"
 }

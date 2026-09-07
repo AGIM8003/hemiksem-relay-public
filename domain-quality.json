@@ -1,8 +1,8 @@
 {
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "schema_version": "2.0",
-  "release_id": "rel-hemiksem-v5.0.3-prod",
-  "proof_revision": "R4",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
+  "proof_revision": "R1",
   "generated_at": "2026-09-07T14:29:00.159447+00:00",
   "canonical_domain_registry_hash": "f1abb2a1419585c7a7aaeffc7cbd7d49e6577fa047651c3e5397d4f6bdbd1cb8",
   "total_substantive_domains": 21,

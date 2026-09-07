@@ -1,7 +1,7 @@
 {
   "P0_failures": 0,
   "P1_failures": 0,
-  "candidate_id": "CAND-HEMIKSEM-V503-R4",
+  "candidate_id": "CAND-HEMIKSEM-V510-R1",
   "categories_tested": [
     "SSRF",
     "PATH_TRAVERSAL",
@@ -15,9 +15,9 @@
     "SEGMENT_ID_VALIDATION"
   ],
   "generated_at": "2026-09-07T15:40:16.491349+00:00",
-  "proof_revision": "R4",
+  "proof_revision": "R1",
   "receipt_sha256": "47cbbe8f94d937012356da3ce7710a3eb2d85444b025d0c7fca99557b4478ae9",
-  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "status": "PASS",
   "tests_executed": 24,

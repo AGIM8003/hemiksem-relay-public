@@ -1,56 +1,56 @@
 {
   "all_surfaces_match": true,
   "generated_at": "2026-09-07T15:40:16.491349+00:00",
-  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "surfaces": [
     {
       "engine_runtime": "8.1",
       "parity": "MATCH",
-      "product_version": "5.0.3",
-      "release_id": "rel-hemiksem-v5.0.3-prod",
+      "product_version": "5.1.0",
+      "release_id": "rel-hemiksem-v5.1.0-prod",
       "surface": "CONTROL"
     },
     {
       "engine_runtime": "8.1",
       "parity": "MATCH",
-      "product_version": "5.0.3",
-      "release_id": "rel-hemiksem-v5.0.3-prod",
+      "product_version": "5.1.0",
+      "release_id": "rel-hemiksem-v5.1.0-prod",
       "surface": "LOCAL_SERVER"
     },
     {
       "engine_runtime": "8.1",
       "parity": "MATCH",
-      "product_version": "5.0.3",
-      "release_id": "rel-hemiksem-v5.0.3-prod",
+      "product_version": "5.1.0",
+      "release_id": "rel-hemiksem-v5.1.0-prod",
       "surface": "PUBLIC_SERVER"
     },
     {
       "engine_runtime": "8.1",
       "parity": "MATCH",
-      "product_version": "5.0.3",
-      "release_id": "rel-hemiksem-v5.0.3-prod",
+      "product_version": "5.1.0",
+      "release_id": "rel-hemiksem-v5.1.0-prod",
       "surface": "GITHUB_REMOTE"
     },
     {
       "engine_runtime": "8.1",
       "parity": "MATCH",
-      "product_version": "5.0.3",
-      "release_id": "rel-hemiksem-v5.0.3-prod",
+      "product_version": "5.1.0",
+      "release_id": "rel-hemiksem-v5.1.0-prod",
       "surface": "GITHUB_PAGES"
     },
     {
       "engine_runtime": "8.1",
       "parity": "MATCH",
-      "product_version": "5.0.3",
-      "release_id": "rel-hemiksem-v5.0.3-prod",
+      "product_version": "5.1.0",
+      "release_id": "rel-hemiksem-v5.1.0-prod",
       "surface": "CONNECTED_GPT_ACTION"
     },
     {
       "engine_runtime": "8.1",
       "parity": "MATCH",
-      "product_version": "5.0.3",
-      "release_id": "rel-hemiksem-v5.0.3-prod",
+      "product_version": "5.1.0",
+      "release_id": "rel-hemiksem-v5.1.0-prod",
       "surface": "SAFE_AUDIT_BUNDLE"
     }
   ]

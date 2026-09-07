@@ -68,7 +68,7 @@
     "classification_coverage": "100%"
   },
   "lifecycle_state": "HISTORICAL_ARCHIVED",
-  "active_superseded_by": "rel-hemiksem-v5.0.3-prod",
+  "active_superseded_by": "rel-hemiksem-v5.1.0-prod",
   "status": "SUPERSEDED_HISTORICAL",
-  "serving_release_id": "rel-hemiksem-v5.0.3-prod"
+  "serving_release_id": "rel-hemiksem-v5.1.0-prod"
 }

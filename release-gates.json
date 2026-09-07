@@ -7,5 +7,5 @@
   "gate_spec": "HEMIKSEM-V5.0.3-G1-G70",
   "machine_verdict": "RELEASE_ALLOWED",
   "passed": 70,
-  "release_id": "rel-hemiksem-v5.0.3-prod"
+  "release_id": "rel-hemiksem-v5.1.0-prod"
 }

@@ -6,7 +6,7 @@
   "git_deletion_count": 0,
   "previous_state_restored": true,
   "receipt_corruption": 0,
-  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
   "rollback_target": "rel-hemiksem-v5.0.1-prod",
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "status": "PASS"

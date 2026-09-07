@@ -91,7 +91,7 @@
   "generated_at": "2026-09-07T13:14:54.184691+00:00",
   "jurisdiction": "BE-VLG",
   "municipality": "Hemiksem",
-  "product_version": "5.0.3",
+  "product_version": "5.1.0",
   "project_id": "hemiksem-gemeentediensten",
   "reconciliation_summary": {
     "mathematical_consistency": "VERIFIED_CONSISTENT",
@@ -130,6 +130,6 @@
       "to_denominator": "PUBLIC_EVIDENCE_PROJECTIONS"
     }
   ],
-  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
   "spec_id": "HEMIKSEM-DENOMINATOR-DICTIONARY-V5.0.3-R3"
 }

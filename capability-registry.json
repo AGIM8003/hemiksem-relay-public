@@ -13,11 +13,11 @@
     "checkHemiksemApplicability",
     "describeCapabilities"
   ],
-  "product_version": "5.0.3",
+  "product_version": "5.1.0",
   "read_only": true,
-  "relay_api_version": "5.0.3",
-  "release_id": "rel-hemiksem-v5.0.3-prod",
-  "release_version": "5.0.3",
-  "server_api_version": "5.0.3",
+  "relay_api_version": "5.1.0",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
+  "release_version": "5.1.0",
+  "server_api_version": "5.1.0",
   "total_operations": 10
 }

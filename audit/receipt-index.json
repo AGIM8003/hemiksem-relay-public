@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-09-07T15:40:16.491349+00:00",
-  "proof_revision": "R4",
+  "proof_revision": "R1",
   "receipts": [
     {
       "receipt_file": "ACTION_EXECUTION_RECEIPT.json",
@@ -1963,7 +1963,7 @@
       "status": "PASS"
     }
   ],
-  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "total_receipts": 280
 }

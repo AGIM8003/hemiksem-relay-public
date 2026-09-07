@@ -10,7 +10,7 @@
   "external_api_costs": "EUR 0.00",
   "generated_at": "2026-09-07T15:40:16.491349+00:00",
   "read_only_enforced": true,
-  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "zero_cost_verified": true
 }

@@ -8,9 +8,9 @@
   "lineage_unknown": 0,
   "lineage_validation_state": "PASS",
   "origin_release_id": "rel-hemiksem-v5.0.0-prod",
-  "product_version": "5.0.3",
+  "product_version": "5.1.0",
   "public_evidence_projections": 37,
-  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
   "schema_version": "hemiksem-lineage-summary-v1",
-  "serving_release_id": "rel-hemiksem-v5.0.3-prod"
+  "serving_release_id": "rel-hemiksem-v5.1.0-prod"
 }
