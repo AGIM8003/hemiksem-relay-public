@@ -1,8 +1,8 @@
 {
   "candidate_id": "CAND-HEMIKSEM-V502-PROD",
-  "executed_at": "2026-09-07T11:36:36.922126+00:00",
+  "executed_at": "2026-09-07T12:03:52.651343+00:00",
   "git_commit": "ff25a89",
-  "release_id": "rel-hemiksem-v5.0.2-prod",
+  "release_id": "rel-hemiksem-v5.0.3-prod",
   "status": "PASS",
   "test_receipt_sha256": "380a7e47d075fe61ede77d4bf5c7c77600e5699770b4969c95f8142cfc86799f",
   "tests_discovered": 374,

@@ -1,11 +1,11 @@
 {
   "blocked": 0,
-  "evaluated_at": "2026-09-07T11:36:36.922126+00:00",
+  "evaluated_at": "2026-09-07T12:03:52.651343+00:00",
   "failed": 0,
   "gate_count": 70,
-  "gate_receipt_sha256": "9377c0f91ab8c863eed52ab4b3d0ee4d80de9b4c2e37f4cb0c972e4a54fbfc91",
+  "gate_receipt_sha256": "153b606dda53edd7eea0a27d1bea492882b1caeee6313205bd3ced2101659381",
   "gate_spec": "HEMIKSEM-V5.0.2-G1-G70",
   "machine_verdict": "RELEASE_ALLOWED",
   "passed": 70,
-  "release_id": "rel-hemiksem-v5.0.2-prod"
+  "release_id": "rel-hemiksem-v5.0.3-prod"
 }

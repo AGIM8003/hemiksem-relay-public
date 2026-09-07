@@ -1,10 +1,10 @@
 {
-  "active_release_id": "rel-hemiksem-v5.0.2-prod",
+  "active_release_id": "rel-hemiksem-v5.0.3-prod",
   "engine_version": "8.1",
-  "generated_at": "2026-09-07T11:36:36.922126+00:00",
-  "product_version": "5.0.2",
+  "generated_at": "2026-09-07T12:03:52.651343+00:00",
+  "product_version": "5.0.3",
   "project_id": "hemiksem-gemeentediensten",
-  "release_version": "5.0.2",
+  "release_version": "5.0.3",
   "retrieval_engine_runtime_version": "8.1",
   "status": "CURRENT_AUTHORITATIVE"
 }

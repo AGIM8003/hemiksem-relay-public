@@ -2,8 +2,8 @@
   "artifacts_declared": 16,
   "delivery_scope": "PUBLIC_STATIC_RELAY",
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T11:36:36.922126+00:00",
-  "product_version": "5.0.2",
-  "release_id": "rel-hemiksem-v5.0.2-prod",
-  "release_version": "5.0.2"
+  "generated_at": "2026-09-07T12:03:52.651343+00:00",
+  "product_version": "5.0.3",
+  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "release_version": "5.0.3"
 }
