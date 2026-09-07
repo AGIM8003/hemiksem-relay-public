@@ -1,12 +1,12 @@
 # ====================================================================
 # ROLE: GENERATED_CONNECTED_ACTION_PROJECTION
 # GENERATED_FROM: OPENAPI/server-recall.openapi.yaml
-# SOURCE_OPENAPI_HASH: 9d10aa8a18f51ade5ed2b206d9233efaa681e3f1eb6997a818ffa9c487e14037
+# SOURCE_OPENAPI_HASH: 78ced3b6b641d8e34c8206d74312a811093fc68c97b4a48d948704c38f09e5ba
 # SEMANTIC_OPENAPI_HASH: b63cc42b012f16c67f17b8b1a9b7f2407eb01708c7b3feff8b848a29ec0804c1
 # RELEASE_ID: rel-hemiksem-v5.0.3-prod
 # PRODUCT_VERSION: 5.0.3
 # ENGINE_RUNTIME: 8.1
-# GENERATED_AT: 2026-09-07T13:12:21.388735+00:00
+# GENERATED_AT: 2026-09-07T15:31:35.086022+00:00
 # ====================================================================
 
 openapi: 3.1.0
@@ -17,7 +17,7 @@ info:
     Release: rel-hemiksem-v5.0.3-prod. Engine: V8.1. All operations are safe, non-mutating
     read-only operations.'
   x-generated-from: OPENAPI/server-recall.openapi.yaml
-  x-source-openapi-hash: 9d10aa8a18f51ade5ed2b206d9233efaa681e3f1eb6997a818ffa9c487e14037
+  x-source-openapi-hash: 78ced3b6b641d8e34c8206d74312a811093fc68c97b4a48d948704c38f09e5ba
   x-semantic-openapi-hash: b63cc42b012f16c67f17b8b1a9b7f2407eb01708c7b3feff8b848a29ec0804c1
   x-release-id: rel-hemiksem-v5.0.3-prod
 servers:

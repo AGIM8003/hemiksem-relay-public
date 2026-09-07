@@ -7,7 +7,7 @@
     },
     {
       "node": "LAYER_1_MANIFEST",
-      "sha256": "97ee4ca0c379e3ec4add9bfa9574b64ac8fb9d78057279612129a56e6f18fc0f",
+      "sha256": "acd2cde6734a150568d8b2c685727767804da94d5d538d5ecedec0d94d6f0eed",
       "status": "SEALED"
     },
     {
@@ -20,13 +20,13 @@
   "layer": "LAYER_2_PROOF_CHAIN",
   "manifest_binding": {
     "path": "/manifest.json",
-    "sha256": "97ee4ca0c379e3ec4add9bfa9574b64ac8fb9d78057279612129a56e6f18fc0f"
+    "sha256": "acd2cde6734a150568d8b2c685727767804da94d5d538d5ecedec0d94d6f0eed"
   },
   "product_version": "5.0.3",
   "proof_revision": "R4",
   "release_id": "rel-hemiksem-v5.0.3-prod",
   "schema_version": "2.0.0",
-  "sealed_at": "2026-09-07T14:38:52.911119+00:00",
+  "sealed_at": "2026-09-07T15:40:16.491349+00:00",
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "status": "PASS"
 }

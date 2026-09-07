@@ -4,7 +4,7 @@
   "RRF_supported": true,
   "counterevidence_check": "ACTIVE_MANDATORY",
   "exact_first_enforced": true,
-  "generated_at": "2026-09-07T14:38:52.911119+00:00",
+  "generated_at": "2026-09-07T15:40:16.491349+00:00",
   "lanes_available": [
     "L1_EXACT",
     "L2_DOC",

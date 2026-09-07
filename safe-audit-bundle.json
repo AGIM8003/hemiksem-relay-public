@@ -1,8 +1,8 @@
 {
-  "bundle_hash": "f458b247895a9008484b855b1f265d27239a52e2c29985069c40714e6b9c26c0",
+  "bundle_hash": "b27a6bf8552bb74b49b6f7eba0521544a1c7de3243eee51342e3c06ac7ba3885",
   "candidate_id": "CAND-HEMIKSEM-V503-R4",
-  "generated_at": "2026-09-07T14:38:52.911119+00:00",
-  "manifest_sha256": "cd5d213baf39774c9db3839c38eb3a9ea5b088103e4c6f7fcd796192a4012861",
+  "generated_at": "2026-09-07T15:40:16.491349+00:00",
+  "manifest_sha256": "3b54cbe40c2b67026a4f2ebf5c6f8f1fb9802d966f0ee85751182e978e640b89",
   "members_count": 28,
   "proof_revision": "R4",
   "release_id": "rel-hemiksem-v5.0.3-prod",

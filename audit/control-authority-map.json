@@ -3,7 +3,7 @@
   "canonical_domain_registry": "%HEMIKSEM_ROOT%/00.CONTROL/MUNICIPAL_DOMAIN_REGISTRY.json",
   "control_authority": "%HEMIKSEM_ROOT%/00.CONTROL",
   "evidence_schema_registry": "%HEMIKSEM_ROOT%/00.CONTROL/EVIDENCE_SCHEMA_REGISTRY.json",
-  "generated_at": "2026-09-07T14:38:52.911119+00:00",
+  "generated_at": "2026-09-07T15:40:16.491349+00:00",
   "precedence_order": 1,
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "ssot_root": "%HEMIKSEM_ROOT%"

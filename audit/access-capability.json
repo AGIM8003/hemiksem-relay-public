@@ -8,7 +8,7 @@
     "write_operations": "STRICTLY_BLOCKED"
   },
   "external_api_costs": "EUR 0.00",
-  "generated_at": "2026-09-07T14:38:52.911119+00:00",
+  "generated_at": "2026-09-07T15:40:16.491349+00:00",
   "read_only_enforced": true,
   "release_id": "rel-hemiksem-v5.0.3-prod",
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",

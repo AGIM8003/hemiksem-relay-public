@@ -6,8 +6,8 @@
       "path": "/admission-index.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "d179f62c53e8f29514cdf053d34de22b1f577a6859ebf49448646d273834521b",
-      "size_bytes": 500
+      "sha256": "591a1915b2c57dba92b7cbe53440f4fab53176f0fa04ef86d32725f7fdb046e0",
+      "size_bytes": 515
     },
     "applicability-index.json": {
       "artifact_name": "applicability-index.json",
@@ -15,8 +15,8 @@
       "path": "/applicability-index.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "8cbd8dc4243c05c2ef19f651835e4b7aaaf66019ff2ee9a3c836ef299bdca6ad",
-      "size_bytes": 248
+      "sha256": "9d6280be28d7c99a1b3868d11acf3d2a071304fb6773c23dd9b02d50c53d9e9f",
+      "size_bytes": 257
     },
     "audit/audit-manifest.json": {
       "artifact_name": "audit/audit-manifest.json",
@@ -24,7 +24,7 @@
       "path": "/audit/audit-manifest.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "cd5d213baf39774c9db3839c38eb3a9ea5b088103e4c6f7fcd796192a4012861",
+      "sha256": "3b54cbe40c2b67026a4f2ebf5c6f8f1fb9802d966f0ee85751182e978e640b89",
       "size_bytes": 4425
     },
     "capability-registry.json": {
@@ -33,8 +33,8 @@
       "path": "/capability-registry.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "81000f4dc8f0083cd81a4bdd8241851161fc9f89402d2eeb39a110523a6a6549",
-      "size_bytes": 624
+      "sha256": "4afa01b5cbaff7579d74484d45503c33c0a05ce93636dc4df870250353596901",
+      "size_bytes": 647
     },
     "conflict-index.json": {
       "artifact_name": "conflict-index.json",
@@ -42,8 +42,8 @@
       "path": "/conflict-index.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "776fe60d15ff22521d070eeeb8dfc08fbb21c6c65211cd957b47b2b5bab31216",
-      "size_bytes": 456
+      "sha256": "da01a948d9ef56926fb5bf0ef05aaa7197bf370c4f4cb57fdf96e64419f24ada",
+      "size_bytes": 473
     },
     "current-release.json": {
       "artifact_name": "current-release.json",
@@ -51,8 +51,8 @@
       "path": "/current-release.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "d2d545845f22f36745d6c4246bdd26b09d51606fa49f3a134a39b547c24fd08b",
-      "size_bytes": 322
+      "sha256": "909c62d9d310f6239a5fe437c8b191dd1516d721f704672fc86a78b448a27c69",
+      "size_bytes": 332
     },
     "currentness-index.json": {
       "artifact_name": "currentness-index.json",
@@ -60,8 +60,8 @@
       "path": "/currentness-index.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "e5099715c957667e379b857e613bf636716d0b1e26933b1887b9715ea08d180a",
-      "size_bytes": 259
+      "sha256": "ff9789ac92b731d39a56d2d418aa557f6795b6b7cd271e53a222636ebf000714",
+      "size_bytes": 268
     },
     "custom-gpt-action.yaml": {
       "artifact_name": "custom-gpt-action.yaml",
@@ -69,7 +69,7 @@
       "path": "/custom-gpt-action.yaml",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "dff20b0f81b1b8629af39d1598ec98ae180ef21785c8102d8758f743f655243c",
+      "sha256": "3a38ee78ce91d8248f6b4431ca3bbb3562937165dff3695fbd59237a2ea81bce",
       "size_bytes": 8198
     },
     "delivery-index.json": {
@@ -105,8 +105,8 @@
       "path": "/health.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "a537a20ed728c450492ba37c3effb0134780377e50a5b9e255983b1d3b152f24",
-      "size_bytes": 800
+      "sha256": "e980e86e5b9ceb69515248a78278a41a54ae4f4d2e8000298ee4b86f82dbdc3e",
+      "size_bytes": 821
     },
     "kb-binding.json": {
       "artifact_name": "kb-binding.json",
@@ -114,8 +114,8 @@
       "path": "/kb-binding.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "1abcebb5231be5dd2813f07a90db01cc07b2eb6676a965888944e2696840a251",
-      "size_bytes": 1306
+      "sha256": "4690ca24fa49e0c1eeba1d272079a64ac356531862e316d0bdf82fc9aa503862",
+      "size_bytes": 1338
     },
     "openapi.yaml": {
       "artifact_name": "openapi.yaml",
@@ -123,7 +123,7 @@
       "path": "/openapi.yaml",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "e1682d73eb52282d8b690019fb56c34aa5d2456a7c87c59231a45319e88e659d",
+      "sha256": "919726fd406080db2a8b22fd4ce8d755162f42fc5d5b57a9ca70cdaa39ecc2be",
       "size_bytes": 8188
     },
     "privacy-status.json": {
@@ -150,8 +150,8 @@
       "path": "/project-intelligence.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "6a9b555e0b3a31d703624c676fb998cb5171305b232b6d9a2eb3a73a573e014a",
-      "size_bytes": 354
+      "sha256": "fd9d0e44e9f2df5f46c638b8f3ffd69f608d7029a0355eac621576fd7d1cd247",
+      "size_bytes": 366
     },
     "proof-chain-index.json": {
       "artifact_name": "proof-chain-index.json",
@@ -159,8 +159,8 @@
       "path": "/proof-chain-index.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "1b0cf1ec2bd9d79fd2375ea2ece1f3e1aa9ca3f5871dfa4bc16945af563e59b2",
-      "size_bytes": 236
+      "sha256": "330e7349a516883f25ca2511c2faaee4e92b1ffde0f78aa8bfe937564e310018",
+      "size_bytes": 245
     },
     "release-gates.json": {
       "artifact_name": "release-gates.json",
@@ -168,8 +168,8 @@
       "path": "/release-gates.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "9cf71e139ad442e921a0b12f1de698517c3c60a4c1c7f29465914646df59a8ba",
-      "size_bytes": 342
+      "sha256": "301d3dab76ec5b4e6393d2c71aa2f52ee38927d37ed925292648c7b2af6a020a",
+      "size_bytes": 353
     },
     "rollback-proof.json": {
       "artifact_name": "rollback-proof.json",
@@ -186,7 +186,7 @@
       "path": "/safe-audit-bundle.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "d1a216acc36f8206ad7e8b6472181b5a3bb594cb1b7cc44112230a134adf633c",
+      "sha256": "f8a306d0641888ae64b62425140039d8e815e81ae3188c26c6e2b96f1a272480",
       "size_bytes": 466
     },
     "test-proof.json": {
@@ -195,7 +195,7 @@
       "path": "/test-proof.json",
       "release_id": "rel-hemiksem-v5.0.3-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "cae312fb36aa5a69759568bebd805585efc75599e6ea2cea664c68768dbf150f",
+      "sha256": "d46898d25b323c5ec835d56b4eef9a5cd86318eba9308525d19bb8eadf645c84",
       "size_bytes": 1082
     }
   },
@@ -204,7 +204,7 @@
   "release_id": "rel-hemiksem-v5.0.3-prod",
   "release_version": "5.0.3",
   "schema_version": "hemiksem-manifest-v2",
-  "sealed_at": "2026-09-07T14:38:52.911119+00:00",
+  "sealed_at": "2026-09-07T15:40:16.491349+00:00",
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "status": "PASS"
 }
