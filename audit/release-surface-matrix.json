@@ -1,75 +1,75 @@
 {
   "all_surfaces_match": true,
-  "generated_at": "2026-09-07T19:54:33.828987+00:00",
-  "release_id": "rel-hemiksem-v5.1.1-prod",
-  "serving_release_id": "rel-hemiksem-v5.1.1-prod",
+  "generated_at": "2026-09-07T20:03:07.956376+00:00",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "serving_release_id": "rel-hemiksem-v5.2.0-prod",
   "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
   "surfaces": [
     {
       "parity": "MATCH",
-      "product_version": "5.1.1",
-      "release_id": "rel-hemiksem-v5.1.1-prod",
+      "product_version": "5.2.0",
+      "release_id": "rel-hemiksem-v5.2.0-prod",
       "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.1.1-prod",
+      "serving_release_id": "rel-hemiksem-v5.2.0-prod",
       "surface": "CONTROL"
     },
     {
       "parity": "MATCH",
-      "product_version": "5.1.1",
-      "release_id": "rel-hemiksem-v5.1.1-prod",
+      "product_version": "5.2.0",
+      "release_id": "rel-hemiksem-v5.2.0-prod",
       "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.1.1-prod",
+      "serving_release_id": "rel-hemiksem-v5.2.0-prod",
       "surface": "LOCAL_SERVER"
     },
     {
       "parity": "MATCH",
-      "product_version": "5.1.1",
-      "release_id": "rel-hemiksem-v5.1.1-prod",
+      "product_version": "5.2.0",
+      "release_id": "rel-hemiksem-v5.2.0-prod",
       "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.1.1-prod",
+      "serving_release_id": "rel-hemiksem-v5.2.0-prod",
       "surface": "PUBLIC_SERVER"
     },
     {
       "parity": "MATCH",
-      "product_version": "5.1.1",
-      "release_id": "rel-hemiksem-v5.1.1-prod",
+      "product_version": "5.2.0",
+      "release_id": "rel-hemiksem-v5.2.0-prod",
       "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.1.1-prod",
+      "serving_release_id": "rel-hemiksem-v5.2.0-prod",
       "surface": "LOCAL_STATIC_RELAY"
     },
     {
       "parity": "MATCH",
-      "product_version": "5.1.1",
-      "release_id": "rel-hemiksem-v5.1.1-prod",
+      "product_version": "5.2.0",
+      "release_id": "rel-hemiksem-v5.2.0-prod",
       "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.1.1-prod",
+      "serving_release_id": "rel-hemiksem-v5.2.0-prod",
       "surface": "GITHUB_REMOTE"
     },
     {
       "parity": "MATCH",
-      "product_version": "5.1.1",
-      "release_id": "rel-hemiksem-v5.1.1-prod",
+      "product_version": "5.2.0",
+      "release_id": "rel-hemiksem-v5.2.0-prod",
       "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.1.1-prod",
+      "serving_release_id": "rel-hemiksem-v5.2.0-prod",
       "surface": "GITHUB_PAGES"
     },
     {
       "parity": "MATCH",
-      "product_version": "5.1.1",
-      "release_id": "rel-hemiksem-v5.1.1-prod",
+      "product_version": "5.2.0",
+      "release_id": "rel-hemiksem-v5.2.0-prod",
       "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.1.1-prod",
+      "serving_release_id": "rel-hemiksem-v5.2.0-prod",
       "surface": "CONNECTED_GPT_ACTION"
     },
     {
       "parity": "MATCH",
-      "product_version": "5.1.1",
-      "release_id": "rel-hemiksem-v5.1.1-prod",
+      "product_version": "5.2.0",
+      "release_id": "rel-hemiksem-v5.2.0-prod",
       "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.1.1-prod",
+      "serving_release_id": "rel-hemiksem-v5.2.0-prod",
       "surface": "SAFE_AUDIT_BUNDLE"
     }
   ],
   "surfaces_evaluated": 8,
-  "target_release": "rel-hemiksem-v5.1.1-prod"
+  "target_release": "rel-hemiksem-v5.2.0-prod"
 }

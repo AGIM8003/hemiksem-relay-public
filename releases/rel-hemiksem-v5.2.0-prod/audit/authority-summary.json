@@ -1,0 +1,19 @@
+{
+  "ASSERTED": 0,
+  "HISTORICAL": 0,
+  "HUMAN_REVIEW_REQUIRED": 0,
+  "MUNICIPAL_DERIVED": 214,
+  "OFFICIAL_PRIMARY": 890,
+  "OFFICIAL_SECONDARY": 420,
+  "UNKNOWN": 0,
+  "UNVERIFIED": 0,
+  "authority_registry_hash": "99b913218c43ef24b011cf4877cef514fa5962da7093979b0e4391e4f8a30309",
+  "current": 1524,
+  "generated_at": "2026-09-07T14:29:00.159447+00:00",
+  "proof_revision": "R1",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
+  "sources_total": 1524,
+  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
+  "status": "PASS",
+  "superseded": 0
+}
