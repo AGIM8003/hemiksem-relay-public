@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "spec_id": "HEMIKSEM-AI-V520-R1-MEASURABLE-MUNICIPAL-QUALITY-CERTIFICATION",
-  "proof_revision": "R1",
+  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
+  "proof_revision": "R5.1",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "privacy_technical_state": "PRIVACY_ZERO_LEAKAGE_VERIFIED",

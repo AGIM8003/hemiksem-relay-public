@@ -1,13 +1,13 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
+  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5",
-  "manifest_hash": "3f93c8c2b737abf9172bdbeb1630e5611db0c0f834aa6244825a0cebb6ee8927",
-  "proof_chain_hash": "7e3e40d6bcbb690888d1cdb92f392e7eb60956d2f66ae8ecf015bdb3de0edbf0",
-  "root_hash": "feb16f470777f3b7075265df640fcbe0e02e5732e077be00e49a1a40aa3a9c96",
+  "proof_revision": "R5.1",
+  "manifest_hash": "640de6f95efebaf4ca7caeba07330e5af983bfd3dc9dd9fe56e36efb80ed7eef",
+  "proof_chain_hash": "8651217b3bcb036bdb274a8975b8d517cf5a6dc449befa06591b2a68faae2c8b",
+  "root_hash": "c366152ec84a78226cea621ee3ce3e3bed73b821d5d3ef6c08d3de2a95179bb3",
   "machine_verdict": "RELEASE_ALLOWED",
   "operational_health": "HEALTHY_RELEASE_VERIFIED",
-  "generated_at": "2026-09-07T21:08:58.783092+00:00"
+  "generated_at": "2026-09-07T21:53:50.647948+00:00"
 }

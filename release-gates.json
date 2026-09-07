@@ -1,12 +1,13 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
+  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
-  "proof_revision": "R5",
-  "total_gates": 120,
-  "passed_gates": 120,
+  "engine_runtime": "8.1",
+  "proof_revision": "R5.1",
+  "total_gates": 108,
+  "passed_gates": 108,
   "failed_gates": 0,
   "machine_verdict": "RELEASE_ALLOWED",
   "operational_health": "HEALTHY_RELEASE_VERIFIED",
-  "evaluated_at": "2026-09-07T21:08:58.449751+00:00"
+  "generated_at": "2026-09-07T21:53:50.482813+00:00"
 }

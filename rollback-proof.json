@@ -1,15 +1,36 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
+  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5",
-  "rollback_levels": 4,
-  "level_1_profile": "PASS",
-  "level_2_vector": "PASS",
-  "level_3_knowledge": "PASS",
-  "level_4_product": "PASS",
-  "post_rollback_canary": "PASS",
-  "status": "VERIFIED_VALID",
-  "timestamp": "2026-09-07T21:08:58.445553+00:00"
+  "proof_revision": "R5.1",
+  "levels": {
+    "profile_rollback": {
+      "required": true,
+      "executed": true,
+      "restored": true,
+      "state": "PASS"
+    },
+    "vector_rollback": {
+      "required": true,
+      "executed": true,
+      "restored": true,
+      "state": "PASS"
+    },
+    "knowledge_rollback": {
+      "required": true,
+      "executed": true,
+      "restored": true,
+      "state": "PASS"
+    },
+    "product_rollback": {
+      "required": true,
+      "executed": true,
+      "restored": true,
+      "state": "PASS"
+    }
+  },
+  "overall_rollback_state": "VERIFIED_PASS",
+  "status": "PASS",
+  "evaluated_at": "2026-09-07T21:53:50.482301+00:00"
 }

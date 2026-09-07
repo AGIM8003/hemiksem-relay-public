@@ -1,54 +1,59 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
+  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
-  "proof_revision": "R5",
-  "chain_length": 9,
+  "proof_revision": "R5.1",
+  "chain_length": 10,
   "chain_entries": [
     {
       "file": "current-release.json",
-      "sha256": "0e52e8411e83b86c6db5e6e2bf7c2d086b3397fbca25f09c2ed69b32163fa45b",
+      "sha256": "f290f59f7c6b5dc0b996b1625892cf10225ba9697258aa3d59c6d40f304b28a0",
       "role": "RELEASE_IDENTITY"
     },
     {
       "file": "health.json",
-      "sha256": "ef522db8bfccae46cd64250a50004b276654265c980b65a350a9f385db335eb2",
+      "sha256": "91af3f3667e367a3e10c28540e4c5e98ac95c07913175dac0e3c05b51e70a97d",
       "role": "HEALTH_STATUS"
     },
     {
       "file": "test-proof.json",
-      "sha256": "3aac02d2b99b9e326c204831e4176ef4703d0a6a632b287101debd32ef7dcfb4",
+      "sha256": "3845e7685627d9f4cd9539bf34c23092da22d88573516f245764d369a6e2242b",
       "role": "TEST_PROOF"
     },
     {
       "file": "release-gates.json",
-      "sha256": "bb562738715243e6e87fe35045a1b3227656c4953843f056d7915f7511ae5e91",
+      "sha256": "913f4419bca71b7acfa670aed001afd23989e2680c67191b01c8e8214b2cb0bd",
       "role": "RELEASE_GATES"
     },
     {
       "file": "rollback-proof.json",
-      "sha256": "75baf68924444f9662c20aa10c6bf08d43eb08249c6adb53e1e56102bd37fd17",
+      "sha256": "881df674d4a3aefffa9d1e255bbd709556406827dacb1cdeb393142d6a9f9e1e",
       "role": "ROLLBACK_PROOF"
     },
     {
       "file": "vector-status.json",
-      "sha256": "8b1765130ef54db1ed8de94027d829b4928b49a97056247626e635d5abc3a733",
+      "sha256": "b98f8faebb930191757a7dbd4cb6898355dfbb76b0e57816dc11da70190f2cb2",
       "role": "VECTOR_STATUS"
     },
     {
       "file": "retrieval-quality-summary.json",
-      "sha256": "85ae277376f415cbafc0babf5323488fc5842791953b2399e8f70d6f7122d3f9",
+      "sha256": "6361c1a3a77fe8a179393edd293ddf98186671a7a70bba758b8cb4c1dd2a6567",
       "role": "RETRIEVAL_QUALITY"
     },
     {
-      "file": "vector-domain-activation-summary.json",
-      "sha256": "ae908f9bc38458a1272c4910229d0718e0b06bb4fdb9b09e9f07f5577801c830",
-      "role": "VECTOR_DOMAIN_ACTIVATION"
+      "file": "proof-status.json",
+      "sha256": "a11473dbc2489c696c90f9e1d335538dbc3e1adbceb97bff9c7ae8d568054ee0",
+      "role": "PROOF_STATUS"
+    },
+    {
+      "file": "delivery-index.json",
+      "sha256": "bdf14b89aecce38c0405a2a9ed502a6d2b97ae8f0b68e8cd862339675f8a9bad",
+      "role": "DELIVERY_INDEX"
     },
     {
       "file": "manifest.json",
-      "sha256": "3f93c8c2b737abf9172bdbeb1630e5611db0c0f834aa6244825a0cebb6ee8927",
+      "sha256": "640de6f95efebaf4ca7caeba07330e5af983bfd3dc9dd9fe56e36efb80ed7eef",
       "role": "MANIFEST"
     }
   ],
-  "generated_at": "2026-09-07T21:08:58.765302+00:00"
+  "generated_at": "2026-09-07T21:53:50.641758+00:00"
 }

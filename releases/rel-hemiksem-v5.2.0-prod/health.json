@@ -9,8 +9,14 @@
   "evidence_artifacts": 37,
   "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
   "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
-  "proof_revision": "R1",
-  "spec_id": "HEMIKSEM-AI-V520-R1-MEASURABLE-MUNICIPAL-QUALITY-CERTIFICATION",
-  "quality_certification_state": "QUALITY_PARTIALLY_CERTIFIED",
-  "checked_at": "2026-09-07T20:03:07.844737+00:00"
+  "proof_revision": "R5.1",
+  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
+  "operational_health": "HEALTHY_RELEASE_VERIFIED",
+  "system_status": "ONLINE",
+  "server_state": "ONLINE",
+  "relay_state": "ONLINE",
+  "vector_state": "ACTIVE_VERIFIED",
+  "retrieval_status": "HYBRID_MULTI_LANE_ADAPTIVE",
+  "checked_at": "2026-09-07T21:26:00.000000+00:00",
+  "timestamp": "2026-09-07T21:26:00.000000+00:00"
 }
