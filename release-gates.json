@@ -1,1013 +1,1033 @@
 {
-  "gate_set_id": "HEMIKSEM-AI-V520-156-GATES-AND-QC10",
-  "spec_id": "HEMIKSEM-AI-V520-R1-MEASURABLE-MUNICIPAL-QUALITY-CERTIFICATION",
-  "release_id": "rel-hemiksem-v5.2.0-prod",
-  "proof_revision": "R1",
-  "product_version": "5.2.0",
+  "gate_set_id": "HEMIKSEM-AI-V511-R22-160-GATES",
+  "spec_id": "HEMIKSEM-AI-V511-R22-REMOTE-OBSERVED-RELEASE-AUTHORITY",
+  "release_id": "rel-hemiksem-v5.1.1-prod",
+  "proof_revision": "R2.2",
+  "product_version": "5.1.1",
   "engine_runtime": "8.1",
-  "gate_count": 156,
-  "quality_gate_count": 10,
-  "total_gates_evaluated": 166,
-  "passed_count": 166,
+  "base_gate_count": 112,
+  "closure_gate_count": 18,
+  "remote_observer_gate_count": 30,
+  "gate_count": 160,
+  "required_count": 160,
+  "executed_count": 160,
+  "passed_count": 160,
   "failed_count": 0,
-  "status": "PASS",
+  "total_required": 160,
+  "total_executed": 160,
+  "total_passed": 160,
+  "total_failed": 0,
+  "blocked_count": 0,
   "results": {
     "G1": {
       "gate_id": "G1",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G2": {
       "gate_id": "G2",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G3": {
       "gate_id": "G3",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G4": {
       "gate_id": "G4",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G5": {
       "gate_id": "G5",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G6": {
       "gate_id": "G6",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G7": {
       "gate_id": "G7",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G8": {
       "gate_id": "G8",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G9": {
       "gate_id": "G9",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G10": {
       "gate_id": "G10",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G11": {
       "gate_id": "G11",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G12": {
       "gate_id": "G12",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G13": {
       "gate_id": "G13",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G14": {
       "gate_id": "G14",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G15": {
       "gate_id": "G15",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G16": {
       "gate_id": "G16",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G17": {
       "gate_id": "G17",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G18": {
       "gate_id": "G18",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G19": {
       "gate_id": "G19",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G20": {
       "gate_id": "G20",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G21": {
       "gate_id": "G21",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G22": {
       "gate_id": "G22",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G23": {
       "gate_id": "G23",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G24": {
       "gate_id": "G24",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G25": {
       "gate_id": "G25",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G26": {
       "gate_id": "G26",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G27": {
       "gate_id": "G27",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G28": {
       "gate_id": "G28",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G29": {
       "gate_id": "G29",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G30": {
       "gate_id": "G30",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G31": {
       "gate_id": "G31",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G32": {
       "gate_id": "G32",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G33": {
       "gate_id": "G33",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G34": {
       "gate_id": "G34",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G35": {
       "gate_id": "G35",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G36": {
       "gate_id": "G36",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G37": {
       "gate_id": "G37",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G38": {
       "gate_id": "G38",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G39": {
       "gate_id": "G39",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G40": {
       "gate_id": "G40",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G41": {
       "gate_id": "G41",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G42": {
       "gate_id": "G42",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G43": {
       "gate_id": "G43",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G44": {
       "gate_id": "G44",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G45": {
       "gate_id": "G45",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G46": {
       "gate_id": "G46",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G47": {
       "gate_id": "G47",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G48": {
       "gate_id": "G48",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G49": {
       "gate_id": "G49",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G50": {
       "gate_id": "G50",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G51": {
       "gate_id": "G51",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G52": {
       "gate_id": "G52",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G53": {
       "gate_id": "G53",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G54": {
       "gate_id": "G54",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G55": {
       "gate_id": "G55",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G56": {
       "gate_id": "G56",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G57": {
       "gate_id": "G57",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G58": {
       "gate_id": "G58",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G59": {
       "gate_id": "G59",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G60": {
       "gate_id": "G60",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G61": {
       "gate_id": "G61",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G62": {
       "gate_id": "G62",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G63": {
       "gate_id": "G63",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G64": {
       "gate_id": "G64",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G65": {
       "gate_id": "G65",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G66": {
       "gate_id": "G66",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G67": {
       "gate_id": "G67",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G68": {
       "gate_id": "G68",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G69": {
       "gate_id": "G69",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G70": {
       "gate_id": "G70",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G71": {
       "gate_id": "G71",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G72": {
       "gate_id": "G72",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G73": {
       "gate_id": "G73",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G74": {
       "gate_id": "G74",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G75": {
       "gate_id": "G75",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G76": {
       "gate_id": "G76",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G77": {
       "gate_id": "G77",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G78": {
       "gate_id": "G78",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G79": {
       "gate_id": "G79",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G80": {
       "gate_id": "G80",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G81": {
       "gate_id": "G81",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G82": {
       "gate_id": "G82",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G83": {
       "gate_id": "G83",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G84": {
       "gate_id": "G84",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G85": {
       "gate_id": "G85",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G86": {
       "gate_id": "G86",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G87": {
       "gate_id": "G87",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G88": {
       "gate_id": "G88",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G89": {
       "gate_id": "G89",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G90": {
       "gate_id": "G90",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G91": {
       "gate_id": "G91",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G92": {
       "gate_id": "G92",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G93": {
       "gate_id": "G93",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G94": {
       "gate_id": "G94",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G95": {
       "gate_id": "G95",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G96": {
       "gate_id": "G96",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G97": {
       "gate_id": "G97",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G98": {
       "gate_id": "G98",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G99": {
       "gate_id": "G99",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G100": {
       "gate_id": "G100",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G101": {
       "gate_id": "G101",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G102": {
       "gate_id": "G102",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G103": {
       "gate_id": "G103",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G104": {
       "gate_id": "G104",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G105": {
       "gate_id": "G105",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G106": {
       "gate_id": "G106",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G107": {
       "gate_id": "G107",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G108": {
       "gate_id": "G108",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G109": {
       "gate_id": "G109",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G110": {
       "gate_id": "G110",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G111": {
       "gate_id": "G111",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
     "G112": {
       "gate_id": "G112",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G113": {
-      "gate_id": "G113",
+    "C1": {
+      "gate_id": "C1",
+      "description": "ROLLBACK PROOF RELEASE CURRENT",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G114": {
-      "gate_id": "G114",
+    "C2": {
+      "gate_id": "C2",
+      "description": "ROLLBACK FROM/TO/RESTORE SEMANTICS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G115": {
-      "gate_id": "G115",
+    "C3": {
+      "gate_id": "C3",
+      "description": "PROOF CHAIN SPEC CURRENT",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G116": {
-      "gate_id": "G116",
+    "C4": {
+      "gate_id": "C4",
+      "description": "PROOF CHAIN CANDIDATE CURRENT",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G117": {
-      "gate_id": "G117",
+    "C5": {
+      "gate_id": "C5",
+      "description": "PROOF CHAIN TESTED COMMIT CURRENT",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G118": {
-      "gate_id": "G118",
+    "C6": {
+      "gate_id": "C6",
+      "description": "PROOF CHAIN TESTED TREE CURRENT",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G119": {
-      "gate_id": "G119",
+    "C7": {
+      "gate_id": "C7",
+      "description": "MANIFEST ACTUAL BYTE HASH VERIFIED",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G120": {
-      "gate_id": "G120",
+    "C8": {
+      "gate_id": "C8",
+      "description": "RELEASE ROOT MANIFEST HASH MATCH",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G121": {
-      "gate_id": "G121",
+    "C9": {
+      "gate_id": "C9",
+      "description": "RELEASE ROOT PROOF CHAIN HASH MATCH",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G122": {
-      "gate_id": "G122",
+    "C10": {
+      "gate_id": "C10",
+      "description": "GIT MAIN FULL ARTIFACT BYTE PARITY",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G123": {
-      "gate_id": "G123",
+    "C11": {
+      "gate_id": "C11",
+      "description": "PAGES FULL ARTIFACT BYTE PARITY",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G124": {
-      "gate_id": "G124",
+    "C12": {
+      "gate_id": "C12",
+      "description": "PAGES PROOF REVISION CURRENT",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G125": {
-      "gate_id": "G125",
+    "C13": {
+      "gate_id": "C13",
+      "description": "ALL EVIDENCE WRAPPER BYTE PARITY",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G126": {
-      "gate_id": "G126",
+    "C14": {
+      "gate_id": "C14",
+      "description": "ALL EVIDENCE LINEAGE",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G127": {
-      "gate_id": "G127",
+    "C15": {
+      "gate_id": "C15",
+      "description": "EXISTING G1-G112",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G128": {
-      "gate_id": "G128",
+    "C16": {
+      "gate_id": "C16",
+      "description": "PROTECTED REGRESSIONS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G129": {
-      "gate_id": "G129",
+    "C17": {
+      "gate_id": "C17",
+      "description": "P0 DEFECTS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G130": {
-      "gate_id": "G130",
+    "C18": {
+      "gate_id": "C18",
+      "description": "RELEASE-CONTROL P1 DEFECTS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G131": {
-      "gate_id": "G131",
+    "R22-G1": {
+      "gate_id": "R22-G1",
+      "description": "REMOTE HEAD MATCH",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G132": {
-      "gate_id": "G132",
+    "R22-G2": {
+      "gate_id": "R22-G2",
+      "description": "REMOTE COMMIT-PINNED ARTIFACTS 100%",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G133": {
-      "gate_id": "G133",
+    "R22-G3": {
+      "gate_id": "R22-G3",
+      "description": "PAGES FULL SCAN #1 100%",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G134": {
-      "gate_id": "G134",
+    "R22-G4": {
+      "gate_id": "R22-G4",
+      "description": "PAGES FULL SCAN #2 100%",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G135": {
-      "gate_id": "G135",
+    "R22-G5": {
+      "gate_id": "R22-G5",
+      "description": "PAGES PROOF REVISION R2.2",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G136": {
-      "gate_id": "G136",
+    "R22-G6": {
+      "gate_id": "R22-G6",
+      "description": "PAGES SPEC CURRENT",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G137": {
-      "gate_id": "G137",
+    "R22-G7": {
+      "gate_id": "R22-G7",
+      "description": "TEST PROOF CURRENT DENOMINATOR 708",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G138": {
-      "gate_id": "G138",
+    "R22-G8": {
+      "gate_id": "R22-G8",
+      "description": "GATE PROOF CURRENT DENOMINATOR 160",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G139": {
-      "gate_id": "G139",
+    "R22-G9": {
+      "gate_id": "R22-G9",
+      "description": "ROLLBACK PROOF V5.1.1",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G140": {
-      "gate_id": "G140",
+    "R22-G10": {
+      "gate_id": "R22-G10",
+      "description": "ROLLBACK SEMANTICS PASS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G141": {
-      "gate_id": "G141",
+    "R22-G11": {
+      "gate_id": "R22-G11",
+      "description": "MANIFEST ACTUAL BYTE HASH PASS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G142": {
-      "gate_id": "G142",
+    "R22-G12": {
+      "gate_id": "R22-G12",
+      "description": "PROOF CHAIN ACTUAL BYTE HASH PASS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G143": {
-      "gate_id": "G143",
+    "R22-G13": {
+      "gate_id": "R22-G13",
+      "description": "RELEASE ROOT HASH BINDINGS PASS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G144": {
-      "gate_id": "G144",
+    "R22-G14": {
+      "gate_id": "R22-G14",
+      "description": "PROOF CONTEXT MATRIX MATCH",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G145": {
-      "gate_id": "G145",
+    "R22-G15": {
+      "gate_id": "R22-G15",
+      "description": "PUBLIC ARTIFACT BYTE PARITY 100%",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G146": {
-      "gate_id": "G146",
+    "R22-G16": {
+      "gate_id": "R22-G16",
+      "description": "PUBLIC EVIDENCE BYTE PARITY 100%",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G147": {
-      "gate_id": "G147",
+    "R22-G17": {
+      "gate_id": "R22-G17",
+      "description": "PUBLIC EVIDENCE LINEAGE 100% PASS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G148": {
-      "gate_id": "G148",
+    "R22-G18": {
+      "gate_id": "R22-G18",
+      "description": "DIRECT LOCAL OPERATIONS 100%",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G149": {
-      "gate_id": "G149",
+    "R22-G19": {
+      "gate_id": "R22-G19",
+      "description": "DIRECT PUBLIC OPERATIONS 100%",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G150": {
-      "gate_id": "G150",
+    "R22-G20": {
+      "gate_id": "R22-G20",
+      "description": "ACTUAL CONNECTED GPT ACTION OPERATIONS 100%",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G151": {
-      "gate_id": "G151",
+    "R22-G21": {
+      "gate_id": "R22-G21",
+      "description": "CONNECTED EXECUTION LAYER CONNECTED_GPT_ACTION",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G152": {
-      "gate_id": "G152",
+    "R22-G22": {
+      "gate_id": "R22-G22",
+      "description": "CONNECTED SCHELDEBOORDEN PASS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G153": {
-      "gate_id": "G153",
+    "R22-G23": {
+      "gate_id": "R22-G23",
+      "description": "PROTECTED TEST NODE LOSS 0",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G154": {
-      "gate_id": "G154",
+    "R22-G24": {
+      "gate_id": "R22-G24",
+      "description": "PROTECTED CAPABILITY REGRESSION 0",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G155": {
-      "gate_id": "G155",
+    "R22-G25": {
+      "gate_id": "R22-G25",
+      "description": "CURRENT_STALE_FORBIDDEN STRINGS 0",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "G156": {
-      "gate_id": "G156",
+    "R22-G26": {
+      "gate_id": "R22-G26",
+      "description": "REPORT EVIDENCE BINDING 100%",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "QC1": {
-      "gate_id": "QC1",
+    "R22-G27": {
+      "gate_id": "R22-G27",
+      "description": "REMOTE OBSERVER STATE PASS",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "QC2": {
-      "gate_id": "QC2",
+    "R22-G28": {
+      "gate_id": "R22-G28",
+      "description": "P0 ZERO",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "QC3": {
-      "gate_id": "QC3",
+    "R22-G29": {
+      "gate_id": "R22-G29",
+      "description": "RELEASE-CONTROL P1 ZERO",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     },
-    "QC4": {
-      "gate_id": "QC4",
+    "R22-G30": {
+      "gate_id": "R22-G30",
+      "description": "GLOBAL STATE HEALTHY_RELEASE_VERIFIED",
       "status": "PASS",
       "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
-    },
-    "QC5": {
-      "gate_id": "QC5",
-      "status": "PASS",
-      "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
-    },
-    "QC6": {
-      "gate_id": "QC6",
-      "status": "PASS",
-      "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
-    },
-    "QC7": {
-      "gate_id": "QC7",
-      "status": "PASS",
-      "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
-    },
-    "QC8": {
-      "gate_id": "QC8",
-      "status": "PASS",
-      "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
-    },
-    "QC9": {
-      "gate_id": "QC9",
-      "status": "PASS",
-      "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
-    },
-    "QC10": {
-      "gate_id": "QC10",
-      "status": "PASS",
-      "verdict": "VERIFIED_PASS",
-      "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+      "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
     }
   },
-  "evaluated_at": "2026-09-07T19:28:51.184779+00:00"
+  "machine_verdict": "RELEASE_ALLOWED",
+  "evaluated_at": "2026-09-07T19:25:41.303991+00:00"
 }
