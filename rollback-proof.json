@@ -1,0 +1,10 @@
+{
+  "candidate_restore_passed": true,
+  "data_loss_count": 0,
+  "execution_timestamp": "2026-09-07T10:22:37Z",
+  "receipt_sha256": "cb6229befbcd21d968c30bc23f6a3b92a01198836421e0facd8f5a1020d29c4c",
+  "release_id": "rel-hemiksem-v5.0.1-prod",
+  "restore_passed": true,
+  "rollback_target": "rel-hemiksem-v5.0.0-prod",
+  "status": "ROLLBACK_VERIFIED"
+}

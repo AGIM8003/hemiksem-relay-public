@@ -1,23 +1,26 @@
 {
   "artifact_hashes": {
-    "admission-index.json": "cddc2a7660687137f9a7c6dbcd9e5c6b3d7381a444c1227d02b8f55789c9ca81",
-    "applicability-index.json": "6774f44900fdb3418134aa1e68f4a36560fd8df7dd5f270873430dffa59f73c6",
-    "capability-registry.json": "5ee23442590463f7d97822187088a546fd974fe2989ca95429195cd850456f10",
-    "conflict-index.json": "e8cb82c255409ec07080bb6f30b341052216085aff9a3a9456dc68659fb425e7",
-    "current-release.json": "ebd34fab7237186a19acc98ce2a34994a667a9851f37a5fbfcdcf62c601d40b6",
-    "currentness-index.json": "55e67e1726e48b2ac3b1af48091e426b720e56bab3a84c4d04497d9efbc2ca0e",
-    "delivery-index.json": "b8f76a79a07d760a93d0b70a0ff5748a7e6c05ed6c4b79b267443433d748876b",
-    "health.json": "f4e1fecbe8884a56b3c5ac9b5ff6e92e2c171c1612a5207751abc4479ea3bd1c",
-    "kb-binding.json": "afbf1ad5eb4274d5576985f580c4ec7804ae6eb69aeacb25af3e8302b558fd73",
-    "project-intelligence.json": "563df31be1ce0a46a113db5846314eee134336765f9b37471b8cfb7c8f0362b7",
-    "proof-chain-index.json": "c29bc7808b29bb8e64df2307b36a7445980cdd4a3f54e6186f6f97474975c1e4",
-    "release-gates.json": "9796ab266e25f71c272e247afa30bb0b93753ff01363294bccdeeac3ec5b0912",
-    "test-proof.json": "ceec28c5a37542acd0d2c6d595168db7e41689e063bd61b2d4a3150e84c26bfa"
+    "admission-index.json": "1ac2d5f58b6528a01edf92178ff395067f8807c76fc2f9b2853cb87ad4fb87ea",
+    "applicability-index.json": "1f24b4c03f18fe5cf0026d478723267691389c5169b61d68c674ab42516f4a5f",
+    "capability-registry.json": "da0703230b5ef5617250f3a1d29e4a9967473e4c9e5a414a2d2a1ef4db96c6e5",
+    "conflict-index.json": "cdd5f832f64e55937c4ee593c3dd6607acd785a39319c6a5d58ace21b525b900",
+    "current-release.json": "c89d4fa0c000a8e6e0b9e540ea06c3428b7c03228203dd9f322421590257f381",
+    "currentness-index.json": "22207acd52683eca8f6784b80c050c2357d001495bcef5104b7a06a8ffa957b0",
+    "delivery-index.json": "14ba76d9e833d698919001db8bb1516ae9290882f03a76dd03035a317f9a63d3",
+    "health.json": "6f2e714420bab25d0098a986cac74fab3828f0fecfee4d89e6786fd73b61f5ab",
+    "kb-binding.json": "98fd8342e97fea2b6b03640fad64d233ea4070515aab148fa5563c66932eacdd",
+    "privacy-status.json": "c70f2330bf5633672741d6893bbbcd5794e0717175690a9b13c95a038d2af795",
+    "project-intelligence.json": "57993002256a8862a270da5c759949e1326f679e481a5e4f15f6b7c1e10793b8",
+    "proof-chain-index.json": "856e6cf3dcd0050a2fc9676087e642c892b9e7a26b6e82706c0b479290312a67",
+    "release-gates.json": "a7b591bf14ffdbaa4e12ddba28dfff7d6887bb97d19c02477ea0d1851c3553fe",
+    "rollback-proof.json": "31dc98c99833ac279ef39d5ca26324989271248fd62de246f50043d3de77b3cd",
+    "test-proof.json": "3915b37cfda101b536809dda3e9369a4bf0a073c16c9a1c36e0afd00fddda158"
   },
-  "build_timestamp": "2026-09-07T10:02:52.958551+00:00",
+  "build_timestamp": "2026-09-07T10:32:24.930135+00:00",
   "chain_verdict": "VALID",
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T10:02:52.958551+00:00",
-  "product_version": "5.0.0",
-  "release_id": "rel-hemiksem-v5.0.0-prod"
+  "generated_at": "2026-09-07T10:32:24.930135+00:00",
+  "product_version": "5.0.1",
+  "release_id": "rel-hemiksem-v5.0.1-prod",
+  "release_version": "5.0.1"
 }

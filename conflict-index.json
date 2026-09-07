@@ -1,11 +1,17 @@
 {
+  "conflict_model": "PROPOSITION_V4",
   "conflict_rules": [
     "LEX_SPECIALIS_PRECEDENCE",
     "SPATIAL_OVERLAP",
     "TEMPORAL_SUPERSEDED"
   ],
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T10:02:52.958551+00:00",
-  "product_version": "5.0.0",
-  "release_id": "rel-hemiksem-v5.0.0-prod"
+  "generated_at": "2026-09-07T10:32:24.930135+00:00",
+  "material_conflicts": 0,
+  "product_version": "5.0.1",
+  "production_material_conflicts": 0,
+  "release_id": "rel-hemiksem-v5.0.1-prod",
+  "release_version": "5.0.1",
+  "resolved": 1400,
+  "synthetic_material_conflicts": 1
 }

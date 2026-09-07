@@ -1,12 +1,12 @@
 {
-  "candidate_id": "cand-v5.0.0-recovery-r1",
-  "executed_at": "2026-09-07T10:02:52.958551+00:00",
-  "git_commit": "79fea5b",
-  "release_id": "rel-hemiksem-v5.0.0-prod",
+  "candidate_id": "CAND-HEMIKSEM-V501-PROD",
+  "executed_at": "2026-09-07T10:32:24.930135+00:00",
+  "git_commit": "ff25a89",
+  "release_id": "rel-hemiksem-v5.0.1-prod",
   "status": "PASS",
-  "test_receipt_sha256": "328206d7f9cfcb56eba26cdfc962a890f00df7a0f035f9faa8eaa0558aa17b22",
-  "tests_discovered": 350,
-  "tests_executed": 350,
+  "test_receipt_sha256": "380a7e47d075fe61ede77d4bf5c7c77600e5699770b4969c95f8142cfc86799f",
+  "tests_discovered": 374,
+  "tests_executed": 374,
   "tests_failed": 0,
-  "tests_passed": 350
+  "tests_passed": 374
 }
