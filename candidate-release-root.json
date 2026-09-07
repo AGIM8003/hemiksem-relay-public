@@ -4,11 +4,11 @@
   "product_version": "5.2.0",
   "proof_revision": "R1",
   "spec_id": "HEMIKSEM-AI-V520-R1-MEASURABLE-MUNICIPAL-QUALITY-CERTIFICATION",
-  "manifest_sha256": "e59fffe721dd3f6bee0cb065470605f091c51a4005c910d9c37c0f7f411f0a24",
-  "proof_chain_sha256": "fbd1be6854eda7f8b0e0d5365a604da3b0a80c209ed1b353adff68713b5418b1",
+  "manifest_sha256": "56ed016c015f04b0a6216c91f28b8572d759ba5d0df6d91b08227f217f33737d",
+  "proof_chain_sha256": "7779cedb1fdc9a575d52552011b0940bb825d4a7e90a23a3e1023295334cd02a",
   "tested_source_commit": "446aa0e918d773b0ade2a08684428c9e92ca8210",
   "tested_source_tree": "a6f9af9f64e78ed164b1992033c303c70beb95ce",
   "root_sealed": true,
   "status": "SEALED",
-  "generated_at": "2026-09-07T19:25:00.406156+00:00"
+  "generated_at": "2026-09-07T19:37:56.905693+00:00"
 }
