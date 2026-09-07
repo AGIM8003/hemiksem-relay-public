@@ -1,0 +1,8 @@
+{
+  "supported_modes": [
+    "EXACT_ONLY",
+    "LEXICAL_ONLY",
+    "HYBRID_RRF",
+    "LEXICAL_FALLBACK"
+  ]
+}

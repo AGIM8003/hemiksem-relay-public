@@ -1,0 +1,20 @@
+{
+  "quality_epoch": "EPOCH-V520-R2-ATOMIC-001",
+  "lexical_baseline": {
+    "Recall@5": 0.0909,
+    "MRR": 0.101
+  },
+  "vector_metrics": {
+    "Recall@5": 0.0,
+    "MRR": 0.0
+  },
+  "hybrid_metrics": {
+    "Recall@5": 0.0909,
+    "MRR": 0.0909,
+    "gain": 0.0
+  },
+  "hard_negatives": "PASS",
+  "scheldeboorden_safe": true,
+  "safety_non_regression": "PASS",
+  "generated_at": "2026-09-07T19:56:37.989130+00:00"
+}
