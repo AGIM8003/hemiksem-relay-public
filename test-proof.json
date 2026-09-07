@@ -1,0 +1,12 @@
+{
+  "candidate_id": "cand-v5.0.0-recovery-r1",
+  "executed_at": "2026-09-07T10:02:52.958551+00:00",
+  "git_commit": "79fea5b",
+  "release_id": "rel-hemiksem-v5.0.0-prod",
+  "status": "PASS",
+  "test_receipt_sha256": "328206d7f9cfcb56eba26cdfc962a890f00df7a0f035f9faa8eaa0558aa17b22",
+  "tests_discovered": 350,
+  "tests_executed": 350,
+  "tests_failed": 0,
+  "tests_passed": 350
+}

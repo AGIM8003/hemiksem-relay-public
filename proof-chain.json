@@ -1,32 +1,23 @@
 {
-  "artifact_schema_version": "hemiksem-evidence-stub-v2",
-  "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
-  "country": "Belgium",
-  "engine_version": "8.1",
-  "generated_at": "2026-09-06T20:36:49.806831+00:00",
-  "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
-  "index_schema_version": "1.1",
-  "kb_schema_version": "hemiksem-kb-v1.1",
-  "municipality": "Hemiksem",
-  "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
-  "product_identity": "MUNICIPALITY_WIDE",
-  "product_version": "5.0.0",
-  "project_id": "hemiksem-gemeentediensten",
-  "proof_chains": {
-    "CAPABILITY_PARITY": {
-      "connected_verified": true,
-      "operations": 10,
-      "status": "VERIFIED"
-    }
+  "artifact_hashes": {
+    "admission-index.json": "cddc2a7660687137f9a7c6dbcd9e5c6b3d7381a444c1227d02b8f55789c9ca81",
+    "applicability-index.json": "6774f44900fdb3418134aa1e68f4a36560fd8df7dd5f270873430dffa59f73c6",
+    "capability-registry.json": "5ee23442590463f7d97822187088a546fd974fe2989ca95429195cd850456f10",
+    "conflict-index.json": "e8cb82c255409ec07080bb6f30b341052216085aff9a3a9456dc68659fb425e7",
+    "current-release.json": "ebd34fab7237186a19acc98ce2a34994a667a9851f37a5fbfcdcf62c601d40b6",
+    "currentness-index.json": "55e67e1726e48b2ac3b1af48091e426b720e56bab3a84c4d04497d9efbc2ca0e",
+    "delivery-index.json": "b8f76a79a07d760a93d0b70a0ff5748a7e6c05ed6c4b79b267443433d748876b",
+    "health.json": "f4e1fecbe8884a56b3c5ac9b5ff6e92e2c171c1612a5207751abc4479ea3bd1c",
+    "kb-binding.json": "afbf1ad5eb4274d5576985f580c4ec7804ae6eb69aeacb25af3e8302b558fd73",
+    "project-intelligence.json": "563df31be1ce0a46a113db5846314eee134336765f9b37471b8cfb7c8f0362b7",
+    "proof-chain-index.json": "c29bc7808b29bb8e64df2307b36a7445980cdd4a3f54e6186f6f97474975c1e4",
+    "release-gates.json": "9796ab266e25f71c272e247afa30bb0b93753ff01363294bccdeeac3ec5b0912",
+    "test-proof.json": "ceec28c5a37542acd0d2c6d595168db7e41689e063bd61b2d4a3150e84c26bfa"
   },
-  "province": "Antwerp",
-  "region": "Flanders",
-  "relay_api_version": "5.0.0",
-  "release_id": "rel-hemiksem-v5.0.0-prod",
-  "release_version": "5.0.0",
-  "retrieval_engine_runtime_version": "8.1",
-  "search_parameter": "q",
-  "server_api_version": "5.0.0",
-  "spec_version": "5.0.0",
-  "specification_version": "5.0.0"
+  "build_timestamp": "2026-09-07T10:02:52.958551+00:00",
+  "chain_verdict": "VALID",
+  "engine_runtime": "8.1",
+  "generated_at": "2026-09-07T10:02:52.958551+00:00",
+  "product_version": "5.0.0",
+  "release_id": "rel-hemiksem-v5.0.0-prod"
 }

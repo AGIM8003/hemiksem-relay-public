@@ -1,0 +1,11 @@
+{
+  "blocked": 0,
+  "evaluated_at": "2026-09-07T10:02:52.958551+00:00",
+  "failed": 0,
+  "gate_count": 54,
+  "gate_receipt_sha256": "4b22c2a05f152d1ff3941a547743d22b0c953531f82f2f7d54020c7e2316e6d7",
+  "gate_spec": "HEMIKSEM-V5.5-R1-G1-G54",
+  "machine_verdict": "RELEASE_ALLOWED",
+  "passed": 54,
+  "release_id": "rel-hemiksem-v5.0.0-prod"
+}
