@@ -12,7 +12,7 @@
   "municipality": "Hemiksem",
   "product": "AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN",
   "registry_id": "ACCESS_CAPABILITY_REGISTRY",
-  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "release_id": "rel-hemiksem-v5.1.1-prod",
   "resources": [
     {
       "access_state": "DIRECT_LOCAL_ACCESS",
@@ -509,7 +509,7 @@
       "writable_remotely": false
     }
   ],
-  "serving_release_id": "rel-hemiksem-v5.2.0-prod",
+  "serving_release_id": "rel-hemiksem-v5.1.1-prod",
   "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
   "status": "AUTHORITATIVE",
   "total_resources_registered": 26
