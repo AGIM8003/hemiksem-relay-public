@@ -9,10 +9,10 @@
   "engine_runtime": "8.1",
   "proof_revision": "R1",
   "candidate_id": "CAND-HEMIKSEM-V510-R1",
-  "tested_source_commit_sha": "f894e1d6d50ff4653e04b816db5f641a2c0d40bf",
-  "tested_source_tree_sha": "e2afb5d81665379b8bee58ab74482c482e1e6fb0",
+  "tested_source_commit_sha": "c5bd12b2aedda60949e7e4c64a41f6379c67bcb0",
+  "tested_source_tree_sha": "ae182b7268d09022a8ec697c83f997a7c41dd3f5",
   "status": "SEALED_VALID",
-  "sealed_at": "2026-09-07T15:48:24.698151+00:00",
+  "sealed_at": "2026-09-07T15:50:48.998944+00:00",
   "total_artifacts": 21,
   "artifacts": {
     "admission-index.json": {
@@ -75,7 +75,7 @@
       "path": "/custom-gpt-action.yaml",
       "release_id": "rel-hemiksem-v5.1.0-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "9f282d737dcc0f0a62733765754a889e0a42e4abf9cbcc15eea3cfa84f151cc2",
+      "sha256": "4d14462f12c176b6d77b99599f9c559c393180fd285dd97caf108ca70422ffb9",
       "size_bytes": 8198
     },
     "delivery-index.json": {
@@ -129,7 +129,7 @@
       "path": "/openapi.yaml",
       "release_id": "rel-hemiksem-v5.1.0-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "4c36841245e4a8191c50488a3733d318455e6023010410cfffef5b5445680b75",
+      "sha256": "126ba25113a742d29d331a95b9b8f79ada789d5dcadca4bff26a2602a2d6e132",
       "size_bytes": 8188
     },
     "privacy-status.json": {
@@ -192,7 +192,7 @@
       "path": "/safe-audit-bundle.json",
       "release_id": "rel-hemiksem-v5.1.0-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "c804db6cc40fe5f318ca132cb34bc1737496ef741ad11b24eba11d874b8fd32b",
+      "sha256": "046479b95baf7d02b7d20751e2a0c6ee4df3a6c6debbb8905ac89c00e9ff937e",
       "size_bytes": 6772
     },
     "test-proof.json": {
@@ -201,7 +201,7 @@
       "path": "/test-proof.json",
       "release_id": "rel-hemiksem-v5.1.0-prod",
       "role": "RELEASE_PAYLOAD",
-      "sha256": "1e8eafc7c173c4e020d24ea90fb40027c12b594d471594ec5b9faeff0d89a101",
+      "sha256": "c485c7226773277007cddd6c1691a96d8bdb2d975a98fe9ae55e61c189d8f1d7",
       "size_bytes": 1082
     }
   }
