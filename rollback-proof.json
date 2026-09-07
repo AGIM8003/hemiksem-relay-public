@@ -1,15 +1,40 @@
 {
-  "candidate_canaries_passed": true,
-  "candidate_restored": true,
+  "schema_version": "2.0.0",
+  "spec_id": "HEMIKSEM-AI-V510R2-TO-V511-WHOLE-STATE-CONVERGENCE",
+  "execution_layer": "LOCAL_SERVER_RELEASE_SWITCH",
+  "rollback_from_release": "rel-hemiksem-v5.1.0-prod",
+  "rollback_to_release": "rel-hemiksem-v5.0.3-prod",
+  "restore_to_release": "rel-hemiksem-v5.1.0-prod",
+  "product_version": "5.1.0",
+  "engine_runtime": "8.1",
+  "checkpoint_id": "CHK-V503-PROD-BASELINE",
+  "pre_hashes": {
+    "release_id": "rel-hemiksem-v5.1.0-prod",
+    "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
+    "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0"
+  },
+  "rollback_hashes": {
+    "release_id": "rel-hemiksem-v5.0.3-prod",
+    "product_version": "5.0.3",
+    "engine_runtime": "8.1"
+  },
+  "restore_hashes": {
+    "release_id": "rel-hemiksem-v5.1.0-prod",
+    "product_version": "5.1.0",
+    "engine_runtime": "8.1"
+  },
+  "rollback_canaries": {
+    "status": "PASS",
+    "exact_lookup": true,
+    "health": 200
+  },
+  "restore_canaries": {
+    "status": "PASS",
+    "exact_lookup": true,
+    "health": 200
+  },
+  "data_loss": 0,
   "data_loss_count": 0,
-  "execution_timestamp": "2026-09-07T15:52:08.650063+00:00",
-  "previous_canaries_passed": true,
-  "previous_state_restored": true,
-  "proof_id": "PROOF-ROLLBACK-V503-EXECUTION",
-  "proof_sha256": "31ae6bdc6f475ecbccee0060e256bc2c321fb5890b1a2a77c96ad5d5b3b98015",
-  "receipt_sha256": "f860ff3f314b15c68cf49152e5242f7f5ed1d2a10e3a07cc0c99b1ffa784d913",
-  "release_id": "rel-hemiksem-v5.1.0-prod",
-  "rollback_target": "rel-hemiksem-v5.1.0-prod",
-  "spec_id": "HEMIKSEM-AI-CROSS-CHANNEL-WORKSPACE-CLOSURE-V5.0.3-R1 §23",
-  "status": "PASS"
+  "status": "PASS",
+  "executed_at": "2026-09-07T16:20:04.514572+00:00"
 }

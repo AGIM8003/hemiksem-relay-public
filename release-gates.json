@@ -1,11 +1,449 @@
 {
-  "blocked": 0,
-  "evaluated_at": "2026-09-07T12:45:51.934868+00:00",
-  "failed": 0,
-  "gate_count": 70,
-  "gate_receipt_sha256": "153b606dda53edd7eea0a27d1bea492882b1caeee6313205bd3ced2101659381",
-  "gate_spec": "HEMIKSEM-V5.0.3-G1-G70",
+  "gate_set_id": "HEMIKSEM-AI-V510-R2-G1-G72",
+  "spec_id": "HEMIKSEM-AI-V510R2-TO-V511-WHOLE-STATE-CONVERGENCE",
+  "release_id": "rel-hemiksem-v5.1.0-prod",
+  "proof_revision": "R2",
+  "product_version": "5.1.0",
+  "engine_runtime": "8.1",
+  "required_count": 72,
+  "executed_count": 72,
+  "passed_count": 72,
+  "failed_count": 0,
+  "blocked_count": 0,
+  "results": {
+    "R2-G1": {
+      "gate_id": "R2-G1",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G2": {
+      "gate_id": "R2-G2",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G3": {
+      "gate_id": "R2-G3",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G4": {
+      "gate_id": "R2-G4",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G5": {
+      "gate_id": "R2-G5",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G6": {
+      "gate_id": "R2-G6",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G7": {
+      "gate_id": "R2-G7",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G8": {
+      "gate_id": "R2-G8",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G9": {
+      "gate_id": "R2-G9",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G10": {
+      "gate_id": "R2-G10",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G11": {
+      "gate_id": "R2-G11",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G12": {
+      "gate_id": "R2-G12",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G13": {
+      "gate_id": "R2-G13",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G14": {
+      "gate_id": "R2-G14",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G15": {
+      "gate_id": "R2-G15",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G16": {
+      "gate_id": "R2-G16",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G17": {
+      "gate_id": "R2-G17",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G18": {
+      "gate_id": "R2-G18",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G19": {
+      "gate_id": "R2-G19",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G20": {
+      "gate_id": "R2-G20",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G21": {
+      "gate_id": "R2-G21",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G22": {
+      "gate_id": "R2-G22",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G23": {
+      "gate_id": "R2-G23",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G24": {
+      "gate_id": "R2-G24",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G25": {
+      "gate_id": "R2-G25",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G26": {
+      "gate_id": "R2-G26",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G27": {
+      "gate_id": "R2-G27",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G28": {
+      "gate_id": "R2-G28",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G29": {
+      "gate_id": "R2-G29",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G30": {
+      "gate_id": "R2-G30",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G31": {
+      "gate_id": "R2-G31",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G32": {
+      "gate_id": "R2-G32",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G33": {
+      "gate_id": "R2-G33",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G34": {
+      "gate_id": "R2-G34",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G35": {
+      "gate_id": "R2-G35",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G36": {
+      "gate_id": "R2-G36",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G37": {
+      "gate_id": "R2-G37",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G38": {
+      "gate_id": "R2-G38",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G39": {
+      "gate_id": "R2-G39",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G40": {
+      "gate_id": "R2-G40",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G41": {
+      "gate_id": "R2-G41",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G42": {
+      "gate_id": "R2-G42",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G43": {
+      "gate_id": "R2-G43",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G44": {
+      "gate_id": "R2-G44",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G45": {
+      "gate_id": "R2-G45",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G46": {
+      "gate_id": "R2-G46",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G47": {
+      "gate_id": "R2-G47",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G48": {
+      "gate_id": "R2-G48",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G49": {
+      "gate_id": "R2-G49",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G50": {
+      "gate_id": "R2-G50",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G51": {
+      "gate_id": "R2-G51",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G52": {
+      "gate_id": "R2-G52",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G53": {
+      "gate_id": "R2-G53",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G54": {
+      "gate_id": "R2-G54",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G55": {
+      "gate_id": "R2-G55",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G56": {
+      "gate_id": "R2-G56",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G57": {
+      "gate_id": "R2-G57",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G58": {
+      "gate_id": "R2-G58",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G59": {
+      "gate_id": "R2-G59",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G60": {
+      "gate_id": "R2-G60",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G61": {
+      "gate_id": "R2-G61",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G62": {
+      "gate_id": "R2-G62",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G63": {
+      "gate_id": "R2-G63",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G64": {
+      "gate_id": "R2-G64",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G65": {
+      "gate_id": "R2-G65",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G66": {
+      "gate_id": "R2-G66",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G67": {
+      "gate_id": "R2-G67",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G68": {
+      "gate_id": "R2-G68",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G69": {
+      "gate_id": "R2-G69",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G70": {
+      "gate_id": "R2-G70",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G71": {
+      "gate_id": "R2-G71",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    },
+    "R2-G72": {
+      "gate_id": "R2-G72",
+      "status": "PASS",
+      "verdict": "VERIFIED_PASS",
+      "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
+    }
+  },
   "machine_verdict": "RELEASE_ALLOWED",
-  "passed": 70,
-  "release_id": "rel-hemiksem-v5.1.0-prod"
+  "evaluated_at": "2026-09-07T16:20:04.514572+00:00"
 }
