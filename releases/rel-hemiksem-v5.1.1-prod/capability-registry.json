@@ -1,0 +1,23 @@
+{
+  "engine_runtime": "8.1",
+  "generated_at": "2026-09-07T12:45:51.934868+00:00",
+  "operations": [
+    "getHemiksemServerHealth",
+    "getHemiksemCurrentRelease",
+    "listMunicipalDomains",
+    "searchMunicipalKnowledge",
+    "getHemiksemDocument",
+    "getHemiksemSegment",
+    "getHemiksemEvidencePack",
+    "checkHemiksemCurrentness",
+    "checkHemiksemApplicability",
+    "describeCapabilities"
+  ],
+  "product_version": "5.1.1",
+  "read_only": true,
+  "relay_api_version": "5.1.1",
+  "release_id": "rel-hemiksem-v5.1.1-prod",
+  "release_version": "5.1.1",
+  "server_api_version": "5.1.1",
+  "total_operations": 10
+}

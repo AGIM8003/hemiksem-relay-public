@@ -1,10 +1,10 @@
 {
   "candidate_id": "CAND-HEMIKSEM-V511-PROD",
-  "execution_finished": "2026-09-07T16:46:30.389304+00:00",
-  "execution_started": "2026-09-07T16:46:30.469190+00:00",
+  "execution_finished": "2026-09-07T17:30:17.788261+00:00",
+  "execution_started": "2026-09-07T17:30:17.882034+00:00",
   "exit_code": 0,
-  "generated_at": "2026-09-07T16:46:30.469190+00:00",
-  "git_commit": "9fef91d",
+  "generated_at": "2026-09-07T17:30:17.882034+00:00",
+  "git_commit": "ca1683e",
   "receipt_sha256": "380a7e47d075fe61ede77d4bf5c7c77600e5699770b4969c95f8142cfc86799f",
   "release_id": "rel-hemiksem-v5.1.1-prod",
   "status": "PASS",
@@ -15,10 +15,10 @@
   },
   "test_suite_hash": "380a7e47d075fe61ede77d4bf5c7c77600e5699770b4969c95f8142cfc86799f",
   "tests_blocked": 0,
-  "tests_discovered": 614,
-  "tests_executed": 614,
+  "tests_discovered": 695,
+  "tests_executed": 695,
   "tests_failed": 0,
   "tests_invalidated": 0,
-  "tests_passed": 614,
+  "tests_passed": 695,
   "tests_skipped": 0
 }
