@@ -4,12 +4,12 @@
   "product_version": "5.2.0",
   "proof_revision": "R1",
   "spec_id": "HEMIKSEM-AI-V520-R1-MEASURABLE-MUNICIPAL-QUALITY-CERTIFICATION",
-  "manifest_sha256": "56ed016c015f04b0a6216c91f28b8572d759ba5d0df6d91b08227f217f33737d",
-  "test_proof_sha256": "ab9b509aaca001921dc56c5ef065b0081fbe77d69edd4584b29c96a0671cf735",
-  "gate_proof_sha256": "dad3b30066747a8b842293690515c114d9d3f62fb02620e8bcb135035c3a10b4",
-  "rollback_proof_sha256": "a27a189e776857f1ecc3f183147246522a12062ce486de8ced15a14401ad2a51",
-  "privacy_status_sha256": "7841b1037f3cad0017f0231d183faa5e149219ec8e3730ee1c255b7a15bcf86d",
+  "manifest_sha256": "e59fffe721dd3f6bee0cb065470605f091c51a4005c910d9c37c0f7f411f0a24",
+  "test_proof_sha256": "b41ecf2a1762523dcc801cba6c14a3acf8a2a51184ea7d5f124b52a7ccb6e155",
+  "gate_proof_sha256": "1eea96ab8ab3f60e9c7bc0686874818e365e25b2a2cb25c012304e8a47b0aae8",
+  "rollback_proof_sha256": "9682a54ce3c138607db0b2d8f02469287d2d9d5b858476b3e7b8a58f5dc16e94",
+  "privacy_status_sha256": "957efae7d46f75a2b3c23de3dfe99c9eac18fe5582dc4e9974f7b37af3071d9f",
   "chain_acyclic": true,
   "status": "PASS",
-  "generated_at": "2026-09-07T19:37:56.905693+00:00"
+  "generated_at": "2026-09-07T19:25:00.406156+00:00"
 }
