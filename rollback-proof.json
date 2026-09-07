@@ -1,16 +1,10 @@
 {
-  "schema_version": "1.0.0",
-  "spec_id": "HEMIKSEM-AI-V520-R1-MEASURABLE-MUNICIPAL-QUALITY-CERTIFICATION",
   "release_id": "rel-hemiksem-v5.2.0-prod",
-  "product_version": "5.2.0",
-  "engine_runtime": "8.1",
-  "rollback_from_release": "rel-hemiksem-v5.2.0-prod",
-  "rollback_to_release": "rel-hemiksem-v5.1.1-prod",
-  "restore_to_release": "rel-hemiksem-v5.2.0-prod",
-  "previous_release": "rel-hemiksem-v5.1.1-prod",
+  "proof_revision": "R3.1",
+  "rollback_target_release": "rel-hemiksem-v5.1.1-prod",
+  "rollback_target_proof": "R2.2",
+  "rollback_procedure": "IMMUTABLE_VERSIONED_SNAPSHOT_RESTORE",
+  "rollback_tested": true,
   "status": "PASS",
-  "rollback_verified": true,
-  "roundtrip_state": "ROLLBACK_ROUNDTRIP_VERIFIED",
-  "data_loss_count": 0,
-  "verified_at": "2026-09-07T20:03:07.844737+00:00"
+  "generated_at": "2026-09-07T20:56:30.901510+00:00"
 }

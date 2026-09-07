@@ -1,5 +1,8 @@
 {
-  "index_hash": "c3cc54f04fae761b0052d79a6da03c56c95da20d9b0c8576e7157313fe305373",
+  "vector_epoch_id": "EPOCH-V520-VEC-001",
+  "vector_index_id": "VEC-IDX-EPOCH-V520-VEC-001",
+  "vectors_count": 15541,
   "dimension": 384,
-  "count": 15541
+  "metric": "COSINE_DOT_PRODUCT",
+  "generated_at": "2026-09-07T20:56:30.899357+00:00"
 }

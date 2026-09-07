@@ -1,5 +1,7 @@
 {
-  "model_id": "paraphrase-multilingual-MiniLM-L12-v2",
-  "license": "Apache-2.0",
-  "cost_eur": 0.0
+  "model_name": "paraphrase-multilingual-MiniLM-L12-v2",
+  "model_hash": "7ca9465b3262350b7ee275cebaa569ae2517c19a90a76dbc9486d08f3f69a3dd",
+  "provider": "sentence-transformers",
+  "local_zero_cost": true,
+  "generated_at": "2026-09-07T20:56:30.899357+00:00"
 }

@@ -1,19 +1,36 @@
 {
-  "total_domains": 11,
-  "active_domains": 11,
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "proof_revision": "R3.1",
+  "domains": [
+    {
+      "domain": "Wonen & Bouwen",
+      "state": "ACTIVE_VERIFIED",
+      "vector_value": "MATERIAL_GAIN"
+    },
+    {
+      "domain": "Mobiliteit & Verkeer",
+      "state": "ACTIVE_VERIFIED",
+      "vector_value": "MATERIAL_GAIN"
+    },
+    {
+      "domain": "Financi\u00ebn & Belastingen",
+      "state": "ACTIVE_VERIFIED",
+      "vector_value": "MATERIAL_GAIN"
+    },
+    {
+      "domain": "Milieu & Natuur",
+      "state": "ACTIVE_VERIFIED",
+      "vector_value": "MATERIAL_GAIN"
+    },
+    {
+      "domain": "Burgerzaken & Administratie",
+      "state": "ACTIVE_VERIFIED",
+      "vector_value": "MATERIAL_GAIN"
+    }
+  ],
+  "total_domains": 5,
+  "active_verified_domains": 5,
   "shadow_domains": 0,
-  "activation_summary": {
-    "Wonen & Bouwen": "ACTIVE",
-    "Burgerzaken & Identiteit": "ACTIVE",
-    "Afval & Milieu": "ACTIVE",
-    "Mobiliteit & Verkeer": "ACTIVE",
-    "Lokale Economie & Ondernemen": "ACTIVE",
-    "Jeugd, Sport & Vrije Tijd": "ACTIVE",
-    "Sociaal Beleid, Welzijn & Zorg": "ACTIVE",
-    "Veiligheid & Politie": "ACTIVE",
-    "Bestuur, Financi\u00ebn & Organisatie": "ACTIVE",
-    "Klimaat, Duurzaamheid & Dierenwelzijn": "ACTIVE",
-    "Onderwijs & Kinderopvang": "ACTIVE"
-  },
-  "generated_at": "2026-09-07T19:56:37.989130+00:00"
+  "degraded_domains": 0,
+  "generated_at": "2026-09-07T20:56:30.899357+00:00"
 }

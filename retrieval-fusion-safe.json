@@ -1,0 +1,12 @@
+{
+  "algorithm": "RRF",
+  "k": 60,
+  "lanes": [
+    "exact",
+    "bm25",
+    "graph",
+    "vector"
+  ],
+  "recomputable": true,
+  "generated_at": "2026-09-07T20:56:30.899357+00:00"
+}
