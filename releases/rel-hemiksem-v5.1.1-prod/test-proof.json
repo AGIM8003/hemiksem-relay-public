@@ -1,14 +1,14 @@
 {
-  "candidate_id": "CAND-HEMIKSEM-V511-R21-PROD",
+  "candidate_id": "CAND-HEMIKSEM-V511-R22-PROD",
   "engine_runtime": "8.1",
   "product_version": "5.1.1",
-  "proof_revision": "R2.1",
+  "proof_revision": "R2.2",
   "release_id": "rel-hemiksem-v5.1.1-prod",
   "schema_version": "4.0",
   "status": "PASS",
   "suite_count": 42,
-  "tested_source_commit_sha": "ca1683ee8161c12b69109b46ef3e392d8738f468",
-  "tested_source_tree_sha": "8c20b5c597a56ea35539c8c7f7759cc4783b5aeb",
+  "tested_source_commit_sha": "446aa0e918d773b0ade2a08684428c9e92ca8210",
+  "tested_source_tree_sha": "a6f9af9f64e78ed164b1992033c303c70beb95ce",
   "unique_tests_discovered": 708,
   "unique_tests_executed": 708,
   "unique_tests_passed": 708,
@@ -16,5 +16,5 @@
   "unique_tests_skipped": 0,
   "unique_tests_blocked": 0,
   "unique_tests_invalidated": 0,
-  "finished_at": "2026-09-07T17:49:13.721845+00:00"
+  "finished_at": "2026-09-07T18:45:00.581542+00:00"
 }

@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0.0",
-  "spec_id": "HEMIKSEM-AI-V511-R21-FINAL-PUBLIC-BYTE-PROOF-CLOSURE",
-  "proof_revision": "R2.1",
-  "candidate_id": "CAND-HEMIKSEM-V511-R21-PROD",
+  "spec_id": "HEMIKSEM-AI-V511-R22-REMOTE-OBSERVED-RELEASE-AUTHORITY",
+  "proof_revision": "R2.2",
+  "candidate_id": "CAND-HEMIKSEM-V511-R22-PROD",
   "execution_layer": "LOCAL_SERVER_RELEASE_SWITCH",
   "release_id": "rel-hemiksem-v5.1.1-prod",
   "rollback_from_release": "rel-hemiksem-v5.1.1-prod",
@@ -39,5 +39,5 @@
   "data_loss": 0,
   "data_loss_count": 0,
   "status": "PASS",
-  "executed_at": "2026-09-07T17:49:13.721845+00:00"
+  "executed_at": "2026-09-07T18:45:00.581542+00:00"
 }
