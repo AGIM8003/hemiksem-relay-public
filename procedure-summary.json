@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "knowledge_epoch": "KE-HEMIKSEM-20260907-PROD",
+  "expected_procedures": 16,
+  "registered_procedures": 3,
+  "complete_current_procedures": 3,
+  "expectation_coverage": 0.1875,
+  "current_completeness": 1.0,
+  "procedures": [
+    {
+      "procedure_id": "PROC_VERHUIS",
+      "domain": "BURGERZAKEN",
+      "purpose": "Aangifte van adreswijziging binnen of naar Gemeente Hemiksem",
+      "completeness": "COMPLETE",
+      "currentness": "CURRENT",
+      "source_refs": [
+        "SRC_HEMIKSEM_BURGERDIENSTEN"
+      ]
+    },
+    {
+      "procedure_id": "PROC_OMGEVINGSVERGUNNING",
+      "domain": "OMGEVING_BOUWEN",
+      "purpose": "Aanvraag omgevingsvergunning voor stedenbouwkundige handelingen",
+      "completeness": "COMPLETE",
+      "currentness": "CURRENT",
+      "source_refs": [
+        "SRC_HEMIKSEM_BOUWVOORSCHRIFTEN",
+        "SRC_RUP_SCHELDEBOORDEN"
+      ]
+    },
+    {
+      "procedure_id": "PROC_REISPAS",
+      "domain": "BURGERZAKEN",
+      "purpose": "Aanvraag van een Belgisch paspoort voor reizen buiten de EU",
+      "completeness": "COMPLETE",
+      "currentness": "CURRENT",
+      "source_refs": [
+        "SRC_HEMIKSEM_BURGERDIENSTEN",
+        "SRC_HEMIKSEM_TARIEVEN_2026"
+      ]
+    }
+  ],
+  "generated_at": "2026-09-07T19:11:00.057581+00:00"
+}

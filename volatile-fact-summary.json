@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "knowledge_epoch": "KE-HEMIKSEM-20260907-PROD",
+  "expected_facts": 10,
+  "tracked_facts": 8,
+  "current_facts": 8,
+  "expectation_coverage": 0.8,
+  "current_coverage": 1.0,
+  "high_risk_stale_count": 0,
+  "facts": [
+    {
+      "fact_id": "FACT_TEL_ALGEMEEN",
+      "category": "PHONE",
+      "predicate": "algemeen telefoonnummer Gemeente Hemiksem",
+      "value": "03 288 26 00",
+      "responsible_service": "Onthaal & Communicatie",
+      "currentness_state": "CURRENT",
+      "risk_level": "HIGH"
+    },
+    {
+      "fact_id": "FACT_MAIL_ALGEMEEN",
+      "category": "EMAIL",
+      "predicate": "algemeen e-mailadres",
+      "value": "info@hemiksem.be",
+      "responsible_service": "Onthaal & Communicatie",
+      "currentness_state": "CURRENT",
+      "risk_level": "HIGH"
+    },
+    {
+      "fact_id": "FACT_ADDR_ADMIN",
+      "category": "ADDRESS",
+      "predicate": "adres administratief centrum",
+      "value": "Gemeenteplaats 1, 2620 Hemiksem",
+      "responsible_service": "Algemene Directie",
+      "currentness_state": "CURRENT",
+      "risk_level": "HIGH"
+    },
+    {
+      "fact_id": "FACT_OPENING_BURGERZAKEN",
+      "category": "OPENING_HOURS",
+      "predicate": "openingsuren Burgerzaken",
+      "value": "Maandag tot vrijdag 09:00 - 12:00, dinsdagavond 17:30 - 20:00 (enkel op afspraak)",
+      "responsible_service": "Dienst Burgerzaken",
+      "currentness_state": "CURRENT",
+      "risk_level": "HIGH"
+    },
+    {
+      "fact_id": "FACT_APPOINTMENT_RULE",
+      "category": "APPOINTMENT_RULE",
+      "predicate": "verplichte afspraak gemeentediensten",
+      "value": "Alle loketdiensten werken uitsluitend op afspraak via hemiksem.be of 03 288 26 00",
+      "responsible_service": "Onthaal",
+      "currentness_state": "CURRENT",
+      "risk_level": "HIGH"
+    },
+    {
+      "fact_id": "FACT_FEE_PASPOORT_VOLWASSEN",
+      "category": "FEE",
+      "predicate": "kostprijs reispaspoort volwassene (normale procedure)",
+      "value": "EUR 71.00 (gemeentelijke heffing inbegrepen)",
+      "responsible_service": "Burgerzaken",
+      "currentness_state": "CURRENT",
+      "risk_level": "HIGH"
+    },
+    {
+      "fact_id": "FACT_DEADLINE_VERHUIS",
+      "category": "DEADLINE",
+      "predicate": "aangiftetermijn adreswijziging",
+      "value": "Binnen 8 werkdagen na effectieve verhuis",
+      "responsible_service": "Burgerzaken / Bevolking",
+      "currentness_state": "CURRENT",
+      "risk_level": "HIGH"
+    },
+    {
+      "fact_id": "FACT_PORTAL_URL",
+      "category": "PORTAL",
+      "predicate": "officieel e-loket portaal",
+      "value": "https://www.hemiksem.be/eloket",
+      "responsible_service": "ICT & Digitalisering",
+      "currentness_state": "CURRENT",
+      "risk_level": "MEDIUM"
+    }
+  ],
+  "generated_at": "2026-09-07T19:11:31.135706+00:00"
+}

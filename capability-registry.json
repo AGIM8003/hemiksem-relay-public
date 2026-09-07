@@ -1,23 +1,145 @@
 {
-  "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T12:45:51.934868+00:00",
-  "operations": [
-    "getHemiksemServerHealth",
-    "getHemiksemCurrentRelease",
-    "listMunicipalDomains",
-    "searchMunicipalKnowledge",
-    "getHemiksemDocument",
-    "getHemiksemSegment",
-    "getHemiksemEvidencePack",
-    "checkHemiksemCurrentness",
-    "checkHemiksemApplicability",
-    "describeCapabilities"
+  "schema_version": "1.0.0",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "capabilities": [
+    {
+      "id": "getHemiksemServerHealth",
+      "method": "GET",
+      "path": "/v4/status",
+      "effect": "READ",
+      "type": "CORE_MUNICIPAL_READ"
+    },
+    {
+      "id": "getHemiksemCurrentRelease",
+      "method": "GET",
+      "path": "/v4/release",
+      "effect": "READ",
+      "type": "CORE_MUNICIPAL_READ"
+    },
+    {
+      "id": "listMunicipalDomains",
+      "method": "GET",
+      "path": "/v4/domains",
+      "effect": "READ",
+      "type": "CORE_MUNICIPAL_READ"
+    },
+    {
+      "id": "searchMunicipalKnowledge",
+      "method": "GET",
+      "path": "/v4/search",
+      "param": "q",
+      "effect": "READ",
+      "type": "CORE_MUNICIPAL_READ"
+    },
+    {
+      "id": "getHemiksemDocument",
+      "method": "GET",
+      "path": "/v4/document/{document_id}",
+      "effect": "READ",
+      "type": "CORE_MUNICIPAL_READ"
+    },
+    {
+      "id": "getHemiksemSegment",
+      "method": "GET",
+      "path": "/v4/segment/{segment_uid}",
+      "effect": "READ",
+      "type": "CORE_MUNICIPAL_READ"
+    },
+    {
+      "id": "getHemiksemEvidencePack",
+      "method": "GET",
+      "path": "/v4/evidence-pack",
+      "effect": "READ",
+      "type": "CORE_MUNICIPAL_READ"
+    },
+    {
+      "id": "checkHemiksemCurrentness",
+      "method": "GET",
+      "path": "/v4/currentness",
+      "effect": "READ",
+      "type": "CORE_MUNICIPAL_READ"
+    },
+    {
+      "id": "checkHemiksemApplicability",
+      "method": "GET",
+      "path": "/v4/applicability",
+      "effect": "READ",
+      "type": "CORE_MUNICIPAL_READ"
+    },
+    {
+      "id": "describeCapabilities",
+      "method": "GET",
+      "path": "/v4/capabilities",
+      "effect": "READ",
+      "type": "CORE_MUNICIPAL_READ"
+    },
+    {
+      "id": "getHemiksemProofStatus",
+      "method": "GET",
+      "path": "/v4/proof-status",
+      "effect": "READ",
+      "type": "AUXILIARY_INTROSPECTION_READ"
+    },
+    {
+      "id": "getMunicipalQualityContext",
+      "method": "GET",
+      "path": "/v4/quality-context",
+      "effect": "READ",
+      "type": "AUXILIARY_INTROSPECTION_READ"
+    },
+    {
+      "id": "getMunicipalDomainQuality",
+      "method": "GET",
+      "path": "/v4/domain-quality",
+      "effect": "READ",
+      "type": "AUXILIARY_INTROSPECTION_READ"
+    },
+    {
+      "id": "getKnowledgeLifecycleSummary",
+      "method": "GET",
+      "path": "/v4/lifecycle-summary",
+      "effect": "READ",
+      "type": "AUXILIARY_INTROSPECTION_READ"
+    },
+    {
+      "id": "getKnowledgeLifecycleItem",
+      "method": "GET",
+      "path": "/v4/lifecycle-item",
+      "effect": "READ",
+      "type": "AUXILIARY_INTROSPECTION_READ"
+    },
+    {
+      "id": "listMunicipalProcedures",
+      "method": "GET",
+      "path": "/v4/procedures",
+      "effect": "READ",
+      "type": "AUXILIARY_INTROSPECTION_READ"
+    },
+    {
+      "id": "getMunicipalProcedure",
+      "method": "GET",
+      "path": "/v4/procedure/{procedure_id}",
+      "effect": "READ",
+      "type": "AUXILIARY_INTROSPECTION_READ"
+    },
+    {
+      "id": "getVolatileFactStatus",
+      "method": "GET",
+      "path": "/v4/volatile-facts",
+      "effect": "READ",
+      "type": "AUXILIARY_INTROSPECTION_READ"
+    },
+    {
+      "id": "listVolatileFactCoverage",
+      "method": "GET",
+      "path": "/v4/volatile-facts/coverage",
+      "effect": "READ",
+      "type": "AUXILIARY_INTROSPECTION_READ"
+    }
   ],
-  "product_version": "5.1.1",
-  "read_only": true,
-  "relay_api_version": "5.1.1",
-  "release_id": "rel-hemiksem-v5.1.1-prod",
-  "release_version": "5.1.1",
-  "server_api_version": "5.1.1",
-  "total_operations": 10
+  "capability_count": 19,
+  "core_count": 10,
+  "auxiliary_count": 9,
+  "all_read_only": true,
+  "generated_at": "2026-09-07T19:25:00.406156+00:00"
 }

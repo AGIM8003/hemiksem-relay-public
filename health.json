@@ -1,15 +1,16 @@
 {
   "status": "OPERATIONAL",
   "service_status": "OPERATIONAL",
-  "release_id": "rel-hemiksem-v5.1.1-prod",
-  "release_version": "5.1.1",
-  "product_version": "5.1.1",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "release_version": "5.2.0",
+  "product_version": "5.2.0",
   "engine_version": "8.1",
   "engine_runtime": "8.1",
   "evidence_artifacts": 37,
   "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
   "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
-  "proof_revision": "R2.2",
-  "spec_id": "HEMIKSEM-AI-V511-R22-REMOTE-OBSERVED-RELEASE-AUTHORITY",
-  "checked_at": "2026-09-07T19:17:45.202487+00:00"
+  "proof_revision": "R1",
+  "spec_id": "HEMIKSEM-AI-V520-R1-MEASURABLE-MUNICIPAL-QUALITY-CERTIFICATION",
+  "quality_certification_state": "QUALITY_PARTIALLY_CERTIFIED",
+  "checked_at": "2026-09-07T19:25:00.406156+00:00"
 }
