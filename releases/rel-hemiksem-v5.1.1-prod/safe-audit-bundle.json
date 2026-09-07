@@ -2,8 +2,8 @@
   "absolute_path_leaks": 0,
   "audit_directory": "audit/",
   "audit_manifest": "audit/audit-manifest.json",
-  "audit_manifest_sha256": "0d7f13d65f52d378b34637e5626cf1ddf2ca2241922e69c474e18a8dc8780f8d",
-  "bundle_hash": "d42db3314fef47f75c6942e5e69e78868749e037073abb4e8d9aa159110b6307",
+  "audit_manifest_sha256": "f3c7eff3380ad8c9cecaa7f8c34015b8f671689b994b26989fc9e4330e96d53c",
+  "bundle_hash": "0b2aa1db6a6f7192cb4d876348b9597e7eb9e66e1022f5488830bae44a54904c",
   "engine_runtime": "8.1",
   "private_content_leaks": 0,
   "product_version": "5.1.1",
@@ -12,5 +12,5 @@
   "secret_leaks": 0,
   "total_members": 34,
   "validation_state": "PASS",
-  "verified_at": "2026-09-07T19:35:46.811022+00:00"
+  "verified_at": "2026-09-07T19:54:35.180072+00:00"
 }

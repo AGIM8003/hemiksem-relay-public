@@ -9,7 +9,7 @@
   "country": "Belgium",
   "engine_runtime": "8.1",
   "engine_runtime_version": "8.1",
-  "generated_at": "2026-09-07T19:35:45.204812+00:00",
+  "generated_at": "2026-09-07T19:54:33.828987+00:00",
   "invariants": [
     "ANSWER_STRENGTH <= VERIFIED_EVIDENCE_STRENGTH",
     "RELEASE_STRENGTH <= VERIFIED_DEPLOYED_EXECUTION_PROOF",

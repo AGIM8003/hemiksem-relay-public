@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "release_id": "rel-hemiksem-v5.1.1-prod",
   "capabilities": [
     {
       "id": "getHemiksemServerHealth",
@@ -135,11 +135,18 @@
       "path": "/v4/volatile-facts/coverage",
       "effect": "READ",
       "type": "AUXILIARY_INTROSPECTION_READ"
+    },
+    {
+      "id": "getHemiksemRetrievalStatus",
+      "method": "GET",
+      "path": "/v4/retrieval-status",
+      "effect": "READ",
+      "type": "AUXILIARY_INTROSPECTION_READ"
     }
   ],
-  "capability_count": 19,
+  "capability_count": 20,
   "core_count": 10,
   "auxiliary_count": 9,
   "all_read_only": true,
-  "generated_at": "2026-09-07T19:25:00.406156+00:00"
+  "generated_at": "2026-09-07T19:53:50.241511+00:00"
 }

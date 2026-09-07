@@ -25,7 +25,7 @@
       "sample_count": 50
     }
   },
-  "measured_at": "2026-09-07T19:35:45.204812+00:00",
+  "measured_at": "2026-09-07T19:54:33.828987+00:00",
   "performance_budget_pass": true,
   "release_id": "rel-hemiksem-v5.1.1-prod",
   "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2"

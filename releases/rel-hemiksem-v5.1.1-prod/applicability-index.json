@@ -2,8 +2,8 @@
   "default_state": "APPLIES",
   "dimensions_evaluated": 13,
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T19:25:00.406156+00:00",
-  "product_version": "5.2.0",
-  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "generated_at": "2026-09-07T19:53:50.241511+00:00",
+  "product_version": "5.1.1",
+  "release_id": "rel-hemiksem-v5.1.1-prod",
   "release_version": "5.1.1"
 }
