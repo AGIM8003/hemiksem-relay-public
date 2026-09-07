@@ -1,12 +1,12 @@
 {
   "candidate_id": "CAND-HEMIKSEM-V511-PROD",
-  "execution_finished": "2026-09-07T19:17:45.202487+00:00",
-  "execution_started": "2026-09-07T19:17:45.300074+00:00",
+  "execution_finished": "2026-09-07T19:25:41.303991+00:00",
+  "execution_started": "2026-09-07T19:25:41.408191+00:00",
   "exit_code": 0,
-  "generated_at": "2026-09-07T19:17:45.300074+00:00",
-  "git_commit": "dfc81cf",
+  "generated_at": "2026-09-07T19:25:41.408191+00:00",
+  "git_commit": "fa87e11",
   "receipt_sha256": "380a7e47d075fe61ede77d4bf5c7c77600e5699770b4969c95f8142cfc86799f",
-  "release_id": "rel-hemiksem-v5.1.1-prod",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
   "status": "PASS",
   "suite_breakdown": {
     "base": 542,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T19:17:45.300074+00:00",
+  "generated_at": "2026-09-07T19:25:41.408191+00:00",
   "receipts": [
     {
       "receipt_file": "ACTION_EXECUTION_RECEIPT.json",
@@ -46,7 +46,7 @@
     {
       "receipt_file": "FINAL_RELEASE_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/FINAL_RELEASE_RECEIPT.json",
-      "sha256": "5e86b0ab84666e24727f2028c6f280205b2e6d96307991de982e93090eeb56c2",
+      "sha256": "4143e30e1f1e3003220f3fbb450c126f46c81a83a370f1c2fd70ff6b3aa9a2cd",
       "size_bytes": 3147,
       "status": "PASS"
     },
@@ -690,14 +690,14 @@
     {
       "receipt_file": "V503R3_OPENAPI_AUTHORITY_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503R3_OPENAPI_AUTHORITY_RECEIPT.json",
-      "sha256": "8c44491e034646abd9753dadaa83f37ab8d59708f6d6a8c2e36e38c176a61932",
+      "sha256": "ed37b56b790f089bc323425be768a9807ed808a66d9332905454f20505afa5c7",
       "size_bytes": 1072,
       "status": "PASS"
     },
     {
       "receipt_file": "V503R3_OPENAPI_PARITY_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503R3_OPENAPI_PARITY_RECEIPT.json",
-      "sha256": "a419ff15ecf1272cd5a42e9916021003afe71afacd2dad015cb9e9eb67d8b889",
+      "sha256": "4d00cee12d8d1d6da03b6b36db793e569eacb691d0b3656263bdceb8d1e6d0cf",
       "size_bytes": 3077,
       "status": "PASS"
     },
@@ -753,7 +753,7 @@
     {
       "receipt_file": "V503R3_SAFE_AUDIT_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503R3_SAFE_AUDIT_RECEIPT.json",
-      "sha256": "a2e4469a9c5340528069824dac59b575236c59e697adfc2ef177709e378bfb81",
+      "sha256": "57cae60bb0db0518cb3d2529a25406fc5cc530e1a97fdacf7a805cf83c42fd89",
       "size_bytes": 608,
       "status": "PASS"
     },
@@ -942,8 +942,8 @@
     {
       "receipt_file": "V503R4_SAFE_AUDIT_SEMANTIC_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503R4_SAFE_AUDIT_SEMANTIC_RECEIPT.json",
-      "sha256": "5f2d1ced97ab5623cd1e8f234a7f92c9ea3127ddd84b7fe02c9e81287f7cc8b4",
-      "size_bytes": 999,
+      "sha256": "8f7cf38a331be146dc790e296834d5e0849bed60010c23f06143a0e6f2a3bd17",
+      "size_bytes": 1339,
       "status": "PASS"
     },
     {
@@ -1096,7 +1096,7 @@
     {
       "receipt_file": "V503_SAFE_AUDIT_BUNDLE_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_SAFE_AUDIT_BUNDLE_RECEIPT.json",
-      "sha256": "50015a912cbc468168a5a090f51feab707d44c497561a59a15bfba880216898b",
+      "sha256": "5b7379809563d3063b209c02b52566b26b9349d32828c89884c91480283e9c65",
       "size_bytes": 470,
       "status": "PASS"
     },
@@ -1159,7 +1159,7 @@
     {
       "receipt_file": "V503_WORKSPACE_INVENTORY_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_WORKSPACE_INVENTORY_RECEIPT.json",
-      "sha256": "77450b8d5fdda759ec7644f62f5f5ff17354db7455bb9e7d0dee2cbe1c454f7f",
+      "sha256": "fa4f929c14abab09863d1e397d4dbac0d5756a7db38f6fc0015c3333419f6542",
       "size_bytes": 420,
       "status": "PASS"
     },
@@ -1222,7 +1222,7 @@
     {
       "receipt_file": "V510R2_MANIFEST_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V510R2_MANIFEST_RECEIPT.json",
-      "sha256": "c4dae4f2c0081cbe771a0761a86caa09fd37366a851e05a40ec52348c3ec62f7",
+      "sha256": "0e1c712c52ebb32b6084d788287699ab78d4cfc40be06b131621e05a42f02b88",
       "size_bytes": 537,
       "status": "PASS"
     },
@@ -1250,7 +1250,7 @@
     {
       "receipt_file": "V510R2_PUBLIC_ARTIFACT_REGISTRY_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V510R2_PUBLIC_ARTIFACT_REGISTRY_RECEIPT.json",
-      "sha256": "c4dae4f2c0081cbe771a0761a86caa09fd37366a851e05a40ec52348c3ec62f7",
+      "sha256": "0e1c712c52ebb32b6084d788287699ab78d4cfc40be06b131621e05a42f02b88",
       "size_bytes": 537,
       "status": "PASS"
     },
@@ -1530,78 +1530,78 @@
     {
       "receipt_file": "V511R21_BASELINE_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_BASELINE_RECEIPT.json",
-      "sha256": "b28ebaca59e555bded4fe00950882d68f219ef5b5af74d9fd2a9b41be1efecf6",
-      "size_bytes": 763,
+      "sha256": "c75e4c28e3020e39d4c4ba535bb711b24d6f8dd239a1ad9099075c6dd99c70d0",
+      "size_bytes": 765,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R21_CONNECTED_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_CONNECTED_RECEIPT.json",
-      "sha256": "f29de4c91c2e5e0255982a51b2f98a5a624c60e4219968e43d29c0d5d01d3492",
-      "size_bytes": 2288,
+      "sha256": "861593ed88a6b280a795458e324318418c871b4a2faeefd726dd269962cd4de0",
+      "size_bytes": 2291,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R21_FINAL_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_FINAL_RECEIPT.json",
-      "sha256": "8c578a1282ec26bedcc9bd2d94325288c816f4a3e7eca89394360b23d36b84ec",
-      "size_bytes": 1426,
+      "sha256": "935b99d161bce158852ffdf0ec9d1294e027f202665370606152f6224580901e",
+      "size_bytes": 1428,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R21_GATE_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_GATE_RECEIPT.json",
-      "sha256": "d88ad433c0698e695f6e0e87370479f58e2a5cf472c18f6a96c735c0bcbc8cb0",
-      "size_bytes": 4160,
+      "sha256": "bb3edaba10e6847451cce38e32fa64561ef088b9e2ba968d6652974847ad68ee",
+      "size_bytes": 4166,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R21_LAYER0_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_LAYER0_RECEIPT.json",
-      "sha256": "074d65100896fbd94fdd1069742bc68e713f1db1f096702b7dbcab90e16e2935",
-      "size_bytes": 5127,
+      "sha256": "61e52c926faddb681b2c546583cace4c90877fbf0ea8392f948c41e6248c9853",
+      "size_bytes": 5131,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R21_MANIFEST_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_MANIFEST_RECEIPT.json",
-      "sha256": "fd79e4d7e2b9f2d3836c13306fcf3784d61db94be8dedfcd7f811e8d29029470",
-      "size_bytes": 647,
+      "sha256": "c529487745aae71aa685ab8de949d83f105db1665fd6298b6de9ab68937fc45e",
+      "size_bytes": 649,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R21_PAGES_CONVERGENCE_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_PAGES_CONVERGENCE_RECEIPT.json",
-      "sha256": "1499ba21d966481c9fd477036d536ca1fede7449d8e44a99b511cb253e889d1a",
-      "size_bytes": 2901,
+      "sha256": "17132934077fccf0eab8e94fb054dfabce08f7b4e110c653393d5d4c73a45f5e",
+      "size_bytes": 2913,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R21_PROOF_CHAIN_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_PROOF_CHAIN_RECEIPT.json",
-      "sha256": "188bfea9142a8e921695d6214d0fa208a3213622e4190c627fdff0a3f1fe866d",
-      "size_bytes": 768,
+      "sha256": "f78f835b687495c43928857d2bd02c032705ff91554b563177a0af5890e611ef",
+      "size_bytes": 770,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R21_REGRESSION_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_REGRESSION_RECEIPT.json",
-      "sha256": "565af0f018c82a0dca00217e9069bafc4777cb07d6fa6f75be9d819407570a88",
-      "size_bytes": 2518,
+      "sha256": "f6076d6e5f1c2176d28490b991b204cf2a8e60e22120baabefd1e83d23111170",
+      "size_bytes": 2520,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R21_RELEASE_ROOT_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_RELEASE_ROOT_RECEIPT.json",
-      "sha256": "5d3f175dc09023b68241429df3b74b4aa817c9f821c7afb90659675ad4e792f9",
-      "size_bytes": 879,
+      "sha256": "215e98cb5605bd9b1cbd4d1528ff7bd2f2947db3750db15df1e6036d1b6f3e2d",
+      "size_bytes": 881,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R21_ROLLBACK_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R21_ROLLBACK_RECEIPT.json",
-      "sha256": "b0062dcd9cdb6c9cdff569509250a02e35ce72ba24db3b01b8b1b8d45f8ca7f1",
-      "size_bytes": 860,
+      "sha256": "b9f50625b8feda851034c74d46e8abfe145a65b783596c0ecf3b040b94cf16c1",
+      "size_bytes": 862,
       "status": "PASS"
     },
     {
@@ -2263,6 +2263,13 @@
       "status": "PASS"
     },
     {
+      "receipt_file": "V520_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "75bb26a64f6c596704ec4e1f524d1395255b75defde591b224241282625a4179",
+      "size_bytes": 1212,
+      "status": "PASS"
+    },
+    {
       "receipt_file": "V520_INDEX_COVERAGE_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_INDEX_COVERAGE_RECEIPT.json",
       "sha256": "4f40f0472dafe81ccf302c52b07ada8bf882f92811be606c2e75ed398b09f26a",
@@ -2309,6 +2316,13 @@
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_PROVENANCE_COVERAGE_RECEIPT.json",
       "sha256": "9d32b492549d223b123af5338642669b33b7676212092e0b0525a2a3fea157ad",
       "size_bytes": 552,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_QUALITY_DRIFT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_QUALITY_DRIFT_RECEIPT.json",
+      "sha256": "42d3043e486d9a5fe3022a9f64fdab5f3dbfa652a61d8b9ff5c0a9de591513d3",
+      "size_bytes": 828,
       "status": "PASS"
     },
     {
@@ -2391,14 +2405,14 @@
     {
       "receipt_file": "V53_INCREMENTAL_INGESTION_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_INCREMENTAL_INGESTION_RECEIPT.json",
-      "sha256": "71c599c99fe2855476ae715edd2e8d2be07f7882181ca24c31d0d87ca943739d",
+      "sha256": "9f8e25e6ec92f5e2549f8837a78e9f5d08ecdf06f1566d9328bddc2c9efbae80",
       "size_bytes": 463,
       "status": "PASS"
     },
     {
       "receipt_file": "V53_INGRESS_CONTINUITY_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_INGRESS_CONTINUITY_RECEIPT.json",
-      "sha256": "d483d7c9b79b9bae4a2e1e9fea2e539e755927616f9e5f4a9038fd2e8f537b41",
+      "sha256": "919d19090d39c7dfe1518efd99764f06bb97371e41d2b5b42aacba2538b456ac",
       "size_bytes": 566,
       "status": "PASS"
     },
@@ -3132,5 +3146,5 @@
     }
   ],
   "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
-  "total_receipts": 447
+  "total_receipts": 449
 }

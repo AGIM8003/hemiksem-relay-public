@@ -6,13 +6,13 @@
 # RELEASE_ID: rel-hemiksem-v5.1.1-prod
 # PRODUCT_VERSION: 5.1.1
 # ENGINE_RUNTIME: 8.1
-# GENERATED_AT: 2026-09-07T19:17:45.228741+00:00
+# GENERATED_AT: 2026-09-07T19:25:41.342842+00:00
 # ====================================================================
 
 openapi: 3.1.0
 info:
   title: AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN (V5)
-  version: 5.2.0
+  version: 5.1.1
   description: 'Governed, read-only municipal intelligence API for Gemeente Hemiksem.
     Release: rel-hemiksem-v5.2.0-prod. Engine: V8.1. All operations are safe, non-mutating
     read-only operations.'

@@ -3,23 +3,23 @@
 # GENERATED_FROM: OPENAPI/server-recall.openapi.yaml
 # SOURCE_OPENAPI_HASH: a2157e5cf6a0e6a62f42c88f8116ac41b29ae6cfdb55f9722227291a3a9300c8
 # SEMANTIC_OPENAPI_HASH: 110844db9d9ca4af903f0b2cf36e7953cb16d8d173511efae54041cb5489091b
-# RELEASE_ID: rel-hemiksem-v5.2.0-prod
-# PRODUCT_VERSION: 5.2.0
+# RELEASE_ID: rel-hemiksem-v5.1.1-prod
+# PRODUCT_VERSION: 5.1.1
 # ENGINE_RUNTIME: 8.1
-# GENERATED_AT: 2026-09-07T19:25:00.436851+00:00
+# GENERATED_AT: 2026-09-07T19:25:41.342842+00:00
 # ====================================================================
 
 openapi: 3.1.0
 info:
   title: AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN (V5)
-  version: 5.2.0
+  version: 5.1.1
   description: 'Governed, read-only municipal intelligence API for Gemeente Hemiksem.
     Release: rel-hemiksem-v5.2.0-prod. Engine: V8.1. All operations are safe, non-mutating
     read-only operations.'
   x-generated-from: OPENAPI/server-recall.openapi.yaml
   x-source-openapi-hash: a2157e5cf6a0e6a62f42c88f8116ac41b29ae6cfdb55f9722227291a3a9300c8
   x-semantic-openapi-hash: 110844db9d9ca4af903f0b2cf36e7953cb16d8d173511efae54041cb5489091b
-  x-release-id: rel-hemiksem-v5.2.0-prod
+  x-release-id: rel-hemiksem-v5.1.1-prod
 servers:
 - url: https://act-husband-wallpaper-exists.trycloudflare.com
   description: Production Cloudflare Ingress Gateway (HTTPS, EUR 0.00)

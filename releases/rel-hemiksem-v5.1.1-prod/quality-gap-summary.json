@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "quality_epoch": "QE-V520-20260907-001",
+  "knowledge_epoch": "KE-HEMIKSEM-20260907-PROD",
+  "total_gaps": 16,
+  "gap_types": {
+    "SAMPLE_SUFFICIENCY_GAP": 16,
+    "SOURCE_GAP": 0,
+    "CURRENTNESS_GAP": 0,
+    "PROCEDURE_GAP": 0,
+    "HIGH_RISK_FACT_GAP": 0
+  },
+  "unremediated_critical_gaps": 0,
+  "decision_support_policy": "NARROW_DIRECT_ONLY_WHEN_SAMPLE_INSUFFICIENT",
+  "status": "PASS",
+  "generated_at": "2026-09-07T19:28:00.000000+00:00"
+}

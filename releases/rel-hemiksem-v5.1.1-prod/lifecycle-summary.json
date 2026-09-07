@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "knowledge_epoch": "KE-HEMIKSEM-20260907-PROD",
+  "discovered": 1524,
+  "eligible": 1524,
+  "admitted": 1524,
+  "canonicalized": 1524,
+  "active": 1524,
+  "runtime_contributing": 1524,
+  "loaded": 430,
+  "searchable_documents": 430,
+  "searchable_segments": 15541,
+  "historical": 10,
+  "superseded": 9,
+  "duplicates": 74,
+  "private": 0,
+  "quarantined": 0,
+  "unknown": 0,
+  "source_accounting_coverage_percent": 100.0,
+  "provenance_coverage_percent": 100.0,
+  "generated_at": "2026-09-07T19:10:39.466292+00:00"
+}

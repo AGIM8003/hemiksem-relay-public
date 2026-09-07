@@ -2,15 +2,15 @@
   "absolute_path_leaks": 0,
   "audit_directory": "audit/",
   "audit_manifest": "audit/audit-manifest.json",
-  "audit_manifest_sha256": "07d9b1d8e22d9ca0bad82a3d48fe02cd87d5d81467132a08e96e0ff54bfddeac",
-  "bundle_hash": "b2c6255b73d1b09f6b6989e9f80f24dd6306d5343e6cf0add668fb08bccf7cb6",
+  "audit_manifest_sha256": "34a4663385595132996f7392f91c65150500868260753e4768bfc5c361cda019",
+  "bundle_hash": "4717111efa6d36f9695e9d9dcf9f1efed340ee8ed5e34ac4742116d93b6ccea6",
   "engine_runtime": "8.1",
   "private_content_leaks": 0,
-  "product_version": "5.1.1",
-  "release_id": "rel-hemiksem-v5.1.1-prod",
+  "product_version": "5.2.0",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
   "schema_version": "hemiksem-safe-audit-bundle-v3",
   "secret_leaks": 0,
   "total_members": 34,
   "validation_state": "PASS",
-  "verified_at": "2026-09-07T19:17:46.809471+00:00"
+  "verified_at": "2026-09-07T19:25:42.832135+00:00"
 }
