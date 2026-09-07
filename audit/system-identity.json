@@ -3,7 +3,7 @@
   "candidate_id": "CAND-HEMIKSEM-V510-R1",
   "country": "Belgium",
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T15:50:48.998944+00:00",
+  "generated_at": "2026-09-07T15:52:10.990738+00:00",
   "jurisdiction": "BE-VLG",
   "municipality": "Hemiksem",
   "origin_release_id": "rel-hemiksem-v5.0.0-prod",
@@ -14,6 +14,6 @@
   "release_id": "rel-hemiksem-v5.1.0-prod",
   "serving_release_id": "rel-hemiksem-v5.1.0-prod",
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
-  "tested_source_commit_sha": "c5bd12b2aedda60949e7e4c64a41f6379c67bcb0",
-  "tested_source_tree_sha": "ae182b7268d09022a8ec697c83f997a7c41dd3f5"
+  "tested_source_commit_sha": "09643c2539a61b63b56fd976f4eb6bacf0a2b97a",
+  "tested_source_tree_sha": "28ce146ee86d703df0d4406d592c1db00ff4573e"
 }

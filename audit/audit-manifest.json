@@ -142,17 +142,17 @@
       "currentness_state": "CURRENT"
     },
     "system-identity.json": {
-      "sha256": "dc5546b725c9f9155d280ccdef4d5150e652a1cf3eb00b6bccd58fc65bb1f671",
+      "sha256": "fc48b751d3d2cd75084f6b0aabb21fdf22a9d9fe03647837b477a3c5f7ae5df9",
       "size_bytes": 785,
       "currentness_state": "CURRENT"
     },
     "test-proof-full-safe.json": {
-      "sha256": "fcde96e10eb523be8856114905c5745df18653c839b56b76787a5b593e390549",
+      "sha256": "c67185066d08ce5816ce2123f36124fcbf38967b3e164e0f6c6f09450704eacf",
       "size_bytes": 613,
       "currentness_state": "CURRENT"
     },
     "test-summary.json": {
-      "sha256": "fcde96e10eb523be8856114905c5745df18653c839b56b76787a5b593e390549",
+      "sha256": "c67185066d08ce5816ce2123f36124fcbf38967b3e164e0f6c6f09450704eacf",
       "size_bytes": 613,
       "currentness_state": "CURRENT"
     },
@@ -200,9 +200,9 @@
     "rollback-summary.json": "8dbba50bfd93a15809d62f2f4d0c5488e46aa5ea91ac98828468367b4fa83998",
     "security-proof-safe.json": "e92e6a5daa64ffc5e3424be7c9101f2f0b1d09c54dba48bbc6f359574d63c833",
     "security-summary.json": "e92e6a5daa64ffc5e3424be7c9101f2f0b1d09c54dba48bbc6f359574d63c833",
-    "system-identity.json": "dc5546b725c9f9155d280ccdef4d5150e652a1cf3eb00b6bccd58fc65bb1f671",
-    "test-proof-full-safe.json": "fcde96e10eb523be8856114905c5745df18653c839b56b76787a5b593e390549",
-    "test-summary.json": "fcde96e10eb523be8856114905c5745df18653c839b56b76787a5b593e390549",
+    "system-identity.json": "fc48b751d3d2cd75084f6b0aabb21fdf22a9d9fe03647837b477a3c5f7ae5df9",
+    "test-proof-full-safe.json": "c67185066d08ce5816ce2123f36124fcbf38967b3e164e0f6c6f09450704eacf",
+    "test-summary.json": "c67185066d08ce5816ce2123f36124fcbf38967b3e164e0f6c6f09450704eacf",
     "volatile-fact-summary.json": "ce5a7288195e325b11a1e89e425b33af328b62f0f3ab9790cb5fd5f0e0b97c30",
     "workspace-inventory-safe.json": "2d4d38bb7c4cf301c9501fbbf3f0a75e4315b6b0963b88ecaf6698f9a3f34fb3",
     "workspace-summary.json": "7438e2af199c5b9f02e69aa8bdb6817748e5c506c22251b408c0e391e345a1e2"
