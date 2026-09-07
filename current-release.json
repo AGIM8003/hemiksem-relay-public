@@ -1,11 +1,10 @@
 {
+  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R3.1",
-  "spec_id": "HEMIKSEM-AI-V520-R31-HYBRID-QUALITY-PROOF-CONVERGENCE",
-  "candidate_id": "CAND-HEMIKSEM-V520-R31-PROD",
-  "release_state": "RELEASED",
-  "operational_health": "HEALTHY_RELEASE_VERIFIED",
-  "released_at": "2026-09-07T21:00:17.666349+00:00"
+  "proof_revision": "R5",
+  "candidate_id": "CAND-HEMIKSEM-V520-R5-PROD",
+  "status": "SEALED_VALID",
+  "updated_at": "2026-09-07T21:08:58.445553+00:00"
 }

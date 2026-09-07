@@ -2,12 +2,12 @@
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R3.1",
-  "spec_id": "HEMIKSEM-AI-V520-R31-HYBRID-QUALITY-PROOF-CONVERGENCE",
+  "proof_revision": "R5",
+  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
   "vector_epoch_id": "EPOCH-V520-VEC-001",
   "vector_index_id": "VEC-IDX-EPOCH-V520-VEC-001",
   "vectors_count": 15541,
   "dimension": 384,
   "metric": "COSINE_DOT_PRODUCT",
-  "generated_at": "2026-09-07T21:00:17.661298+00:00"
+  "generated_at": "2026-09-07T21:08:58.445553+00:00"
 }

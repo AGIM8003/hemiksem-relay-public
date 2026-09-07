@@ -1,13 +1,13 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R31-HYBRID-QUALITY-PROOF-CONVERGENCE",
+  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R3.1",
-  "manifest_hash": "2bd295bcfb74be8fbb5856f46d2572fe4fb0578eccfb92daf5649613dec46398",
-  "proof_chain_hash": "a21e25b70e3c687125a08d7ac74a52eac77f303d5f0604faf3186da88a79fbf0",
-  "root_hash": "dd337afc7c9787acc838cd31a3af7720ba2f6ea7de483e64686bb5a02a0af0de",
+  "proof_revision": "R5",
+  "manifest_hash": "3f93c8c2b737abf9172bdbeb1630e5611db0c0f834aa6244825a0cebb6ee8927",
+  "proof_chain_hash": "7e3e40d6bcbb690888d1cdb92f392e7eb60956d2f66ae8ecf015bdb3de0edbf0",
+  "root_hash": "feb16f470777f3b7075265df640fcbe0e02e5732e077be00e49a1a40aa3a9c96",
   "machine_verdict": "RELEASE_ALLOWED",
   "operational_health": "HEALTHY_RELEASE_VERIFIED",
-  "generated_at": "2026-09-07T21:00:17.954526+00:00"
+  "generated_at": "2026-09-07T21:08:58.783092+00:00"
 }

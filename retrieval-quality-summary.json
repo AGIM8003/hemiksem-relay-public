@@ -1,6 +1,9 @@
 {
   "release_id": "rel-hemiksem-v5.2.0-prod",
-  "proof_revision": "R3.1",
+  "product_version": "5.2.0",
+  "engine_runtime": "8.1",
+  "proof_revision": "R5",
+  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
   "lexical_Recall@5": 0.0909,
   "hybrid_Recall@5": 0.0909,
   "lexical_MRR": 0.101,
@@ -11,5 +14,5 @@
   "nonempty_result_rate": 1.0,
   "false_support_rate": 0.0,
   "hybrid_quality_state": "VERIFIED_QUALITY_PASS",
-  "generated_at": "2026-09-07T21:00:17.661298+00:00"
+  "generated_at": "2026-09-07T21:08:58.445553+00:00"
 }

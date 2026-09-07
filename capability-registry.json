@@ -1,10 +1,10 @@
 {
   "schema_version": "1.1.0",
-  "spec_id": "HEMIKSEM-AI-V520-R31-HYBRID-QUALITY-PROOF-CONVERGENCE",
+  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R3.1",
+  "proof_revision": "R5",
   "core_count": 10,
   "auxiliary_count": 10,
   "capability_count": 20,
@@ -33,5 +33,5 @@
     "listVolatileFactCoverage",
     "getHemiksemRetrievalStatus"
   ],
-  "generated_at": "2026-09-07T21:00:17.658299+00:00"
+  "generated_at": "2026-09-07T21:08:58.445553+00:00"
 }

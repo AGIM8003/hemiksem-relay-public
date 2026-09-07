@@ -1,10 +1,15 @@
 {
+  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
   "release_id": "rel-hemiksem-v5.2.0-prod",
-  "proof_revision": "R3.1",
-  "rollback_target_release": "rel-hemiksem-v5.1.1-prod",
-  "rollback_target_proof": "R2.2",
-  "rollback_procedure": "IMMUTABLE_VERSIONED_SNAPSHOT_RESTORE",
-  "rollback_tested": true,
-  "status": "PASS",
-  "generated_at": "2026-09-07T21:00:17.670362+00:00"
+  "product_version": "5.2.0",
+  "engine_runtime": "8.1",
+  "proof_revision": "R5",
+  "rollback_levels": 4,
+  "level_1_profile": "PASS",
+  "level_2_vector": "PASS",
+  "level_3_knowledge": "PASS",
+  "level_4_product": "PASS",
+  "post_rollback_canary": "PASS",
+  "status": "VERIFIED_VALID",
+  "timestamp": "2026-09-07T21:08:58.445553+00:00"
 }

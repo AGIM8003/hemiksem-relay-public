@@ -1,13 +1,11 @@
 {
-  "status": "HEALTHY",
+  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R3.1",
-  "spec_id": "HEMIKSEM-AI-V520-R31-HYBRID-QUALITY-PROOF-CONVERGENCE",
+  "proof_revision": "R5",
   "operational_health": "HEALTHY_RELEASE_VERIFIED",
-  "server_state": "ONLINE",
-  "relay_state": "ONLINE",
-  "vector_state": "ACTIVE_VERIFIED",
-  "checked_at": "2026-09-07T21:00:17.668363+00:00"
+  "system_status": "ONLINE",
+  "retrieval_status": "HYBRID_MULTI_LANE_ADAPTIVE",
+  "timestamp": "2026-09-07T21:08:58.445553+00:00"
 }

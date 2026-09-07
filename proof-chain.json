@@ -1,54 +1,54 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R31-HYBRID-QUALITY-PROOF-CONVERGENCE",
+  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
   "release_id": "rel-hemiksem-v5.2.0-prod",
-  "proof_revision": "R3.1",
+  "proof_revision": "R5",
   "chain_length": 9,
   "chain_entries": [
     {
       "file": "current-release.json",
-      "sha256": "2ce18c82ab20233b8f5728de42f4f26733a90e6199b74eb897eebd187dd6edbf",
+      "sha256": "0e52e8411e83b86c6db5e6e2bf7c2d086b3397fbca25f09c2ed69b32163fa45b",
       "role": "RELEASE_IDENTITY"
     },
     {
       "file": "health.json",
-      "sha256": "7c7f8cc0b0639e4f3d0aea397c9f6038afe127b236b6a92d979452e68590531f",
+      "sha256": "ef522db8bfccae46cd64250a50004b276654265c980b65a350a9f385db335eb2",
       "role": "HEALTH_STATUS"
     },
     {
       "file": "test-proof.json",
-      "sha256": "1006c8bd22a63fc45e13c3d6381fa57b9790bdeb009c480c094e2d94cc967b33",
+      "sha256": "3aac02d2b99b9e326c204831e4176ef4703d0a6a632b287101debd32ef7dcfb4",
       "role": "TEST_PROOF"
     },
     {
       "file": "release-gates.json",
-      "sha256": "69837fd1916860e593e4ced9b181dd32daeceebd9ec7c1c9a3df3ca0702c4b9c",
+      "sha256": "bb562738715243e6e87fe35045a1b3227656c4953843f056d7915f7511ae5e91",
       "role": "RELEASE_GATES"
     },
     {
       "file": "rollback-proof.json",
-      "sha256": "499398b5ae74b13a893e040dfc3ada916d4c6995e3575808897d93ff8768f5fe",
+      "sha256": "75baf68924444f9662c20aa10c6bf08d43eb08249c6adb53e1e56102bd37fd17",
       "role": "ROLLBACK_PROOF"
     },
     {
       "file": "vector-status.json",
-      "sha256": "deaa76fc10ddef6bb5ab4d5598b4338a47e9bd586fbcba939a6f9a763e4c26d7",
+      "sha256": "8b1765130ef54db1ed8de94027d829b4928b49a97056247626e635d5abc3a733",
       "role": "VECTOR_STATUS"
     },
     {
       "file": "retrieval-quality-summary.json",
-      "sha256": "2530905b4a68c2120ddd28a7d0cec41eded33e4a96a2cacf979d5386d2525388",
+      "sha256": "85ae277376f415cbafc0babf5323488fc5842791953b2399e8f70d6f7122d3f9",
       "role": "RETRIEVAL_QUALITY"
     },
     {
       "file": "vector-domain-activation-summary.json",
-      "sha256": "cf7e546a5128c029a3cd1e2c208c999b116d77cd6472583fc92d5acd87d73722",
+      "sha256": "ae908f9bc38458a1272c4910229d0718e0b06bb4fdb9b09e9f07f5577801c830",
       "role": "VECTOR_DOMAIN_ACTIVATION"
     },
     {
       "file": "manifest.json",
-      "sha256": "2bd295bcfb74be8fbb5856f46d2572fe4fb0578eccfb92daf5649613dec46398",
+      "sha256": "3f93c8c2b737abf9172bdbeb1630e5611db0c0f834aa6244825a0cebb6ee8927",
       "role": "MANIFEST"
     }
   ],
-  "generated_at": "2026-09-07T21:00:17.954526+00:00"
+  "generated_at": "2026-09-07T21:08:58.765302+00:00"
 }
