@@ -1,13 +1,13 @@
 {
-  "candidate_canaries_passed": true,
   "candidate_restored": true,
+  "data_loss_bytes": 0,
   "data_loss_count": 0,
-  "execution_timestamp": "2026-09-07T12:44:51.780443+00:00",
-  "hash_parity": true,
-  "previous_canaries_passed": true,
+  "generated_at": "2026-09-07T14:38:52.911119+00:00",
+  "git_deletion_count": 0,
   "previous_state_restored": true,
-  "receipt_sha256": "893c5d642e1858e38466b0f196ce2189ff1416eb7ef17cb83769c3a373673551",
+  "receipt_corruption": 0,
   "release_id": "rel-hemiksem-v5.0.3-prod",
   "rollback_target": "rel-hemiksem-v5.0.1-prod",
+  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "status": "PASS"
 }

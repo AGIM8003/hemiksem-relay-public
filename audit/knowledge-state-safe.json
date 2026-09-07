@@ -1,6 +1,6 @@
 {
   "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
-  "generated_at": "2026-09-07T12:44:51.780443+00:00",
+  "generated_at": "2026-09-07T14:38:52.911119+00:00",
   "kb_families": [
     "burgerzaken.kb.md",
     "cultuur_vrije_tijd.kb.md",
@@ -22,6 +22,6 @@
   "origin_release_provenance": "PRESERVED_IMMUTABLE",
   "raw_source_documents_total": 1524,
   "searchable_documents_count": 430,
-  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
-  "verified_segments_total": 14601
+  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
+  "verified_segments_total": 15541
 }

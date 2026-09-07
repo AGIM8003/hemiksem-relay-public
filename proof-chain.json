@@ -1,27 +1,32 @@
 {
-  "acyclic_proof_state": "PROVEN_ACYCLIC",
+  "candidate_id": "CAND-HEMIKSEM-V503-R4",
+  "chain_nodes": [
+    {
+      "node": "LAYER_0_PAYLOADS",
+      "status": "VERIFIED"
+    },
+    {
+      "node": "LAYER_1_MANIFEST",
+      "sha256": "97ee4ca0c379e3ec4add9bfa9574b64ac8fb9d78057279612129a56e6f18fc0f",
+      "status": "SEALED"
+    },
+    {
+      "node": "LAYER_2_PROOF_CHAIN",
+      "status": "COMPUTED"
+    }
+  ],
   "chain_verdict": "VALID",
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T13:29:36.706013+00:00",
   "layer": "LAYER_2_PROOF_CHAIN",
-  "lineage_policy": "LIN-R3-001",
   "manifest_binding": {
-    "layer0_payload_count": 22,
-    "path": "manifest.json",
-    "sha256": "d5361be119c553db293bf617675b4965cdd5c1c19993c747fdc058b5758f238d"
+    "path": "/manifest.json",
+    "sha256": "97ee4ca0c379e3ec4add9bfa9574b64ac8fb9d78057279612129a56e6f18fc0f"
   },
   "product_version": "5.0.3",
-  "receipt_commitments": {
-    "connected_action_ref": "REPORTS/V503R3_CONNECTED_ACTION_RECEIPT.json",
-    "gate_receipt_ref": "REPORTS/V503R3_GATE_PROOF_RECEIPT.json",
-    "lineage_receipt_ref": "REPORTS/V503R3_LINEAGE_SEMANTICS_RECEIPT.json",
-    "openapi_receipt_ref": "REPORTS/V503R3_OPENAPI_PARITY_RECEIPT.json",
-    "rollback_receipt_ref": "hemiksem-relay-public/rollback-proof.json",
-    "safe_audit_receipt_ref": "REPORTS/V503R3_SAFE_AUDIT_RECEIPT.json",
-    "test_receipt_ref": "REPORTS/V503R3_TEST_EXECUTION_RECEIPT.json"
-  },
+  "proof_revision": "R4",
   "release_id": "rel-hemiksem-v5.0.3-prod",
-  "release_version": "5.0.3",
-  "schema_version": "hemiksem-proof-chain-v3",
-  "spec_id": "HEMIKSEM-AI-V503-R3-FINAL-PROOF-CONVERGENCE"
+  "schema_version": "2.0.0",
+  "sealed_at": "2026-09-07T14:38:52.911119+00:00",
+  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
+  "status": "PASS"
 }

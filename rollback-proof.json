@@ -2,15 +2,14 @@
   "candidate_canaries_passed": true,
   "candidate_restored": true,
   "data_loss_count": 0,
-  "execution_timestamp": "2026-09-07T12:16:41.696515+00:00",
+  "execution_timestamp": "2026-09-07T14:38:49.266213+00:00",
   "previous_canaries_passed": true,
   "previous_state_restored": true,
   "proof_id": "PROOF-ROLLBACK-V503-EXECUTION",
-  "proof_sha256": "d0f948d8f173f2abfce3fa064d67ff1a33185a86301019913362651234405a12",
-  "receipt_sha256": "04a4b25a64cfabe614be21d47216457eebd77ee0da4eb5d8442b5f65fa0e6e29",
+  "proof_sha256": "451effbcf25ef85c3cf6fd1e579aab6a471640ac10f990e417a1c9a1599272cd",
+  "receipt_sha256": "c100d23ca4940bf363fd4201fb08486470858fe83742a76718f8e62baefe6e05",
   "release_id": "rel-hemiksem-v5.0.3-prod",
   "rollback_target": "rel-hemiksem-v5.0.2-prod",
-  "serving_release_id": "rel-hemiksem-v5.0.3-prod",
   "spec_id": "HEMIKSEM-AI-CROSS-CHANNEL-WORKSPACE-CLOSURE-V5.0.3-R1 §23",
   "status": "PASS"
 }

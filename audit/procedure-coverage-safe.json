@@ -1,16 +1,12 @@
 {
-  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
-  "release_id": "rel-hemiksem-v5.0.3-prod",
-  "proof_revision": "R4",
-  "generated_at": "2026-09-07T14:29:00.159447+00:00",
-  "source_epoch": "EPOCH-V503-ACTIVATION-001",
-  "procedures_total": 16,
   "complete": 16,
-  "partial": 0,
-  "unknown": 0,
-  "stale": 0,
   "currentness_verified": 16,
   "domains_covered": 12,
-  "registry_hash": "e04ac395774133f4309bfa8794249ebbdd9f13f0b842668abdb872ad0f80703b",
-  "status": "PASS"
+  "generated_at": "2026-09-07T14:38:52.911119+00:00",
+  "partial": 0,
+  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
+  "stale": 0,
+  "status": "PASS",
+  "total_procedures": 16,
+  "unknown": 0
 }

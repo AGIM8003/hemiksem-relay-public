@@ -1,75 +1,57 @@
 {
   "all_surfaces_match": true,
-  "generated_at": "2026-09-07T12:44:51.780443+00:00",
+  "generated_at": "2026-09-07T14:38:52.911119+00:00",
   "release_id": "rel-hemiksem-v5.0.3-prod",
-  "serving_release_id": "rel-hemiksem-v5.0.3-prod",
-  "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
+  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "surfaces": [
     {
+      "engine_runtime": "8.1",
       "parity": "MATCH",
       "product_version": "5.0.3",
       "release_id": "rel-hemiksem-v5.0.3-prod",
-      "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.0.3-prod",
       "surface": "CONTROL"
     },
     {
+      "engine_runtime": "8.1",
       "parity": "MATCH",
       "product_version": "5.0.3",
       "release_id": "rel-hemiksem-v5.0.3-prod",
-      "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.0.3-prod",
       "surface": "LOCAL_SERVER"
     },
     {
+      "engine_runtime": "8.1",
       "parity": "MATCH",
       "product_version": "5.0.3",
       "release_id": "rel-hemiksem-v5.0.3-prod",
-      "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.0.3-prod",
       "surface": "PUBLIC_SERVER"
     },
     {
+      "engine_runtime": "8.1",
       "parity": "MATCH",
       "product_version": "5.0.3",
       "release_id": "rel-hemiksem-v5.0.3-prod",
-      "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.0.3-prod",
-      "surface": "LOCAL_STATIC_RELAY"
-    },
-    {
-      "parity": "MATCH",
-      "product_version": "5.0.3",
-      "release_id": "rel-hemiksem-v5.0.3-prod",
-      "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.0.3-prod",
       "surface": "GITHUB_REMOTE"
     },
     {
+      "engine_runtime": "8.1",
       "parity": "MATCH",
       "product_version": "5.0.3",
       "release_id": "rel-hemiksem-v5.0.3-prod",
-      "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.0.3-prod",
       "surface": "GITHUB_PAGES"
     },
     {
+      "engine_runtime": "8.1",
       "parity": "MATCH",
       "product_version": "5.0.3",
       "release_id": "rel-hemiksem-v5.0.3-prod",
-      "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.0.3-prod",
       "surface": "CONNECTED_GPT_ACTION"
     },
     {
+      "engine_runtime": "8.1",
       "parity": "MATCH",
       "product_version": "5.0.3",
       "release_id": "rel-hemiksem-v5.0.3-prod",
-      "runtime_version": "8.1",
-      "serving_release_id": "rel-hemiksem-v5.0.3-prod",
       "surface": "SAFE_AUDIT_BUNDLE"
     }
-  ],
-  "surfaces_evaluated": 8,
-  "target_release": "rel-hemiksem-v5.0.3-prod"
+  ]
 }

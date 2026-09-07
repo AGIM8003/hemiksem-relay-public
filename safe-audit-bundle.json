@@ -1,16 +1,11 @@
 {
-  "absolute_path_leaks": 0,
-  "audit_directory": "audit/",
-  "audit_manifest": "audit/audit-manifest.json",
-  "audit_manifest_sha256": "8441bbe026afd354e7268297df38c1683148d790f07a6ca2efd671e350cdd2d1",
-  "bundle_hash": "9d3d97b6a16e885ea5096e14348c6e8bb20595f2b377a784abe377c53a5fcb19",
-  "engine_runtime": "8.1",
-  "private_content_leaks": 0,
-  "product_version": "5.0.3",
+  "bundle_hash": "f458b247895a9008484b855b1f265d27239a52e2c29985069c40714e6b9c26c0",
+  "candidate_id": "CAND-HEMIKSEM-V503-R4",
+  "generated_at": "2026-09-07T14:38:52.911119+00:00",
+  "manifest_sha256": "cd5d213baf39774c9db3839c38eb3a9ea5b088103e4c6f7fcd796192a4012861",
+  "members_count": 28,
+  "proof_revision": "R4",
   "release_id": "rel-hemiksem-v5.0.3-prod",
-  "schema_version": "hemiksem-safe-audit-bundle-v3",
-  "secret_leaks": 0,
-  "total_members": 31,
-  "validation_state": "PASS",
-  "verified_at": "2026-09-07T13:15:43.003041+00:00"
+  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
+  "status": "PASS"
 }
