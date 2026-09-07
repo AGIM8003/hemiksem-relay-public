@@ -3,13 +3,13 @@
   "enabled_lanes": 10,
   "fusion_engine": "RRF (Reciprocal Rank Fusion k=60)",
   "fusion_verified": true,
-  "generated_at": "2026-09-07T17:30:17.882034+00:00",
+  "generated_at": "2026-09-07T17:49:13.835525+00:00",
   "lanes": [
     {
       "enabled": true,
       "implemented": true,
       "lane_id": "L1_EXACT_IDENTIFIER",
-      "last_verified": "2026-09-07T17:30:17.882034+00:00",
+      "last_verified": "2026-09-07T17:49:13.835525+00:00",
       "quality_metrics": "100% precision",
       "queries_executed": 45,
       "result_count": 45
@@ -18,7 +18,7 @@
       "enabled": true,
       "implemented": true,
       "lane_id": "L2_DOCUMENT_REGISTRY",
-      "last_verified": "2026-09-07T17:30:17.882034+00:00",
+      "last_verified": "2026-09-07T17:49:13.835525+00:00",
       "quality_metrics": "100% precision",
       "queries_executed": 30,
       "result_count": 30
@@ -27,7 +27,7 @@
       "enabled": true,
       "implemented": true,
       "lane_id": "L3_SEGMENT_LOOKUP",
-      "last_verified": "2026-09-07T17:30:17.882034+00:00",
+      "last_verified": "2026-09-07T17:49:13.835525+00:00",
       "quality_metrics": "100% precision",
       "queries_executed": 50,
       "result_count": 50
@@ -36,7 +36,7 @@
       "enabled": true,
       "implemented": true,
       "lane_id": "L4_PLAN_REGISTRY",
-      "last_verified": "2026-09-07T17:30:17.882034+00:00",
+      "last_verified": "2026-09-07T17:49:13.835525+00:00",
       "quality_metrics": "100% precision",
       "queries_executed": 25,
       "result_count": 25
@@ -45,7 +45,7 @@
       "enabled": true,
       "implemented": true,
       "lane_id": "L5_ARTICLE_INDEX",
-      "last_verified": "2026-09-07T17:30:17.882034+00:00",
+      "last_verified": "2026-09-07T17:49:13.835525+00:00",
       "quality_metrics": "100% precision",
       "queries_executed": 40,
       "result_count": 40
@@ -54,7 +54,7 @@
       "enabled": true,
       "implemented": true,
       "lane_id": "L6_PARCEL_CADASTRE",
-      "last_verified": "2026-09-07T17:30:17.882034+00:00",
+      "last_verified": "2026-09-07T17:49:13.835525+00:00",
       "quality_metrics": "100% precision",
       "queries_executed": 20,
       "result_count": 20
@@ -63,7 +63,7 @@
       "enabled": true,
       "implemented": true,
       "lane_id": "L7_BM25_LEXICAL",
-      "last_verified": "2026-09-07T17:30:17.882034+00:00",
+      "last_verified": "2026-09-07T17:49:13.835525+00:00",
       "quality_metrics": "98.5% recall",
       "queries_executed": 120,
       "result_count": 120
@@ -72,7 +72,7 @@
       "enabled": true,
       "implemented": true,
       "lane_id": "L8_GRAPH_EXPANSION",
-      "last_verified": "2026-09-07T17:30:17.882034+00:00",
+      "last_verified": "2026-09-07T17:49:13.835525+00:00",
       "quality_metrics": "97.8% precision",
       "queries_executed": 85,
       "result_count": 85
@@ -81,7 +81,7 @@
       "enabled": true,
       "implemented": true,
       "lane_id": "L9_METADATA_FILTER",
-      "last_verified": "2026-09-07T17:30:17.882034+00:00",
+      "last_verified": "2026-09-07T17:49:13.835525+00:00",
       "quality_metrics": "100% precision",
       "queries_executed": 60,
       "result_count": 60
@@ -90,7 +90,7 @@
       "enabled": true,
       "implemented": true,
       "lane_id": "L10_SEMANTIC_PROPOSITION",
-      "last_verified": "2026-09-07T17:30:17.882034+00:00",
+      "last_verified": "2026-09-07T17:49:13.835525+00:00",
       "quality_metrics": "100% predicate alignment",
       "queries_executed": 90,
       "result_count": 90

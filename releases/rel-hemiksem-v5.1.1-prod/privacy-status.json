@@ -14,5 +14,7 @@
   "release_id": "rel-hemiksem-v5.1.1-prod",
   "reviewer": "NONE_STANDING_TECHNICAL_AUTOMATION_ONLY",
   "technical_authorization": "STANDING_AUTOMATION_AUTHORIZATION",
-  "technical_state": "PUBLISHED_AND_CONFIGURED"
+  "technical_state": "PUBLISHED_AND_CONFIGURED",
+  "spec_id": "HEMIKSEM-AI-V511-R21-FINAL-PUBLIC-BYTE-PROOF-CLOSURE",
+  "proof_revision": "R2.1"
 }

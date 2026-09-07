@@ -1,8 +1,8 @@
 {
   "OpenAPI_version": "3.1.0",
   "canonical_source_path": "%HEMIKSEM_ROOT%/00.HEMIKSEM-GPT-RELAY/api/custom-gpt-action.yaml",
-  "deployment_hash": "6cb9df041a886c1b06f8f34ae18fa93930aadb660dce9a533a7c7f52025110ed",
-  "generated_at": "2026-09-07T17:30:17.882034+00:00",
+  "deployment_hash": "08fe51a136182e03665cfa5f57b8a96c1686db6dfadf9b1c821e36ec2c9c7411",
+  "generated_at": "2026-09-07T17:49:13.835525+00:00",
   "methods": [
     "GET"
   ],
@@ -24,7 +24,7 @@
   "security_scheme_names": [
     "None (Public governed read-only edge ingress)"
   ],
-  "semantic_hash": "6cb9df041a886c1b06f8f34ae18fa93930aadb660dce9a533a7c7f52025110ed",
+  "semantic_hash": "08fe51a136182e03665cfa5f57b8a96c1686db6dfadf9b1c821e36ec2c9c7411",
   "server_count": 2,
   "servers": [
     {

@@ -9,7 +9,7 @@
   "evidence_artifacts": 37,
   "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
   "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
-  "proof_revision": "R2",
-  "spec_id": "HEMIKSEM-AI-V511-R2-ATOMIC-MONOTONIC-REGRESSION-LOCK",
-  "checked_at": "2026-09-07T17:30:17.788261+00:00"
+  "proof_revision": "R2.1",
+  "spec_id": "HEMIKSEM-AI-V511-R21-FINAL-PUBLIC-BYTE-PROOF-CLOSURE",
+  "checked_at": "2026-09-07T17:49:13.721845+00:00"
 }
