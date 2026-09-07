@@ -1,0 +1,166 @@
+openapi: 3.1.0
+info:
+  title: Hemiksem Municipal Intelligence Gateway
+  version: 4.9.2
+  description: >
+    AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN V4.9.2 Municipal Intelligence Fabric.
+    Dual-mode: static evidence relay (GitHub Pages fallback) + dynamic intelligence gateway (FastAPI).
+    Authentication: None. Read-only public access. Zero-key architecture.
+    All operations are safe GET requests that execute automatically without user confirmation.
+servers:
+  - url: https://agim8003.github.io/hemiksem-relay-public
+    description: Durable static evidence relay (GitHub Pages)
+paths:
+  # === GROUP A: Legacy 8 Static Evidence Operations ===
+  /admission-index.json:
+    get:
+      operationId: getRelayAdmissionIndex
+      x-openai-isConsequential: false
+      summary: Master admissions registry
+      responses:
+        '200':
+          description: Master admissions registry index
+
+  /project-intelligence.json:
+    get:
+      operationId: getProjectIntelligence
+      x-openai-isConsequential: false
+      summary: Project intelligence and release binding
+      responses:
+        '200':
+          description: Project intelligence and release metadata
+
+  /proof-chain-index.json:
+    get:
+      operationId: getProofChainIndex
+      x-openai-isConsequential: false
+      summary: Proof chain and lineage index
+      responses:
+        '200':
+          description: Full cryptographic proof chains for claims and capabilities
+
+  /currentness-index.json:
+    get:
+      operationId: getCurrentnessIndex
+      x-openai-isConsequential: false
+      summary: Currentness registry
+      responses:
+        '200':
+          description: Official currentness and verification status registry
+
+  /conflict-index.json:
+    get:
+      operationId: getConflictIndex
+      x-openai-isConsequential: false
+      summary: Conflict detection index
+      responses:
+        '200':
+          description: Substantive cross-claim conflict evaluation index
+
+  /capability-registry.json:
+    get:
+      operationId: getCapabilityRegistry
+      x-openai-isConsequential: false
+      summary: Capability maturity registry
+      responses:
+        '200':
+          description: Civic functional capability maturity registry
+
+  /kb-binding.json:
+    get:
+      operationId: getKbBinding
+      x-openai-isConsequential: false
+      summary: Canonical release and challenge binding
+      responses:
+        '200':
+          description: Canonical release binding and hosted challenge nonce
+
+  /evidence/{admitted_artifact}:
+    get:
+      operationId: getAdmittedArtifact
+      x-openai-isConsequential: false
+      summary: Admitted evidence artifact content
+      parameters:
+        - name: admitted_artifact
+          in: path
+          required: true
+          schema:
+            type: string
+            enum:
+              - '000.KB_DELIVERY_SSOT.md'
+              - '000.KB_RETRIEVAL_ROUTING_INDEX.md'
+              - '001.NOORD_ZUIDRAAD_SUBSIDIEREGLEMENT_FTPRODUCTEN.md'
+              - '002.WERKGEVERSATTEST_INSCHRIJVING_EU_ONDERDANEN.md'
+              - '003.OMZENDBRIEF_KBBJ_ABB_2024_1_BIJLAGE1_VERKLARING_LAATSTE_WILSBESCHIKKING.md'
+              - '004.BROCHURE_OPSTAPPAS_2026.md'
+              - '005.HH_JANUARI_21.md'
+              - '006.KENNISGEVING_ROND_VOORDRACHT_VAN_KANDIDATEN_VOOR_DE_GEMEENTERAADSVERKIEZ.md'
+              - '007.STATUTEN_WATER_LINK_L_2021.md'
+              - '008.VERSLAG_21_FEBRUARI_2024.md'
+              - '009.GR_17_03_2015_GOEDKEUREN_REGLEMENT_SPEELSTRAAT.md'
+              - '01.HEMIKSEM_GEMEENTE_WEBSITE_EN_DIENSTEN.md'
+              - '010.JAARREKENING_2024_JAARREKENING_2024_DOCUMENTATIE_DEF.md'
+              - '011.AANGIFTEFORMULIER_BELASTING_OP_TWEEDE_VERBLIJVEN.md'
+              - '012.TOELICHTING_AANPASSING_MEERJARENPLAN_2020_2025.md'
+              - '013.PERSONEEL_RPR_HEMIKSEM_20260112.md'
+              - '014.HEMELWATER_EN_DROOGTEPLAN_HEMIKSEM.md'
+              - '015.PROGRAMMATISCHE_AANPAK_STIKSTOF.md'
+              - '016.GR_12_09_2017_POLITIEVERORDENING_BESTRIJDEN_BRAND.md'
+              - '017.WOONZORGCENTRUM.md'
+              - '018.BESLUIT_RMW_BESLUIT_VASTSTELLEN_KREDIETEN_2021_EN_BW_2_2020_OCMW.md'
+              - '019.4_1_OMGEVINGSANALYSE_LOKAAL_BESTUUR_HEMIKSEM.md'
+              - '02.HEMIKSEM_FINANCIEN_EN_JAARREKENINGEN.md'
+              - 'BPA_VOORSCHRIFTEN.kb.md'
+              - 'BPA_NR_1.kb.md'
+              - 'BPA_NR_5.kb.md'
+              - 'BPA_NR_6.kb.md'
+              - 'BPA_NR_8.kb.md'
+              - 'BPA_NR_14.kb.md'
+              - 'GEMEENTELIJKE_BOUWVERORDENING.kb.md'
+              - 'GRUP_GROOTSTEDELIJK_ANTWERPEN.kb.md'
+              - 'MUNICIPAL_REGULATION.kb.md'
+              - 'PARCEL_REGISTRY.kb.md'
+              - 'RUP_ABDIJOMGEVING.kb.md'
+              - 'RUP_HOGE_WEG.kb.md'
+              - 'RUP_SCHELDEBOORDEN.kb.md'
+              - 'RUP_VARENVELDEN.kb.md'
+      responses:
+        '200':
+          description: Admitted evidence artifact markdown content
+
+  # === GROUP C: Additional Static Evidence Operations ===
+  /health.json:
+    get:
+      operationId: getRelayHealth
+      x-openai-isConsequential: false
+      summary: System health status and product identity
+      responses:
+        '200':
+          description: Health status JSON with product identity, version, and component status
+
+  /manifest.json:
+    get:
+      operationId: getRelayManifest
+      x-openai-isConsequential: false
+      summary: SSOT manifest with file registry and SHA256 hashes
+      responses:
+        '200':
+          description: Manifest listing all relay files with integrity hashes
+
+  /delivery-index.json:
+    get:
+      operationId: getRelayDeliveryIndex
+      x-openai-isConsequential: false
+      summary: Delivery tracking index with release history
+      responses:
+        '200':
+          description: Delivery index with release entries, dates, and status
+
+  /proof-chain.json:
+    get:
+      operationId: getRelayProofChain
+      x-openai-isConsequential: false
+      summary: Proof chain with verification receipts
+      responses:
+        '200':
+          description: Proof chain linking release receipts to evidence

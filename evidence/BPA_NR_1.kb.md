@@ -1,24 +1,29 @@
 ---
-artifact_type: evidence_stub
-artifact_schema: hemiksem-evidence-stub-v2
+artifact_schema: hemiksem-evidence-stub-v3
 artifact_id: ART_BPA_NR_1_kb
-family: BPA_NR_1
-title: "Bpa Nr 1.Kb"
+artifact_type: SPATIAL_PLAN_BPA
+document_id: DOC-HEM-024
+canonical_title: "Bpa Nr 1.Kb"
 source_document_id: DOC-HEM-024
 source_file: BPA_NR_1.kb.md
 source_sha256: 6096aa75a59c90878189363c6aa695adaa0482d91f0c383021384aea67c6ab83
-source_size_bytes: 1024
-artifact_sha256: 6096aa75a59c90878189363c6aa695adaa0482d91f0c383021384aea67c6ab83
-release_id: rel-hemiksem-v5.0.0-prod
-release_version: 5.0.0
-generated_at: 2026-09-06T20:36:49.807832+00:00
+source_authority: "Gemeente Hemiksem"
+source_date: 2024-01-01
+origin_release_id: rel-hemiksem-v5.0.0-prod
+admission_release_id: rel-hemiksem-v5.0.0-prod
+serving_release_id: rel-hemiksem-v5.0.3-prod
+release_id: rel-hemiksem-v5.0.3-prod
+release_version: 5.0.3
+lineage_state: INHERITED_VERIFIED
+lineage_validation_state: PASS
 retrieval_channel: server_recall
-server_query_hint: "/v4/search"
 municipality: Hemiksem
 jurisdiction: BE-VLG
-issuing_authority: "Gemeente Hemiksem"
 authority_class: OFFICIAL_PRIMARY
 currentness_state: VERIFIED_FOR_DATE
+retrieval_enabled: true
+provenance_state: VERIFIED_PRIMARY
+admission_state: ADMITTED
 applicability_state: CONDITIONAL_ON_ZONE
 lifecycle_state: CURRENT_AUTHORITATIVE
 ---
@@ -28,8 +33,11 @@ lifecycle_state: CURRENT_AUTHORITATIVE
 Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kenniscorpus van Gemeente Hemiksem.
 
 - **Artifact ID:** `ART_BPA_NR_1_kb`
-- **Claim ID:** `PROOF-CHAIN-CLM024`
-- **Bron/Dossier:** `BPA_NR_1.kb.md`
+- **Document ID:** `DOC-HEM-024`
+- **Bronbestand:** `BPA_NR_1.kb.md`
+- **Origin Release:** `rel-hemiksem-v5.0.0-prod`
+- **Serving Release:** `rel-hemiksem-v5.0.3-prod`
+- **Lineage State:** `INHERITED_VERIFIED`
 - **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
 - **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)
 - **Deep Content Retrieval:** Beschikbaar via Server Recall route `/v4/search` of `/v4/evidence-pack`

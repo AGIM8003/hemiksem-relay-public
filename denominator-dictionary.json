@@ -1,0 +1,68 @@
+{
+  "denominators": {
+    "active_kb_families": {
+      "count": 14,
+      "definition": "Canonical domain segment families structured under schema hemiksem-kb-v1.1.",
+      "layer": "CANONICAL_KB",
+      "location": "ACTIVE_KB/"
+    },
+    "admitted_documents": {
+      "count": 1524,
+      "definition": "Municipal documents passing municipality boundary enforcement and officially admitted into municipal intelligence corpus.",
+      "layer": "INTAKE_ADMISSION",
+      "location": "admission-index.json",
+      "policy": "MUNICIPALITY_BOUNDARY_ENFORCED"
+    },
+    "cadastral_parcels": {
+      "count": 4679,
+      "definition": "Verified cadastral parcels mapped to spatial zones and planning regulations.",
+      "layer": "SPATIAL_INDEX",
+      "location": "INDEX/PARCEL_INDEX.json"
+    },
+    "canonical_indexed_documents": {
+      "count": 430,
+      "definition": "Primary structured municipal planning, spatial (RUP/BPA), regulatory, and administrative instruments directly registered in engine doc_registry for exact document resolution.",
+      "layer": "ENGINE_DOC_REGISTRY",
+      "location": "INDEX/DOCUMENT_REGISTRY.json & Server loaded_documents",
+      "relationship_to_admitted": "The 430 indexed instruments represent the canonical deduplicated municipal regulatory documents that index the 15,541 fine-grained segments extracted from the 1,524 admitted sources."
+    },
+    "public_evidence_artifacts": {
+      "count": 37,
+      "definition": "Pre-computed public evidence stub projections carrying complete cryptographic and legal provenance for Custom GPT reference.",
+      "layer": "PUBLIC_RELAY_PROJECTIONS",
+      "location": "hemiksem-relay-public/evidence/"
+    },
+    "raw_source_documents": {
+      "count": 1524,
+      "definition": "Total physical raw source files preserved in municipal RAG archive (PDFs, spatial decrees, official gazettes, municipal decisions).",
+      "layer": "ARCHIVAL_STORAGE",
+      "location": "HEMIKSEM RAG/",
+      "sha256_verified": true
+    },
+    "searchable_segments": {
+      "count": 15541,
+      "definition": "Fine-grained atomic proposition and article segments loaded in memory and indexed across BM25, Exact, and Graph lanes.",
+      "layer": "ENGINE_SEGMENT_REGISTRY",
+      "location": "INDEX/SEGMENT_REGISTRY.json & Server loaded_segments"
+    },
+    "spatial_plans": {
+      "count": 13,
+      "definition": "Binding spatial plans (RUPs, BPAs, Gewestplan) active in municipality.",
+      "layer": "SPATIAL_INDEX",
+      "location": "INDEX/PLAN_INDEX.json"
+    }
+  },
+  "engine_runtime": "8.1",
+  "generated_at": "2026-09-07T12:43:00.000000+00:00",
+  "jurisdiction": "BE-VLG",
+  "municipality": "Hemiksem",
+  "product_version": "5.0.3",
+  "project_id": "hemiksem-gemeentediensten",
+  "reconciliation_summary": {
+    "admitted_to_indexed_mapping": "1,524 raw files map to 430 canonical instruments comprising 15,541 atomic segments",
+    "archive_to_admission_rate": "100.0%",
+    "denominator_consistency": "VERIFIED_CONSISTENT"
+  },
+  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "spec_id": "HEMIKSEM-DENOMINATOR-DICTIONARY-V5.0.3-R2"
+}

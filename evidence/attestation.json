@@ -66,5 +66,9 @@
     "contamination_scan": "PASS_WITH_1_HUMAN_REVIEW",
     "source_hash_coverage": "100%",
     "classification_coverage": "100%"
-  }
+  },
+  "lifecycle_state": "HISTORICAL_ARCHIVED",
+  "active_superseded_by": "rel-hemiksem-v5.0.3-prod",
+  "status": "SUPERSEDED_HISTORICAL",
+  "serving_release_id": "rel-hemiksem-v5.0.3-prod"
 }

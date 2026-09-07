@@ -1,0 +1,430 @@
+openapi: 3.1.0
+info:
+  title: AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN (V4)
+  version: 4.9.3
+  description: 'Governed, read-only municipal intelligence API for Gemeente Hemiksem.
+    Release: rel-hemiksem-v4.9.3-prod. Engine: V8.0. All operations are safe, non-mutating
+    read-only operations.'
+servers:
+- url: https://act-husband-wallpaper-exists.trycloudflare.com
+  description: Server Recall Ingress Gateway
+paths:
+  /v4/status:
+    get:
+      operationId: getHemiksemServerHealth
+      x-openai-isConsequential: false
+      summary: Server health, dependency status, version identity, and production
+        readiness.
+      description: Returns dependency-aware functional health status, process uptime,
+        corpus/index loaded counts, and release binding.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+  /v4/release:
+    get:
+      operationId: getHemiksemCurrentRelease
+      x-openai-isConsequential: false
+      summary: Deployed corpus, index, engine, and gateway release identity.
+      description: Returns active release ID, product version, engine runtime version,
+        and cryptographic release hashes.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+  /v4/domains:
+    get:
+      operationId: listMunicipalDomains
+      x-openai-isConsequential: false
+      summary: List all municipal service domains for query routing.
+      description: Enumerates authoritative municipal domains in Gemeente Hemiksem
+        with segment and document statistics.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+  /v4/search:
+    get:
+      operationId: searchMunicipalKnowledge
+      x-openai-isConsequential: false
+      summary: Full governed multi-lane evidence retrieval search (GET mode).
+      description: Executes hybrid retrieval (exact identifier, BM25, graph, spatial)
+        with reciprocal rank fusion and evidence validation.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+      parameters:
+      - name: q
+        in: query
+        required: true
+        schema:
+          type: string
+          minLength: 1
+          maxLength: 500
+        description: Search query text (1..500 characters)
+      - name: top_k
+        in: query
+        required: false
+        schema:
+          type: integer
+          minimum: 1
+          maximum: 25
+          default: 5
+        description: Maximum candidate evidence items to return (1..25, default 5)
+      - name: domain
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Optional municipal domain filter
+      - name: question_date
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Optional ISO date context for temporal filtering
+    post:
+      operationId: searchMunicipalKnowledgePost
+      x-openai-isConsequential: false
+      summary: Full governed multi-lane evidence retrieval search (POST mode).
+      description: POST alternative for complex queries with structured constraints.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                  minLength: 1
+                  maxLength: 500
+                top_k:
+                  type: integer
+                  minimum: 1
+                  maximum: 25
+                  default: 5
+                domain:
+                  type: string
+              required:
+              - query
+      responses:
+        '200':
+          description: Search results
+          content:
+            application/json:
+              schema:
+                type: object
+  /v4/document/{document_id}:
+    get:
+      operationId: getHemiksemDocument
+      x-openai-isConsequential: false
+      summary: Retrieve complete document family metadata and provenance by document
+        ID.
+      description: Returns full document identity, issuing authority, municipal classification,
+        and segment membership.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+      parameters:
+      - name: document_id
+        in: path
+        required: true
+        schema:
+          type: string
+        description: Unique document identifier or canonical UID
+  /v4/segment/{segment_uid}:
+    get:
+      operationId: getHemiksemSegment
+      x-openai-isConsequential: false
+      summary: Retrieve exact verified segment text and provenance by segment UID.
+      description: Returns verbatim text excerpt, article ID, rule ID, spatial entities,
+        and cryptographic hash.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+      parameters:
+      - name: segment_uid
+        in: path
+        required: true
+        schema:
+          type: string
+        description: Canonical segment UID
+  /v4/evidence-pack:
+    get:
+      operationId: getHemiksemEvidencePack
+      x-openai-isConsequential: false
+      summary: Full evidence pack with search results, segment text, and document
+        metadata.
+      description: Packages multi-lane evidence candidates, full supporting excerpts,
+        and GAD decision state for a citizen query.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+      parameters:
+      - name: q
+        in: query
+        required: true
+        schema:
+          type: string
+          minLength: 1
+          maxLength: 500
+        description: Citizen query text
+      - name: top_k
+        in: query
+        required: false
+        schema:
+          type: integer
+          minimum: 1
+          maximum: 25
+          default: 5
+        description: Max evidence items (1..25)
+      - name: domain
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Optional domain filter
+  /v4/currentness:
+    get:
+      operationId: checkHemiksemCurrentness
+      x-openai-isConsequential: false
+      summary: Claim-level and rule-level temporal currentness verification.
+      description: Evaluates bitemporal applicability (valid_from, valid_to, transition
+        dates, supersession) for a rule or claim.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+      parameters:
+      - name: claim_id
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Claim identifier to evaluate
+      - name: document_id
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Document identifier
+      - name: segment_uid
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Segment UID
+      - name: q
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Free-text proposition or query
+      - name: question_date
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Date context (ISO format, default current UTC)
+  /v4/applicability:
+    get:
+      operationId: checkHemiksemApplicability
+      x-openai-isConsequential: false
+      summary: 13-dimension spatial and regulatory applicability verification.
+      description: Verifies whether a rule, plan, or restriction applies to a specific
+        parcel, street address, activity, or date.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+      parameters:
+      - name: q
+        in: query
+        required: true
+        schema:
+          type: string
+          minLength: 1
+          maxLength: 500
+        description: Applicability question or proposed activity
+      - name: parcel_id
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Cadastral parcel identifier (e.g. 11018_A_0123_00_000)
+      - name: address
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Street address in Hemiksem
+      - name: plan_id
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Spatial plan identifier (RUP or BPA)
+      - name: zone_id
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Zone code
+      - name: article_id
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Article designation
+      - name: question_date
+        in: query
+        required: false
+        schema:
+          type: string
+        description: Evaluation date
+  /v4/capabilities:
+    get:
+      operationId: describeCapabilities
+      x-openai-isConsequential: false
+      summary: Machine-readable registry of available dynamic server operations.
+      description: Lists all exposed server operations, route metadata, rate limits,
+        and safety invariants.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+  /v4/self-test:
+    get:
+      operationId: selfTest
+      x-openai-isConsequential: false
+      summary: Server self-diagnostic and index integrity verification.
+      description: Runs immediate startup smoke tests against indexes, domain mapping,
+        and retrieval components.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
+  /v4/diagnostics:
+    get:
+      operationId: getDiagnostics
+      x-openai-isConsequential: false
+      summary: Read-only system diagnostic inspection (no secrets).
+      description: Inspects corpus loading, graph nodes, index hashes, and memory
+        state.
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+        '400':
+          description: Invalid query parameters
+        '404':
+          description: Resource not found
+        '500':
+          description: Internal server error
