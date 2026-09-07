@@ -9,7 +9,7 @@
   "proof_sha256": "0ef09f993c845d5d1872ff41cdf7fd6f24bed5d0014b05acd52a3fc133e1b4c7",
   "receipt_sha256": "3d07e3228bde7c59b498bfb25515f770da59f63d2130fad062ffedaef8bd1096",
   "release_id": "rel-hemiksem-v5.1.0-prod",
-  "rollback_target": "rel-hemiksem-v5.0.3-prod",
+  "rollback_target": "rel-hemiksem-v5.1.0-prod",
   "spec_id": "HEMIKSEM-AI-CROSS-CHANNEL-WORKSPACE-CLOSURE-V5.0.3-R1 §23",
   "status": "PASS"
 }

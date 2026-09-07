@@ -3,8 +3,8 @@
   "release_id": "rel-hemiksem-v5.1.0-prod",
   "proof_revision": "R1",
   "candidate_id": "CAND-HEMIKSEM-V510-R1",
-  "tested_source_commit_sha": "3a802ea7f895f08f6225031f91c148da8e869b60",
-  "tested_source_tree_sha": "3059a03ac650debc8df1714a6cb91c306ec15e2b",
+  "tested_source_commit_sha": "f894e1d6d50ff4653e04b816db5f641a2c0d40bf",
+  "tested_source_tree_sha": "e2afb5d81665379b8bee58ab74482c482e1e6fb0",
   "tests_discovered": 491,
   "tests_executed": 491,
   "tests_passed": 491,
@@ -14,5 +14,5 @@
   "failed_count": 0,
   "pass_rate": 100.0,
   "status": "PASS",
-  "generated_at": "2026-09-07T15:43:20.352173+00:00"
+  "generated_at": "2026-09-07T15:48:24.698151+00:00"
 }

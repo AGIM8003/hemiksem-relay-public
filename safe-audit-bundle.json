@@ -5,9 +5,9 @@
   "engine_runtime": "8.1",
   "proof_revision": "R1",
   "candidate_id": "CAND-HEMIKSEM-V510-R1",
-  "tested_source_commit_sha": "3a802ea7f895f08f6225031f91c148da8e869b60",
-  "tested_source_tree_sha": "3059a03ac650debc8df1714a6cb91c306ec15e2b",
-  "generated_at": "2026-09-07T15:43:20.352173+00:00",
+  "tested_source_commit_sha": "f894e1d6d50ff4653e04b816db5f641a2c0d40bf",
+  "tested_source_tree_sha": "e2afb5d81665379b8bee58ab74482c482e1e6fb0",
+  "generated_at": "2026-09-07T15:48:24.698151+00:00",
   "total_audit_members": 33,
   "audit_members": {
     "access-capability.json": {
@@ -146,17 +146,17 @@
       "currentness_state": "CURRENT"
     },
     "system-identity.json": {
-      "sha256": "8d07ea24a3c94e24b304e5af2b49b644ad5150c7a8dae127b2e28bf70be6064d",
+      "sha256": "ebdfc2d7fec00f102e7cb00aa161b6ed5174024af6373226b5ba31352e60b53f",
       "size_bytes": 785,
       "currentness_state": "CURRENT"
     },
     "test-proof-full-safe.json": {
-      "sha256": "b859f5e753f0a5e90b5814ad15c10758d197e86a414b2f8443bbc261ea026317",
+      "sha256": "5f9f9ff414bdfb4d1d1a61eb7eeb4feb184ac5cac7c96226638f0cc38d6ac277",
       "size_bytes": 613,
       "currentness_state": "CURRENT"
     },
     "test-summary.json": {
-      "sha256": "b859f5e753f0a5e90b5814ad15c10758d197e86a414b2f8443bbc261ea026317",
+      "sha256": "5f9f9ff414bdfb4d1d1a61eb7eeb4feb184ac5cac7c96226638f0cc38d6ac277",
       "size_bytes": 613,
       "currentness_state": "CURRENT"
     },
