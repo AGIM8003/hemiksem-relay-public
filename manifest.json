@@ -14,7 +14,7 @@
   "tested_source_tree": "a6f9af9f64e78ed164b1992033c303c70beb95ce",
   "tested_source_tree_sha": "a6f9af9f64e78ed164b1992033c303c70beb95ce",
   "status": "SEALED_VALID",
-  "sealed_at": "2026-09-07T18:45:00.581542+00:00",
+  "sealed_at": "2026-09-07T19:17:45.202487+00:00",
   "total_artifacts": 21,
   "artifacts": {
     "admission-index.json": {
@@ -63,7 +63,7 @@
       "role": "RELEASE_IDENTITY",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.1.1-prod",
-      "sha256": "6c9d64833ac9dc9666bf5b1bd4245b0f8cc08c10bbf14411c739d4e4ed015565",
+      "sha256": "50a0c2e66ee4e9c8ea74dab2d7a2b6fc694f18f33e0a184bf0ed7d81416d54b0",
       "bytes": 578,
       "size_bytes": 578
     },
@@ -83,9 +83,9 @@
       "role": "CONNECTED_ACTION_PROJECTION",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.1.1-prod",
-      "sha256": "d802c1d451b7150713d241dc5fcfcf1203defda8087add13b2c033004c5462ad",
-      "bytes": 8198,
-      "size_bytes": 8198
+      "sha256": "714a91a69e46b75204800d957d8cf8d47772a8f471f1e23a24229950e81911d6",
+      "bytes": 12947,
+      "size_bytes": 12947
     },
     "delivery-index.json": {
       "artifact_name": "delivery-index.json",
@@ -93,7 +93,7 @@
       "role": "DELIVERY_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.1.1-prod",
-      "sha256": "45d6a50c9a404f8eb1a10db3c4d581474ef0eb9dcd4aed04fae37d6a447bbd22",
+      "sha256": "66ad71f3de33203c9753639ad0277d643c4ab71d5592f023e331950b73ca7969",
       "bytes": 2265,
       "size_bytes": 2265
     },
@@ -123,7 +123,7 @@
       "role": "RELEASE_IDENTITY",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.1.1-prod",
-      "sha256": "105f04a478933aa356fca0efc599c7bbff77b2b7e5c3dc073bd986e5f841ec2f",
+      "sha256": "173d8aa6df1ad658e2f994ed113a63107ff417b527021dec4fcd36a67c5addfd",
       "bytes": 584,
       "size_bytes": 584
     },
@@ -143,9 +143,9 @@
       "role": "OPENAPI_PROJECTION",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.1.1-prod",
-      "sha256": "ed417ce6313c1f921a0cc541f2c2576b179f627a810883532fb4726eb3556151",
-      "bytes": 8188,
-      "size_bytes": 8188
+      "sha256": "004e5ce4b7890508c6ba03160ebc3f400a921e0b8560cdc8404afdd714cbdbde",
+      "bytes": 12937,
+      "size_bytes": 12937
     },
     "privacy-status.json": {
       "artifact_name": "privacy-status.json",
@@ -193,9 +193,9 @@
       "role": "PROOF_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.1.1-prod",
-      "sha256": "26a0d84b816191f9f15f5396462143fed8fd5ce26a89721dc01411d83b157bde",
-      "bytes": 29929,
-      "size_bytes": 29929
+      "sha256": "54580cb3aec517c78f456016641573d2585a7d60489c07d871575f58c0e3c000",
+      "bytes": 19005,
+      "size_bytes": 19005
     },
     "rollback-proof.json": {
       "artifact_name": "rollback-proof.json",
@@ -203,7 +203,7 @@
       "role": "PROOF_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.1.1-prod",
-      "sha256": "4bd4bea1557b24ca8b39a26ddce3864e19d0f3d1e3f6d933848ef63aa0df2ae2",
+      "sha256": "20b2f18713f812cdeb3fc38c97b815f79e4246f2f29e39d61cae680bec11236b",
       "bytes": 1393,
       "size_bytes": 1393
     },
@@ -213,7 +213,7 @@
       "role": "AUDIT_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.1.1-prod",
-      "sha256": "4f3605b1c5318b366c514fb817768f3ebdf62109358a223d180cbbe5bd0e9886",
+      "sha256": "b5d4a6d74a96b721067dc4c01f36df70f10b43d5d0a20d0edfc45eca399ae949",
       "bytes": 616,
       "size_bytes": 616
     },
@@ -223,10 +223,10 @@
       "role": "PROOF_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.1.1-prod",
-      "sha256": "1b1845cc96fd0406668050da1af63c5e2953133df79ccbb144549ec3fab9c9b3",
+      "sha256": "d59610ddb2394f7475756e9bd7e6aa03d0f0f336a6cff6f7e5d7744ad6f41ff4",
       "bytes": 681,
       "size_bytes": 681
     }
   },
-  "generated_at": "2026-09-07T18:45:00.581542+00:00"
+  "generated_at": "2026-09-07T19:17:45.202487+00:00"
 }

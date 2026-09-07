@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:45:00.678407+00:00",
+  "generated_at": "2026-09-07T19:17:45.300074+00:00",
   "receipts": [
     {
       "receipt_file": "ACTION_EXECUTION_RECEIPT.json",
@@ -46,7 +46,7 @@
     {
       "receipt_file": "FINAL_RELEASE_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/FINAL_RELEASE_RECEIPT.json",
-      "sha256": "9e3c84ff3cce8a79c2552da4cfb155cea0f4784aeb264887f3d9a6e34cb17576",
+      "sha256": "5e86b0ab84666e24727f2028c6f280205b2e6d96307991de982e93090eeb56c2",
       "size_bytes": 3147,
       "status": "PASS"
     },
@@ -690,15 +690,15 @@
     {
       "receipt_file": "V503R3_OPENAPI_AUTHORITY_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503R3_OPENAPI_AUTHORITY_RECEIPT.json",
-      "sha256": "e5bf8665b10219cd5fc32dd264c2310ce2c56b966ba6c3259e0b413096bfe0b4",
+      "sha256": "8c44491e034646abd9753dadaa83f37ab8d59708f6d6a8c2e36e38c176a61932",
       "size_bytes": 1072,
       "status": "PASS"
     },
     {
       "receipt_file": "V503R3_OPENAPI_PARITY_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503R3_OPENAPI_PARITY_RECEIPT.json",
-      "sha256": "09021ebcf1bec0249dab082dd35bb3bac94c0b92e676e8fca358d8e4c354d864",
-      "size_bytes": 1927,
+      "sha256": "a419ff15ecf1272cd5a42e9916021003afe71afacd2dad015cb9e9eb67d8b889",
+      "size_bytes": 3077,
       "status": "PASS"
     },
     {
@@ -753,7 +753,7 @@
     {
       "receipt_file": "V503R3_SAFE_AUDIT_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503R3_SAFE_AUDIT_RECEIPT.json",
-      "sha256": "f331cd7a13327cf4a44c983c4113cf003c7881f59ef90e0d0993d50cbbad59b0",
+      "sha256": "a2e4469a9c5340528069824dac59b575236c59e697adfc2ef177709e378bfb81",
       "size_bytes": 608,
       "status": "PASS"
     },
@@ -942,7 +942,7 @@
     {
       "receipt_file": "V503R4_SAFE_AUDIT_SEMANTIC_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503R4_SAFE_AUDIT_SEMANTIC_RECEIPT.json",
-      "sha256": "5cc8a064496f2e3e7f65e64ad4f0aeb0368149a821ad40df59ee23cc83d44e71",
+      "sha256": "5f2d1ced97ab5623cd1e8f234a7f92c9ea3127ddd84b7fe02c9e81287f7cc8b4",
       "size_bytes": 999,
       "status": "PASS"
     },
@@ -1096,7 +1096,7 @@
     {
       "receipt_file": "V503_SAFE_AUDIT_BUNDLE_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_SAFE_AUDIT_BUNDLE_RECEIPT.json",
-      "sha256": "9294ec11c3778b39cd6d41ac898c2015c9cbc6de27307708fa71158eb53dabab",
+      "sha256": "50015a912cbc468168a5a090f51feab707d44c497561a59a15bfba880216898b",
       "size_bytes": 470,
       "status": "PASS"
     },
@@ -1159,7 +1159,7 @@
     {
       "receipt_file": "V503_WORKSPACE_INVENTORY_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V503_WORKSPACE_INVENTORY_RECEIPT.json",
-      "sha256": "f01f306a1df1a32baff3966632a262f1f374094367deeba6066398480dd1329e",
+      "sha256": "77450b8d5fdda759ec7644f62f5f5ff17354db7455bb9e7d0dee2cbe1c454f7f",
       "size_bytes": 420,
       "status": "PASS"
     },
@@ -1222,7 +1222,7 @@
     {
       "receipt_file": "V510R2_MANIFEST_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V510R2_MANIFEST_RECEIPT.json",
-      "sha256": "b572d4f376f9d84a60101b85fa099c76cdd3c92ab7f0d058bdb188d5af0952b7",
+      "sha256": "c4dae4f2c0081cbe771a0761a86caa09fd37366a851e05a40ec52348c3ec62f7",
       "size_bytes": 537,
       "status": "PASS"
     },
@@ -1250,7 +1250,7 @@
     {
       "receipt_file": "V510R2_PUBLIC_ARTIFACT_REGISTRY_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V510R2_PUBLIC_ARTIFACT_REGISTRY_RECEIPT.json",
-      "sha256": "b572d4f376f9d84a60101b85fa099c76cdd3c92ab7f0d058bdb188d5af0952b7",
+      "sha256": "c4dae4f2c0081cbe771a0761a86caa09fd37366a851e05a40ec52348c3ec62f7",
       "size_bytes": 537,
       "status": "PASS"
     },
@@ -1612,38 +1612,94 @@
       "status": "PASS"
     },
     {
+      "receipt_file": "V511R22_CONNECTED_ACTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_CONNECTED_ACTION_RECEIPT.json",
+      "sha256": "8b70abc2ec797f9789f405bb2787d6e0b5025b3a785cc724c4d221ef4b041b89",
+      "size_bytes": 6802,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V511R22_DIRECT_LOCAL_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_DIRECT_LOCAL_RECEIPT.json",
+      "sha256": "8aefee1d3095c4f4112078cdf274236b5608419c31fa4ae19656ffa6104370f1",
+      "size_bytes": 1784,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V511R22_DIRECT_PUBLIC_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_DIRECT_PUBLIC_RECEIPT.json",
+      "sha256": "3cdb0f73f58dc3e8d2f69ba4bcf994b3893b2ab6a2f9fc28dde2efe2bd741902",
+      "size_bytes": 1831,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V511R22_FINAL_RELEASE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_FINAL_RELEASE_RECEIPT.json",
+      "sha256": "bb8d98af9f4a4d4dc6d5c65d8a53e276f54f144b47bf58b15791bb37d6e620ce",
+      "size_bytes": 6508,
+      "status": "PASS"
+    },
+    {
       "receipt_file": "V511R22_GATE_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_GATE_RECEIPT.json",
-      "sha256": "6d93293e02327334638ee3543ed38003ca7e06e44936e8e62c1558a0c2801b79",
+      "sha256": "9f2fcb8c5e694bd667943b9f8d33dd88541420cdf3f884bee9838dcbdb9d4462",
       "size_bytes": 693,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R22_LAYER0_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_LAYER0_RECEIPT.json",
-      "sha256": "1e95a798803f43cc848d7f08a3f7f97dd0573b4e59d1aff5f0a8474c2bdececf",
+      "sha256": "bdee08aa1b47eeb251cd337efe387d329ad5e24e3148f44dfa1fa53f8400d7f6",
       "size_bytes": 8313,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R22_MANIFEST_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_MANIFEST_RECEIPT.json",
-      "sha256": "b70d3c4494869b2e774039556240041c714139b0ba6dd724aa6e94b5ac05369a",
+      "sha256": "9e34b0c8f8d01827e89ecdcf4fffc473d2d8b91a201cfe506fed909397815bfe",
       "size_bytes": 593,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V511R22_PAGES_CONVERGENCE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_PAGES_CONVERGENCE_RECEIPT.json",
+      "sha256": "c2c71dae8d3c6db918fa9df7f203aed50ae248062e23407aaa0e41934b81dfa5",
+      "size_bytes": 632,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R22_PROOF_CHAIN_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_PROOF_CHAIN_RECEIPT.json",
-      "sha256": "7c6452f1f8b754f7a8f797654e7160d861c5c891a0a28a3381a434191126114c",
+      "sha256": "a272d222f2fa16ccaf4ecce6bae701e74a5c369ea4b71b9f110ecf2aea5e7dfc",
       "size_bytes": 853,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V511R22_PUBLICATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_PUBLICATION_RECEIPT.json",
+      "sha256": "107796f63ef25ef96fb7c12305107c21439f24a39fc513f85a4e61a325db7de6",
+      "size_bytes": 878,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V511R22_REGRESSION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_REGRESSION_RECEIPT.json",
+      "sha256": "b85e338c490711b66518f1b3508321996c35eb8b665207279c61e14b1613cd44",
+      "size_bytes": 462,
       "status": "PASS"
     },
     {
       "receipt_file": "V511R22_RELEASE_ROOT_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_RELEASE_ROOT_RECEIPT.json",
-      "sha256": "72ae34788d4fe80e9e4fe3403541d39c8b3981099ba91cbf3e9e7a10cd7a2a86",
+      "sha256": "35f176e80d7e3bcf10cb369b51164fbca12dbe73193d6c9d1d3a007e06b4a80a",
       "size_bytes": 853,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V511R22_REMOTE_GIT_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V511R22_REMOTE_GIT_RECEIPT.json",
+      "sha256": "2f0c987e89311f15fe71ea797e7e2201608d8f7fb62a3dd2248bf8fa2fdc35ef",
+      "size_bytes": 479,
       "status": "PASS"
     },
     {
@@ -2151,6 +2207,146 @@
       "status": "PASS"
     },
     {
+      "receipt_file": "V520_APPLICABILITY_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_APPLICABILITY_COVERAGE_RECEIPT.json",
+      "sha256": "d74f829c7c2979ea4fed38488e0c32cb29e5f6d85b3b68910d006f20144a9006",
+      "size_bytes": 399,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_AUTHORITY_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_AUTHORITY_COVERAGE_RECEIPT.json",
+      "sha256": "6dab966cba9ce147dbf88a83a76e808efb1418694e1157dea480c0030b2cf754",
+      "size_bytes": 350,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_BASELINE_STABILITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_BASELINE_STABILITY_RECEIPT.json",
+      "sha256": "f863ba1c8e0bde2da693c9d0206daa508b8fe2c1825aeca119d9e31052c4f16e",
+      "size_bytes": 926,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_CURRENTNESS_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_CURRENTNESS_COVERAGE_RECEIPT.json",
+      "sha256": "63ef5c15510609174c4f08e1f435bb87083eccdcc204f966cd02430f7913f5c6",
+      "size_bytes": 410,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_DOMAIN_QUALITY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_DOMAIN_QUALITY_RECEIPT.json",
+      "sha256": "a9a673c77bcc58fdd22b99cdc6591e2886f4f2b7d578b20f2edbc5233d7df225",
+      "size_bytes": 1076,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_DOMAIN_REGISTRY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_DOMAIN_REGISTRY_RECEIPT.json",
+      "sha256": "cef3e15b4aa287d6e69bec80aaf6412027fba130b6917ba72e5939aa5997a3a4",
+      "size_bytes": 309,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_EVALUATION_DATASET_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_EVALUATION_DATASET_RECEIPT.json",
+      "sha256": "c5ffa794b3d77ad47263d6c8b30a856d68dac3c51e562d08b0ec452ef62dc27a",
+      "size_bytes": 282,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_EVALUATION_LEAKAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_EVALUATION_LEAKAGE_RECEIPT.json",
+      "sha256": "517d8313bf3f16e643133b014db4aa10a1c76594fa6d49a66b6ce4b534942ef5",
+      "size_bytes": 412,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_INDEX_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_INDEX_COVERAGE_RECEIPT.json",
+      "sha256": "4f40f0472dafe81ccf302c52b07ada8bf882f92811be606c2e75ed398b09f26a",
+      "size_bytes": 283,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_LIFECYCLE_TRANSITION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_LIFECYCLE_TRANSITION_RECEIPT.json",
+      "sha256": "25bce3dd063c2855f4dab55021b0cf2748d1a8bb850be651c711defcb76ee4cb",
+      "size_bytes": 1194,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_NEGATIVE_ANSWER_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_NEGATIVE_ANSWER_RECEIPT.json",
+      "sha256": "afe82183183c80549fc22ee8a6d9d37e73b412db87898f5d0d4ca5411035b665",
+      "size_bytes": 485,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_PROCEDURE_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_PROCEDURE_COVERAGE_RECEIPT.json",
+      "sha256": "6237ab8e6ede67c0a05e28b1302502c2a74a1617a24456d031f6d810ca188728",
+      "size_bytes": 526,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_PROCEDURE_EXPECTATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_PROCEDURE_EXPECTATION_RECEIPT.json",
+      "sha256": "24644c58507e9f2e0041e9f7a37a46abc51c2ed3797ced1472aee8992e455346",
+      "size_bytes": 247,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_PROOF_INTROSPECTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_PROOF_INTROSPECTION_RECEIPT.json",
+      "sha256": "d1fb28984575fc113cccf564d98999c2d882162859e0c73a8b1c66e0ebd2b16e",
+      "size_bytes": 1180,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_PROVENANCE_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_PROVENANCE_COVERAGE_RECEIPT.json",
+      "sha256": "9d32b492549d223b123af5338642669b33b7676212092e0b0525a2a3fea157ad",
+      "size_bytes": 552,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_QUALITY_GAP_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_QUALITY_GAP_RECEIPT.json",
+      "sha256": "0e41b70778974f10cdfb60aa37663ba3753cbc0c532a12a6ad65bfddf17d013c",
+      "size_bytes": 257,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_QUALITY_POLICY_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_QUALITY_POLICY_RECEIPT.json",
+      "sha256": "9da97eafe22b8729d4ca092975886ef96d29219a0bea704bbc16507d9c6c5a9f",
+      "size_bytes": 245,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_SOURCE_CONTRIBUTION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_SOURCE_CONTRIBUTION_RECEIPT.json",
+      "sha256": "ea0e3e7b0e4855c7d24cea1dfc4db3dec3d87dfdc3438cb46c729b1b2fc57f50",
+      "size_bytes": 1121,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_VOLATILE_FACT_COVERAGE_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_VOLATILE_FACT_COVERAGE_RECEIPT.json",
+      "sha256": "f44cd9f9588eb79a35909464c5791ea52cf82b32c8dd43876f3fd96302506653",
+      "size_bytes": 657,
+      "status": "PASS"
+    },
+    {
+      "receipt_file": "V520_VOLATILE_FACT_EXPECTATION_RECEIPT.json",
+      "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V520_VOLATILE_FACT_EXPECTATION_RECEIPT.json",
+      "sha256": "1a4a94693d60bd3fb0dae0d1ddc0198aba1a94c064182af48b98cefbaf587c68",
+      "size_bytes": 246,
+      "status": "PASS"
+    },
+    {
       "receipt_file": "V53_ADMISSION_QUEUE_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_ADMISSION_QUEUE_RECEIPT.json",
       "sha256": "c5e9e88c33319783d62a9e9a86d45834b3692fffdeafb1ab021b1162f6275598",
@@ -2195,14 +2391,14 @@
     {
       "receipt_file": "V53_INCREMENTAL_INGESTION_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_INCREMENTAL_INGESTION_RECEIPT.json",
-      "sha256": "420fb946909edea687ecb3fa442f93716dd99167583c8daa6ce8d5f7a7c85071",
+      "sha256": "71c599c99fe2855476ae715edd2e8d2be07f7882181ca24c31d0d87ca943739d",
       "size_bytes": 463,
       "status": "PASS"
     },
     {
       "receipt_file": "V53_INGRESS_CONTINUITY_RECEIPT.json",
       "relative_path": "%HEMIKSEM_ROOT%/REPORTS/V53_INGRESS_CONTINUITY_RECEIPT.json",
-      "sha256": "cc3b97c66d96883ad99db416dbfc168b1ee888fa53d4adc3d88f87e9c7f5e8a1",
+      "sha256": "d483d7c9b79b9bae4a2e1e9fea2e539e755927616f9e5f4a9038fd2e8f537b41",
       "size_bytes": 566,
       "status": "PASS"
     },
@@ -2936,5 +3132,5 @@
     }
   ],
   "spec_id": "HEMIKSEM-AI-RECURSIVE-RELEASE-PROOF-AUDIT-V5.0.2",
-  "total_receipts": 419
+  "total_receipts": 447
 }

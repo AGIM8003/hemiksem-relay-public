@@ -1,24 +1,24 @@
 # ====================================================================
 # ROLE: GENERATED_CONNECTED_ACTION_PROJECTION
 # GENERATED_FROM: OPENAPI/server-recall.openapi.yaml
-# SOURCE_OPENAPI_HASH: cd81b0ed5a5a5105f104ff7b4e433de10de573f429f563f29c6f88453d3bc3a8
-# SEMANTIC_OPENAPI_HASH: d8210cdc26c703c07757c34f9dcaba5dbb44090006bc337b886068120aae058a
+# SOURCE_OPENAPI_HASH: a2157e5cf6a0e6a62f42c88f8116ac41b29ae6cfdb55f9722227291a3a9300c8
+# SEMANTIC_OPENAPI_HASH: 110844db9d9ca4af903f0b2cf36e7953cb16d8d173511efae54041cb5489091b
 # RELEASE_ID: rel-hemiksem-v5.1.1-prod
 # PRODUCT_VERSION: 5.1.1
 # ENGINE_RUNTIME: 8.1
-# GENERATED_AT: 2026-09-07T18:45:00.614818+00:00
+# GENERATED_AT: 2026-09-07T19:17:45.228741+00:00
 # ====================================================================
 
 openapi: 3.1.0
 info:
   title: AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN (V5)
-  version: 5.1.1
+  version: 5.2.0
   description: 'Governed, read-only municipal intelligence API for Gemeente Hemiksem.
-    Release: rel-hemiksem-v5.1.1-prod. Engine: V8.1. All operations are safe, non-mutating
+    Release: rel-hemiksem-v5.2.0-prod. Engine: V8.1. All operations are safe, non-mutating
     read-only operations.'
   x-generated-from: OPENAPI/server-recall.openapi.yaml
-  x-source-openapi-hash: cd81b0ed5a5a5105f104ff7b4e433de10de573f429f563f29c6f88453d3bc3a8
-  x-semantic-openapi-hash: d8210cdc26c703c07757c34f9dcaba5dbb44090006bc337b886068120aae058a
+  x-source-openapi-hash: a2157e5cf6a0e6a62f42c88f8116ac41b29ae6cfdb55f9722227291a3a9300c8
+  x-semantic-openapi-hash: 110844db9d9ca4af903f0b2cf36e7953cb16d8d173511efae54041cb5489091b
   x-release-id: rel-hemiksem-v5.1.1-prod
 servers:
 - url: https://act-husband-wallpaper-exists.trycloudflare.com
@@ -265,6 +265,166 @@ paths:
         '200':
           description: Describe all available server capabilities with dynamic maturity
             state.
+          content:
+            application/json:
+              schema:
+                type: object
+  /v4/proof-status:
+    get:
+      operationId: getHemiksemProofStatus
+      x-openai-isConsequential: false
+      summary: Safe introspection of current system release health, tests, gates,
+        and proof revision.
+      responses:
+        '200':
+          description: Safe introspection proof status object.
+          content:
+            application/json:
+              schema:
+                type: object
+  /v4/quality-context:
+    get:
+      operationId: getMunicipalQualityContext
+      x-openai-isConsequential: false
+      summary: Municipal domain quality context for decision support and scope limiting.
+      responses:
+        '200':
+          description: Domain quality context with evidence guidance.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: domain_id
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: claim_type
+        in: query
+        required: false
+        schema:
+          type: string
+  /v4/domain-quality:
+    get:
+      operationId: getMunicipalDomainQuality
+      x-openai-isConsequential: false
+      summary: Detailed quality metrics and sample sufficiency state for a specific
+        municipal domain.
+      responses:
+        '200':
+          description: Detailed domain quality record.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: domain_id
+        in: query
+        required: true
+        schema:
+          type: string
+  /v4/lifecycle-summary:
+    get:
+      operationId: getKnowledgeLifecycleSummary
+      x-openai-isConsequential: false
+      summary: Complete accounting summary of discovered, eligible, admitted, and
+        searchable knowledge.
+      responses:
+        '200':
+          description: Lifecycle accounting summary.
+          content:
+            application/json:
+              schema:
+                type: object
+  /v4/lifecycle-item:
+    get:
+      operationId: getKnowledgeLifecycleItem
+      x-openai-isConsequential: false
+      summary: Exact lookup of a single source or document lifecycle record.
+      responses:
+        '200':
+          description: Exact lifecycle item record.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: item_id
+        in: query
+        required: true
+        schema:
+          type: string
+  /v4/procedures:
+    get:
+      operationId: listMunicipalProcedures
+      x-openai-isConsequential: false
+      summary: List registered municipal procedures with completeness and authority
+        state.
+      responses:
+        '200':
+          description: List of registered procedures.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: domain_id
+        in: query
+        required: false
+        schema:
+          type: string
+  /v4/procedure/{procedure_id}:
+    get:
+      operationId: getMunicipalProcedure
+      x-openai-isConsequential: false
+      summary: Exact municipal procedure record with steps, required documents, fees,
+        and channels.
+      responses:
+        '200':
+          description: Exact procedure record.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: procedure_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /v4/volatile-facts:
+    get:
+      operationId: getVolatileFactStatus
+      x-openai-isConsequential: false
+      summary: Volatile facts with verified currentness, TTL policies, and high-risk
+        safety protection.
+      responses:
+        '200':
+          description: Volatile facts summary or specific fact record.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: fact_id
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: fact_class
+        in: query
+        required: false
+        schema:
+          type: string
+  /v4/volatile-facts/coverage:
+    get:
+      operationId: listVolatileFactCoverage
+      x-openai-isConsequential: false
+      summary: Coverage and freshness metrics across volatile municipal fact classes.
+      responses:
+        '200':
+          description: Volatile facts coverage metrics.
           content:
             application/json:
               schema:
