@@ -14,7 +14,7 @@
   "tested_source_tree": "4dcb76c414b9cc11f7106ad2458a8bce69131bd7",
   "tested_source_tree_sha": "4dcb76c414b9cc11f7106ad2458a8bce69131bd7",
   "status": "SEALED_VALID",
-  "sealed_at": "2026-09-07T20:56:31.250958+00:00",
+  "sealed_at": "2026-09-07T21:00:17.936071+00:00",
   "total_artifacts": 36,
   "artifacts": {
     "admission-index.json": {
@@ -43,7 +43,7 @@
       "role": "RELEASE_IDENTITY",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "2c2da95f2819e0798b0a212e0bb127af73f790500f0364b6f96f8188f14200d2",
+      "sha256": "29fdcfadad93b6c376c1e68155d9c08d0e2db60919a80ddff033fd9a111f0ce4",
       "bytes": 1110,
       "size_bytes": 1110
     },
@@ -63,7 +63,7 @@
       "role": "RELEASE_IDENTITY",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "361bfa21c7618dd7825107d107144240084db6de6821c64dc4dd0b64ebcf1a2f",
+      "sha256": "2ce18c82ab20233b8f5728de42f4f26733a90e6199b74eb897eebd187dd6edbf",
       "bytes": 396,
       "size_bytes": 396
     },
@@ -83,7 +83,7 @@
       "role": "CONNECTED_ACTION_PROJECTION",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "9d2521246da44b8f0aa94d6299a930f12dd16a84a26706a91ecd556274af0d5b",
+      "sha256": "b220b63e6a53f27e1fab6d81d753b199ae617856a5ea7ad33949c2eae4920ad5",
       "bytes": 13389,
       "size_bytes": 13389
     },
@@ -93,7 +93,7 @@
       "role": "DELIVERY_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "5961e548fb6a436ff08e5a9acc6c146a1f4660bc52c0116bc9d64767d95cc798",
+      "sha256": "07f631c6db076037afd2d1fe733654b9f8d42387b5ab1cdd2753069e650c77b8",
       "bytes": 3278,
       "size_bytes": 3278
     },
@@ -123,7 +123,7 @@
       "role": "RELEASE_IDENTITY",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "ed0a7259d2df720f44e2a041636498276395f4b6b7c908294191b2d10048311c",
+      "sha256": "7c7f8cc0b0639e4f3d0aea397c9f6038afe127b236b6a92d979452e68590531f",
       "bytes": 432,
       "size_bytes": 432
     },
@@ -133,7 +133,7 @@
       "role": "RELEASE_IDENTITY",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "0c2fe74177210fba004c827e905fa24b88f0771011e1461dabfc068a9df3805c",
+      "sha256": "9a57691b741c32248c484c7dfb81b67a0eb519651ee42e4a67aff571a04d3ecc",
       "bytes": 1094,
       "size_bytes": 1094
     },
@@ -143,7 +143,7 @@
       "role": "OPENAPI_PROJECTION",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "50a5062a4b489c7e1d42fd3d805633aa23bd768b8189161c48533c6e9c93312c",
+      "sha256": "61a4f691bda73624fb72f6a6278e1c61594be9db62e3a84d52605fb5b13d1ac6",
       "bytes": 13379,
       "size_bytes": 13379
     },
@@ -193,7 +193,7 @@
       "role": "PROOF_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "5a7c0376015de5f1c1931f40d76e44bc91826db4ee934f49a84dbf50dd7f6c0f",
+      "sha256": "69837fd1916860e593e4ced9b181dd32daeceebd9ec7c1c9a3df3ca0702c4b9c",
       "bytes": 21294,
       "size_bytes": 21294
     },
@@ -203,7 +203,7 @@
       "role": "PROOF_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "d90ee09bc29c46bb9793e50e1d42352fc153aa9d8523b485ca75dd80249bace8",
+      "sha256": "499398b5ae74b13a893e040dfc3ada916d4c6995e3575808897d93ff8768f5fe",
       "bytes": 340,
       "size_bytes": 340
     },
@@ -223,7 +223,7 @@
       "role": "PROOF_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "f6d9875e480e66f3ec8390d655efb7495898ab7960079e07879ad1068ee1caa7",
+      "sha256": "1006c8bd22a63fc45e13c3d6381fa57b9790bdeb009c480c094e2d94cc967b33",
       "bytes": 424,
       "size_bytes": 424
     },
@@ -303,7 +303,7 @@
       "role": "VECTOR_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "b2efe61d633f819f8c83716980a85e33834957e44718e7603e80e36db84e7ce7",
+      "sha256": "deaa76fc10ddef6bb5ab4d5598b4338a47e9bd586fbcba939a6f9a763e4c26d7",
       "bytes": 677,
       "size_bytes": 677
     },
@@ -313,7 +313,7 @@
       "role": "VECTOR_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "4b25060ed7304e097cc28f90da6debd9ed9cf9b638b75f4c56fc61fcf9907665",
+      "sha256": "2530905b4a68c2120ddd28a7d0cec41eded33e4a96a2cacf979d5386d2525388",
       "bytes": 472,
       "size_bytes": 472
     },
@@ -323,7 +323,7 @@
       "role": "VECTOR_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "b21ce7f5f5ffc466eb7916cbc73e9f3629e9f6ecfca98b07884c8a328ef390ff",
+      "sha256": "cf7e546a5128c029a3cd1e2c208c999b116d77cd6472583fc92d5acd87d73722",
       "bytes": 913,
       "size_bytes": 913
     },
@@ -333,9 +333,9 @@
       "role": "VECTOR_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "bd815860981087616620d514445077ea5f192276d8c31c9995d28df0c5df51ef",
-      "bytes": 237,
-      "size_bytes": 237
+      "sha256": "c0283c03f554c137b284e1c2a90e7a9172f7bd2ec76d7312e3376a4f7e837028",
+      "bytes": 441,
+      "size_bytes": 441
     },
     "embedding-model-safe.json": {
       "artifact_name": "embedding-model-safe.json",
@@ -343,9 +343,9 @@
       "role": "VECTOR_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "5f1f02578002c528464cfc0a9c3d2cee646f417a90a2f5437a3c05ef6422c993",
-      "bytes": 269,
-      "size_bytes": 269
+      "sha256": "e2f446f13dfe4b81f86a5ccb3baa3be7963a51fb47cfe330e6194aa4fced165b",
+      "bytes": 473,
+      "size_bytes": 473
     },
     "vector-coverage-safe.json": {
       "artifact_name": "vector-coverage-safe.json",
@@ -353,9 +353,9 @@
       "role": "VECTOR_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "b1af4ff86943d1aaab86e9d4b74284760d93d736cdd15bfd961d635ea8c8318b",
-      "bytes": 219,
-      "size_bytes": 219
+      "sha256": "f0081b916ef98cc65f94f8c99b2b25d67018c528d661161836b5634df570ad64",
+      "bytes": 423,
+      "size_bytes": 423
     },
     "retrieval-fusion-safe.json": {
       "artifact_name": "retrieval-fusion-safe.json",
@@ -363,9 +363,9 @@
       "role": "VECTOR_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "3441af99ecbdfec6e7a2d7213664b77847209b50c62ddc05f102eacd4f39687e",
-      "bytes": 193,
-      "size_bytes": 193
+      "sha256": "6cb39a65c7caf5ff2ec82e76989cc773b07dcb78b9c6cc9c5cbb7c228be3d21e",
+      "bytes": 397,
+      "size_bytes": 397
     },
     "retrieval-evaluation-safe.json": {
       "artifact_name": "retrieval-evaluation-safe.json",
@@ -373,9 +373,9 @@
       "role": "VECTOR_PAYLOAD",
       "layer": "LAYER_0_PAYLOAD",
       "release_id": "rel-hemiksem-v5.2.0-prod",
-      "sha256": "1d1cbd60f46ae4121a7e251a23bed7403e4ef08609ae3d29cd8996878057aff3",
-      "bytes": 267,
-      "size_bytes": 267
+      "sha256": "41d0236a069f5782db427b85a402e4b5ccbe1fb51a14ddf7717e22552068e2ef",
+      "bytes": 371,
+      "size_bytes": 371
     }
   }
 }

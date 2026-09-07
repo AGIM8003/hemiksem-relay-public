@@ -1,7 +1,12 @@
 {
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "product_version": "5.2.0",
+  "engine_runtime": "8.1",
+  "proof_revision": "R3.1",
+  "spec_id": "HEMIKSEM-AI-V520-R31-HYBRID-QUALITY-PROOF-CONVERGENCE",
   "model_name": "paraphrase-multilingual-MiniLM-L12-v2",
   "model_hash": "7ca9465b3262350b7ee275cebaa569ae2517c19a90a76dbc9486d08f3f69a3dd",
   "provider": "sentence-transformers",
   "local_zero_cost": true,
-  "generated_at": "2026-09-07T20:56:30.899357+00:00"
+  "generated_at": "2026-09-07T21:00:17.661298+00:00"
 }

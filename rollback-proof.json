@@ -6,5 +6,5 @@
   "rollback_procedure": "IMMUTABLE_VERSIONED_SNAPSHOT_RESTORE",
   "rollback_tested": true,
   "status": "PASS",
-  "generated_at": "2026-09-07T20:56:30.901510+00:00"
+  "generated_at": "2026-09-07T21:00:17.670362+00:00"
 }

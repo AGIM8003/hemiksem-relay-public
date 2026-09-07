@@ -1,9 +1,12 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R31-HYBRID-QUALITY-PROOF-CONVERGENCE",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "product_version": "5.2.0",
+  "engine_runtime": "8.1",
   "proof_revision": "R3.1",
+  "spec_id": "HEMIKSEM-AI-V520-R31-HYBRID-QUALITY-PROOF-CONVERGENCE",
   "eval_suite": "HEMIKSEM_V520R31_SUITE",
   "total_cases": 85,
   "passed_cases": 85,
   "pass_rate": 1.0,
-  "generated_at": "2026-09-07T20:56:30.899357+00:00"
+  "generated_at": "2026-09-07T21:00:17.661298+00:00"
 }
