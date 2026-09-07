@@ -19,7 +19,7 @@
       "p99_ms": 190.0
     }
   },
-  "measured_at": "2026-09-07T15:40:16.491349+00:00",
+  "measured_at": "2026-09-07T15:42:45.808572+00:00",
   "performance_budget_pass": true,
   "release_id": "rel-hemiksem-v5.1.0-prod",
   "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE"

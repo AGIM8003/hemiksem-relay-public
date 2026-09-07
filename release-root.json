@@ -7,11 +7,11 @@
   "engine_runtime": "8.1",
   "proof_revision": "R1",
   "candidate_id": "CAND-HEMIKSEM-V510-R1",
-  "tested_source_commit_sha": "d6ef47f402b47c468354b8867a526a16e5ef6aab",
-  "tested_source_tree_sha": "54a046f2d12198a0389d36e620ff118ddf99a5ad",
+  "tested_source_commit_sha": "3a802ea7f895f08f6225031f91c148da8e869b60",
+  "tested_source_tree_sha": "3059a03ac650debc8df1714a6cb91c306ec15e2b",
   "release_content_epoch_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
-  "manifest_sha256": "b21f1d9a5df2108c8df847c673b719837d2210b364fc6d53ea7788939e862356",
-  "proof_chain_sha256": "953155729e2c61f046530532e1d22e025f1b3a76697d4442371413d9a23508b9",
+  "manifest_sha256": "474971f11b1d3bbf07d66e1b8486217a890d9e9c6aac068ac1b0b0254823d1d6",
+  "proof_chain_sha256": "c61c6e7630122633e3d6be8f1f7fafe7b09b0196a77188592f7709e0ac15ddfc",
   "status": "SEALED_VALID",
-  "sealed_at": "2026-09-07T15:41:54.278880+00:00"
+  "sealed_at": "2026-09-07T15:43:20.352173+00:00"
 }

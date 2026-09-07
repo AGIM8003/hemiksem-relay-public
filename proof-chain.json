@@ -9,10 +9,10 @@
   "candidate_id": "CAND-HEMIKSEM-V510-R1",
   "status": "SEALED_VALID",
   "chain_verdict": "VALID",
-  "sealed_at": "2026-09-07T15:41:54.278880+00:00",
+  "sealed_at": "2026-09-07T15:43:20.352173+00:00",
   "manifest_binding": {
     "path": "/manifest.json",
-    "sha256": "b21f1d9a5df2108c8df847c673b719837d2210b364fc6d53ea7788939e862356"
+    "sha256": "474971f11b1d3bbf07d66e1b8486217a890d9e9c6aac068ac1b0b0254823d1d6"
   },
   "chain_nodes": [
     {
@@ -22,7 +22,7 @@
     {
       "node": "LAYER_1_MANIFEST",
       "status": "VERIFIED_SEALED",
-      "manifest_sha256": "b21f1d9a5df2108c8df847c673b719837d2210b364fc6d53ea7788939e862356"
+      "manifest_sha256": "474971f11b1d3bbf07d66e1b8486217a890d9e9c6aac068ac1b0b0254823d1d6"
     },
     {
       "node": "LAYER_2_PROOF_CHAIN",
