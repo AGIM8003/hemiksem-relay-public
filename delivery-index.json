@@ -1,9 +1,70 @@
 {
-  "artifacts_declared": 19,
-  "delivery_scope": "PUBLIC_STATIC_RELAY",
-  "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T12:45:51.934868+00:00",
-  "product_version": "5.0.3",
+  "schema_version": "2.0",
+  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
   "release_id": "rel-hemiksem-v5.0.3-prod",
-  "release_version": "5.0.3"
+  "release_version": "5.0.3",
+  "product_version": "5.0.3",
+  "engine_runtime": "8.1",
+  "proof_revision": "R4",
+  "generated_at": "2026-09-07T14:29:00.159447+00:00",
+  "delivery_scope": "PUBLIC_STATIC_RELAY_FULL_PARITY",
+  "relationship_state": "EXACT_PARITY_WITH_MANIFEST",
+  "manifest_count": 22,
+  "delivery_count": 22,
+  "unexplained_difference": 0,
+  "release_required_artifacts": [
+    "health.json",
+    "current-release.json",
+    "capability-registry.json",
+    "openapi.yaml",
+    "custom-gpt-action.yaml",
+    "privacy-status.json",
+    "kb-binding.json",
+    "admission-index.json",
+    "project-intelligence.json",
+    "currentness-index.json",
+    "conflict-index.json",
+    "rollback-proof.json",
+    "release-gates.json"
+  ],
+  "public_payload_artifacts": [
+    "delivery-index.json",
+    "denominator-dictionary.json",
+    "privacy.html",
+    "test-proof.json",
+    "proof-chain-index.json"
+  ],
+  "audit_artifacts": [
+    "audit/audit-manifest.json",
+    "safe-audit-bundle.json"
+  ],
+  "evidence_artifacts": [
+    "evidence/proof-chain-index.json"
+  ],
+  "excluded_manifest_artifacts": [],
+  "exclusion_reasons": {},
+  "artifacts": [
+    "admission-index.json",
+    "applicability-index.json",
+    "audit/audit-manifest.json",
+    "capability-registry.json",
+    "conflict-index.json",
+    "current-release.json",
+    "currentness-index.json",
+    "custom-gpt-action.yaml",
+    "delivery-index.json",
+    "denominator-dictionary.json",
+    "evidence/proof-chain-index.json",
+    "health.json",
+    "kb-binding.json",
+    "openapi.yaml",
+    "privacy-status.json",
+    "privacy.html",
+    "project-intelligence.json",
+    "proof-chain-index.json",
+    "release-gates.json",
+    "rollback-proof.json",
+    "safe-audit-bundle.json",
+    "test-proof.json"
+  ]
 }

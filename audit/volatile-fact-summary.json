@@ -1,0 +1,28 @@
+{
+  "spec_id": "HEMIKSEM-AI-R4-TO-V510-CONTINUOUS-TRUTH-CONVERGENCE",
+  "release_id": "rel-hemiksem-v5.0.3-prod",
+  "proof_revision": "R4",
+  "generated_at": "2026-09-07T14:29:00.159447+00:00",
+  "facts_total": 84,
+  "current": 84,
+  "due_for_review": 0,
+  "stale": 0,
+  "superseded": 0,
+  "unknown": 0,
+  "conflicted": 0,
+  "high_risk_stale_count": 0,
+  "by_class": {
+    "OPENING_HOURS": 14,
+    "PHONE": 10,
+    "EMAIL": 10,
+    "ADDRESS": 8,
+    "FEE": 12,
+    "DEADLINE": 8,
+    "APPOINTMENT_RULE": 10,
+    "PORTAL": 6,
+    "RESPONSIBLE_SERVICE": 6,
+    "TEMPORARY_CLOSURE": 0,
+    "OTHER": 0
+  },
+  "status": "PASS"
+}
