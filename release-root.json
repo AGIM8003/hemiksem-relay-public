@@ -10,8 +10,8 @@
   "tested_source_commit_sha": "09643c2539a61b63b56fd976f4eb6bacf0a2b97a",
   "tested_source_tree_sha": "28ce146ee86d703df0d4406d592c1db00ff4573e",
   "release_content_epoch_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
-  "manifest_sha256": "9d35d62cf89310e8963c9ec23cd1ca5324ed914cf1270ed049d5c176cb968f19",
-  "proof_chain_sha256": "3b39c0baaec06c963f2914f4a246db145936e99f1dc2ec8547999f61a9f3ad1f",
+  "manifest_sha256": "2b2da23143c769d1720a50211209d84212fce0eb38d1772f272f21fe59763c9c",
+  "proof_chain_sha256": "55565a2f3a6ff165b29688c7bfa2127e8ade24d79b0ec9756de84c816bffb9e4",
   "status": "SEALED_VALID",
-  "sealed_at": "2026-09-07T15:52:10.990738+00:00"
+  "sealed_at": "2026-09-07T15:53:38.092546+00:00"
 }
