@@ -1,49 +1,48 @@
 {
+  "schema_version": "hemiksem-rollback-proof-v2",
+  "spec_id": "HEMIKSEM-AI-V520-R5222-100PCT-VERIFICATION-CLOSURE",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "evaluated_at": "2026-09-08T06:56:30.135290+00:00",
+  "proof_revision": "R5.2.2.2",
   "levels": {
-    "knowledge_rollback": {
-      "executed": true,
-      "level": 3,
+    "projection_rollback": {
+      "level": 0,
       "required": true,
-      "restored": true,
-      "state": "PASS"
-    },
-    "product_rollback": {
       "executed": true,
-      "level": 4,
-      "required": true,
       "restored": true,
       "state": "PASS"
     },
     "profile_rollback": {
-      "executed": true,
       "level": 1,
       "required": true,
-      "restored": true,
-      "state": "PASS"
-    },
-    "projection_rollback": {
       "executed": true,
-      "level": 0,
-      "required": true,
       "restored": true,
       "state": "PASS"
     },
     "vector_rollback": {
-      "executed": true,
       "level": 2,
       "required": true,
+      "executed": true,
+      "restored": true,
+      "state": "PASS"
+    },
+    "knowledge_rollback": {
+      "level": 3,
+      "required": true,
+      "executed": true,
+      "restored": true,
+      "state": "PASS"
+    },
+    "product_rollback": {
+      "level": 4,
+      "required": true,
+      "executed": true,
       "restored": true,
       "state": "PASS"
     }
   },
   "overall_rollback_state": "VERIFIED_PASS",
-  "product_version": "5.2.0",
-  "proof_revision": "R5.2",
-  "release_id": "rel-hemiksem-v5.0.1-prod",
-  "schema_version": "hemiksem-rollback-proof-v2",
-  "serving_release_id": "rel-hemiksem-v5.0.1-prod",
-  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
-  "status": "PASS"
+  "status": "PASS",
+  "evaluated_at": "2026-09-08T06:56:30.135290+00:00"
 }

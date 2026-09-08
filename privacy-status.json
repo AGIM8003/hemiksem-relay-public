@@ -1,13 +1,16 @@
 {
-  "HTTP_state": "CONFIGURED",
-  "compliance_state": "COMPLIANT_HUMAN_REVIEW_PASSED",
+  "schema_version": "1.0.0",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
+  "proof_revision": "R5.2",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "product_version": "5.2.0",
+  "privacy_technical_state": "PRIVACY_ZERO_LEAKAGE_VERIFIED",
+  "private_kb_public_access": false,
+  "secret_leakage_count": 0,
+  "path_traversal_blocked": true,
   "configured": true,
-  "content_hash": "39a8061b333442758706b4a927b3d6350ad35a0a81fb15553d4a42a5d01ae718",
-  "generated_at": "2026-09-08T07:35:52.814423+00:00",
-  "human_review_state": "APPROVED",
-  "last_verified": "2026-09-08T07:35:52.814423+00:00",
   "privacy_policy_url": "https://agim8003.github.io/hemiksem-relay-public/privacy.html",
-  "product_version": "5.0.1",
-  "release_id": "rel-hemiksem-v5.0.1-prod",
-  "reviewer": "Gemeente Hemiksem Governance & DPO"
+  "content_hash": "39a8061b333442758706b4a927b3d6350ad35a0a81fb15553d4a42a5d01ae718",
+  "status": "PASS",
+  "evaluated_at": "2026-09-07T20:03:07.844737+00:00"
 }

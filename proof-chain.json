@@ -1,28 +1,38 @@
 {
-  "artifact_hashes": {
-    "admission-index.json": "538d30939d60b826c1406680bffd5675d1a0aa405c71cb932b067d61ba5e747b",
-    "applicability-index.json": "3099552cf48fad3a61fcf98423d9337dbee07d9f641d45c76d782315b81a3bd8",
-    "capability-registry.json": "f67768627c138b21d52249f521a21d346aa967415a27372c456e82f65ce0c18d",
-    "conflict-index.json": "76335d14cc0c0a640b93abb1f38fc1868a392464610b73d59377013c163231cd",
-    "current-release.json": "07319664a4ff61bd8ef709afe19a43d4438b1288b5cccd0e62b2d083b07093b7",
-    "currentness-index.json": "0410b4100179eacd7ab896e31053d8dcba527732cd63083703b18329e416205b",
-    "delivery-index.json": "8942c7c6738f29160f76f38e562e1c0a1c0468debba312f9542e85860ce8a417",
-    "denominator-dictionary.json": "1b16e183a3fde57f8b6abe9a3dbd60109ec9bb10e003d164996f7d6a73949caa",
-    "health.json": "4197f8403a4c1db8414fa2f71991a87aa4a26a385d304b066c10e8fc62187a3d",
-    "kb-binding.json": "0ed0f8a6ee125a5b1b1bedc978b1bbe0bace113dd347774c0c24d5a2309f6475",
-    "privacy-status.json": "08603a845b78219b3ae873e205dd4c66bca3f750dcc46ba92c954242574bd96f",
-    "project-intelligence.json": "8f743f84ba6c05abc92ac1ce296402086cda28a86c1e1d5817d22cd963aafed5",
-    "proof-chain-index.json": "769fdc8d8994939b97a4188cdd805e514fed10176933ea14445d2b19eeb24a5e",
-    "release-gates.json": "67aa3623570a4a2b6de14a70f1fd5e4db70fa57bf2bd135f4997acb5b3dd3b3d",
-    "rollback-proof.json": "766efb02c240eb24eb7b9365772feab5c0b9f09659c4af5b9f7aabfddee149ab",
-    "safe-audit-bundle.json": "2d8fe6f88f64a1634ffd1171ee152100a093c6e1444f1aed6e01e003bcca8761",
-    "test-proof.json": "61238dd7cabd8771a2815d80b74ccfc879efd5f77eb6b981cb78f94b9037c38c"
-  },
-  "build_timestamp": "2026-09-08T07:35:52.814423+00:00",
+  "acyclic_proof_state": "PROVEN_ACYCLIC",
+  "candidate_id": "CAND-HEMIKSEM-V520-R5222-PROD",
   "chain_verdict": "VALID",
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-08T07:35:52.814423+00:00",
-  "product_version": "5.0.1",
-  "release_id": "rel-hemiksem-v5.0.1-prod",
-  "release_version": "5.0.1"
+  "generated_at": "2026-09-08T11:31:01.197281+00:00",
+  "layer": "LAYER_2_PROOF_CHAIN",
+  "lineage_policy": "LIN-R5222-001",
+  "manifest_binding": {
+    "layer0_payload_count": 42,
+    "path": "manifest.json",
+    "sha256": "976d57e2fd38ba0c7e90795c85706c4788f0dc05c1c0f4ab05368c03d1df0d28"
+  },
+  "product_version": "5.2.0",
+  "proof_revision": "R5.2.2.2",
+  "receipt_commitments": {
+    "connected_action_ref": "REPORTS/R5222_ACTUAL_CONNECTED_EXECUTION_RECEIPT.json",
+    "gate_receipt_ref": "REPORTS/R5222_FULL_GATE_EXECUTION_RECEIPT.json",
+    "mutation_receipt_ref": "REPORTS/R5222_FULL_MUTATION_EXECUTION_RECEIPT.json",
+    "rollback_receipt_ref": "hemiksem-relay-public/rollback-proof.json",
+    "semantic_context_ref": "REPORTS/R5222_SEMANTIC_CONTEXT_RECEIPT.json",
+    "test_receipt_ref": "REPORTS/R5222_FULL_TEST_EXECUTION_RECEIPT.json"
+  },
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "release_version": "5.2.0",
+  "schema_version": "hemiksem-proof-chain-v3",
+  "spec_id": "HEMIKSEM-AI-V520-R5222-100PCT-VERIFICATION-CLOSURE",
+  "statistics": {
+    "connected_operations": 20,
+    "detected_mutations": 121,
+    "evaluated_gates": 578,
+    "passed_connected_operations": 20,
+    "passed_gates": 578,
+    "passed_required_tests": 1020,
+    "required_mutations": 121,
+    "unique_required_tests": 1020
+  }
 }

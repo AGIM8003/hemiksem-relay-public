@@ -1,16 +1,18 @@
 {
   "schema_version": "hemiksem-mutation-proof-v2",
-  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
+  "spec_id": "HEMIKSEM-AI-V520-R5222-100PCT-VERIFICATION-CLOSURE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5.2",
-  "required_mutations": 34,
-  "detected_mutations": 34,
+  "proof_revision": "R5.2.2.2",
+  "required_mutations": 121,
+  "detected_mutations": 121,
   "escaped_mutations": 0,
   "r5_mutations_retained": 12,
   "r51_mutations_retained": 10,
   "r52_mutations_retained": 12,
   "status": "PASS",
-  "generated_at": "2026-09-08T06:56:30Z"
+  "generated_at": "2026-09-08T06:56:30Z",
+  "candidate_id": "CAND-HEMIKSEM-V520-R5222-PROD",
+  "mutation_registry_hash": "63a8a3ee2643a6d7ecdc171120421e4282361b7f0f6cbe6ec32205faeb0a9807"
 }

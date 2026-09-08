@@ -3,7 +3,7 @@ info:
   title: "AI EXPERT \u2014 HEMIKSEM GEMEENTEDIENSTEN (V5 CONNECTED)"
   version: 5.2.0
   description: 'Governed, read-only municipal intelligence API for Gemeente Hemiksem.
-    Release: rel-hemiksem-v5.2.0-prod. Revision: R5.2.'
+    Release: rel-hemiksem-v5.2.0-prod. Revision: R5.2.2.2.'
 servers:
 - url: https://act-husband-wallpaper-exists.trycloudflare.com
   description: Production Cloudflare Ingress Gateway (HTTPS, EUR 0.00)

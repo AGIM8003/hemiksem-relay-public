@@ -7,10 +7,12 @@
   "engine_runtime": "8.1",
   "private_content_leaks": 0,
   "product_version": "5.2.0",
-  "release_id": "rel-hemiksem-v5.0.1-prod",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
   "schema_version": "hemiksem-safe-audit-bundle-v3",
   "secret_leaks": 0,
   "total_members": 34,
   "validation_state": "PASS",
-  "verified_at": "2026-09-07T20:03:09.486854+00:00"
+  "verified_at": "2026-09-07T20:03:09.486854+00:00",
+  "spec_id": "HEMIKSEM-AI-V520-R5222-100PCT-VERIFICATION-CLOSURE",
+  "proof_revision": "R5.2.2.2"
 }
