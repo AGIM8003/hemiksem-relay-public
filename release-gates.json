@@ -1,23 +1,24 @@
 {
   "schema_version": "hemiksem-release-gates-v3",
-  "spec_id": "HEMIKSEM-AI-V530-R113-FINAL-SEMANTIC-ACTION-INGRESS-NONDEGRADATION-SEAL",
+  "spec_id": "HEMIKSEM-AI-V530-R1131-FINAL-CURRENT-LIVE-PERSISTENCE-SEAL",
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R1.1.3",
-  "candidate_id": "CAND-HEMIKSEM-V530-R113-PROD",
-  "gate_namespace": "R530R113",
+  "proof_revision": "R1.1.3.1",
+  "candidate_id": "CAND-HEMIKSEM-V530-R1131-PROD",
+  "gate_namespace": "R530R1131",
   "historic_gate_ids_immutable": true,
   "gate_id_reuse_forbidden": true,
   "gate_id_collision_count": 0,
   "inherited_gate_count": 711,
-  "new_gate_count": 98,
-  "total_gates": 809,
-  "passed_gates": 809,
+  "r113_gate_count": 98,
+  "new_r1131_gate_count": 63,
+  "total_gates": 872,
+  "passed_gates": 872,
   "failed_gates": 0,
   "machine_verdict": "RELEASE_ALLOWED",
-  "operational_health": "HEALTHY_RELEASE_VERIFIED",
-  "total_required_gate_set_hash": "236485c0998285945b4c99e21031f9c32e3c08d7b46f76b2830120fa9766cab6",
+  "operational_health": "R1131_CANDIDATE_PASS",
+  "total_required_gate_set_hash": "14a3ad9e4e0e539ba5df0ce3af793cf7e1600e7de995acec92cafc34ee79a216",
   "inherited_gate_ids": [
     "GATE_V511_001",
     "GATE_V511_002",
@@ -731,7 +732,7 @@
     "R530R111G064",
     "R530R111G065"
   ],
-  "new_R530R113_gate_ids": [
+  "r113_gate_ids": [
     "R530R113G001",
     "R530R113G002",
     "R530R113G003",
@@ -831,595 +832,70 @@
     "R530R113G097",
     "R530R113G098"
   ],
-  "new_gates_detail": [
-    {
-      "gate_id": "R530R113G001",
-      "name": "ENTRY LIVE STATE REOBSERVED",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G002",
-      "name": "P0 ENTRY",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G003",
-      "name": "R1.1.2 TOP-LEVEL RELEASE PARITY",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G004",
-      "name": "CORPUS BASELINE HASH",
-      "status": "PASS",
-      "required_outcome": "MATCH"
-    },
-    {
-      "gate_id": "R530R113G005",
-      "name": "INDEX BASELINE HASH",
-      "status": "PASS",
-      "required_outcome": "MATCH"
-    },
-    {
-      "gate_id": "R530R113G006",
-      "name": "SCHELDEBOORDEN ENTRY",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G007",
-      "name": "PROTECTED IMPLEMENTATION REGISTRY",
-      "status": "PASS",
-      "required_outcome": "FROZEN"
-    },
-    {
-      "gate_id": "R530R113G008",
-      "name": "BASELINE SNAPSHOT",
-      "status": "PASS",
-      "required_outcome": "HASHED"
-    },
-    {
-      "gate_id": "R530R113G009",
-      "name": "KB CURRENT API VERSION",
-      "status": "PASS",
-      "required_outcome": "5.3.0"
-    },
-    {
-      "gate_id": "R530R113G010",
-      "name": "KB CURRENT OPENAPI VERSION",
-      "status": "PASS",
-      "required_outcome": "5.3.0"
-    },
-    {
-      "gate_id": "R530R113G011",
-      "name": "CANONICAL OPERATION CONTRACT HASH",
-      "status": "PASS",
-      "required_outcome": "ONE"
-    },
-    {
-      "gate_id": "R530R113G012",
-      "name": "CAPABILITY REGISTRY CONTRACT HASH",
-      "status": "PASS",
-      "required_outcome": "MATCH"
-    },
-    {
-      "gate_id": "R530R113G013",
-      "name": "PUBLIC OPERATION CONTRACT HASH",
-      "status": "PASS",
-      "required_outcome": "MATCH"
-    },
-    {
-      "gate_id": "R530R113G014",
-      "name": "CONNECTED OPERATION CONTRACT HASH",
-      "status": "PASS",
-      "required_outcome": "MATCH"
-    },
-    {
-      "gate_id": "R530R113G015",
-      "name": "OPENAPI CANONICALIZER VERSION",
-      "status": "PASS",
-      "required_outcome": "PINNED"
-    },
-    {
-      "gate_id": "R530R113G016",
-      "name": "CURRENT SEMANTIC ARTIFACT MISMATCH",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G017",
-      "name": "FUNCTIONAL SOURCE ROLE",
-      "status": "PASS",
-      "required_outcome": "EXPLICIT"
-    },
-    {
-      "gate_id": "R530R113G018",
-      "name": "TESTED FUNCTIONAL CONTEXT",
-      "status": "PASS",
-      "required_outcome": "HASHED"
-    },
-    {
-      "gate_id": "R530R113G019",
-      "name": "DEPLOYMENT BUNDLE ROLE",
-      "status": "PASS",
-      "required_outcome": "EXPLICIT"
-    },
-    {
-      "gate_id": "R530R113G020",
-      "name": "PUBLICATION PARENT ROLE",
-      "status": "PASS",
-      "required_outcome": "EXPLICIT"
-    },
-    {
-      "gate_id": "R530R113G021",
-      "name": "PUBLICATION COMMIT ROLE",
-      "status": "PASS",
-      "required_outcome": "EXPLICIT"
-    },
-    {
-      "gate_id": "R530R113G022",
-      "name": "SOURCE ROLE CONFLICT",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G023",
-      "name": "DEPLOYMENT RECEIPT",
-      "status": "PASS",
-      "required_outcome": "NONEMPTY_VALID"
-    },
-    {
-      "gate_id": "R530R113G024",
-      "name": "R112 MUTATION IDS ACCOUNTED",
-      "status": "PASS",
-      "required_outcome": "100%"
-    },
-    {
-      "gate_id": "R530R113G025",
-      "name": "R112 UNACCOUNTED MUTATIONS",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G026",
-      "name": "GLOBAL MUTATION SET",
-      "status": "PASS",
-      "required_outcome": "DERIVED"
-    },
-    {
-      "gate_id": "R530R113G027",
-      "name": "MUTATION ESCAPES",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G028",
-      "name": "MUTATION DOUBLE COUNT",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G029",
-      "name": "GLOBAL GATE SET",
-      "status": "PASS",
-      "required_outcome": "DERIVED"
-    },
-    {
-      "gate_id": "R530R113G030",
-      "name": "GATE COLLISIONS",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G031",
-      "name": "GLOBAL REQUIRED GATES",
-      "status": "PASS",
-      "required_outcome": "100% PASS"
-    },
-    {
-      "gate_id": "R530R113G032",
-      "name": "GLOBAL REQUIRED TESTS",
-      "status": "PASS",
-      "required_outcome": "100% EXECUTED PASS"
-    },
-    {
-      "gate_id": "R530R113G033",
-      "name": "REQUIRED TEST SKIPS",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G034",
-      "name": "ZERO-COST STABLE HOST ELIGIBILITY",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G035",
-      "name": "STABLE INGRESS",
-      "status": "PASS",
-      "required_outcome": "ACTIVE"
-    },
-    {
-      "gate_id": "R530R113G036",
-      "name": "STABLE HOSTNAME",
-      "status": "PASS",
-      "required_outcome": "REACHABLE"
-    },
-    {
-      "gate_id": "R530R113G037",
-      "name": "QUICK-TUNNEL NORMAL-PROD DEPENDENCY",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G038",
-      "name": "STABLE HOST RELEASE",
-      "status": "PASS",
-      "required_outcome": "V5.3.0/R1.1.3"
-    },
-    {
-      "gate_id": "R530R113G039",
-      "name": "STABLE HOST CORPUS HASH",
-      "status": "PASS",
-      "required_outcome": "MATCH"
-    },
-    {
-      "gate_id": "R530R113G040",
-      "name": "STABLE HOST INDEX HASH",
-      "status": "PASS",
-      "required_outcome": "MATCH"
-    },
-    {
-      "gate_id": "R530R113G041",
-      "name": "STABLE HOST SCHELDEBOORDEN",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G042",
-      "name": "API AUTO START",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G043",
-      "name": "API FAILURE RECOVERY",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G044",
-      "name": "CLOUDFLARED AUTO START",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G045",
-      "name": "CLOUDFLARED FAILURE RECOVERY",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G046",
-      "name": "SINGLE PRODUCTION PORT OWNER",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G047",
-      "name": "NORMAL WINDOWS RESTART",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G048",
-      "name": "POST-RESTART RELEASE PERSISTENCE",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G049",
-      "name": "POST-RESTART HOSTNAME PERSISTENCE",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G050",
-      "name": "CANONICAL REQUIRED OP SET",
-      "status": "PASS",
-      "required_outcome": "DERIVED"
-    },
-    {
-      "gate_id": "R530R113G051",
-      "name": "SESSION A DISCOVERABLE",
-      "status": "PASS",
-      "required_outcome": "100%"
-    },
-    {
-      "gate_id": "R530R113G052",
-      "name": "SESSION A CALLABLE",
-      "status": "PASS",
-      "required_outcome": "100%"
-    },
-    {
-      "gate_id": "R530R113G053",
-      "name": "SESSION A EXECUTED",
-      "status": "PASS",
-      "required_outcome": "100%"
-    },
-    {
-      "gate_id": "R530R113G054",
-      "name": "SESSION A SEMANTIC PASS",
-      "status": "PASS",
-      "required_outcome": "100%"
-    },
-    {
-      "gate_id": "R530R113G055",
-      "name": "SESSION B OP SET MATCH",
-      "status": "PASS",
-      "required_outcome": "100%"
-    },
-    {
-      "gate_id": "R530R113G056",
-      "name": "SESSION B EXECUTED",
-      "status": "PASS",
-      "required_outcome": "100%"
-    },
-    {
-      "gate_id": "R530R113G057",
-      "name": "SESSION B SEMANTIC PASS",
-      "status": "PASS",
-      "required_outcome": "100%"
-    },
-    {
-      "gate_id": "R530R113G058",
-      "name": "CONNECTED UNKNOWN",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G059",
-      "name": "CONNECTED PROCEDURE VERIFICATION",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G060",
-      "name": "CONNECTED VOLATILE VERIFICATION",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G061",
-      "name": "CONNECTED DOMAIN QUALITY VERIFICATION",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G062",
-      "name": "CONNECTED SCHELDEBOORDEN",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G063",
-      "name": "PUBLICATION COMMIT",
-      "status": "PASS",
-      "required_outcome": "CURRENT"
-    },
-    {
-      "gate_id": "R530R113G064",
-      "name": "REMOTE MAIN",
-      "status": "PASS",
-      "required_outcome": "V5.3.0/R1.1.3"
-    },
-    {
-      "gate_id": "R530R113G065",
-      "name": "PAGES",
-      "status": "PASS",
-      "required_outcome": "V5.3.0/R1.1.3"
-    },
-    {
-      "gate_id": "R530R113G066",
-      "name": "RELAY",
-      "status": "PASS",
-      "required_outcome": "V5.3.0/R1.1.3"
-    },
-    {
-      "gate_id": "R530R113G067",
-      "name": "SERVER",
-      "status": "PASS",
-      "required_outcome": "V5.3.0/R1.1.3"
-    },
-    {
-      "gate_id": "R530R113G068",
-      "name": "PUBLIC SEMANTIC PARITY",
-      "status": "PASS",
-      "required_outcome": "100%"
-    },
-    {
-      "gate_id": "R530R113G069",
-      "name": "BYTE PARITY WHERE REQUIRED",
-      "status": "PASS",
-      "required_outcome": "100%"
-    },
-    {
-      "gate_id": "R530R113G070",
-      "name": "STALE CURRENT PUBLIC ARTIFACT",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G071",
-      "name": "PUBLIC CONVERGENCE SCANS",
-      "status": "PASS",
-      "required_outcome": "3/3"
-    },
-    {
-      "gate_id": "R530R113G072",
-      "name": "SEMANTIC DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G073",
-      "name": "SAFETY DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G074",
-      "name": "RETRIEVAL DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G075",
-      "name": "RANKING DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G076",
-      "name": "FALSE ABSTENTION DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G077",
-      "name": "PROCEDURE DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G078",
-      "name": "VOLATILE FACT DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G079",
-      "name": "DOMAIN DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G080",
-      "name": "PROVENANCE DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G081",
-      "name": "CONNECTED DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G082",
-      "name": "PERFORMANCE DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G083",
-      "name": "RELIABILITY DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G084",
-      "name": "OBSERVABILITY DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G085",
-      "name": "RELEASE-PROOF DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G086",
-      "name": "TOTAL MATERIAL DEGRADATION",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G087",
-      "name": "STABILITY WINDOW",
-      "status": "PASS",
-      "required_outcome": ">=3600 seconds"
-    },
-    {
-      "gate_id": "R530R113G088",
-      "name": "COMPLETE STABILITY SCANS",
-      "status": "PASS",
-      "required_outcome": ">=6"
-    },
-    {
-      "gate_id": "R530R113G089",
-      "name": "FAILED REQUIRED STABILITY SCANS",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G090",
-      "name": "POST-RESTART STABILITY",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G091",
-      "name": "CURRENT CONNECTED HEALTH",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G092",
-      "name": "CURRENT INGRESS HEALTH",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G093",
-      "name": "P0",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G094",
-      "name": "P1",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G095",
-      "name": "REQUIRED UNKNOWN",
-      "status": "PASS",
-      "required_outcome": "0"
-    },
-    {
-      "gate_id": "R530R113G096",
-      "name": "INDEPENDENT LIVE AUDIT",
-      "status": "PASS",
-      "required_outcome": "PASS"
-    },
-    {
-      "gate_id": "R530R113G097",
-      "name": "MACHINE VERDICT",
-      "status": "PASS",
-      "required_outcome": "RELEASE_ALLOWED"
-    },
-    {
-      "gate_id": "R530R113G098",
-      "name": "OPERATIONAL HEALTH",
-      "status": "PASS",
-      "required_outcome": "HEALTHY_RELEASE_VERIFIED"
-    }
+  "new_gate_ids": [
+    "R530R1131G001",
+    "R530R1131G002",
+    "R530R1131G003",
+    "R530R1131G004",
+    "R530R1131G005",
+    "R530R1131G006",
+    "R530R1131G007",
+    "R530R1131G008",
+    "R530R1131G009",
+    "R530R1131G010",
+    "R530R1131G011",
+    "R530R1131G012",
+    "R530R1131G013",
+    "R530R1131G014",
+    "R530R1131G015",
+    "R530R1131G016",
+    "R530R1131G017",
+    "R530R1131G018",
+    "R530R1131G019",
+    "R530R1131G020",
+    "R530R1131G021",
+    "R530R1131G022",
+    "R530R1131G023",
+    "R530R1131G024",
+    "R530R1131G025",
+    "R530R1131G026",
+    "R530R1131G027",
+    "R530R1131G028",
+    "R530R1131G029",
+    "R530R1131G030",
+    "R530R1131G031",
+    "R530R1131G032",
+    "R530R1131G033",
+    "R530R1131G034",
+    "R530R1131G035",
+    "R530R1131G036",
+    "R530R1131G037",
+    "R530R1131G038",
+    "R530R1131G039",
+    "R530R1131G040",
+    "R530R1131G041",
+    "R530R1131G042",
+    "R530R1131G043",
+    "R530R1131G044",
+    "R530R1131G045",
+    "R530R1131G046",
+    "R530R1131G047",
+    "R530R1131G048",
+    "R530R1131G049",
+    "R530R1131G050",
+    "R530R1131G051",
+    "R530R1131G052",
+    "R530R1131G053",
+    "R530R1131G054",
+    "R530R1131G055",
+    "R530R1131G056",
+    "R530R1131G057",
+    "R530R1131G058",
+    "R530R1131G059",
+    "R530R1131G060",
+    "R530R1131G061",
+    "R530R1131G062",
+    "R530R1131G063"
   ],
-  "generated_at": "2026-09-08T20:13:32.271056+00:00"
+  "evaluated_at": "2026-09-08T21:01:16.108144+00:00"
 }
