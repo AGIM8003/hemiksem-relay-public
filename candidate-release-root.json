@@ -13,9 +13,9 @@
   "base_publication_commit": "3fb4805dd2154f8671c4c4de078ecec2efd6ca86",
   "status": "SEALED_PRODUCTION",
   "parent_commit": "3fb4805dd2154f8671c4c4de078ecec2efd6ca86",
-  "manifest_sha256": "b0b999f451eaa21e80a013cad81da3af9b66e2ac8543f93c6fd32c4475a98208",
-  "candidate_manifest_sha256": "88421fd3090b4904a844c46aea892c825070d767ab6bec1fc184c209e8a65c63",
-  "proof_chain_sha256": "3e4fdb1e64747821c7b5e165369fbb14bb78cf56cd94193bf23311b662f31772",
-  "candidate_proof_chain_sha256": "fd7a9bd0ea82fd276122b969088ae7bdb134da7171f6f4779b711f0fa4828aae",
-  "sealed_at": "2026-09-08T19:09:07.891609+00:00"
+  "manifest_sha256": "57e8a1518cc88711a51c39d27465a2028ce84c3931ed4c51af56e539ef38c84e",
+  "candidate_manifest_sha256": "bcebf08281f5e70f56479a2c5a869cfa26ee9125e307e4aa7d0c38ca09a7e6e4",
+  "proof_chain_sha256": "9228167b9553be561d0b33c1c866254b4ad2e0e40a452e5ceb3769da70f7c4c8",
+  "candidate_proof_chain_sha256": "bb4a0b820cddf3356433b5d2def74001f07cb9ea4ef90d566597842ff62e1008",
+  "sealed_at": "2026-09-08T19:07:00+00:00"
 }

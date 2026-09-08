@@ -11,10 +11,10 @@
   "functional_source_commit": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
   "base_publication_commit": "3fb4805dd2154f8671c4c4de078ecec2efd6ca86",
   "layer": 3,
-  "manifest_hash": "b0b999f451eaa21e80a013cad81da3af9b66e2ac8543f93c6fd32c4475a98208",
-  "candidate_manifest_hash": "88421fd3090b4904a844c46aea892c825070d767ab6bec1fc184c209e8a65c63",
-  "proof_chain_hash": "3e4fdb1e64747821c7b5e165369fbb14bb78cf56cd94193bf23311b662f31772",
-  "candidate_proof_chain_hash": "fd7a9bd0ea82fd276122b969088ae7bdb134da7171f6f4779b711f0fa4828aae",
+  "manifest_hash": "57e8a1518cc88711a51c39d27465a2028ce84c3931ed4c51af56e539ef38c84e",
+  "candidate_manifest_hash": "bcebf08281f5e70f56479a2c5a869cfa26ee9125e307e4aa7d0c38ca09a7e6e4",
+  "proof_chain_hash": "9228167b9553be561d0b33c1c866254b4ad2e0e40a452e5ceb3769da70f7c4c8",
+  "candidate_proof_chain_hash": "bb4a0b820cddf3356433b5d2def74001f07cb9ea4ef90d566597842ff62e1008",
   "root_state": "SEALED",
-  "generated_at": "2026-09-08T19:09:07.891609+00:00"
+  "generated_at": "2026-09-08T19:07:00+00:00"
 }

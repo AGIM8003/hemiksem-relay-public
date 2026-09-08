@@ -13,7 +13,7 @@
   "base_publication_commit": "3fb4805dd2154f8671c4c4de078ecec2efd6ca86",
   "status": "CHAIN_VALID",
   "parent_commit": "3fb4805dd2154f8671c4c4de078ecec2efd6ca86",
-  "manifest_sha256": "b0b999f451eaa21e80a013cad81da3af9b66e2ac8543f93c6fd32c4475a98208",
-  "candidate_manifest_sha256": "88421fd3090b4904a844c46aea892c825070d767ab6bec1fc184c209e8a65c63",
-  "sealed_at": "2026-09-08T19:09:07.891609+00:00"
+  "manifest_sha256": "57e8a1518cc88711a51c39d27465a2028ce84c3931ed4c51af56e539ef38c84e",
+  "candidate_manifest_sha256": "bcebf08281f5e70f56479a2c5a869cfa26ee9125e307e4aa7d0c38ca09a7e6e4",
+  "sealed_at": "2026-09-08T19:06:00+00:00"
 }

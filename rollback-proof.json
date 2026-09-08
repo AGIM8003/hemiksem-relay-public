@@ -60,5 +60,7 @@
   "status": "PASS",
   "evaluated_at": "2026-09-08T18:43:43.592172+00:00",
   "functional_source_commit": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
-  "base_publication_commit": "3fb4805dd2154f8671c4c4de078ecec2efd6ca86"
+  "base_publication_commit": "3fb4805dd2154f8671c4c4de078ecec2efd6ca86",
+  "verified_at": "2026-09-08T19:03:00+00:00",
+  "generated_at": "2026-09-08T19:03:00+00:00"
 }

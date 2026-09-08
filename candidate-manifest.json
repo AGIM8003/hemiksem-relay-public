@@ -16,7 +16,7 @@
   "tested_source_tree": "157e639dd4a190e9462bc8b229685201bb6034f90b0cf49f7672d18d8f3ef751",
   "status": "SEALED_VALID",
   "current_identity_mismatch_count": 0,
-  "sealed_at": "2026-09-08T19:09:07.891609+00:00",
+  "sealed_at": "2026-09-08T19:05:00+00:00",
   "total_artifacts": 44,
   "artifacts": {
     ".gitignore": {
@@ -106,9 +106,9 @@
       "internal_product_version": "5.3.0",
       "internal_proof_revision": "R1.1.2",
       "internal_spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
-      "sha256": "d98f9a6188e15c8766d66035e20d53b60c55851ded148715f314c93e8958d3d4",
-      "bytes": 748,
-      "size_bytes": 748
+      "sha256": "36376c49100c594deb46e5f7b7a45e89913e46083bb0f63a7c5aa30f0c077c74",
+      "bytes": 741,
+      "size_bytes": 741
     },
     "currentness-index.json": {
       "artifact_name": "currentness-index.json",
@@ -171,9 +171,9 @@
       "internal_product_version": "5.3.0",
       "internal_proof_revision": "R1.1.2",
       "internal_spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
-      "sha256": "3b1466006a761d15ec66319d204f4cd05d35469759f269c2daa3349ebc9e94ef",
-      "bytes": 16228,
-      "size_bytes": 16228
+      "sha256": "cded74abca69874ac3b502b4d0d8c0ec4058056b8ceb4ee37207cdee1763817f",
+      "bytes": 16221,
+      "size_bytes": 16221
     },
     "domain-quality.json": {
       "artifact_name": "domain-quality.json",
@@ -210,9 +210,9 @@
       "internal_product_version": "5.3.0",
       "internal_proof_revision": "R1.1.2",
       "internal_spec_id": null,
-      "sha256": "18faab764ea36fcca2d76025c4395eb0057b00747f203b5ffdc99642916d12cb",
-      "bytes": 1078,
-      "size_bytes": 1078
+      "sha256": "1b392a6a2f1ea90c3369c7e0f2fce5fac98c41298f32fec9c84ff4105686b8cc",
+      "bytes": 1071,
+      "size_bytes": 1071
     },
     "hybrid-quality-safe.json": {
       "artifact_name": "hybrid-quality-safe.json",
@@ -275,9 +275,9 @@
       "internal_product_version": "5.3.0",
       "internal_proof_revision": "R1.1.2",
       "internal_spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
-      "sha256": "17be76143aae700dfe22f44fc87f26ed7e6e01f04ad4e0dcd2941a0f056231ee",
-      "bytes": 4476,
-      "size_bytes": 4476
+      "sha256": "f66ac58e6ddc2e17215242b6142e6833743f67b2bfb38b684883edd2d3811c1f",
+      "bytes": 4517,
+      "size_bytes": 4517
     },
     "openapi.yaml": {
       "artifact_name": "openapi.yaml",
@@ -301,9 +301,9 @@
       "internal_product_version": "5.3.0",
       "internal_proof_revision": "R1.1.2",
       "internal_spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
-      "sha256": "ec30b60c77eaedc88a88257d46756f9d231eb022066b2669f6664fb5938cbbcb",
-      "bytes": 928,
-      "size_bytes": 928
+      "sha256": "5a413d57122a760b99101296331d155f6b46d288fd81624412e97f667e3d2db7",
+      "bytes": 975,
+      "size_bytes": 975
     },
     "privacy.html": {
       "artifact_name": "privacy.html",
@@ -327,9 +327,9 @@
       "internal_product_version": "5.3.0",
       "internal_proof_revision": "R1.1.2",
       "internal_spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
-      "sha256": "ee99e6ee820528a60a653ecdf004a47667d680dc2bfdc13c3743b625932ef7d9",
-      "bytes": 9342,
-      "size_bytes": 9342
+      "sha256": "fde98ec5dc453670a9ef3d427726c36cad1a01a54804fcd2b2a4c01953ed8368",
+      "bytes": 9335,
+      "size_bytes": 9335
     },
     "project-intelligence.json": {
       "artifact_name": "project-intelligence.json",
@@ -405,9 +405,9 @@
       "internal_product_version": "5.3.0",
       "internal_proof_revision": "R1.1.2",
       "internal_spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
-      "sha256": "5d3be4ec00cf5fc0888318a3c7b2cdf3c8d1540fc9da227f6973008daae117de",
-      "bytes": 16280,
-      "size_bytes": 16280
+      "sha256": "7bbd22509a846f51ea02a81e069d81f0f43550eee5f7a968f4256beaaf103855",
+      "bytes": 16273,
+      "size_bytes": 16273
     },
     "retrieval-evaluation-safe.json": {
       "artifact_name": "retrieval-evaluation-safe.json",
@@ -470,9 +470,9 @@
       "internal_product_version": "5.3.0",
       "internal_proof_revision": "R1.1.2",
       "internal_spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
-      "sha256": "c7e0f46ce2c680569d94137d6ebc4f1e1d3237b733300f8d73252fc77a3312d5",
-      "bytes": 2122,
-      "size_bytes": 2122
+      "sha256": "65a065fb207ecc900f3d7e9f3c27427af47969e716e662678d23e33793a34303",
+      "bytes": 2217,
+      "size_bytes": 2217
     },
     "safe-audit-bundle.json": {
       "artifact_name": "safe-audit-bundle.json",
@@ -509,9 +509,9 @@
       "internal_product_version": "5.3.0",
       "internal_proof_revision": "R1.1.2",
       "internal_spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
-      "sha256": "d7d8afb370597e75103bb3821e031d15ee5113ec0c67e109c65c05d4c6d7bd9e",
-      "bytes": 2127,
-      "size_bytes": 2127
+      "sha256": "d60eb9606e4dc1a35233f36b5449d24865b4edb93b6e851c8303d96747197ef2",
+      "bytes": 2168,
+      "size_bytes": 2168
     },
     "vector-coverage-safe.json": {
       "artifact_name": "vector-coverage-safe.json",
@@ -587,10 +587,10 @@
       "internal_product_version": "5.3.0",
       "internal_proof_revision": "R1.1.2",
       "internal_spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
-      "sha256": "3e58353fad37d5a3ab555b614e7f0bad4e5d2c2f620bee3ce07b324436cd038a",
-      "bytes": 5438,
-      "size_bytes": 5438
+      "sha256": "557a1f18f2b1b8cca7ab8e92bc3e94492a515912d075184ee420701f8b91d78d",
+      "bytes": 5431,
+      "size_bytes": 5431
     }
   },
-  "manifest_sha256": "b0b999f451eaa21e80a013cad81da3af9b66e2ac8543f93c6fd32c4475a98208"
+  "manifest_sha256": "57e8a1518cc88711a51c39d27465a2028ce84c3931ed4c51af56e539ef38c84e"
 }

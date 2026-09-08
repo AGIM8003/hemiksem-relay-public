@@ -19,5 +19,6 @@
   "status": "PASS",
   "evaluated_at": "2026-09-08T14:17:55.166389+00:00",
   "content_hash": "aefda9ab08e838a0b3ae3b82cf779abfa8b7afb69e3ca88c6e72e2ecb463c8bf",
-  "deployment_generation": 3
+  "deployment_generation": 3,
+  "verified_at": "2026-09-08T19:04:00+00:00"
 }
