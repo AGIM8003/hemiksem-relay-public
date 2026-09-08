@@ -1,6 +1,6 @@
 {
   "candidate_id": "CAND-HEMIKSEM-V503-PROD",
-  "executed_at": "2026-09-08T07:31:07.967549+00:00",
+  "executed_at": "2026-09-08T07:35:52.814423+00:00",
   "git_commit": "ff25a89",
   "release_id": "rel-hemiksem-v5.0.1-prod",
   "status": "PASS",
