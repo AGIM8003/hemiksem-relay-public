@@ -1,14 +1,16 @@
 {
-  "spec_id": "HEMIKSEM-AI-V530-R111-RECURSIVE-PROOF-PUBLICATION-ACTION-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
-  "proof_revision": "R1.1.1",
-  "candidate_id": "CAND-HEMIKSEM-V530-R111-PROD",
+  "proof_revision": "R1.1.2",
+  "candidate_id": "CAND-HEMIKSEM-V530-R112-PROD",
   "promotion_epoch": "EPOCH-V530-PROMOTION-001",
-  "deployment_generation": 2,
+  "deployment_generation": 3,
   "engine_runtime": "8.1",
   "status": "PROMOTED_ACTIVE",
-  "promoted_at": "2026-09-08T18:45:09.538287+00:00",
+  "promoted_at": "2026-09-08T19:09:07.891609+00:00",
+  "functional_source_commit": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
+  "base_publication_commit": "3fb4805dd2154f8671c4c4de078ecec2efd6ca86",
   "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
   "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0"
 }

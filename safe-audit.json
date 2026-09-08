@@ -1,19 +1,16 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "hemiksem-safe-audit-v2",
+  "spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
   "release_id": "rel-hemiksem-v5.3.0-prod",
+  "product_version": "5.3.0",
+  "proof_revision": "R1.1.2",
+  "candidate_id": "CAND-HEMIKSEM-V530-R112-PROD",
+  "engine_runtime": "8.1",
   "safe_audit_state": "AUDIT_BUNDLE_SEALED",
-  "safe_members": [
-    "domain-quality-safe.json",
-    "evaluation-denominator-safe.json",
-    "lifecycle-coverage-safe.json",
-    "procedure-coverage-safe.json",
-    "volatile-fact-coverage-safe.json",
-    "authority-coverage-safe.json",
-    "currentness-coverage-safe.json",
-    "applicability-coverage-safe.json",
-    "provenance-coverage-safe.json",
-    "quality-drift-safe.json",
-    "proof-introspection-safe.json"
-  ],
-  "generated_at": "2026-09-07T19:25:00.406156+00:00"
+  "validation_state": "PASS",
+  "technical_privacy_state": "PASS",
+  "legal_compliance_state": "NOT_LEGALLY_VERIFIED",
+  "bundle_hash": "1d2d962772df8a8d96f6189008e4a68c0b8273d81a38d120df6944b327a61d6c",
+  "total_members": 34,
+  "generated_at": "2026-09-08T19:08:10.454374+00:00"
 }

@@ -1,16 +1,20 @@
 {
   "schema_version": "hemiksem-release-root-v2",
-  "spec_id": "HEMIKSEM-AI-V530-R111-RECURSIVE-PROOF-PUBLICATION-ACTION-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R1.1.1",
-  "candidate_id": "CAND-HEMIKSEM-V530-R111-PROD",
+  "proof_revision": "R1.1.2",
+  "candidate_id": "CAND-HEMIKSEM-V530-R112-PROD",
   "promotion_epoch": "EPOCH-V530-PROMOTION-001",
-  "deployment_generation": 2,
+  "deployment_generation": 3,
+  "functional_source_commit": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
+  "base_publication_commit": "3fb4805dd2154f8671c4c4de078ecec2efd6ca86",
   "layer": 3,
-  "manifest_hash": "b99a80242a352297ac8f76395e7a2f846c93ba361fe1c7797680b57873772fdd",
-  "proof_chain_hash": "63d12db3c2287c42ac60637445fa5b3bf48f5521cafc7794a00a7ec581260bfb",
-  "status": "SEALED_RELEASE_ROOT",
-  "generated_at": "2026-09-08T18:45:09.538287+00:00"
+  "manifest_hash": "b0b999f451eaa21e80a013cad81da3af9b66e2ac8543f93c6fd32c4475a98208",
+  "candidate_manifest_hash": "88421fd3090b4904a844c46aea892c825070d767ab6bec1fc184c209e8a65c63",
+  "proof_chain_hash": "3e4fdb1e64747821c7b5e165369fbb14bb78cf56cd94193bf23311b662f31772",
+  "candidate_proof_chain_hash": "fd7a9bd0ea82fd276122b969088ae7bdb134da7171f6f4779b711f0fa4828aae",
+  "root_state": "SEALED",
+  "generated_at": "2026-09-08T19:09:07.891609+00:00"
 }

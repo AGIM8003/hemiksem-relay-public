@@ -1,25 +1,27 @@
 # ====================================================================
 # ROLE: GENERATED_PUBLIC_PROJECTION
 # GENERATED_FROM: OPENAPI/server-recall.openapi.yaml
-# SOURCE_OPENAPI_HASH: e4f97b14764b8bbd35b46d34b2d900671f2d8e55c30d4e84016c3ca00ba10628
-# SEMANTIC_OPENAPI_HASH: 4869d79ec081081bebee854ab76a80fc5880c0a0846bcbd9ec7818e9f4ebebf7
-# RELEASE_ID: rel-hemiksem-v5.2.0-prod
-# PRODUCT_VERSION: 5.2.0
+# SOURCE_OPENAPI_HASH: 9e6b01a96c603c36e0884fc0966be10c3f510e11e3487d1f3895fcec0cdb59e7
+# SEMANTIC_OPENAPI_HASH: 01dbfc48be48d2950691835fd152e0b60ba56a0dfd11aabde1c43e461ae77a59
+# RELEASE_ID: rel-hemiksem-v5.3.0-prod
+# PRODUCT_VERSION: 5.3.0
+# PROOF_REVISION: R1.1.2
 # ENGINE_RUNTIME: 8.1
-# GENERATED_AT: 2026-09-07T21:00:17.627746+00:00
+# GENERATED_AT: 2026-09-08T19:07:23.380106+00:00
 # ====================================================================
 
 openapi: 3.1.0
 info:
-  title: AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN (V5)
-  version: 5.2.0
+  title: AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN (V5 CONNECTED)
+  version: 5.3.0
   description: 'Governed, read-only municipal intelligence API for Gemeente Hemiksem.
-    Release: rel-hemiksem-v5.2.0-prod. Engine: V8.1. All operations are safe, non-mutating
-    read-only operations.'
+    Release: rel-hemiksem-v5.3.0-prod. Revision: R1.1.2. Engine: V8.1. All operations
+    are safe, non-mutating read-only operations.'
   x-generated-from: OPENAPI/server-recall.openapi.yaml
-  x-source-openapi-hash: e4f97b14764b8bbd35b46d34b2d900671f2d8e55c30d4e84016c3ca00ba10628
-  x-semantic-openapi-hash: 4869d79ec081081bebee854ab76a80fc5880c0a0846bcbd9ec7818e9f4ebebf7
-  x-release-id: rel-hemiksem-v5.2.0-prod
+  x-source-openapi-hash: 9e6b01a96c603c36e0884fc0966be10c3f510e11e3487d1f3895fcec0cdb59e7
+  x-semantic-openapi-hash: 01dbfc48be48d2950691835fd152e0b60ba56a0dfd11aabde1c43e461ae77a59
+  x-release-id: rel-hemiksem-v5.3.0-prod
+  x-proof-revision: R1.1.2
 servers:
 - url: https://act-husband-wallpaper-exists.trycloudflare.com
   description: Production Cloudflare Ingress Gateway (HTTPS, EUR 0.00)
