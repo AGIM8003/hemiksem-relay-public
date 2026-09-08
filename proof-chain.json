@@ -1,59 +1,74 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
-  "proof_revision": "R5.1",
-  "chain_length": 10,
+  "proof_revision": "R5.2",
+  "chain_length": 13,
   "chain_entries": [
     {
       "file": "current-release.json",
-      "sha256": "f290f59f7c6b5dc0b996b1625892cf10225ba9697258aa3d59c6d40f304b28a0",
+      "sha256": "a2c25dd62519f7cf663ba88d4dd1a59418c4bc3176d1ec0a15a920ac795888c2",
       "role": "RELEASE_IDENTITY"
     },
     {
       "file": "health.json",
-      "sha256": "91af3f3667e367a3e10c28540e4c5e98ac95c07913175dac0e3c05b51e70a97d",
+      "sha256": "6437b5a0d02f9cce3cd884377e7180f5906c681e895a862bb933eab6a57d0516",
       "role": "HEALTH_STATUS"
     },
     {
+      "file": "capability-registry.json",
+      "sha256": "a79acbb9970978c2d544843fd99f0e03bc442ab4e8e627360529e7835f3628d6",
+      "role": "CAPABILITY_REGISTRY"
+    },
+    {
       "file": "test-proof.json",
-      "sha256": "3845e7685627d9f4cd9539bf34c23092da22d88573516f245764d369a6e2242b",
+      "sha256": "8af8c84e092b538791b76666188d9455ca84b25260cfbeffa13bd8a15d43d58c",
       "role": "TEST_PROOF"
     },
     {
+      "file": "mutation-proof.json",
+      "sha256": "f340fc3c71fdf5d04371b89562b17bd22d511bff740d65c83262fe234403bdd2",
+      "role": "MUTATION_PROOF"
+    },
+    {
+      "file": "monotonicity-proof.json",
+      "sha256": "be2ca517250c52bc8c1132741f7c241d74f1c69ff0edaf94ddbeedea1407b9e5",
+      "role": "MONOTONICITY_PROOF"
+    },
+    {
       "file": "release-gates.json",
-      "sha256": "913f4419bca71b7acfa670aed001afd23989e2680c67191b01c8e8214b2cb0bd",
+      "sha256": "dae2e09346bc7446488a555e20f88d3b9011bc97f60ce0c4de5c7ca1ce221597",
       "role": "RELEASE_GATES"
     },
     {
       "file": "rollback-proof.json",
-      "sha256": "881df674d4a3aefffa9d1e255bbd709556406827dacb1cdeb393142d6a9f9e1e",
+      "sha256": "599c2b00429f7f4b90597cea0b91c84e32232c54cfff898a0cab846afa909dbb",
       "role": "ROLLBACK_PROOF"
     },
     {
       "file": "vector-status.json",
-      "sha256": "b98f8faebb930191757a7dbd4cb6898355dfbb76b0e57816dc11da70190f2cb2",
+      "sha256": "3045952c2ada41c3822e8eb2ebe08cb47371400d82ba26bf4266aee4ef8a4945",
       "role": "VECTOR_STATUS"
     },
     {
       "file": "retrieval-quality-summary.json",
-      "sha256": "6361c1a3a77fe8a179393edd293ddf98186671a7a70bba758b8cb4c1dd2a6567",
+      "sha256": "47cf862fec55f81ef6846af779e94b73a1fb207a0268607ad8ca3282a4255b5a",
       "role": "RETRIEVAL_QUALITY"
     },
     {
       "file": "proof-status.json",
-      "sha256": "a11473dbc2489c696c90f9e1d335538dbc3e1adbceb97bff9c7ae8d568054ee0",
+      "sha256": "a26b99a70e6bf7e3f227f94dfe4ba0e7a95d02cb7816959752a52e17d6bcddf6",
       "role": "PROOF_STATUS"
     },
     {
       "file": "delivery-index.json",
-      "sha256": "bdf14b89aecce38c0405a2a9ed502a6d2b97ae8f0b68e8cd862339675f8a9bad",
+      "sha256": "154d5a1b153f23b7a19df1494b8ae1a9c37aed400c5308433cc932394dfd8193",
       "role": "DELIVERY_INDEX"
     },
     {
       "file": "manifest.json",
-      "sha256": "640de6f95efebaf4ca7caeba07330e5af983bfd3dc9dd9fe56e36efb80ed7eef",
+      "sha256": "25dbf6eb6c0c88682cd72156d06a28dcf04d2271fe9a83e95cfc888fe3a46654",
       "role": "MANIFEST"
     }
   ],
-  "generated_at": "2026-09-07T21:53:50.641758+00:00"
+  "generated_at": "2026-09-08T06:56:30.509171+00:00"
 }

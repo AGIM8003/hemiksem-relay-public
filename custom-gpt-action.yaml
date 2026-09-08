@@ -1,25 +1,9 @@
-# ====================================================================
-# ROLE: GENERATED_CONNECTED_ACTION_PROJECTION
-# GENERATED_FROM: OPENAPI/server-recall.openapi.yaml
-# SOURCE_OPENAPI_HASH: e4f97b14764b8bbd35b46d34b2d900671f2d8e55c30d4e84016c3ca00ba10628
-# SEMANTIC_OPENAPI_HASH: 4869d79ec081081bebee854ab76a80fc5880c0a0846bcbd9ec7818e9f4ebebf7
-# RELEASE_ID: rel-hemiksem-v5.2.0-prod
-# PRODUCT_VERSION: 5.2.0
-# ENGINE_RUNTIME: 8.1
-# GENERATED_AT: 2026-09-07T21:00:17.627746+00:00
-# ====================================================================
-
 openapi: 3.1.0
 info:
-  title: AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN (V5)
+  title: "AI EXPERT \u2014 HEMIKSEM GEMEENTEDIENSTEN (V5 CONNECTED)"
   version: 5.2.0
   description: 'Governed, read-only municipal intelligence API for Gemeente Hemiksem.
-    Release: rel-hemiksem-v5.2.0-prod. Engine: V8.1. All operations are safe, non-mutating
-    read-only operations.'
-  x-generated-from: OPENAPI/server-recall.openapi.yaml
-  x-source-openapi-hash: e4f97b14764b8bbd35b46d34b2d900671f2d8e55c30d4e84016c3ca00ba10628
-  x-semantic-openapi-hash: 4869d79ec081081bebee854ab76a80fc5880c0a0846bcbd9ec7818e9f4ebebf7
-  x-release-id: rel-hemiksem-v5.2.0-prod
+    Release: rel-hemiksem-v5.2.0-prod. Revision: R5.2.'
 servers:
 - url: https://act-husband-wallpaper-exists.trycloudflare.com
   description: Production Cloudflare Ingress Gateway (HTTPS, EUR 0.00)
@@ -27,8 +11,9 @@ paths:
   /v4/status:
     get:
       operationId: getHemiksemServerHealth
-      x-openai-isConsequential: false
       summary: Server health, version identity, zero-cost state, and production readiness.
+      description: Server health, version identity, zero-cost state, and production
+        readiness.
       responses:
         '200':
           description: Server health, version identity, zero-cost state, and production
@@ -40,8 +25,8 @@ paths:
   /v4/release:
     get:
       operationId: getHemiksemCurrentRelease
-      x-openai-isConsequential: false
       summary: Deployed corpus, index, engine, and gateway release identity.
+      description: Deployed corpus, index, engine, and gateway release identity.
       responses:
         '200':
           description: Deployed corpus, index, engine, and gateway release identity.
@@ -52,8 +37,8 @@ paths:
   /v4/domains:
     get:
       operationId: listMunicipalDomains
-      x-openai-isConsequential: false
       summary: List all municipal service domains for query routing.
+      description: List all municipal service domains for query routing.
       responses:
         '200':
           description: List all municipal service domains for query routing.
@@ -64,8 +49,8 @@ paths:
   /v4/search:
     get:
       operationId: searchMunicipalKnowledge
-      x-openai-isConsequential: false
       summary: Full governed multi-lane evidence retrieval search (GET mode).
+      description: Full governed multi-lane evidence retrieval search (GET mode).
       responses:
         '200':
           description: Full governed multi-lane evidence retrieval search (GET mode).
@@ -103,8 +88,8 @@ paths:
   /v4/document/{document_id}:
     get:
       operationId: getHemiksemDocument
-      x-openai-isConsequential: false
       summary: Exact document metadata by canonical ID.
+      description: Exact document metadata by canonical ID.
       responses:
         '200':
           description: Exact document metadata by canonical ID.
@@ -123,8 +108,8 @@ paths:
   /v4/segment/{segment_uid}:
     get:
       operationId: getHemiksemSegment
-      x-openai-isConsequential: false
       summary: Exact evidence segment by canonical UID with provenance.
+      description: Exact evidence segment by canonical UID with provenance.
       responses:
         '200':
           description: Exact evidence segment by canonical UID with provenance.
@@ -143,8 +128,9 @@ paths:
   /v4/evidence-pack:
     get:
       operationId: getHemiksemEvidencePack
-      x-openai-isConsequential: false
       summary: Comprehensive evidence package with ranked segments, segment text,
+        and document metadata.
+      description: Comprehensive evidence package with ranked segments, segment text,
         and document metadata.
       responses:
         '200':
@@ -178,8 +164,8 @@ paths:
   /v4/currentness:
     get:
       operationId: checkHemiksemCurrentness
-      x-openai-isConsequential: false
       summary: Temporal currentness state of a claim, document, segment, or query.
+      description: Temporal currentness state of a claim, document, segment, or query.
       responses:
         '200':
           description: Temporal currentness state of a claim, document, segment, or
@@ -218,8 +204,8 @@ paths:
   /v4/applicability:
     get:
       operationId: checkHemiksemApplicability
-      x-openai-isConsequential: false
       summary: Check applicability of a regulation or rule to a specific context.
+      description: Check applicability of a regulation or rule to a specific context.
       responses:
         '200':
           description: Check applicability of a regulation or rule to a specific context.
@@ -259,8 +245,9 @@ paths:
   /v4/capabilities:
     get:
       operationId: describeCapabilities
-      x-openai-isConsequential: false
       summary: Describe all available server capabilities with dynamic maturity state.
+      description: Describe all available server capabilities with dynamic maturity
+        state.
       responses:
         '200':
           description: Describe all available server capabilities with dynamic maturity
@@ -272,8 +259,9 @@ paths:
   /v4/proof-status:
     get:
       operationId: getHemiksemProofStatus
-      x-openai-isConsequential: false
       summary: Safe introspection of current system release health, tests, gates,
+        and proof revision.
+      description: Safe introspection of current system release health, tests, gates,
         and proof revision.
       responses:
         '200':
@@ -285,8 +273,9 @@ paths:
   /v4/quality-context:
     get:
       operationId: getMunicipalQualityContext
-      x-openai-isConsequential: false
       summary: Municipal domain quality context for decision support and scope limiting.
+      description: Municipal domain quality context for decision support and scope
+        limiting.
       responses:
         '200':
           description: Domain quality context with evidence guidance.
@@ -308,8 +297,9 @@ paths:
   /v4/domain-quality:
     get:
       operationId: getMunicipalDomainQuality
-      x-openai-isConsequential: false
       summary: Detailed quality metrics and sample sufficiency state for a specific
+        municipal domain.
+      description: Detailed quality metrics and sample sufficiency state for a specific
         municipal domain.
       responses:
         '200':
@@ -327,9 +317,10 @@ paths:
   /v4/lifecycle-summary:
     get:
       operationId: getKnowledgeLifecycleSummary
-      x-openai-isConsequential: false
       summary: Complete accounting summary of discovered, eligible, admitted, and
         searchable knowledge.
+      description: Complete accounting summary of discovered, eligible, admitted,
+        and searchable knowledge.
       responses:
         '200':
           description: Lifecycle accounting summary.
@@ -340,8 +331,8 @@ paths:
   /v4/lifecycle-item:
     get:
       operationId: getKnowledgeLifecycleItem
-      x-openai-isConsequential: false
       summary: Exact lookup of a single source or document lifecycle record.
+      description: Exact lookup of a single source or document lifecycle record.
       responses:
         '200':
           description: Exact lifecycle item record.
@@ -358,8 +349,9 @@ paths:
   /v4/procedures:
     get:
       operationId: listMunicipalProcedures
-      x-openai-isConsequential: false
       summary: List registered municipal procedures with completeness and authority
+        state.
+      description: List registered municipal procedures with completeness and authority
         state.
       responses:
         '200':
@@ -377,9 +369,10 @@ paths:
   /v4/procedure/{procedure_id}:
     get:
       operationId: getMunicipalProcedure
-      x-openai-isConsequential: false
       summary: Exact municipal procedure record with steps, required documents, fees,
         and channels.
+      description: Exact municipal procedure record with steps, required documents,
+        fees, and channels.
       responses:
         '200':
           description: Exact procedure record.
@@ -396,8 +389,9 @@ paths:
   /v4/volatile-facts:
     get:
       operationId: getVolatileFactStatus
-      x-openai-isConsequential: false
       summary: Volatile facts with verified currentness, TTL policies, and high-risk
+        safety protection.
+      description: Volatile facts with verified currentness, TTL policies, and high-risk
         safety protection.
       responses:
         '200':
@@ -420,8 +414,8 @@ paths:
   /v4/volatile-facts/coverage:
     get:
       operationId: listVolatileFactCoverage
-      x-openai-isConsequential: false
       summary: Coverage and freshness metrics across volatile municipal fact classes.
+      description: Coverage and freshness metrics across volatile municipal fact classes.
       responses:
         '200':
           description: Volatile facts coverage metrics.
@@ -432,8 +426,9 @@ paths:
   /v4/retrieval-status:
     get:
       operationId: getHemiksemRetrievalStatus
-      x-openai-isConsequential: false
       summary: Operational health, vector epoch, closure metrics, and hybrid retrieval
+        state.
+      description: Operational health, vector epoch, closure metrics, and hybrid retrieval
         state.
       responses:
         '200':

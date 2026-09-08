@@ -92,7 +92,7 @@
   ],
   "schema_version": "hemiksem-safe-audit-v3",
   "secret_leaks": 0,
-  "spec_id": "HEMIKSEM-AI-V503-R3-FINAL-PROOF-CONVERGENCE",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
   "total_members": 33,
   "validated_members": 33,
   "validation_state": "PASS"

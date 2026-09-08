@@ -1,9 +1,9 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5.1",
+  "proof_revision": "R5.2",
   "retrieval_architecture": "HYBRID_4_LANE_ADAPTIVE",
   "retrieval_freeze_state": "FROZEN_PASS",
   "unexpected_drift": false,
@@ -13,5 +13,5 @@
   "scheldeboorden_claim_support": "NOT_SUPPORTED",
   "scheldeboorden_go": false,
   "status": "PASS",
-  "generated_at": "2026-09-07T21:53:50.482813+00:00"
+  "generated_at": "2026-09-08T06:56:30.135290+00:00"
 }

@@ -1,29 +1,41 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
+  "schema_version": "hemiksem-rollback-proof-v2",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5.1",
+  "proof_revision": "R5.2",
   "levels": {
+    "projection_rollback": {
+      "level": 0,
+      "required": true,
+      "executed": true,
+      "restored": true,
+      "state": "PASS"
+    },
     "profile_rollback": {
+      "level": 1,
       "required": true,
       "executed": true,
       "restored": true,
       "state": "PASS"
     },
     "vector_rollback": {
+      "level": 2,
       "required": true,
       "executed": true,
       "restored": true,
       "state": "PASS"
     },
     "knowledge_rollback": {
+      "level": 3,
       "required": true,
       "executed": true,
       "restored": true,
       "state": "PASS"
     },
     "product_rollback": {
+      "level": 4,
       "required": true,
       "executed": true,
       "restored": true,
@@ -32,5 +44,5 @@
   },
   "overall_rollback_state": "VERIFIED_PASS",
   "status": "PASS",
-  "evaluated_at": "2026-09-07T21:53:50.482301+00:00"
+  "evaluated_at": "2026-09-08T06:56:30.135290+00:00"
 }

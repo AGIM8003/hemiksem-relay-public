@@ -1,8 +1,8 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
   "schema_version": "2.0",
   "release_id": "rel-hemiksem-v5.2.0-prod",
-  "proof_revision": "R5.1",
+  "proof_revision": "R5.2",
   "generated_at": "2026-09-07T20:03:07.844737+00:00",
   "canonical_domain_registry_hash": "f1abb2a1419585c7a7aaeffc7cbd7d49e6577fa047651c3e5397d4f6bdbd1cb8",
   "total_substantive_domains": 21,

@@ -2,8 +2,8 @@
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5",
-  "spec_id": "HEMIKSEM-AI-V520-R5-MONOTONIC-QUALITY-KERNEL",
+  "proof_revision": "R5.2",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
   "algorithm": "RRF",
   "k": 60,
   "lanes": [

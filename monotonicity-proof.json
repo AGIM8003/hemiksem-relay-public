@@ -1,0 +1,15 @@
+{
+  "schema_version": "hemiksem-monotonicity-proof-v2",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
+  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "product_version": "5.2.0",
+  "engine_runtime": "8.1",
+  "proof_revision": "R5.2",
+  "total_protected_capabilities": 34,
+  "unchanged_pass_count": 27,
+  "improved_count": 7,
+  "regressed_count": 0,
+  "unknown_count": 0,
+  "status": "PASS",
+  "evaluated_at": "2026-09-08T06:56:30.135290+00:00"
+}

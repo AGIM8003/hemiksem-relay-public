@@ -1,10 +1,11 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
+  "schema_version": "hemiksem-test-proof-v2",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5.1",
-  "candidate_id": "CAND-HEMIKSEM-V520-R51-PROD",
+  "proof_revision": "R5.2",
+  "candidate_id": "CAND-HEMIKSEM-V520-R52-PROD",
   "unique_required_tests": 953,
   "executed_required_tests": 953,
   "passed_required_tests": 953,
@@ -15,5 +16,5 @@
   "tested_source_commit": "bbfce0694c8a688ce021bdae1b9245b32c371342",
   "tested_source_tree": "4dcb76c414b9cc11f7106ad2458a8bce69131bd7",
   "status": "PASS",
-  "evaluated_at": "2026-09-07T21:53:50.482301+00:00"
+  "evaluated_at": "2026-09-08T06:56:30.134673+00:00"
 }

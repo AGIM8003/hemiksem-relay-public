@@ -1,13 +1,13 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5.1",
-  "manifest_hash": "640de6f95efebaf4ca7caeba07330e5af983bfd3dc9dd9fe56e36efb80ed7eef",
-  "proof_chain_hash": "8651217b3bcb036bdb274a8975b8d517cf5a6dc449befa06591b2a68faae2c8b",
-  "root_hash": "c366152ec84a78226cea621ee3ce3e3bed73b821d5d3ef6c08d3de2a95179bb3",
+  "proof_revision": "R5.2",
+  "manifest_hash": "25dbf6eb6c0c88682cd72156d06a28dcf04d2271fe9a83e95cfc888fe3a46654",
+  "proof_chain_hash": "387c1e8147f2172608f93ee52b3b09085bf385ec0f920a64e0352bfb3abe51fa",
+  "root_hash": "9bfbb391c9451d4098aac2685171ef60a1394ad03510b4aaedfe698f08949a3e",
   "machine_verdict": "RELEASE_ALLOWED",
   "operational_health": "HEALTHY_RELEASE_VERIFIED",
-  "generated_at": "2026-09-07T21:53:50.647948+00:00"
+  "generated_at": "2026-09-08T06:56:30.522960+00:00"
 }

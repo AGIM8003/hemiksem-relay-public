@@ -5,9 +5,9 @@
   "server_api_version": "5.2.0",
   "relay_api_version": "5.2.0",
   "canonical_openapi_version": "5.2.0",
-  "spec_id": "HEMIKSEM-AI-V520-R51-SEMANTIC-PROOF-CONTEXT-CLOSURE",
-  "proof_revision": "R5.1",
-  "candidate_id": "CAND-HEMIKSEM-V520-R51-PROD",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
+  "proof_revision": "R5.2",
+  "candidate_id": "CAND-HEMIKSEM-V520-R52-PROD",
   "knowledge_epoch_id": "EPOCH-V520-ACTIVATION-001",
   "vector_epoch_id": "EPOCH-V520-VEC-001",
   "retrieval_profile_id": "PROFILE-HEMIKSEM-V520-ADAPTIVE-R5",
@@ -21,7 +21,8 @@
   "retrieval_mode": "HYBRID_MULTI_LANE_ADAPTIVE",
   "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
   "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
-  "manifest_hash": "640de6f95efebaf4ca7caeba07330e5af983bfd3dc9dd9fe56e36efb80ed7eef",
-  "proof_chain_hash": "8651217b3bcb036bdb274a8975b8d517cf5a6dc449befa06591b2a68faae2c8b",
-  "generated_at": "2026-09-07T21:53:50.647948+00:00"
+  "manifest_hash": "25dbf6eb6c0c88682cd72156d06a28dcf04d2271fe9a83e95cfc888fe3a46654",
+  "proof_chain_hash": "387c1e8147f2172608f93ee52b3b09085bf385ec0f920a64e0352bfb3abe51fa",
+  "release_root_hash": "9bfbb391c9451d4098aac2685171ef60a1394ad03510b4aaedfe698f08949a3e",
+  "generated_at": "2026-09-08T06:56:30.523961+00:00"
 }
