@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "release_id": "rel-hemiksem-v5.1.1-prod",
+  "release_id": "rel-hemiksem-v5.3.0-prod",
   "safe_audit_state": "AUDIT_BUNDLE_SEALED",
   "safe_members": [
     "domain-quality-safe.json",

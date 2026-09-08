@@ -1,21 +1,11 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R5223-FINAL-CROSS-SURFACE-PROOF-CLOSURE",
-  "release_id": "rel-hemiksem-v5.2.0-prod",
-  "product_version": "5.2.0",
+  "spec_id": "HEMIKSEM-AI-V530-R11-GLOBAL-AUX-PROVENANCE-ZERO-DEGRADATION-CLOSURE",
+  "release_id": "rel-hemiksem-v5.3.0-prod",
+  "product_version": "5.3.0",
+  "proof_revision": "R1.1",
   "engine_runtime": "8.1",
-  "server_api_version": "5.2.0",
-  "relay_api_version": "5.2.0",
-  "canonical_openapi_version": "5.2.0",
-  "proof_revision": "R5.2.2.3",
-  "candidate_id": "CAND-HEMIKSEM-V520-R5223-PROD",
-  "previous_release": "rel-hemiksem-v5.2.0-prod",
+  "status": "PROMOTED_ACTIVE",
+  "promoted_at": "2026-09-08T18:07:31.771948+00:00",
   "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
-  "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
-  "knowledge_epoch": "EPOCH-V520-ACTIVATION-001",
-  "vector_epoch": "EPOCH-V520-VEC-001",
-  "retrieval_profile_id": "PROFILE-HEMIKSEM-V520-ADAPTIVE-R5",
-  "municipality": "Hemiksem",
-  "jurisdiction": "BE-VLG",
-  "status": "CURRENT_PRODUCTION_RELEASE",
-  "generated_at": "2026-09-08T06:56:30.133674+00:00"
+  "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0"
 }

@@ -1,9 +1,9 @@
 {
-  "release_id": "rel-hemiksem-v5.2.0-prod",
-  "product_version": "5.2.0",
+  "release_id": "rel-hemiksem-v5.3.0-prod",
+  "product_version": "5.3.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5.2",
-  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
+  "proof_revision": "R1.1",
+  "spec_id": "HEMIKSEM-AI-V530-R11-GLOBAL-AUX-PROVENANCE-ZERO-DEGRADATION-CLOSURE",
   "eval_suite": "HEMIKSEM_V520R5_SUITE",
   "total_cases": 85,
   "passed_cases": 85,

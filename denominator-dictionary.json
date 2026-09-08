@@ -91,7 +91,7 @@
   "generated_at": "2026-09-07T20:03:07.844737+00:00",
   "jurisdiction": "BE-VLG",
   "municipality": "Hemiksem",
-  "product_version": "5.2.0",
+  "product_version": "5.3.0",
   "project_id": "hemiksem-gemeentediensten",
   "reconciliation_summary": {
     "mathematical_consistency": "VERIFIED_CONSISTENT",
@@ -130,7 +130,7 @@
       "to_denominator": "PUBLIC_EVIDENCE_PROJECTIONS"
     }
   ],
-  "release_id": "rel-hemiksem-v5.2.0-prod",
-  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
+  "release_id": "rel-hemiksem-v5.3.0-prod",
+  "spec_id": "HEMIKSEM-AI-V530-R11-GLOBAL-AUX-PROVENANCE-ZERO-DEGRADATION-CLOSURE",
   "release_version": "5.2.0"
 }

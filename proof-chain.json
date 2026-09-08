@@ -1,36 +1,14 @@
 {
-  "acyclic_proof_state": "PROVEN_ACYCLIC",
-  "candidate_id": "CAND-HEMIKSEM-V520-R5223-PROD",
-  "chain_verdict": "VALID",
+  "antecedent_proof_revision": "R5.2.2.3",
+  "antecedent_release": "rel-hemiksem-v5.2.0-prod",
+  "candidate_id": "CAND-HEMIKSEM-V530-R11-PROD",
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-08T14:18:39.885510+00:00",
-  "layer": "LAYER_2_PROOF_CHAIN",
-  "lineage_policy": "LIN-R5223-001",
-  "manifest_binding": {
-    "layer0_payload_count": 42,
-    "path": "manifest.json",
-    "sha256": "6dc50d3148637938cc3e905208b1469a40694534d6d8fe91cb71d04eb571a02b"
-  },
-  "product_version": "5.2.0",
-  "proof_revision": "R5.2.2.3",
-  "receipt_commitments": {
-    "delivery_receipt_ref": "REPORTS/R5223_DELIVERY_INDEX_RECEIPT.json",
-    "kb_binding_receipt_ref": "REPORTS/R5223_KB_BINDING_RECEIPT.json",
-    "privacy_receipt_ref": "REPORTS/R5223_PRIVACY_RECEIPT.json",
-    "safe_audit_receipt_ref": "REPORTS/R5223_SAFE_AUDIT_RECEIPT.json",
-    "server_proof_receipt_ref": "REPORTS/R5223_SERVER_PROOF_PROMOTION_RECEIPT.json"
-  },
-  "release_id": "rel-hemiksem-v5.2.0-prod",
-  "release_version": "5.2.0",
-  "schema_version": "hemiksem-proof-chain-v3",
-  "spec_id": "HEMIKSEM-AI-V520-R5223-FINAL-CROSS-SURFACE-PROOF-CLOSURE",
-  "statistics": {
-    "connected_operations": 20,
-    "detected_mutations": 136,
-    "evaluated_gates": 711,
-    "passed_gates": 711,
-    "passed_required_tests": 1020,
-    "required_mutations": 136,
-    "unique_required_tests": 1020
-  }
+  "generated_at": "2026-09-08T18:07:31.771948+00:00",
+  "layer": 2,
+  "layer_1_manifest_hash": "2d2e6d30f65f63f96655f2c49b73679690cffa206a9bdd4f04ca0a075d23c275",
+  "predecessor_proof_chain_hash": "0acbe2ed8eeacbbd574bb0e0ffb3dfb7bb9b0a1d373111ff05d97f54c9ea7416",
+  "product_version": "5.3.0",
+  "proof_revision": "R1.1",
+  "release_id": "rel-hemiksem-v5.3.0-prod",
+  "spec_id": "HEMIKSEM-AI-V530-R11-GLOBAL-AUX-PROVENANCE-ZERO-DEGRADATION-CLOSURE"
 }

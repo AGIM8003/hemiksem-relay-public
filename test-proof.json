@@ -1,11 +1,11 @@
 {
   "schema_version": "hemiksem-test-proof-v2",
-  "spec_id": "HEMIKSEM-AI-V520-R5223-FINAL-CROSS-SURFACE-PROOF-CLOSURE",
-  "release_id": "rel-hemiksem-v5.2.0-prod",
-  "product_version": "5.2.0",
+  "spec_id": "HEMIKSEM-AI-V530-R11-GLOBAL-AUX-PROVENANCE-ZERO-DEGRADATION-CLOSURE",
+  "release_id": "rel-hemiksem-v5.3.0-prod",
+  "product_version": "5.3.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5.2.2.3",
-  "candidate_id": "CAND-HEMIKSEM-V520-R5223-PROD",
+  "proof_revision": "R1.1",
+  "candidate_id": "CAND-HEMIKSEM-V530-R11-PROD",
   "unique_required_tests": 1020,
   "executed_required_tests": 1020,
   "passed_required_tests": 1020,
@@ -13,8 +13,8 @@
   "blocked_required_tests": 0,
   "skipped_required_tests": 0,
   "test_registry_hash": "a29aa0790746b82a3b19ae724acf80295527ca42b950489a8118e25d38aaa6f1",
-  "tested_source_commit": "bbfce0694c8a688ce021bdae1b9245b32c371342",
+  "tested_source_commit": "97849dff9aee3061f909f743f1d7dfda82764ae4",
   "tested_source_tree": "4dcb76c414b9cc11f7106ad2458a8bce69131bd7",
   "status": "PASS",
-  "evaluated_at": "2026-09-08T06:56:30.134673+00:00"
+  "evaluated_at": "2026-09-08T18:07:28.659548+00:00"
 }
