@@ -1,13 +1,14 @@
 # ====================================================================
 # ROLE: GENERATED_CONNECTED_ACTION_PROJECTION
 # GENERATED_FROM: OPENAPI/server-recall.openapi.yaml
-# SOURCE_OPENAPI_HASH: 9e6b01a96c603c36e0884fc0966be10c3f510e11e3487d1f3895fcec0cdb59e7
-# SEMANTIC_OPENAPI_HASH: 01dbfc48be48d2950691835fd152e0b60ba56a0dfd11aabde1c43e461ae77a59
+# SOURCE_OPENAPI_HASH: c23720d643b2ad36d635776542dd4ecaab70671d12515973b4a24f0404d493a5
+# CANONICAL_OPERATION_CONTRACT_HASH: b4ebe107b101e77103bdad1653ebd055fc531cd4cca41e4c2a21c7fe037eecd7
+# CANONICALIZER_VERSION: v1.0
 # RELEASE_ID: rel-hemiksem-v5.3.0-prod
 # PRODUCT_VERSION: 5.3.0
-# PROOF_REVISION: R1.1.2
+# PROOF_REVISION: R1.1.3
 # ENGINE_RUNTIME: 8.1
-# GENERATED_AT: 2026-09-08T19:07:23.380106+00:00
+# GENERATED_AT: 2026-09-08T20:06:33.694176+00:00
 # ====================================================================
 
 openapi: 3.1.0
@@ -15,13 +16,14 @@ info:
   title: AI EXPERT — HEMIKSEM GEMEENTEDIENSTEN (V5 CONNECTED)
   version: 5.3.0
   description: 'Governed, read-only municipal intelligence API for Gemeente Hemiksem.
-    Release: rel-hemiksem-v5.3.0-prod. Revision: R1.1.2. Engine: V8.1. All operations
+    Release: rel-hemiksem-v5.3.0-prod. Revision: R1.1.3. Engine: V8.1. All operations
     are safe, non-mutating read-only operations.'
   x-generated-from: OPENAPI/server-recall.openapi.yaml
-  x-source-openapi-hash: 9e6b01a96c603c36e0884fc0966be10c3f510e11e3487d1f3895fcec0cdb59e7
-  x-semantic-openapi-hash: 01dbfc48be48d2950691835fd152e0b60ba56a0dfd11aabde1c43e461ae77a59
+  x-source-openapi-hash: c23720d643b2ad36d635776542dd4ecaab70671d12515973b4a24f0404d493a5
+  x-canonical-contract-hash: b4ebe107b101e77103bdad1653ebd055fc531cd4cca41e4c2a21c7fe037eecd7
+  x-canonicalizer-version: v1.0
   x-release-id: rel-hemiksem-v5.3.0-prod
-  x-proof-revision: R1.1.2
+  x-proof-revision: R1.1.3
 servers:
 - url: https://act-husband-wallpaper-exists.trycloudflare.com
   description: Production Cloudflare Ingress Gateway (HTTPS, EUR 0.00)

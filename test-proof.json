@@ -1,11 +1,11 @@
 {
   "schema_version": "hemiksem-test-proof-v2",
-  "spec_id": "HEMIKSEM-AI-V530-R112-SEMANTIC-TEMPORAL-ACTION-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V530-R113-FINAL-SEMANTIC-ACTION-INGRESS-NONDEGRADATION-SEAL",
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R1.1.2",
-  "candidate_id": "CAND-HEMIKSEM-V530-R112-PROD",
+  "proof_revision": "R1.1.3",
+  "candidate_id": "CAND-HEMIKSEM-V530-R113-PROD",
   "promotion_epoch": "EPOCH-V530-PROMOTION-001",
   "deployment_generation": 3,
   "unique_required_tests": 1020,
@@ -31,8 +31,9 @@
     "generated_at": "2026-09-08T18:43:30.607698+00:00"
   },
   "status": "PASS",
-  "evaluated_at": "2026-09-08T19:01:00+00:00",
+  "evaluated_at": "2026-09-08T20:01:00+00:00",
   "functional_source_commit": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
-  "base_publication_commit": "3fb4805dd2154f8671c4c4de078ecec2efd6ca86",
-  "generated_at": "2026-09-08T19:01:00+00:00"
+  "base_publication_commit": "2ce5196c132ca42d5ef5d968b796fa4a2f852cc5",
+  "generated_at": "2026-09-08T19:01:00+00:00",
+  "publication_parent_commit": "de84dcccafdb28ed3180b29c7ad85260d6cff58d"
 }
