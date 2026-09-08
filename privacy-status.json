@@ -1,16 +1,22 @@
 {
   "schema_version": "1.0.0",
-  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
-  "proof_revision": "R5.2",
+  "spec_id": "HEMIKSEM-AI-V520-R5223-FINAL-CROSS-SURFACE-PROOF-CLOSURE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
+  "engine_runtime": "8.1",
+  "proof_revision": "R5.2.2.3",
+  "candidate_id": "CAND-HEMIKSEM-V520-R5223-PROD",
+  "technical_privacy_state": "PASS",
+  "legal_compliance_state": "NOT_LEGALLY_VERIFIED",
   "privacy_technical_state": "PRIVACY_ZERO_LEAKAGE_VERIFIED",
   "private_kb_public_access": false,
+  "private_vector_public_access": false,
   "secret_leakage_count": 0,
   "path_traversal_blocked": true,
+  "arbitrary_path_access": 0,
   "configured": true,
   "privacy_policy_url": "https://agim8003.github.io/hemiksem-relay-public/privacy.html",
-  "content_hash": "39a8061b333442758706b4a927b3d6350ad35a0a81fb15553d4a42a5d01ae718",
   "status": "PASS",
-  "evaluated_at": "2026-09-07T20:03:07.844737+00:00"
+  "evaluated_at": "2026-09-08T14:17:55.166389+00:00",
+  "content_hash": "aefda9ab08e838a0b3ae3b82cf779abfa8b7afb69e3ca88c6e72e2ecb463c8bf"
 }

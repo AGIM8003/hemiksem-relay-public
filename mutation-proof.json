@@ -1,18 +1,18 @@
 {
   "schema_version": "hemiksem-mutation-proof-v2",
-  "spec_id": "HEMIKSEM-AI-V520-R5222-100PCT-VERIFICATION-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V520-R5223-FINAL-CROSS-SURFACE-PROOF-CLOSURE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5.2.2.2",
-  "required_mutations": 121,
-  "detected_mutations": 121,
+  "proof_revision": "R5.2.2.3",
+  "required_mutations": 136,
+  "detected_mutations": 136,
   "escaped_mutations": 0,
   "r5_mutations_retained": 12,
   "r51_mutations_retained": 10,
   "r52_mutations_retained": 12,
   "status": "PASS",
   "generated_at": "2026-09-08T06:56:30Z",
-  "candidate_id": "CAND-HEMIKSEM-V520-R5222-PROD",
+  "candidate_id": "CAND-HEMIKSEM-V520-R5223-PROD",
   "mutation_registry_hash": "63a8a3ee2643a6d7ecdc171120421e4282361b7f0f6cbe6ec32205faeb0a9807"
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": "hemiksem-rollback-proof-v2",
-  "spec_id": "HEMIKSEM-AI-V520-R5222-100PCT-VERIFICATION-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V520-R5223-FINAL-CROSS-SURFACE-PROOF-CLOSURE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5.2.2.2",
+  "proof_revision": "R5.2.2.3",
   "levels": {
     "projection_rollback": {
       "level": 0,
@@ -44,5 +44,6 @@
   },
   "overall_rollback_state": "VERIFIED_PASS",
   "status": "PASS",
-  "evaluated_at": "2026-09-08T06:56:30.135290+00:00"
+  "evaluated_at": "2026-09-08T06:56:30.135290+00:00",
+  "candidate_id": "CAND-HEMIKSEM-V520-R5223-PROD"
 }

@@ -1,38 +1,36 @@
 {
   "acyclic_proof_state": "PROVEN_ACYCLIC",
-  "candidate_id": "CAND-HEMIKSEM-V520-R5222-PROD",
+  "candidate_id": "CAND-HEMIKSEM-V520-R5223-PROD",
   "chain_verdict": "VALID",
   "engine_runtime": "8.1",
-  "generated_at": "2026-09-08T11:31:01.197281+00:00",
+  "generated_at": "2026-09-08T14:18:39.885510+00:00",
   "layer": "LAYER_2_PROOF_CHAIN",
-  "lineage_policy": "LIN-R5222-001",
+  "lineage_policy": "LIN-R5223-001",
   "manifest_binding": {
     "layer0_payload_count": 42,
     "path": "manifest.json",
-    "sha256": "976d57e2fd38ba0c7e90795c85706c4788f0dc05c1c0f4ab05368c03d1df0d28"
+    "sha256": "6dc50d3148637938cc3e905208b1469a40694534d6d8fe91cb71d04eb571a02b"
   },
   "product_version": "5.2.0",
-  "proof_revision": "R5.2.2.2",
+  "proof_revision": "R5.2.2.3",
   "receipt_commitments": {
-    "connected_action_ref": "REPORTS/R5222_ACTUAL_CONNECTED_EXECUTION_RECEIPT.json",
-    "gate_receipt_ref": "REPORTS/R5222_FULL_GATE_EXECUTION_RECEIPT.json",
-    "mutation_receipt_ref": "REPORTS/R5222_FULL_MUTATION_EXECUTION_RECEIPT.json",
-    "rollback_receipt_ref": "hemiksem-relay-public/rollback-proof.json",
-    "semantic_context_ref": "REPORTS/R5222_SEMANTIC_CONTEXT_RECEIPT.json",
-    "test_receipt_ref": "REPORTS/R5222_FULL_TEST_EXECUTION_RECEIPT.json"
+    "delivery_receipt_ref": "REPORTS/R5223_DELIVERY_INDEX_RECEIPT.json",
+    "kb_binding_receipt_ref": "REPORTS/R5223_KB_BINDING_RECEIPT.json",
+    "privacy_receipt_ref": "REPORTS/R5223_PRIVACY_RECEIPT.json",
+    "safe_audit_receipt_ref": "REPORTS/R5223_SAFE_AUDIT_RECEIPT.json",
+    "server_proof_receipt_ref": "REPORTS/R5223_SERVER_PROOF_PROMOTION_RECEIPT.json"
   },
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "release_version": "5.2.0",
   "schema_version": "hemiksem-proof-chain-v3",
-  "spec_id": "HEMIKSEM-AI-V520-R5222-100PCT-VERIFICATION-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V520-R5223-FINAL-CROSS-SURFACE-PROOF-CLOSURE",
   "statistics": {
     "connected_operations": 20,
-    "detected_mutations": 121,
-    "evaluated_gates": 578,
-    "passed_connected_operations": 20,
-    "passed_gates": 578,
+    "detected_mutations": 136,
+    "evaluated_gates": 711,
+    "passed_gates": 711,
     "passed_required_tests": 1020,
-    "required_mutations": 121,
+    "required_mutations": 136,
     "unique_required_tests": 1020
   }
 }

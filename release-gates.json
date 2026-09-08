@@ -1,13 +1,14 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R5222-100PCT-VERIFICATION-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V520-R5223-FINAL-CROSS-SURFACE-PROOF-CLOSURE",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "product_version": "5.2.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R5.2.2.2",
-  "total_gates": 578,
-  "passed_gates": 578,
+  "proof_revision": "R5.2.2.3",
+  "total_gates": 711,
+  "passed_gates": 711,
   "failed_gates": 0,
   "machine_verdict": "RELEASE_ALLOWED",
   "operational_health": "HEALTHY_RELEASE_VERIFIED",
-  "generated_at": "2026-09-08T06:56:30.161171+00:00"
+  "generated_at": "2026-09-08T06:56:30.161171+00:00",
+  "candidate_id": "CAND-HEMIKSEM-V520-R5223-PROD"
 }

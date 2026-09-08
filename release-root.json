@@ -1,18 +1,18 @@
 {
-  "candidate_id": "CAND-HEMIKSEM-V520-R5222-PROD",
+  "candidate_id": "CAND-HEMIKSEM-V520-R5223-PROD",
   "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
-  "generated_at": "2026-09-08T11:31:01.197281+00:00",
+  "generated_at": "2026-09-08T14:18:39.885510+00:00",
   "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
   "layer": "LAYER_3_RELEASE_ROOT",
   "machine_verdict": "RELEASE_ALLOWED",
-  "manifest_sha256": "976d57e2fd38ba0c7e90795c85706c4788f0dc05c1c0f4ab05368c03d1df0d28",
+  "manifest_sha256": "6dc50d3148637938cc3e905208b1469a40694534d6d8fe91cb71d04eb571a02b",
   "operational_health": "HEALTHY_RELEASE_VERIFIED",
   "product_version": "5.2.0",
-  "proof_chain_sha256": "3cbe0688379c6e7d384642982413d4f516fd1b4f2cac1175805a424c61ce2453",
-  "proof_revision": "R5.2.2.2",
+  "proof_chain_sha256": "d3097889e78d5c8b931596f8f22a78945720e5028cc8ca66616ab1ddc535c832",
+  "proof_revision": "R5.2.2.3",
   "release_id": "rel-hemiksem-v5.2.0-prod",
   "root_state": "CRYPTOGRAPHICALLY_COMMITTED",
   "runtime_version": "8.1",
   "schema_version": "hemiksem-release-root-v1",
-  "spec_id": "HEMIKSEM-AI-V520-R5222-100PCT-VERIFICATION-CLOSURE"
+  "spec_id": "HEMIKSEM-AI-V520-R5223-FINAL-CROSS-SURFACE-PROOF-CLOSURE"
 }

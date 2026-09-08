@@ -13,6 +13,10 @@
   "total_members": 34,
   "validation_state": "PASS",
   "verified_at": "2026-09-07T20:03:09.486854+00:00",
-  "spec_id": "HEMIKSEM-AI-V520-R5222-100PCT-VERIFICATION-CLOSURE",
-  "proof_revision": "R5.2.2.2"
+  "spec_id": "HEMIKSEM-AI-V520-R5223-FINAL-CROSS-SURFACE-PROOF-CLOSURE",
+  "proof_revision": "R5.2.2.3",
+  "candidate_id": "CAND-HEMIKSEM-V520-R5223-PROD",
+  "technical_privacy_state": "PASS",
+  "legal_compliance_state": "NOT_LEGALLY_VERIFIED",
+  "updated_at": "2026-09-08T14:17:55.166389+00:00"
 }
