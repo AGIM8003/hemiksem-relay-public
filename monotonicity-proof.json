@@ -1,10 +1,10 @@
 {
   "schema_version": "hemiksem-monotonicity-proof-v2",
-  "spec_id": "HEMIKSEM-AI-V530-R11-GLOBAL-AUX-PROVENANCE-ZERO-DEGRADATION-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V530-R111-RECURSIVE-PROOF-PUBLICATION-ACTION-CLOSURE",
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R1.1",
+  "proof_revision": "R1.1.1",
   "total_protected_capabilities": 34,
   "unchanged_pass_count": 27,
   "improved_count": 7,
@@ -12,5 +12,5 @@
   "unknown_count": 0,
   "status": "PASS",
   "evaluated_at": "2026-09-08T06:56:30.135290+00:00",
-  "candidate_id": "CAND-HEMIKSEM-V530-R11-PROD"
+  "candidate_id": "CAND-HEMIKSEM-V530-R111-PROD"
 }

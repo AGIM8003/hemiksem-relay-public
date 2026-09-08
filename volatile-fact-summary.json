@@ -1,8 +1,11 @@
 {
-  "spec_id": "HEMIKSEM-AI-V530-R11-GLOBAL-AUX-PROVENANCE-ZERO-DEGRADATION-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V530-R111-RECURSIVE-PROOF-PUBLICATION-ACTION-CLOSURE",
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
-  "proof_revision": "R1.1",
+  "proof_revision": "R1.1.1",
+  "candidate_id": "CAND-HEMIKSEM-V530-R111-PROD",
+  "promotion_epoch": "EPOCH-V530-PROMOTION-001",
+  "deployment_generation": 2,
   "prior_expected_facts": 10,
   "active_current_facts": 8,
   "active_stale_fail_closed_facts": 1,
@@ -118,5 +121,5 @@
       "evidence_hash": "7283713c3a764c620a2b55c9d489e743877036405b3bc025af0d8700cc7c1b99"
     }
   ],
-  "generated_at": "2026-09-08T18:07:31.771948+00:00"
+  "generated_at": "2026-09-08T18:45:09.538287+00:00"
 }

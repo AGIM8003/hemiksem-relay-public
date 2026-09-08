@@ -1,49 +1,62 @@
 {
   "schema_version": "hemiksem-rollback-proof-v2",
-  "spec_id": "HEMIKSEM-AI-V530-R11-GLOBAL-AUX-PROVENANCE-ZERO-DEGRADATION-CLOSURE",
+  "spec_id": "HEMIKSEM-AI-V530-R111-RECURSIVE-PROOF-PUBLICATION-ACTION-CLOSURE",
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R1.1",
+  "proof_revision": "R1.1.1",
+  "candidate_id": "CAND-HEMIKSEM-V530-R111-PROD",
+  "candidate_generation": 2,
+  "deployment_generation": 2,
+  "tested_bundle_hash": "d59888bbe9ed81a8df14d6e13ccc9e6f35034930bda8270f0a0055e642ebbad7",
+  "rollback_target": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
+  "execution_started_at": "2026-09-08T18:43:43.091500+00:00",
+  "execution_finished_at": "2026-09-08T18:43:43.592172+00:00",
+  "restored_state_hash": "521759b2d2249d30d34945923c0258bf842d1c521520337df8eb039dbe207bc1",
   "levels": {
     "projection_rollback": {
       "level": 0,
       "required": true,
       "executed": true,
       "restored": true,
-      "state": "PASS"
+      "state": "PASS",
+      "mechanism": "ISOLATED_PROJECTION_REVERT_TEST"
     },
     "profile_rollback": {
       "level": 1,
       "required": true,
       "executed": true,
       "restored": true,
-      "state": "PASS"
+      "state": "PASS",
+      "mechanism": "ISOLATED_CONFIG_SLOT_REVERT_TEST"
     },
     "vector_rollback": {
       "level": 2,
       "required": true,
       "executed": true,
       "restored": true,
-      "state": "PASS"
+      "state": "PASS",
+      "mechanism": "ISOLATED_EPOCH_POINTER_REVERT_TEST"
     },
     "knowledge_rollback": {
       "level": 3,
       "required": true,
       "executed": true,
       "restored": true,
-      "state": "PASS"
+      "state": "PASS",
+      "mechanism": "ISOLATED_CORPUS_INDEX_POINTER_TEST"
     },
     "product_rollback": {
       "level": 4,
       "required": true,
       "executed": true,
       "restored": true,
-      "state": "PASS"
+      "state": "PASS",
+      "mechanism": "ISOLATED_CANONICAL_PROMOTION_ROLLBACK_TEST"
     }
   },
   "overall_rollback_state": "VERIFIED_PASS",
+  "result": "PASS",
   "status": "PASS",
-  "evaluated_at": "2026-09-08T06:56:30.135290+00:00",
-  "candidate_id": "CAND-HEMIKSEM-V530-R11-PROD"
+  "evaluated_at": "2026-09-08T18:43:43.592172+00:00"
 }

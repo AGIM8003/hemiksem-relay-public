@@ -13,9 +13,9 @@
   "total_members": 34,
   "validation_state": "PASS",
   "verified_at": "2026-09-07T20:03:09.486854+00:00",
-  "spec_id": "HEMIKSEM-AI-V530-R11-GLOBAL-AUX-PROVENANCE-ZERO-DEGRADATION-CLOSURE",
-  "proof_revision": "R1.1",
-  "candidate_id": "CAND-HEMIKSEM-V530-R11-PROD",
+  "spec_id": "HEMIKSEM-AI-V530-R111-RECURSIVE-PROOF-PUBLICATION-ACTION-CLOSURE",
+  "proof_revision": "R1.1.1",
+  "candidate_id": "CAND-HEMIKSEM-V530-R111-PROD",
   "technical_privacy_state": "PASS",
   "legal_compliance_state": "NOT_LEGALLY_VERIFIED",
   "updated_at": "2026-09-08T14:17:55.166389+00:00"

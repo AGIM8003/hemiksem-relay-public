@@ -1,14 +1,16 @@
 {
-  "antecedent_proof_revision": "R5.2.2.3",
-  "antecedent_release": "rel-hemiksem-v5.2.0-prod",
-  "candidate_id": "CAND-HEMIKSEM-V530-R11-PROD",
-  "engine_runtime": "8.1",
-  "generated_at": "2026-09-08T18:07:31.771948+00:00",
-  "layer": 2,
-  "layer_1_manifest_hash": "2d2e6d30f65f63f96655f2c49b73679690cffa206a9bdd4f04ca0a075d23c275",
-  "predecessor_proof_chain_hash": "0acbe2ed8eeacbbd574bb0e0ffb3dfb7bb9b0a1d373111ff05d97f54c9ea7416",
-  "product_version": "5.3.0",
-  "proof_revision": "R1.1",
+  "schema_version": "hemiksem-proof-chain-v2",
+  "spec_id": "HEMIKSEM-AI-V530-R111-RECURSIVE-PROOF-PUBLICATION-ACTION-CLOSURE",
   "release_id": "rel-hemiksem-v5.3.0-prod",
-  "spec_id": "HEMIKSEM-AI-V530-R11-GLOBAL-AUX-PROVENANCE-ZERO-DEGRADATION-CLOSURE"
+  "product_version": "5.3.0",
+  "engine_runtime": "8.1",
+  "proof_revision": "R1.1.1",
+  "candidate_id": "CAND-HEMIKSEM-V530-R111-PROD",
+  "promotion_epoch": "EPOCH-V530-PROMOTION-001",
+  "deployment_generation": 2,
+  "layer": 2,
+  "manifest_hash": "b99a80242a352297ac8f76395e7a2f846c93ba361fe1c7797680b57873772fdd",
+  "candidate_manifest_hash": "3b35a5ee9ca9ecf776a1c999a1bca6ba28b408d93f5f9902c99cfa7c02659021",
+  "tested_source_commit": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
+  "generated_at": "2026-09-08T18:45:09.538287+00:00"
 }

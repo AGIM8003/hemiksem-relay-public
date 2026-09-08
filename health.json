@@ -6,15 +6,18 @@
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "serving_release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
-  "proof_revision": "R1.1",
+  "proof_revision": "R1.1.1",
+  "candidate_id": "CAND-HEMIKSEM-V530-R111-PROD",
+  "promotion_epoch": "EPOCH-V530-PROMOTION-001",
+  "deployment_generation": 2,
   "engine_runtime": "8.1",
   "workspace_epoch": "EPOCH-V530-WORKSPACE-001",
-  "source_commit": "97849dff9aee3061f909f743f1d7dfda82764ae4",
+  "source_commit": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
   "deployment_receipt_hash": "25b454b4a6cbb69e5253537df7bbb90fb7bd20b1ba56dc23bb5332d019cba85f",
   "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
   "index_hash": "36b95ee1b984a13d97108abf70b1cc70d722023ed1c3b54eaaa955d97fae5ed0",
   "endpoint_count": 20,
   "core_operations_count": 10,
   "auxiliary_operations_count": 10,
-  "timestamp": "2026-09-08T18:07:31.771948+00:00"
+  "timestamp": "2026-09-08T18:45:09.538287+00:00"
 }
