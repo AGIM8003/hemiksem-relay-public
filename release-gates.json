@@ -1,13 +1,11 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
-  "release_id": "rel-hemiksem-v5.2.0-prod",
-  "product_version": "5.2.0",
-  "engine_runtime": "8.1",
-  "proof_revision": "R5.2",
-  "total_gates": 150,
-  "passed_gates": 150,
-  "failed_gates": 0,
+  "blocked": 0,
+  "evaluated_at": "2026-09-08T07:31:07.967549+00:00",
+  "failed": 0,
+  "gate_count": 70,
+  "gate_receipt_sha256": "153b606dda53edd7eea0a27d1bea492882b1caeee6313205bd3ced2101659381",
+  "gate_spec": "HEMIKSEM-V5.0.3-G1-G70",
   "machine_verdict": "RELEASE_ALLOWED",
-  "operational_health": "HEALTHY_RELEASE_VERIFIED",
-  "generated_at": "2026-09-08T06:56:30.161171+00:00"
+  "passed": 70,
+  "release_id": "rel-hemiksem-v5.0.1-prod"
 }

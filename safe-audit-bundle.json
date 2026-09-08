@@ -7,7 +7,7 @@
   "engine_runtime": "8.1",
   "private_content_leaks": 0,
   "product_version": "5.2.0",
-  "release_id": "rel-hemiksem-v5.2.0-prod",
+  "release_id": "rel-hemiksem-v5.0.1-prod",
   "schema_version": "hemiksem-safe-audit-bundle-v3",
   "secret_leaks": 0,
   "total_members": 34,

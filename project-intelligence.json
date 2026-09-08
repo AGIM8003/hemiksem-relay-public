@@ -1,12 +1,12 @@
 {
   "engine_version": "8.1",
   "f00_kernel": "00.INSTRUCTIONS.md",
-  "generated_at": "2026-09-07T20:03:07.844737+00:00",
+  "generated_at": "2026-09-08T07:31:07.967549+00:00",
   "modules_declared": 21,
   "municipality": "Hemiksem",
-  "product_version": "5.2.0",
+  "product_version": "5.0.1",
   "project_id": "hemiksem-gemeentediensten",
-  "release_id": "rel-hemiksem-v5.2.0-prod",
-  "release_version": "5.2.0",
+  "release_id": "rel-hemiksem-v5.0.1-prod",
+  "release_version": "5.0.1",
   "status": "OPERATIONAL"
 }

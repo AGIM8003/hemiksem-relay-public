@@ -1,74 +1,28 @@
 {
-  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
-  "release_id": "rel-hemiksem-v5.2.0-prod",
-  "proof_revision": "R5.2",
-  "chain_length": 13,
-  "chain_entries": [
-    {
-      "file": "current-release.json",
-      "sha256": "a2c25dd62519f7cf663ba88d4dd1a59418c4bc3176d1ec0a15a920ac795888c2",
-      "role": "RELEASE_IDENTITY"
-    },
-    {
-      "file": "health.json",
-      "sha256": "6437b5a0d02f9cce3cd884377e7180f5906c681e895a862bb933eab6a57d0516",
-      "role": "HEALTH_STATUS"
-    },
-    {
-      "file": "capability-registry.json",
-      "sha256": "a79acbb9970978c2d544843fd99f0e03bc442ab4e8e627360529e7835f3628d6",
-      "role": "CAPABILITY_REGISTRY"
-    },
-    {
-      "file": "test-proof.json",
-      "sha256": "8af8c84e092b538791b76666188d9455ca84b25260cfbeffa13bd8a15d43d58c",
-      "role": "TEST_PROOF"
-    },
-    {
-      "file": "mutation-proof.json",
-      "sha256": "f340fc3c71fdf5d04371b89562b17bd22d511bff740d65c83262fe234403bdd2",
-      "role": "MUTATION_PROOF"
-    },
-    {
-      "file": "monotonicity-proof.json",
-      "sha256": "be2ca517250c52bc8c1132741f7c241d74f1c69ff0edaf94ddbeedea1407b9e5",
-      "role": "MONOTONICITY_PROOF"
-    },
-    {
-      "file": "release-gates.json",
-      "sha256": "dae2e09346bc7446488a555e20f88d3b9011bc97f60ce0c4de5c7ca1ce221597",
-      "role": "RELEASE_GATES"
-    },
-    {
-      "file": "rollback-proof.json",
-      "sha256": "599c2b00429f7f4b90597cea0b91c84e32232c54cfff898a0cab846afa909dbb",
-      "role": "ROLLBACK_PROOF"
-    },
-    {
-      "file": "vector-status.json",
-      "sha256": "3045952c2ada41c3822e8eb2ebe08cb47371400d82ba26bf4266aee4ef8a4945",
-      "role": "VECTOR_STATUS"
-    },
-    {
-      "file": "retrieval-quality-summary.json",
-      "sha256": "47cf862fec55f81ef6846af779e94b73a1fb207a0268607ad8ca3282a4255b5a",
-      "role": "RETRIEVAL_QUALITY"
-    },
-    {
-      "file": "proof-status.json",
-      "sha256": "a26b99a70e6bf7e3f227f94dfe4ba0e7a95d02cb7816959752a52e17d6bcddf6",
-      "role": "PROOF_STATUS"
-    },
-    {
-      "file": "delivery-index.json",
-      "sha256": "154d5a1b153f23b7a19df1494b8ae1a9c37aed400c5308433cc932394dfd8193",
-      "role": "DELIVERY_INDEX"
-    },
-    {
-      "file": "manifest.json",
-      "sha256": "25dbf6eb6c0c88682cd72156d06a28dcf04d2271fe9a83e95cfc888fe3a46654",
-      "role": "MANIFEST"
-    }
-  ],
-  "generated_at": "2026-09-08T06:56:30.509171+00:00"
+  "artifact_hashes": {
+    "admission-index.json": "ad8425a9321ee0e0bb9c8e372c1184870d334f1215d406ae462ead101ae536fb",
+    "applicability-index.json": "1a967cd3cc31f6440dbbb4c99097f6b45bfa9595ca975f6106d285cdea390b6d",
+    "capability-registry.json": "09672741d0e306032a99acc8977bc89defa1e2c0093712115b0e80024c8877c3",
+    "conflict-index.json": "3c6f30435aa7b0593077c4d4c8efd5003511d25fba573f0951f13c592dc0c7dd",
+    "current-release.json": "594a605cd9f01b40a3a358360a6754190d08a75fa0e9bea3fcfc2c0530dbd1d9",
+    "currentness-index.json": "4d9bbd53e105afba418e1c8c5e6f3f554cff6bc6b1bb518fc4557526e5c3e24e",
+    "delivery-index.json": "431c6df9fa874503105d1f5b3284b88343ed6873cb80f33be18931c3b540a5c5",
+    "denominator-dictionary.json": "1b16e183a3fde57f8b6abe9a3dbd60109ec9bb10e003d164996f7d6a73949caa",
+    "health.json": "b8453ebb0fc4591ce3f46a07c702c9d047fa221a9f917628a098d2a856bc1a18",
+    "kb-binding.json": "19cd994bdd28351f50574506db07b384654c7c715da33fedc37c39edce59864c",
+    "privacy-status.json": "1043176e0f29f1426b1d76326ede581ca900b5ee09dbc40cddcfa8bd8736b50b",
+    "project-intelligence.json": "498daf6a47639817e10da73e78a63bed91dc72f61250c35a7b278b017516b1bc",
+    "proof-chain-index.json": "75e3ead7e7618393c1ca4492948d02510871a53277b9c3d703b2c5d82fe82a99",
+    "release-gates.json": "644f7b5007210c322755a51120f686842fa3178f9172214529812260a3abcdc7",
+    "rollback-proof.json": "766efb02c240eb24eb7b9365772feab5c0b9f09659c4af5b9f7aabfddee149ab",
+    "safe-audit-bundle.json": "2d8fe6f88f64a1634ffd1171ee152100a093c6e1444f1aed6e01e003bcca8761",
+    "test-proof.json": "deba886a0c0533a16eb7bb8fbc97af3252223baa121317688b6d5666eff17015"
+  },
+  "build_timestamp": "2026-09-08T07:31:07.967549+00:00",
+  "chain_verdict": "VALID",
+  "engine_runtime": "8.1",
+  "generated_at": "2026-09-08T07:31:07.967549+00:00",
+  "product_version": "5.0.1",
+  "release_id": "rel-hemiksem-v5.0.1-prod",
+  "release_version": "5.0.1"
 }

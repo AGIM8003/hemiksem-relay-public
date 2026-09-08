@@ -130,7 +130,7 @@
       "to_denominator": "PUBLIC_EVIDENCE_PROJECTIONS"
     }
   ],
-  "release_id": "rel-hemiksem-v5.2.0-prod",
-  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE",
-  "release_version": "5.2.0"
+  "release_id": "rel-hemiksem-v5.0.1-prod",
+  "release_version": "5.2.0",
+  "spec_id": "HEMIKSEM-AI-V520-R52-CONNECTED-EXECUTION-SEMANTIC-CONVERGENCE"
 }
