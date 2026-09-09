@@ -1,0 +1,253 @@
+{
+  "spec_id": "HEMIKSEM-AI-CONTROL-R14-LEGAL-R14-FORWARD-ONLY-EVIDENCE-BOUND-RELEASE-COMPLETION",
+  "control_revision": "CONTROL-R1.4",
+  "legal_revision": "LEGAL-R1.4",
+  "schema_version": "hemiksem-finding-lifecycle-v2",
+  "total_historic_findings": 16,
+  "accounting_percent": 100.0,
+  "loss_count": 0,
+  "findings_hash": "90c6eefbd71eca03e914c7276c4877497b1ab22203d4f11cfa48e223540560a7",
+  "verified_at": "2026-09-09T08:00:00Z",
+  "findings": {
+    "HEM-INT-001": {
+      "finding_id": "HEM-INT-001",
+      "historic_created_at": "2026-09-07T12:00:00Z",
+      "original_claim": "Deontologische commissie voorzitter website versus huishoudelijk reglement tegenstrijdigheid",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "ACTIVE_CONFIRMED",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Checked for municipal website correction: page remains unamended as of 2026-09-09."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "REQUIRED"
+    },
+    "HEM-INT-002": {
+      "finding_id": "HEM-INT-002",
+      "historic_created_at": "2026-09-07T12:00:00Z",
+      "original_claim": "Deontologische commissie samenstelling publieke samenvatting overgeneralisatie",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "ACTIVE_CONFIRMED",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Checked for council regulation amendment: council chair remains non-voting moderator."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "COMPLETED"
+    },
+    "HEM-INT-003": {
+      "finding_id": "HEM-INT-003",
+      "historic_created_at": "2026-09-07T12:00:00Z",
+      "original_claim": "Deontologische code artikel 1 opsommingsdefect (dubbele 6\u00b0, ontbrekende 9\u00b0)",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "ACTIVE_CONFIRMED",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Official decree text inspected: error is authentic in published March 2026 decision."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "COMPLETED"
+    },
+    "HEM-CUR-001": {
+      "finding_id": "HEM-CUR-001",
+      "historic_created_at": "2026-09-07T12:00:00Z",
+      "original_claim": "Deontologische code verwijzing naar oud Strafwetboek (art. 245 en 458) post 1 sept 2026",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "ACTIVE_RISK",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Crosswalk applied; reference points to new Penal Code corresponding articles."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "REQUIRED"
+    },
+    "HEM-PRIV-001": {
+      "finding_id": "HEM-PRIV-001",
+      "historic_created_at": "2026-09-07T12:00:00Z",
+      "original_claim": "Verwerkingsbasis contract versus wettelijke verplichting / algemeen belang per activiteit",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "WATCH",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Privacy notice analyzed; processing basis classified per municipal activity."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "REQUIRED"
+    },
+    "HEM-LEG-WATCH-001": {
+      "finding_id": "HEM-LEG-WATCH-001",
+      "historic_created_at": "2026-09-07T14:00:00Z",
+      "original_claim": "Dynamische monitoring van nieuwe en gewijzigde Hemiksemse reglementen",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "WATCH",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Local norm universe frozen at 58 active regulations."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "COMPLETED"
+    },
+    "HEM-GOV-001": {
+      "finding_id": "HEM-GOV-001",
+      "historic_created_at": "2026-09-07T14:00:00Z",
+      "original_claim": "Gemeentelijke bestuurscompetenties en scheiding raad / college / burgemeester",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "ACTIVE_CONFIRMED",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "DLB Articles 40-41 competence map verified."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "REQUIRED"
+    },
+    "HEM-POLICE-001": {
+      "finding_id": "HEM-POLICE-001",
+      "historic_created_at": "2026-09-07T14:00:00Z",
+      "original_claim": "Politiezone Rupel bevoegdheidsscheiding versus individuele schepenbevoegdheid",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "ACTIVE_CONFIRMED",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Police college vs alderman attribution firewall strictly active."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "REQUIRED"
+    },
+    "HEM-DUTY-001": {
+      "finding_id": "HEM-DUTY-001",
+      "historic_created_at": "2026-09-07T14:00:00Z",
+      "original_claim": "Periodieke organisatiebeheersing evaluatieplicht onder DLB Art. 217",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "WATCH",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Management team annual reporting cycle active."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "REQUIRED"
+    },
+    "HEM-DUTY-002": {
+      "finding_id": "HEM-DUTY-002",
+      "historic_created_at": "2026-09-07T14:00:00Z",
+      "original_claim": "Verplichte jaarlijkse verslaggeving en openbaarheid van bestuur",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "WATCH",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Bestuursdecreet Titel II open government deadlines tracked."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "COMPLETED"
+    },
+    "HEM-CONTROL-001": {
+      "finding_id": "HEM-CONTROL-001",
+      "historic_created_at": "2026-09-07T16:00:00Z",
+      "original_claim": "Financieel visum model conform DLB 176-177 en BBC BVR 30 maart 2018 Art. 99",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "ACTIVE_CONFIRMED",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "No generic EUR 10k threshold in DLB 177; statutory categories applied."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "REQUIRED"
+    },
+    "HEM-SOURCE-001": {
+      "finding_id": "HEM-SOURCE-001",
+      "historic_created_at": "2026-09-07T16:00:00Z",
+      "original_claim": "Authentieke bronhi\u00ebrarchie: decreet/verordening prevaleert boven website en infofolder",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "ACTIVE_CONFIRMED",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Direct official gazette & municipal decisions prioritized."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "COMPLETED"
+    },
+    "HEM-ACCESS-001": {
+      "finding_id": "HEM-ACCESS-001",
+      "historic_created_at": "2026-09-07T16:00:00Z",
+      "original_claim": "Digitale toegankelijkheid Bestuursdecreet (EN 301 549) volledige digitale patrimonium",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "WATCH",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Accessibility statement published; partial compliance monitored."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "REQUIRED"
+    },
+    "HEM-COMM-001": {
+      "finding_id": "HEM-COMM-001",
+      "historic_created_at": "2026-09-07T16:00:00Z",
+      "original_claim": "Consistentie publieke communicatie met formele rechtsnormen",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "WATCH",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Public procedure registry cross-validated with source regulations."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "COMPLETED"
+    },
+    "HEM-NIS2-SCOPE-001": {
+      "finding_id": "HEM-NIS2-SCOPE-001",
+      "historic_created_at": "2026-09-07T18:00:00Z",
+      "original_claim": "NIS2 dynamische toepasselijkheid: entiteit- en activiteit-specifiek, geen algemene boolean",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "ACTIVE_CONFIRMED",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Belgian CCB designation screening applied per critical municipal activity."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "REQUIRED"
+    },
+    "HEM-AIACT-SCOPE-001": {
+      "finding_id": "HEM-AIACT-SCOPE-001",
+      "historic_created_at": "2026-09-07T18:00:00Z",
+      "original_claim": "EU AI Act gefaseerde inwerkingtreding inclusief Verordening 2026/1744 wijziging",
+      "original_evidence_hash": "207fbc782c3f69077b26f8213a1aa184b1659b2fccc121accd83eb74a674c154",
+      "current_status": "ACTIVE_CONFIRMED",
+      "current_evidence_hash": "3a3e7f9d417107ad6a5fe8afcfbc85b61552d105b6e9714632b15048164703e7",
+      "last_reverified_at": "2026-09-09T08:00:00Z",
+      "counterevidence": [
+        "Regulation 2026/1744 schedule integrated: Annex III High-Risk delayed to 2027-12-02."
+      ],
+      "remediation_evidence": null,
+      "superseding_finding_id": null,
+      "human_review_state": "REQUIRED"
+    }
+  }
+}

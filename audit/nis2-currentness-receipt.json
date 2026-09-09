@@ -1,0 +1,21 @@
+{
+  "receipt_id": "RCPT-NIS2-CURRENTNESS-R16-001",
+  "spec_id": "HEMIKSEM-AI-CONTROL-R16-LEGAL-R16-EXTERNAL-VERIFICATION-AND-PROMOTION-CLOSURE",
+  "finding_id": "HEM-NIS2-SCOPE-001",
+  "candidate_release_id": "rel-hemiksem-v5.3.1-candidate",
+  "candidate_proof_revision": "R1.1.3.3",
+  "question_date": "2026-09-09",
+  "directive": "Directive (EU) 2022/2555 (NIS2) / Belgian NIS2 Transposition Law of 26 April 2024",
+  "official_locator": "Belgisch Staatsblad / Moniteur Belge, 17 May 2024",
+  "jurisdiction": "BE-VLG",
+  "scope_assessment": {
+    "local_government_default": "NOT_AUTOMATICALLY_ESSENTIAL_OR_IMPORTANT_ENTITY",
+    "condition_for_applicability": "Specific designation by national authority (CCB) or critical service delivery exceeding national thresholds",
+    "hemiksem_status": "PROACTIVE_CYBERSECURITY_BASELINE_COMPLIANT",
+    "incident_reporting_readiness": "ESTABLISHED_CCB_INCIDENT_NOTIFICATION_PATHWAY"
+  },
+  "currentness_state": "LIVE_VERIFIED_CURRENT",
+  "verified_at": "2026-09-09T15:02:02+02:00",
+  "pass_fail": "PASS",
+  "status": "PASS"
+}

@@ -1,0 +1,24 @@
+{
+  "receipt_id": "RCPT-BASELINE-IMMUTABILITY-R16-001",
+  "spec_id": "HEMIKSEM-AI-CONTROL-R16-LEGAL-R16-EXTERNAL-VERIFICATION-AND-PROMOTION-CLOSURE",
+  "baseline_release_id": "rel-hemiksem-v5.3.0-prod",
+  "baseline_product_version": "5.3.0",
+  "baseline_proof_revision": "R1.1.3.2",
+  "baseline_manifest_hash_at_freeze": "6dc50d3148637938cc3e905208b1469a40694534d6d8fe91cb71d04eb571a02b",
+  "baseline_manifest_hash_now": "6dc50d3148637938cc3e905208b1469a40694534d6d8fe91cb71d04eb571a02b",
+  "baseline_member_count": 8,
+  "baseline_member_set_hash": "312f6cdf3879216be2417fc72b771402ee84af8effba7186cad77117a618c012",
+  "changed_member_ids": [],
+  "added_member_ids": [],
+  "removed_member_ids": [],
+  "verification_timestamp": "2026-09-09T14:51:30+02:00",
+  "criteria": "baseline_manifest_hash_at_freeze == baseline_manifest_hash_now and zero changed, added, or removed members",
+  "observed_result": {
+    "manifest_hashes_match": true,
+    "changed_count": 0,
+    "added_count": 0,
+    "removed_count": 0,
+    "immutability_state": "FROZEN_IMMUTABLE_REPORTED"
+  },
+  "pass_fail": "PASS"
+}

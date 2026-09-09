@@ -1,0 +1,29 @@
+{
+  "receipt_id": "RCPT-AIACT-CURRENTNESS-R16-001",
+  "spec_id": "HEMIKSEM-AI-CONTROL-R16-LEGAL-R16-EXTERNAL-VERIFICATION-AND-PROMOTION-CLOSURE",
+  "finding_id": "HEM-AIACT-SCOPE-001",
+  "candidate_release_id": "rel-hemiksem-v5.3.1-candidate",
+  "candidate_proof_revision": "R1.1.3.3",
+  "question_date": "2026-09-09",
+  "regulation": "Regulation (EU) 2024/1689 of the European Parliament and of the Council (EU AI Act)",
+  "official_locator": "OJ L 2024/1689, 12.7.2024",
+  "timeline": {
+    "entry_into_force": "2024-08-01",
+    "prohibited_practices_effective": "2025-02-02",
+    "general_purpose_ai_effective": "2025-08-02",
+    "high_risk_annex_iii_effective": "2026-08-02",
+    "high_risk_annex_i_effective": "2027-08-02"
+  },
+  "hemiksem_system_classification": {
+    "risk_tier": "MINIMAL_OR_TRANSPARENCY_ONLY",
+    "annex_iii_critical_infrastructure_match": false,
+    "annex_iii_law_enforcement_match": false,
+    "prohibited_practices_check": "PASS_NO_SOCIAL_SCORING_OR_BIOMETRIC_CATEGORISATION",
+    "transparency_obligation_art_50": "COMPLIANT_AI_INTERACTION_DISCLOSED",
+    "human_oversight_art_14": "MANDATORY_HUMAN_IN_THE_LOOP_FOR_CONSEQUENTIAL_DECISIONS"
+  },
+  "currentness_state": "LIVE_VERIFIED_CURRENT",
+  "verified_at": "2026-09-09T15:02:02+02:00",
+  "pass_fail": "PASS",
+  "status": "PASS"
+}

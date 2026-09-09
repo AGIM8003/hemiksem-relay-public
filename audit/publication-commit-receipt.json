@@ -1,0 +1,15 @@
+{
+  "receipt_id": "RCPT-PUB-COMMIT-EXTERNAL-001",
+  "spec_id": "HEMIKSEM-AI-CONTROL-R15-LEGAL-R15-INDEPENDENT-VERIFICATION-HARDENING",
+  "candidate_release_id": "rel-hemiksem-v5.3.1-candidate",
+  "publication_commit": "b582860d4a8462891a58a3a3968730358ea1d8cd",
+  "publication_parent_commit": "e4a1611c9518abadb8e7808f70899d0de9c88c19",
+  "commit_pinned_url": "https://raw.githubusercontent.com/agim8003/hemiksem-relay-public/b582860d4a8462891a58a3a3968730358ea1d8cd/candidate-release-root.json",
+  "retrieval_method": "COMMIT_PINNED_CLONED_RELAY_FALLBACK",
+  "retrieved_root_hash": "50469c8f82939ede45a061777199313dee83f0bc4e4b2f38db35d723d8c0cfc4",
+  "expected_root_hash": "50469c8f82939ede45a061777199313dee83f0bc4e4b2f38db35d723d8c0cfc4",
+  "hash_parity": true,
+  "release_id_parity": true,
+  "verified_at": "2026-09-09T11:39:09.298287+00:00",
+  "gate_verdict": "PASS"
+}

@@ -1,0 +1,48 @@
+{
+  "receipt_id": "RCPT-PHYSICAL-INDEX-001",
+  "test_or_gate_id": "R16::INDEX::PHYSICAL_DATA_PLANE_HASH_BOUND",
+  "run_id": "RUN-R16-INDEX-001",
+  "candidate_epoch_id": "EPOCH-V530-WORKSPACE-001",
+  "candidate_release_id": "rel-hemiksem-v5.3.1-candidate",
+  "candidate_proof_revision": "R1.1.3.3",
+  "executable_hash": "6415c880fde91a3f3d3e46627ff8fccffcf7540914770955e69df07d23c87f1b",
+  "input_manifest_hash": "d66df1f1427acdca5e972d97840e60f4a8e94d021f0f2042a68ae21727e4cc8a",
+  "criteria": "physical_index_hash derived directly from INDEX/*.json bytes and canary verified",
+  "observed_result": {
+    "physical_index_hash": "f066b19b5832bcdb893a39f62f15c4353cbf42134cf447c450df1e4e48999af4",
+    "total_files": 42,
+    "canary": {
+      "canary_id": "CANARY-DATA-PLANE-001",
+      "candidate_release_id": "rel-hemiksem-v5.3.2-recovery-candidate",
+      "query": "RUP Scheldeboorden Artikel 4 - Stedenbouwkundige bestemmingsvoorschriften",
+      "query_hash": "c121b25759fd547a087af37ee3cba76589a5085b0cf0e947c80eb9f8af89fb5b",
+      "index_epoch": "EPOCH-V530-WORKSPACE-001",
+      "physical_index_hash": "f066b19b5832bcdb893a39f62f15c4353cbf42134cf447c450df1e4e48999af4",
+      "document_uid": "RUP_SCHELDEBOORDEN",
+      "segment_uid": "hemiksem:seg:rup_scheldeboorden:000033:2efd7c29f646f48c",
+      "segment_hash": "2efd7c29f646f48c",
+      "source_item_id": "ITEM-RUP-SCHELD-ART4",
+      "retrieval_lane": "Lane 1: Exact Identifier (Article)",
+      "rank": 1,
+      "score": 1.0,
+      "selected_for_evidence": true,
+      "applicability_state": "APPLICABLE_TO_ZONE",
+      "served_index_file": "INDEX/ARTICLE_INDEX.json",
+      "data_plane_provenance": "PROVEN",
+      "timestamp": "2026-09-09T13:58:53.811501+00:00",
+      "status": "PASS"
+    }
+  },
+  "pass_fail": "PASS",
+  "started_at": "2026-09-09T13:58:53.814261+00:00",
+  "finished_at": "2026-09-09T13:58:53.814261+00:00",
+  "stdout_hash": "8db96d22932fcc21e630c24bea2e1c407417a3b2ecd384146a5ab9b9e1ad0672",
+  "stderr_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "output_artifact_hashes": {
+    "manifest": "d0830992a624956ad9421c427159bde3d47b2014813bbfd99ac01bf01918146d",
+    "canonical_index_identity": "212b6c29602ded2c5691b11486e3d3147dfff7e9e85e3cdc8e7e0c85e4d2101e"
+  },
+  "environment_fingerprint": "win32-python312-hemiksem-data-plane",
+  "operator_or_execution_identity": "ENGINE.physical_index_binding",
+  "write_capability_state": "READ_ONLY_BOUND"
+}

@@ -1,0 +1,222 @@
+{
+  "index_root_id": "INDEX_ROOT_V531",
+  "index_schema_version": "1.2",
+  "index_epoch": "EPOCH-V530-WORKSPACE-001",
+  "file_count": 42,
+  "ordered_file_members": [
+    {
+      "sha256": "ba83447d8ec3e26d84126a2d423e03d0d6fbec1c1e7b086d94ceca43b35f3d8a",
+      "byte_size": 28148,
+      "relative_path": "INDEX/ALIAS_REGISTRY.json"
+    },
+    {
+      "sha256": "c6982319ab4c151380e3682b8ac23198b7b4ef2593701d7aafc01f8bf93ca8b3",
+      "byte_size": 1429274,
+      "relative_path": "INDEX/ARTICLE_INDEX.json"
+    },
+    {
+      "sha256": "14c54b16589d8b01c75cf3ece38515825ebe71d0db3be04768801c6217257c73",
+      "byte_size": 996269,
+      "relative_path": "INDEX/AUTHORITY_INDEX.json"
+    },
+    {
+      "sha256": "597b5cfb5fecde0e8f47c39ccfb63d998f27e66dfe87ac6d4b904afae76db8a1",
+      "byte_size": 157606455,
+      "relative_path": "INDEX/BM25_INDEX.json"
+    },
+    {
+      "sha256": "00fe58760d287d21c317caaf066a8c2635296bf301d12404baebf19a2fa7db9a",
+      "byte_size": 17921,
+      "relative_path": "INDEX/CLAIM_GRAPH.json"
+    },
+    {
+      "sha256": "eb481c3cc4ed0811f13a6f690941039c3a8472457d6f4a08677459a61e5d80b7",
+      "byte_size": 31096,
+      "relative_path": "INDEX/CONFLICT_INDEX.json"
+    },
+    {
+      "sha256": "d2804f2d7e149ae75eb1d4bee6cd3ce500027c9339f96872ed408e5b34e0205f",
+      "byte_size": 264745,
+      "relative_path": "INDEX/DOCUMENT_REGISTRY.json"
+    },
+    {
+      "sha256": "afdb4dd6d57f13c6be4aafa29877be1e8ac6dd1f0198238d443238029efe2faf",
+      "byte_size": 1030683,
+      "relative_path": "INDEX/DOCUMENT_TO_SEGMENT_MAP.json"
+    },
+    {
+      "sha256": "aeb566ff8cfdfb687b269514ee503960e877931f1e3d72b82a25292c88d27f86",
+      "byte_size": 54276,
+      "relative_path": "INDEX/DUPLICATE_INDEX.json"
+    },
+    {
+      "sha256": "ef421c15a4ab3aac253faa4baa7951f996e82bf82115d30076cb4eb492f44aa4",
+      "byte_size": 19667,
+      "relative_path": "INDEX/EVIDENCE_REGISTRY.json"
+    },
+    {
+      "sha256": "4110f4c162238990b01bc1bc67e5cc7038e4542d5c72e3c219876cfa335a123c",
+      "byte_size": 7748670,
+      "relative_path": "INDEX/EXACT_ENTITY_INDEX.json"
+    },
+    {
+      "sha256": "0eb24b37740bac9852e7395406c7358b5ae08b8bc1fe318e2ce1a6aeb1eed2c3",
+      "byte_size": 2853795,
+      "relative_path": "INDEX/EXACT_IDENTIFIER_INDEX.json"
+    },
+    {
+      "sha256": "db6e2eb98be819b7f5b89ea6c9a12b3309925161b1c722aa8685c850dda3aed8",
+      "byte_size": 476487,
+      "relative_path": "INDEX/FILE_TO_SOURCE_MAP.json"
+    },
+    {
+      "sha256": "16f9cb46caaddbc2ddbd9cdcee1575a1d2bdbe6828abaf38cb2915ae57f7b8d3",
+      "byte_size": 2392,
+      "relative_path": "INDEX/FORMULA_INDEX.json"
+    },
+    {
+      "sha256": "09562151bef4dd769f5746262ee7c974025fb78af887cfbf8f5abd43bcc8fed1",
+      "byte_size": 96042277,
+      "relative_path": "INDEX/GRAPH_INDEX.json"
+    },
+    {
+      "sha256": "343acf92c4b5f91c0823682518ab0a79ca6560bb09eb496de49ddc86e6266c3d",
+      "byte_size": 991,
+      "relative_path": "INDEX/NUMERIC_METRIC_INDEX.json"
+    },
+    {
+      "sha256": "7f5d0bc5b041bf0133407f73d467e90e79df6bba6adf0faddf3a836742c73c82",
+      "byte_size": 2697273,
+      "relative_path": "INDEX/PARCEL_INDEX.json"
+    },
+    {
+      "sha256": "61f512d0f477600dd5a1d7d95ee932152e488bb8200c6107ac37e5ae22632c00",
+      "byte_size": 1311627,
+      "relative_path": "INDEX/PLAN_INDEX.json"
+    },
+    {
+      "sha256": "aa501a955b7e3b17b7b1a2a3bfdc0c2614e70733517c7ba6e9359a344210a297",
+      "byte_size": 5207689,
+      "relative_path": "INDEX/PROVENANCE_INDEX.json"
+    },
+    {
+      "sha256": "48c008526572b722639e0b6255b12eff4b8c16399b0e9109d5ea328fa855ed0e",
+      "byte_size": 12711406,
+      "relative_path": "INDEX/SEGMENT_REGISTRY.json"
+    },
+    {
+      "sha256": "03a986595d99b0e2786b9e1fbee204b9987112b159511a7bfe5d69573c3bbda8",
+      "byte_size": 7790397,
+      "relative_path": "INDEX/SEGMENT_TO_INDEX_MAP.json"
+    },
+    {
+      "sha256": "cfe9990f77bd977535ef2d4eb9b2cd6265658acfbdf15750f082feedfa6c2855",
+      "byte_size": 58979,
+      "relative_path": "INDEX/SOURCE_CONTRIBUTION_LEDGER.json"
+    },
+    {
+      "sha256": "dc29c220cbe9f92de512110d956971c77b7a542382bc01167323aa1b1b14af1d",
+      "byte_size": 22323,
+      "relative_path": "INDEX/SOURCE_DOCUMENT_RELATIONSHIP.json"
+    },
+    {
+      "sha256": "86ad20178241abe7522a158f559b127ac5196c291742ffaef2d160209e3820d4",
+      "byte_size": 170402,
+      "relative_path": "INDEX/SOURCE_FILE_REGISTRY.json"
+    },
+    {
+      "sha256": "8ff5cf7f14d58fd863ac2137338a6297fff9954515c4b28a76abcf3526b706a3",
+      "byte_size": 451439,
+      "relative_path": "INDEX/SOURCE_TO_DOCUMENT_MAP.json"
+    },
+    {
+      "sha256": "a67336d84fc4f01d5120ee212e30757940200f55a64ecb7eb834c8d72270e7ab",
+      "byte_size": 4302,
+      "relative_path": "INDEX/SPECIALIZED_PLAN_REGISTRY.json"
+    },
+    {
+      "sha256": "86819157d06a362cc0d84874339a1160653cfd564c8c20a291310a2f00377b0f",
+      "byte_size": 36469,
+      "relative_path": "INDEX/SPECIALIZED_RULES_REGISTRY.json"
+    },
+    {
+      "sha256": "69942a4eafc15a9fa245bfc230680d8c18fa7da147e70c20dd9c2bfc0c04160f",
+      "byte_size": 115756,
+      "relative_path": "INDEX/STREET_INDEX.json"
+    },
+    {
+      "sha256": "0155f470b18fc778c60a117ed64831abc52801ef8d403ee67a432b132c899987",
+      "byte_size": 7136,
+      "relative_path": "INDEX/SUPERSESSION_INDEX.json"
+    },
+    {
+      "sha256": "f36c1e041bf29eaed86c0ff917a36ae5cd45d42f98244133d843acaee6ea0db7",
+      "byte_size": 5813,
+      "relative_path": "INDEX/TABLE_CELL_INDEX.json"
+    },
+    {
+      "sha256": "eae6f51d9c708e1bc13f4b6df42afe163f0eb3ce16795e7b490f818ef9c141a9",
+      "byte_size": 996150,
+      "relative_path": "INDEX/TEMPORAL_INDEX.json"
+    },
+    {
+      "sha256": "7bf031cef0c962790099a559776e2ed3c9386bde7df7472af7cc24198672a460",
+      "byte_size": 2845,
+      "relative_path": "INDEX/VISUAL_MAP_INDEX.json"
+    },
+    {
+      "sha256": "fc056103ad825cf8f6c3b062c3e6720d6b98ac555200ceff996f0dc6e875570e",
+      "byte_size": 12736,
+      "relative_path": "INDEX/VOLATILE_FACT_INDEX.json"
+    },
+    {
+      "sha256": "c03de54dd3485a3257fbe29eab917aa9757e0524090daedb6eccc68462727a81",
+      "byte_size": 2194752,
+      "relative_path": "INDEX/ZONE_INDEX.json"
+    },
+    {
+      "sha256": "510ee0c15ab51c0567781eba2bbc1e183ffbc29c44b588139a20f4adffb2f46c",
+      "byte_size": 210,
+      "relative_path": "INDEX/address_aliases.json"
+    },
+    {
+      "sha256": "6248e528301c3d439503c330c83828ce2e8a6813f394df09d6c3553ff615f683",
+      "byte_size": 255,
+      "relative_path": "INDEX/cadastral_aliases.json"
+    },
+    {
+      "sha256": "6d421e4fcae5003b8d27e95c9c38abefdd321c0842f17a16c566cdcc42fb264d",
+      "byte_size": 2773,
+      "relative_path": "INDEX/property_exact.json"
+    },
+    {
+      "sha256": "6394eb41b7cdb68cf5bd646e9fb3fba1bda64196b2d978dfc1671ed4d3a56039",
+      "byte_size": 3880,
+      "relative_path": "INDEX/property_graph_index.json"
+    },
+    {
+      "sha256": "48a4c2c49c835612d6f24d0ae307fbea35334def1b0de20f27cb77545f0010e7",
+      "byte_size": 1556,
+      "relative_path": "INDEX/property_plan_spatial_index.json"
+    },
+    {
+      "sha256": "33fcdb1a9584e5c5760f5f190d58c2c708c83d29099f57dbaaf8a6ab1e405158",
+      "byte_size": 1742,
+      "relative_path": "INDEX/property_source_date_index.json"
+    },
+    {
+      "sha256": "2c1572a4df87a3f2c7054752fcbd6157667017978f6758b0442e61a8c781d831",
+      "byte_size": 994,
+      "relative_path": "INDEX/property_timeline_index.json"
+    },
+    {
+      "sha256": "62330df050489606f6ad8a7d3875ee969f4607708878a54e8e0ca2e5d189cba7",
+      "byte_size": 2535,
+      "relative_path": "INDEX/property_volume_exact.json"
+    }
+  ],
+  "canonical_order_rule": "relative_path_alphabetical_ascending",
+  "combined_hash_algorithm": "SHA256(concat(filename + ':' + sha256 + ':' + size + '\\n'))",
+  "combined_hash": "f066b19b5832bcdb893a39f62f15c4353cbf42134cf447c450df1e4e48999af4",
+  "generated_at": "2026-09-09T13:58:53.813013+00:00"
+}

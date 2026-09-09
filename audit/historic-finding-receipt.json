@@ -1,0 +1,71 @@
+{
+  "receipt_id": "RCPT-HIST-FINDINGS-SET-EQ-R15-001",
+  "test_or_gate_id": "R15::FINDINGS::EXACT_SET_EQUALITY",
+  "run_id": "RUN-FINDINGS-1788954236",
+  "candidate_epoch_id": "EPOCH-2026-09-09-R1.5",
+  "candidate_release_id": "rel-hemiksem-v5.3.1-candidate",
+  "candidate_proof_revision": "R1.1.3.3",
+  "executable_hash": "af588b04ee9bbc438759459df86a472c9d220f66c64650c37151340bb9c250be",
+  "input_manifest_hash": "cfe67b03fe773f9665a6f2f39d74c2906413c0b23520f0bda7f5f7e0e4297674",
+  "criteria": "historic_finding_required_set == historic_finding_observed_set, set_diff == [], count == 16",
+  "observed_result": {
+    "required_count": 16,
+    "observed_count": 16,
+    "count_equality": true,
+    "set_equality": true,
+    "historic_finding_required_set": [
+      "HEM-ACCESS-001",
+      "HEM-AIACT-SCOPE-001",
+      "HEM-COMM-001",
+      "HEM-CONTROL-001",
+      "HEM-CUR-001",
+      "HEM-DUTY-001",
+      "HEM-DUTY-002",
+      "HEM-GOV-001",
+      "HEM-INT-001",
+      "HEM-INT-002",
+      "HEM-INT-003",
+      "HEM-LEG-WATCH-001",
+      "HEM-NIS2-SCOPE-001",
+      "HEM-POLICE-001",
+      "HEM-PRIV-001",
+      "HEM-SOURCE-001"
+    ],
+    "historic_finding_observed_set": [
+      "HEM-ACCESS-001",
+      "HEM-AIACT-SCOPE-001",
+      "HEM-COMM-001",
+      "HEM-CONTROL-001",
+      "HEM-CUR-001",
+      "HEM-DUTY-001",
+      "HEM-DUTY-002",
+      "HEM-GOV-001",
+      "HEM-INT-001",
+      "HEM-INT-002",
+      "HEM-INT-003",
+      "HEM-LEG-WATCH-001",
+      "HEM-NIS2-SCOPE-001",
+      "HEM-POLICE-001",
+      "HEM-PRIV-001",
+      "HEM-SOURCE-001"
+    ],
+    "set_difference_missing": [],
+    "set_difference_unexpected": [],
+    "symmetric_difference": [],
+    "set_hash": "cfe67b03fe773f9665a6f2f39d74c2906413c0b23520f0bda7f5f7e0e4297674"
+  },
+  "pass_fail": "PASS",
+  "started_at": "2026-09-09T13:43:56+02:00",
+  "finished_at": "2026-09-09T13:43:56+02:00",
+  "stdout_hash": "ead10faf14a3b823ffb481812e0ebe257cb8d733a2fd6d5fb1e482858dad898a",
+  "stderr_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "output_artifact_hashes": {
+    "registry_hash": "0e3a6b999c29adb613e9f14f094d70a3760472d75300849bd953e0cb08aaaad9"
+  },
+  "environment_fingerprint": {
+    "python": "3.12.10",
+    "platform": "win32"
+  },
+  "operator_or_execution_identity": "HEMIKSEM-R15-LEGAL-REGISTRY",
+  "write_capability_state": "READ_ONLY_TESTING"
+}

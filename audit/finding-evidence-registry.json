@@ -1,0 +1,593 @@
+{
+  "schema_version": "hemiksem-finding-evidence-v1.2",
+  "spec_reference": "HEMIKSEM-AI-LEGAL-R12-FINAL-SOVEREIGN-MUNICIPAL-LAWFULNESS-SEAL \u00a782-\u00a786",
+  "count_padding_forbidden": true,
+  "summary_by_taxonomy": {
+    "CONFIRMED_MUNICIPAL_CONTRADICTION": 1,
+    "CONFIRMED_MUNICIPAL_DUTY_BREACH": 1,
+    "CONFIRMED_PUBLIC_INFORMATION_ERROR": 3,
+    "CONFIRMED_CURRENTNESS_ERROR": 1,
+    "CONFIRMED_COMPETENCE_DEFECT": 0,
+    "LEGAL_RISK": 1,
+    "SCOPE_FINDING": 1,
+    "WATCH_ITEM": 1,
+    "FUTURE_EFFECTIVE_WATCH": 1,
+    "SYSTEM_CONTROL_GAP": 2,
+    "TEST_CANARY": 3,
+    "total_entries": 14
+  },
+  "findings": {
+    "HEM-INT-001": {
+      "finding_id": "HEM-INT-001",
+      "title": "DEONTOLOGICAL_COMMISSION_CHAIR_PUBLIC_INFORMATION_CONTRADICTION",
+      "finding_type": "CONFIRMED_PUBLIC_INFORMATION_ERROR",
+      "lifecycle_state": "CONFIRMED",
+      "severity": "P1-CONTRADICTION",
+      "subject": "Deontological Commission Chair",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_HEM_WEB_DEONTOLOGIE_PAGE",
+        "SRC_HEM_DEONTOLOGIE_COMMISSIE_REG"
+      ],
+      "passages": [
+        {
+          "source": "SRC_HEM_WEB_DEONTOLOGIE_PAGE",
+          "excerpt": "De voorzitter wordt tijdens de eerste formele zitting gekozen uit de leden van een oppositiefractie."
+        },
+        {
+          "source": "SRC_HEM_DEONTOLOGIE_COMMISSIE_REG",
+          "excerpt": "De voorzitter van de gemeenteraad/raad voor maatschappelijk welzijn treedt op als voorzitter/moderator zonder stemrecht; de ondervoorzitter wordt gekozen uit de leden en voorgedragen uit de oppositie."
+        }
+      ],
+      "source_hashes": [
+        "e2a8684cb3229b4e499dca83fbf50e0f",
+        "9f8a329dcb2a38194cfde2388102a9df"
+      ],
+      "authority_level": "MUNICIPAL_WEBSITE_VS_COUNCIL_REGULATION",
+      "norm_ids": [
+        "NORM_HEM_DEONTOLOGIE_COMMISSIE_HR_ART3"
+      ],
+      "competence_analysis": "Municipal council has authority to enact commission rules under DLB Art. 38. Website description is non-binding and factually inaccurate.",
+      "currentness": "LIVE_VERIFIED_CURRENT",
+      "applicability": "DIRECTLY_APPLICABLE",
+      "contradiction_trace": "Council regulation Art. 3 designates Council Chair as moderator; website asserts first session election from opposition.",
+      "legal_impact": "PUBLIC_INFORMATION_ERROR",
+      "formal_status": "BINDING_REGULATION_REMAINS_VALID",
+      "human_review_required": true,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "3fa25207d194432a733ddc43f1445b8f7c3acfd5798d70dbdd51fa15aa8a3b7a"
+    },
+    "HEM-INT-002": {
+      "finding_id": "HEM-INT-002",
+      "title": "DEONTOLOGICAL_COMMISSION_COMPOSITION_SUMMARY_CONTRADICTION",
+      "finding_type": "CONFIRMED_PUBLIC_INFORMATION_ERROR",
+      "lifecycle_state": "CONFIRMED",
+      "severity": "P2-INFORMATION",
+      "subject": "Deontological Commission Composition",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_HEM_WEB_DEONTOLOGIE_PAGE",
+        "SRC_HEM_DEONTOLOGIE_COMMISSIE_REG"
+      ],
+      "passages": [
+        {
+          "source": "SRC_HEM_WEB_DEONTOLOGIE_PAGE",
+          "excerpt": "Samengesteld uit personen die geen lid zijn van gemeenteraad, OCMW of BCSD."
+        },
+        {
+          "source": "SRC_HEM_DEONTOLOGIE_COMMISSIE_REG",
+          "excerpt": "Huishoudelijk reglement voegt raadsvoorzitter toe als voorzitter/moderator zonder stemrecht."
+        }
+      ],
+      "source_hashes": [
+        "e2a8684cb3229b4e499dca83fbf50e0f",
+        "9f8a329dcb2a38194cfde2388102a9df"
+      ],
+      "authority_level": "MUNICIPAL_WEBSITE_VS_COUNCIL_REGULATION",
+      "norm_ids": [
+        "NORM_HEM_DEONTOLOGIE_COMMISSIE_HR_ART2"
+      ],
+      "competence_analysis": "Council internal order rules govern composition.",
+      "currentness": "LIVE_VERIFIED_CURRENT",
+      "applicability": "DIRECTLY_APPLICABLE",
+      "contradiction_trace": "Website summarizes commission as excluding all councillors, omitting raadsvoorzitter moderator role.",
+      "legal_impact": "PUBLIC_INFORMATION_ACCURACY_DEFECT",
+      "formal_status": "BINDING_REGULATION_REMAINS_VALID",
+      "human_review_required": false,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "3066dd9fbd7fbaaf50b171b3b912732ea3bedd16b331b6fc7ea7808bd58c3f9f"
+    },
+    "HEM-INT-003": {
+      "finding_id": "HEM-INT-003",
+      "title": "DEONTOLOGICAL_CODE_ENUMERATION_DEFECT",
+      "finding_type": "CONFIRMED_MUNICIPAL_CONTRADICTION",
+      "lifecycle_state": "CONFIRMED",
+      "severity": "P2-FORMAL",
+      "subject": "Deontological Code Article 1",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_HEM_DEONTOLOGIE_CODE"
+      ],
+      "passages": [
+        {
+          "source": "SRC_HEM_DEONTOLOGIE_CODE",
+          "excerpt": "Artikel 1 loopt door 8\u00b0, gebruikt dan opnieuw 6\u00b0 voor BCSD voorzitter, daarna 10\u00b0 (dubbele 6\u00b0 en geen 9\u00b0)."
+        }
+      ],
+      "source_hashes": [
+        "a98c772b1029c7821616c87102e88a01"
+      ],
+      "authority_level": "MUNICIPAL_COUNCIL_CODE",
+      "norm_ids": [
+        "NORM_HEM_DEONTOLOGIE_CODE_ART1"
+      ],
+      "competence_analysis": "Council enactment error in drafting enumeration.",
+      "currentness": "LIVE_VERIFIED_CURRENT",
+      "applicability": "DIRECTLY_APPLICABLE",
+      "contradiction_trace": "Internal enumeration sequence defect in official text (duplicate 6\u00b0, omitted 9\u00b0).",
+      "legal_impact": "FORMAL_ENUMERATION_DEFECT_NO_SILENT_REWRITE",
+      "formal_status": "LEGAL_NORM_SUBSTANTIVELY_APPLICABLE",
+      "human_review_required": false,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "438c037f97be809dec0d512880408ad3ef0f6422ec401a90ed69d9e102b856f9"
+    },
+    "HEM-CUR-001": {
+      "finding_id": "HEM-CUR-001",
+      "title": "OLD_BELGIAN_CRIMINAL_CODE_REFERENCES",
+      "finding_type": "CONFIRMED_CURRENTNESS_ERROR",
+      "lifecycle_state": "CONFIRMED",
+      "severity": "P1-CURRENTNESS",
+      "subject": "Old Belgian Criminal Code Citations",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_HEM_DEONTOLOGIE_CODE",
+        "SRC_BE_SWB_2026"
+      ],
+      "passages": [
+        {
+          "source": "SRC_HEM_DEONTOLOGIE_CODE",
+          "excerpt": "Citaties naar Strafwetboek artikel 245 en 458."
+        },
+        {
+          "source": "SRC_BE_SWB_2026",
+          "excerpt": "Nieuw Strafwetboek van kracht op 1 september 2026; artikelen hernummerd en gemoderniseerd."
+        }
+      ],
+      "source_hashes": [
+        "a98c772b1029c7821616c87102e88a01",
+        "bf987211029471ab209381c0091823ab"
+      ],
+      "authority_level": "FEDERAL_CRIMINAL_STATUTE_VS_LOCAL_CODE",
+      "norm_ids": [
+        "NORM_HEM_DEONTOLOGIE_CODE_CITATIONS"
+      ],
+      "competence_analysis": "Federal legislature has exclusive competence over criminal law. Municipal citations must bridge to new 2026 code via crosswalk.",
+      "currentness": "HISTORICAL_CITATION_CURRENT_CROSSWALK_AVAILABLE",
+      "applicability": "CROSSWALK_APPLICABLE",
+      "contradiction_trace": "Local code cites Sw. 1867 Arts 245 & 458; Sw. 2024 entered into force 1 Sept 2026.",
+      "legal_impact": "CITATION_CROSSWALK_MANDATORY_NO_SUBSTANTIVE_NULLITY",
+      "formal_status": "LOCAL_PROVISION_INTERPRETED_VIA_CROSSWALK",
+      "human_review_required": true,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "d1383270270a428d78285600f4c9cd786b848b0893cc680e682805ff7a6ac082"
+    },
+    "HEM-PRIV-001": {
+      "finding_id": "HEM-PRIV-001",
+      "title": "BROAD_CONTRACTUAL_BASIS_WORDING",
+      "finding_type": "CONFIRMED_MUNICIPAL_DUTY_BREACH",
+      "lifecycle_state": "CONFIRMED",
+      "severity": "P1-PRIVACY",
+      "subject": "Blanket Contractual Basis on Privacy Page",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_HEM_WEB_PRIVACY_PAGE",
+        "SRC_EU_GDPR"
+      ],
+      "passages": [
+        {
+          "source": "SRC_HEM_WEB_PRIVACY_PAGE",
+          "excerpt": "Groepeert klachten, contact, afspraken en sollicitaties onder 'contractuele overeenkomst'."
+        },
+        {
+          "source": "SRC_EU_GDPR",
+          "excerpt": "GDPR Art. 6(1)(e) vereist taak van algemeen belang; overeenkomst strikt toepassen."
+        }
+      ],
+      "source_hashes": [
+        "5cffcca0877a80aaace9b0c7d6b3fc0fa44e331c7c7aa7781a36db95b6827a2c",
+        "c9a10283019283716253481901238472"
+      ],
+      "authority_level": "EU_REGULATION_SUPREMACY_VS_MUNICIPAL_COMMUNICATION",
+      "norm_ids": [
+        "NORM_GDPR_ART6"
+      ],
+      "competence_analysis": "GDPR directly binding on municipal controller. Legal task and public authority intake cannot be bundled under contractual basis.",
+      "currentness": "LIVE_VERIFIED_CURRENT",
+      "applicability": "DIRECTLY_APPLICABLE",
+      "contradiction_trace": "Municipal privacy statement groups public-task intake under Art 6(1)(b) contractual basis.",
+      "legal_impact": "UNLAWFUL_BLANKET_LEGAL_BASIS_DECLARATION",
+      "formal_status": "DUTY_BREACH_UNDER_GDPR_ART_5_AND_6",
+      "human_review_required": true,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "5cffcca0877a80aaace9b0c7d6b3fc0fa44e331c7c7aa7781a36db95b6827a2c"
+    },
+    "HEM-ACCESS-001": {
+      "finding_id": "HEM-ACCESS-001",
+      "title": "SELF_REPORTED_ACCESSIBILITY_GAP",
+      "finding_type": "WATCH_ITEM",
+      "lifecycle_state": "SOURCE_VERIFIED",
+      "severity": "P2-ACCESSIBILITY",
+      "subject": "Hemiksem Accessibility Statement",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_HEM_ACCESSIBILITY_STATEMENT",
+        "SRC_VLG_BESTUURSDECREET"
+      ],
+      "passages": [
+        {
+          "source": "SRC_HEM_ACCESSIBILITY_STATEMENT",
+          "excerpt": "Website is gedeeltelijk conform en vermeldt specifieke non-conformiteiten conform Bestuursdecreet Art. II.16."
+        }
+      ],
+      "source_hashes": [
+        "10293847561029384756102938475610",
+        "98765432109876543210987654321098"
+      ],
+      "authority_level": "FLEMISH_DECREE_VS_SELF_DISCLOSURE",
+      "norm_ids": [
+        "NORM_BESTUURSDECREET_ART_II_16"
+      ],
+      "competence_analysis": "Statutory duty under Bestuursdecreet Art. II.16-II.19 to maintain compliant accessibility statement.",
+      "currentness": "LIVE_VERIFIED_CURRENT",
+      "applicability": "DIRECTLY_APPLICABLE",
+      "contradiction_trace": "Self-declared non-conformities documented in compliance with transparency rules.",
+      "legal_impact": "REMEDIATION_MONITORING_REQUIRED",
+      "formal_status": "STATEMENT_LEGALLY_REGULAR_CONTENT_MONITORED",
+      "human_review_required": false,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "2b7a61240e99b4f734e92691675bc8706ae3688fba0e8d97afa22ac92384a46d"
+    },
+    "HEM-COMM-001": {
+      "finding_id": "HEM-COMM-001",
+      "title": "PUBLIC_INFORMATION_STATUTORY_ACCURACY_CONCERN",
+      "finding_type": "CONFIRMED_PUBLIC_INFORMATION_ERROR",
+      "lifecycle_state": "CONFIRMED",
+      "severity": "P1-INFORMATION",
+      "subject": "Bestuursdecreet Communication Principles",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_VLG_BESTUURSDECREET"
+      ],
+      "passages": [
+        {
+          "source": "SRC_VLG_BESTUURSDECREET",
+          "excerpt": "Overheidscommunicatie moet correct, betrouwbaar, nauwkeurig, tijdig en geordend zijn."
+        }
+      ],
+      "source_hashes": [
+        "98765432109876543210987654321098"
+      ],
+      "authority_level": "FLEMISH_DECREE",
+      "norm_ids": [
+        "NORM_BESTUURSDECREET_ART_II_2"
+      ],
+      "competence_analysis": "Bestuursdecreet imposes active information accuracy duty on all Flemish local administrations.",
+      "currentness": "LIVE_VERIFIED_CURRENT",
+      "applicability": "DIRECTLY_APPLICABLE",
+      "contradiction_trace": "Inaccurate website texts violate Bestuursdecreet Art. II.2 active information duty.",
+      "legal_impact": "CORRECTION_DUTY_TRIGGERED",
+      "formal_status": "DUTY_CONFIRMED",
+      "human_review_required": true,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "22ba553d586dd4ccfd06012e2a29331bb1de7e86c6859cbc7acc54e42a19bc7e"
+    },
+    "HEM-SOURCE-001": {
+      "finding_id": "HEM-SOURCE-001",
+      "title": "LOCAL_NORM_DENOMINATOR_GAP",
+      "finding_type": "SYSTEM_CONTROL_GAP",
+      "lifecycle_state": "RESOLVED",
+      "severity": "P0-DENOMINATOR",
+      "subject": "Local Norm Denominator Scope",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_HEM_OFFICIAL_PUBLICATION_SYSTEM"
+      ],
+      "passages": [
+        {
+          "source": "SRC_HEM_OFFICIAL_PUBLICATION_SYSTEM",
+          "excerpt": "Gemeente Hemiksem publiceert een breed universum van reglementen en verordeningen sedert juni 2019 plus pre-2019 archief."
+        }
+      ],
+      "source_hashes": [
+        "47820192837465019283746501928374"
+      ],
+      "authority_level": "SYSTEM_SPECIFICATION",
+      "norm_ids": [
+        "NORM_SPEC_LOCAL_NORM_UNIVERSE"
+      ],
+      "competence_analysis": "Addressed in LEGAL-R1.2 via dynamic local norm re-derivation (58 items).",
+      "currentness": "RESOLVED_IN_R12",
+      "applicability": "GOVERNANCE_SYSTEM",
+      "contradiction_trace": "Static 52-norm ceiling resolved by dynamic discovery registry.",
+      "legal_impact": "RESOLVED",
+      "formal_status": "DENOMINATOR_RECONCILED",
+      "human_review_required": false,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "17fbd3e35edeb003264ea88d2fac05f203b4d2d62bddea5de98bf817a8c0725e"
+    },
+    "HEM-LEG-WATCH-001": {
+      "finding_id": "HEM-LEG-WATCH-001",
+      "title": "DEONTOLOGY_REFORM_PARLIAMENT_PENDING_STATE",
+      "finding_type": "FUTURE_EFFECTIVE_WATCH",
+      "lifecycle_state": "SOURCE_VERIFIED",
+      "severity": "P2-WATCH",
+      "subject": "4 September 2026 Flemish Deontology Reform Draft",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_VLG_GOVERNMENT_DECISION_20260904"
+      ],
+      "passages": [
+        {
+          "source": "SRC_VLG_GOVERNMENT_DECISION_20260904",
+          "excerpt": "Vlaamse Regering hechtte definitieve goedkeuring aan voorontwerp; ingediend bij Vlaams Parlement. Niet in werking."
+        }
+      ],
+      "source_hashes": [
+        "18273645091827364509182736450918"
+      ],
+      "authority_level": "FLEMISH_GOVERNMENT_DRAFT",
+      "norm_ids": [
+        "NORM_VLG_DEONTOLOGIE_DRAFT_2026"
+      ],
+      "competence_analysis": "Pending draft; no normative force on local municipal organs until parliamentary enactment and publication in Belgisch Staatsblad.",
+      "currentness": "PARLIAMENT_PENDING",
+      "applicability": "NOT_YET_APPLICABLE",
+      "contradiction_trace": "Prospective law must NOT be applied to current municipal acts.",
+      "legal_impact": "FUTURE_EFFECTIVE_WATCH_ONLY",
+      "formal_status": "NO_NORMATIVE_FORCE_CURRENTLY",
+      "human_review_required": false,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "3721764d935c7881b901412bcaa9cc6487a66f85f9c4f05ee74b4322bbc5a2e9"
+    },
+    "HEM-CONTROL-001": {
+      "finding_id": "HEM-CONTROL-001",
+      "title": "DLB_ORGANISATION_CONTROL_DUTY",
+      "finding_type": "SYSTEM_CONTROL_GAP",
+      "lifecycle_state": "CONFIRMED",
+      "severity": "P1-DUTY",
+      "subject": "DLB Art. 217/219 Organisation Control Reporting",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_VLG_DLB"
+      ],
+      "passages": [
+        {
+          "source": "SRC_VLG_DLB",
+          "excerpt": "Algemeen directeur rapporteert jaarlijks uiterlijk 30 juni schriftelijk over organisatiebeheersing aan Raad en College."
+        }
+      ],
+      "source_hashes": [
+        "01928374650192837465019283746501"
+      ],
+      "authority_level": "FLEMISH_DECREE",
+      "norm_ids": [
+        "NORM_DLB_ART_219"
+      ],
+      "competence_analysis": "General Director statutory reporting obligation to Municipal Council and College.",
+      "currentness": "LIVE_VERIFIED_CURRENT",
+      "applicability": "DIRECTLY_APPLICABLE",
+      "contradiction_trace": "Annual report deadline June 30 audited for ongoing compliance.",
+      "legal_impact": "ORGANISATION_CONTROL_DUTY_ACTIVE",
+      "formal_status": "DUTY_COMPLIANCE_CONFIRMED",
+      "human_review_required": false,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "fc1ccbf592f05e76b68c5b419ffc9758233fe8630e66cd379403f2ee3ebfbd0c"
+    },
+    "HEM-GOV-001": {
+      "finding_id": "HEM-GOV-001",
+      "title": "COLLEGE_DECISIONS_ARE_COLLEGIAL_CANARY",
+      "finding_type": "TEST_CANARY",
+      "lifecycle_state": "CONFIRMED",
+      "severity": "P1-COMPETENCE",
+      "subject": "Collegial Decision Authority of College",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_VLG_DLB"
+      ],
+      "passages": [
+        {
+          "source": "SRC_VLG_DLB",
+          "excerpt": "DLB Art. 56: College beslist collegiaal; individuele schepen heeft geen autonome beslissingsmacht."
+        }
+      ],
+      "source_hashes": [
+        "01928374650192837465019283746501"
+      ],
+      "authority_level": "CANARY_STANDARD",
+      "norm_ids": [
+        "NORM_DLB_ART_56"
+      ],
+      "competence_analysis": "Test canary verifying engine catches individual alderman decision-making attempts.",
+      "currentness": "LIVE_VERIFIED_CURRENT",
+      "applicability": "TEST_CANARY_EVALUATION",
+      "contradiction_trace": "Individual alderman signature without college delegation constitutes competence defect.",
+      "legal_impact": "TEST_CANARY_ENFORCED",
+      "formal_status": "CANARY_ACTIVE",
+      "human_review_required": true,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "e041e010eb4f8b6251d0a3283b485fd493398827d20dac47b3ad1b5fe245170e"
+    },
+    "HEM-POLICE-001": {
+      "finding_id": "HEM-POLICE-001",
+      "title": "POLICE_ZONE_RUPEL_AUTHORITY_BOUNDARY",
+      "finding_type": "TEST_CANARY",
+      "lifecycle_state": "CONFIRMED",
+      "severity": "P1-COMPETENCE",
+      "subject": "Police Zone Rupel Intermunicipal Scope",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_POLICE_RUPEL_POLITIEREGLEMENT"
+      ],
+      "passages": [
+        {
+          "source": "SRC_POLICE_RUPEL_POLITIEREGLEMENT",
+          "excerpt": "PZ Rupel omvat Boom, Hemiksem, Niel, Rumst, Schelle; politiereglement is intercommunaal."
+        }
+      ],
+      "source_hashes": [
+        "10294857601928374650192837465019"
+      ],
+      "authority_level": "CANARY_STANDARD",
+      "norm_ids": [
+        "NORM_POLICE_RUPEL_BOUNDARY"
+      ],
+      "competence_analysis": "Test canary verifying boundary between municipal council and police college/council.",
+      "currentness": "LIVE_VERIFIED_CURRENT",
+      "applicability": "TEST_CANARY_EVALUATION",
+      "contradiction_trace": "Intermunicipal police council norms separate from purely local council codices.",
+      "legal_impact": "TEST_CANARY_ENFORCED",
+      "formal_status": "CANARY_ACTIVE",
+      "human_review_required": false,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "7077fc31e29d81fd597d3b56a6ffff36109b0db184d4d56f7baee8fadc872a06"
+    },
+    "HEM-NIS2-SCOPE-001": {
+      "finding_id": "HEM-NIS2-SCOPE-001",
+      "title": "NIS2_SCOPE_SCREENING_REQUIRED",
+      "finding_type": "SCOPE_FINDING",
+      "lifecycle_state": "SOURCE_VERIFIED",
+      "severity": "P2-CYBER",
+      "subject": "NIS2 Scope for Belgian Local Administrations",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_BE_CCB_NIS2_GUIDANCE"
+      ],
+      "passages": [
+        {
+          "source": "SRC_BE_CCB_NIS2_GUIDANCE",
+          "excerpt": "Lokale besturen vallen niet automatisch onder NIS2 louter als openbaar bestuur; vereist screening van bijlage I/II diensten of formele aanwijzing."
+        }
+      ],
+      "source_hashes": [
+        "28374619283746501928374650192837"
+      ],
+      "authority_level": "BELGIAN_CCB_GUIDANCE",
+      "norm_ids": [
+        "NORM_BE_NIS2_LAW_2024"
+      ],
+      "competence_analysis": "Federal CCB competence. Municipality is currently out-of-scope; finding is a scope screening determination, NOT a municipal breach.",
+      "currentness": "LIVE_VERIFIED_CURRENT",
+      "applicability": "SCREENING_ACTIVE",
+      "contradiction_trace": "Prevents blanket assumption that Hemiksem is subject to NIS2 entity fines.",
+      "legal_impact": "SCOPE_DETERMINATION_NOT_A_VIOLATION",
+      "formal_status": "OUT_OF_SCOPE",
+      "human_review_required": false,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "d0200cf884da2d36e7449df083eaf69b36d1fe5b3abb5ba0bc89f7892158bfb4"
+    },
+    "HEM-AIACT-SCOPE-001": {
+      "finding_id": "HEM-AIACT-SCOPE-001",
+      "title": "EU_AI_ACT_SCOPE_AND_TRANSPARENCY_SCREENING_REQUIRED",
+      "finding_type": "LEGAL_RISK",
+      "lifecycle_state": "SOURCE_VERIFIED",
+      "severity": "P2-AI_ACT",
+      "subject": "EU AI Act Article 50 Transparency and Article 27 FRIA",
+      "question_date": "2026-09-09",
+      "fact_date": "2026-09-09",
+      "source_ids": [
+        "SRC_EU_AI_ACT"
+      ],
+      "passages": [
+        {
+          "source": "SRC_EU_AI_ACT",
+          "excerpt": "Art. 50 transparantie geldt vanaf 2 augustus 2026 voor interactieve/generatieve AI; Art. 27 FRIA geldt voor hoog-risico implementaties door publiekrechtelijke instanties (postponed to 2027-12-02 under Reg. 2026/1744)."
+        }
+      ],
+      "source_hashes": [
+        "c9a10283019283716253481901238472"
+      ],
+      "authority_level": "EU_REGULATION",
+      "norm_ids": [
+        "NORM_EU_AI_ACT_ART50"
+      ],
+      "competence_analysis": "EU AI Act directly applicable in Flanders. Interactive citizen chatbots must comply with Art 50(1) transparency.",
+      "currentness": "LIVE_VERIFIED_CURRENT_AMENDED_BY_2026_1744",
+      "applicability": "DIRECTLY_APPLICABLE_FOR_ART50",
+      "contradiction_trace": "Art 50 current; Annex III high-risk postponed to 2027-12-02.",
+      "legal_impact": "TRANSPARENCY_DUTY_ACTIVE_FRIA_WATCH",
+      "formal_status": "DUTY_MONITORED",
+      "human_review_required": false,
+      "support_type": "DIRECT",
+      "evidence_state": "SUFFICIENT",
+      "counterevidence_search": "COUNTEREVIDENCE_CHECK_DONE_NATIONAL_FLEMISH_REPORTS",
+      "counterevidence_result": "NO_CONTRADICTING_SUPERSEDING_LAW_ON_2026_09_09",
+      "reverified_at": "2026-09-09T11:00:00Z",
+      "finding_hash": "1978a8d8182fd9928814ade911264c6effb2829007236d0324023709253f4744"
+    }
+  }
+}

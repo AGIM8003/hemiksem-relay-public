@@ -1,15 +1,12 @@
 openapi: 3.1.0
 info:
   title: AI Expert Hemiksem — Connected Custom GPT Action
-  version: 5.3.2-RECOVERY-CANDIDATE
-  description: Connected GPT Action Contract for Gemeente Hemiksem (10 Core Connected
-    Operations).
+  version: 5.3.2-RECOVERY
+  description: Connected GPT Action Contract for Gemeente Hemiksem (20 Operations).
   x-generated-from: OPENAPI/server-recall.openapi.yaml
-  x-source-openapi-hash: 5f93f7b761c5f6ac4cffdceed59edab963a8637d6ed974d3788b13c06ad89398
-  x-canonical-contract-hash: b4ebe107b101e77103bdad1653ebd055fc531cd4cca41e4c2a21c7fe037eecd7
   x-canonicalizer-version: v1.0
-  x-release-id: rel-hemiksem-v5.3.0-prod
-  x-proof-revision: R1.1.3.2
+  x-release-id: rel-hemiksem-v5.3.2-recovery-final
+  x-proof-revision: R1.1.3.5
 servers:
 - url: https://act-husband-wallpaper-exists.trycloudflare.com
   description: Production Cloudflare Ingress Gateway (HTTPS, EUR 0.00)
@@ -21,8 +18,7 @@ paths:
       summary: Server health, version identity, zero-cost state, and production readiness.
       responses:
         '200':
-          description: Server health, version identity, zero-cost state, and production
-            readiness.
+          description: Server health, version identity, zero-cost state, and production readiness.
           content:
             application/json:
               schema:
@@ -134,12 +130,10 @@ paths:
     get:
       operationId: getHemiksemEvidencePack
       x-openai-isConsequential: false
-      summary: Comprehensive evidence package with ranked segments, segment text,
-        and document metadata.
+      summary: Comprehensive evidence package with ranked segments, segment text, and document metadata.
       responses:
         '200':
-          description: Comprehensive evidence package with ranked segments, segment
-            text, and document metadata.
+          description: Comprehensive evidence package with ranked segments, segment text, and document metadata.
           content:
             application/json:
               schema:
@@ -172,8 +166,7 @@ paths:
       summary: Temporal currentness state of a claim, document, segment, or query.
       responses:
         '200':
-          description: Temporal currentness state of a claim, document, segment, or
-            query.
+          description: Temporal currentness state of a claim, document, segment, or query.
           content:
             application/json:
               schema:
@@ -253,8 +246,173 @@ paths:
       summary: Describe all available server capabilities with dynamic maturity state.
       responses:
         '200':
-          description: Describe all available server capabilities with dynamic maturity
-            state.
+          description: Describe all available server capabilities with dynamic maturity state.
+          content:
+            application/json:
+              schema:
+                type: object
+  /v4/proof-status:
+    get:
+      operationId: getHemiksemProofStatus
+      x-openai-isConsequential: false
+      summary: Safe introspection of current system release health, tests, gates, and proof revision.
+      responses:
+        '200':
+          description: Safe introspection proof status object.
+          content:
+            application/json:
+              schema:
+                type: object
+  /v4/quality-context:
+    get:
+      operationId: getMunicipalQualityContext
+      x-openai-isConsequential: false
+      summary: Municipal domain quality context for decision support and scope limiting.
+      responses:
+        '200':
+          description: Domain quality context with evidence guidance.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: domain_id
+        in: query
+        required: true
+        schema:
+          type: string
+      - name: claim_type
+        in: query
+        required: false
+        schema:
+          type: string
+  /v4/domain-quality:
+    get:
+      operationId: getMunicipalDomainQuality
+      x-openai-isConsequential: false
+      summary: Detailed quality metrics and sample sufficiency state for a specific municipal domain.
+      responses:
+        '200':
+          description: Detailed domain quality record.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: domain_id
+        in: query
+        required: true
+        schema:
+          type: string
+  /v4/lifecycle-summary:
+    get:
+      operationId: getKnowledgeLifecycleSummary
+      x-openai-isConsequential: false
+      summary: Complete accounting summary of discovered, eligible, admitted, and searchable knowledge.
+      responses:
+        '200':
+          description: Lifecycle accounting summary.
+          content:
+            application/json:
+              schema:
+                type: object
+  /v4/lifecycle-item:
+    get:
+      operationId: getKnowledgeLifecycleItem
+      x-openai-isConsequential: false
+      summary: Exact lookup of a single source or document lifecycle record.
+      responses:
+        '200':
+          description: Exact lifecycle item record.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: item_id
+        in: query
+        required: true
+        schema:
+          type: string
+  /v4/procedures:
+    get:
+      operationId: listMunicipalProcedures
+      x-openai-isConsequential: false
+      summary: List registered municipal procedures with completeness and authority state.
+      responses:
+        '200':
+          description: List of registered procedures.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: domain_id
+        in: query
+        required: false
+        schema:
+          type: string
+  /v4/procedure/{procedure_id}:
+    get:
+      operationId: getMunicipalProcedure
+      x-openai-isConsequential: false
+      summary: Exact municipal procedure record with steps, required documents, fees, and channels.
+      responses:
+        '200':
+          description: Exact procedure record.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: procedure_id
+        in: path
+        required: true
+        schema:
+          type: string
+  /v4/volatile-facts:
+    get:
+      operationId: getVolatileFactStatus
+      x-openai-isConsequential: false
+      summary: Volatile facts with verified currentness, TTL policies, and high-risk safety protection.
+      responses:
+        '200':
+          description: Volatile facts summary or specific fact record.
+          content:
+            application/json:
+              schema:
+                type: object
+      parameters:
+      - name: fact_id
+        in: query
+        required: false
+        schema:
+          type: string
+      - name: fact_class
+        in: query
+        required: false
+        schema:
+          type: string
+  /v4/volatile-facts/coverage:
+    get:
+      operationId: listVolatileFactCoverage
+      x-openai-isConsequential: false
+      summary: Coverage and freshness metrics across volatile municipal fact classes.
+      responses:
+        '200':
+          description: Volatile facts coverage metrics.
+          content:
+            application/json:
+              schema:
+                type: object
+  /v4/retrieval-status:
+    get:
+      operationId: getHemiksemRetrievalStatus
+      x-openai-isConsequential: false
+      summary: Operational health, vector epoch, closure metrics, and hybrid retrieval state.
+      responses:
+        '200':
+          description: Operational health and retrieval introspection status.
           content:
             application/json:
               schema:

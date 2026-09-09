@@ -1,0 +1,17 @@
+{
+  "auditor_name": "HEMIKSEM-R16-SEPARATE-TOOLCHAIN-AUDITOR",
+  "auditor_version": "1.6.0",
+  "auditor_level": 2,
+  "level_name": "SEPARATE_TOOLCHAIN_READ_ONLY_AUDITOR",
+  "source_hash": "d3cb78258ae1a9e5f749041e359ae0dfa6f9bb346f5fc395161d748741d9fe75",
+  "binary_or_package_hash": "d6ca1284c7bd7ae5870c8ab738ede617c834b0c6d27e733d7d2a522b2e1e0f98",
+  "dependency_lock_hash": "00aa2ab06330b39518647eb7a572c574ed2a05c9e121f171cb30461ba2f075dd",
+  "configuration_hash": "15197e60d4c2623346a9de55cadc66406495f6cbf8429423d1b67d988c48a2f8",
+  "rule_set_hash": "691c262274343e4625e55d55dd6ae545ce30fa98eb36265ccf84b8f455ba1975",
+  "permission_profile": "READ_ONLY_STRICT",
+  "network_policy": "READ_ONLY_ZERO_EXTERNAL_COST",
+  "write_methods_count": 0,
+  "candidate_write_access": false,
+  "promotion_access": false,
+  "spec_id": "HEMIKSEM-AI-CONTROL-R16-LEGAL-R16-EXTERNAL-VERIFICATION-AND-PROMOTION-CLOSURE"
+}

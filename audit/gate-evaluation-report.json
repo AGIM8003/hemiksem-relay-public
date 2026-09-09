@@ -1,0 +1,1053 @@
+{
+  "report_id": "RPT-GATE-EVAL-RERP01-001",
+  "spec_id": "HEMIKSEM-AI-RERP-01",
+  "candidate_release_id": "rel-hemiksem-v5.3.2-recovery-candidate",
+  "candidate_proof_revision": "R1.1.3.4",
+  "total_gates": 72,
+  "passed_gates": 71,
+  "failed_gates": 1,
+  "inherited_r14_count": 25,
+  "inherited_r15_count": 22,
+  "new_r16_count": 25,
+  "gate_set_hash": "2f9560e705753c73319d86acc160905faee43b25cc88be638abb80c6ddbfb4b9",
+  "blocking_failure_notes": [
+    "R16::PUBLICATION::EXTERNAL_COMMIT_PINNED_FETCH failed closed (External fetch unpushed - P0-01 PUBLICATION_COMMIT_CLOSURE_FAILURE; Blocks release promotion until operator pushes out-of-band)"
+  ],
+  "gates": {
+    "R14::RELEASE::RECURSIVE_SERVING_RELEASE_CLOSURE": {
+      "gate_id": "R14::RELEASE::RECURSIVE_SERVING_RELEASE_CLOSURE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "00.CONTROL/CANDIDATE_RELEASE.json"
+      ],
+      "calculation_method": "verify candidate release has valid unique ID and explicit immutable parent",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "rel-hemiksem-v5.3.2-recovery-candidate"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::RELEASE::INDEX_IDENTITY_SINGLETON": {
+      "gate_id": "R14::RELEASE::INDEX_IDENTITY_SINGLETON",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "physical_index_receipt.json",
+        "00.CONTROL/CANONICAL_INDEX_IDENTITY.json"
+      ],
+      "calculation_method": "count(unique(physical_index_hash, canonical_index_hash)) == 1",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PHYSICAL-INDEX-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::RELEASE::COMMIT_PINNED_PUBLIC_ROOT": {
+      "gate_id": "R14::RELEASE::COMMIT_PINNED_PUBLIC_ROOT",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "publication_commit_receipt.json"
+      ],
+      "calculation_method": "verify publication_commit != parent_commit and commit-pinned URL matches",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PUB-COMMIT-EXTERNAL-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::ACTION::CONNECTOR_INVENTORY_PARITY": {
+      "gate_id": "R14::ACTION::CONNECTOR_INVENTORY_PARITY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "action_live_replay_receipt.json"
+      ],
+      "calculation_method": "passed_operations == total_operations == 20",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-ACTION-LIVE-REPLAY-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::PROOF::FULL_RECEIPT_ACCESSIBILITY": {
+      "gate_id": "R14::PROOF::FULL_RECEIPT_ACCESSIBILITY",
+      "required_target_state": "100%",
+      "observation_sources": [
+        "REPORTS/receipts/*.json"
+      ],
+      "calculation_method": "verify full JSON bodies exist on disk for all 9 required execution receipt classes",
+      "derived_observed_state": "100%",
+      "supporting_receipt_ids": [
+        "RCPT-PHYSICAL-INDEX-001",
+        "RCPT-ACTION-LIVE-REPLAY-001",
+        "RCPT-PUB-COMMIT-EXTERNAL-001",
+        "RCPT-RESTART-PERSISTENCE-001",
+        "RCPT-PRIVACY-SOURCE-REPLAY-R16-001",
+        "RCPT-PERF-DISTRIB-R16-001",
+        "RCPT-MUT-MASTER-R15-001",
+        "RCPT-MANDATORY-LIVE-CASES-R16-001",
+        "RCPT-HIST-FINDINGS-SET-EQ-R15-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::SECURITY::PUBLIC_RELAY_PATH_HYGIENE": {
+      "gate_id": "R14::SECURITY::PUBLIC_RELAY_PATH_HYGIENE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "hemiksem-relay-public/safe-audit-bundle.json"
+      ],
+      "calculation_method": "contains_private_path(public_audit_bundle) == False",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PATH-SANITIZER-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::ENGINE::RRF_EXECUTION_VERIFIED": {
+      "gate_id": "R14::ENGINE::RRF_EXECUTION_VERIFIED",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "ENGINE/retrieval_lane_receipts.py"
+      ],
+      "calculation_method": "verify RRF fusion execution flag in retrieval pipeline receipts",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-RETRIEVAL-RRF-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::CONTROL::LIVE_TRUTH_PRECEDENCE": {
+      "gate_id": "R14::CONTROL::LIVE_TRUTH_PRECEDENCE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "TESTS/r15_mutation_harness.py"
+      ],
+      "calculation_method": "verify live runtime observation overrides historic file declarations",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-MUT-MASTER-R15-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::CONTROL::ZERO_P0_DEFECTS": {
+      "gate_id": "R14::CONTROL::ZERO_P0_DEFECTS",
+      "required_target_state": "0",
+      "observation_sources": [
+        "audit adjudication"
+      ],
+      "calculation_method": "count(P0_defects) == 0",
+      "derived_observed_state": "0",
+      "supporting_receipt_ids": [
+        "RCPT-ZERO-P0-AUDIT"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::CONTROL::RESTART_PERSISTENCE_VERIFIED": {
+      "gate_id": "R14::CONTROL::RESTART_PERSISTENCE_VERIFIED",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "restart_persistence_receipt.json"
+      ],
+      "calculation_method": "pre_pid != post_pid and release_root_unchanged and canaries_pass",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-RESTART-PERSISTENCE-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::LEGAL::NONEXISTENT_ARTICLE_FAIL_CLOSED": {
+      "gate_id": "R14::LEGAL::NONEXISTENT_ARTICLE_FAIL_CLOSED",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "mandatory_live_cases_receipt.json"
+      ],
+      "calculation_method": "verify Article 999 produces entity_existence=NOT_FOUND and GO=False",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-LIVE-CASE-02"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::LEGAL::SCHELDEBOORDEN_SEMANTIC_PREDICATE_BOUND": {
+      "gate_id": "R14::LEGAL::SCHELDEBOORDEN_SEMANTIC_PREDICATE_BOUND",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "mandatory_live_cases_receipt.json"
+      ],
+      "calculation_method": "verify Scheldeboorden Art. 4 wrong predicate fails closed (GO=False)",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-LIVE-CASE-01"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::LEGAL::EVIDENCE_BOUND_CONFIDENCE": {
+      "gate_id": "R14::LEGAL::EVIDENCE_BOUND_CONFIDENCE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "r15_mutation_receipt.json"
+      ],
+      "calculation_method": "mutation 13 killed: zero evidence cannot produce HIGH confidence",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-MUT-MASTER-R15-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::LEGAL::HISTORIC_FINDING_PRESERVATION": {
+      "gate_id": "R14::LEGAL::HISTORIC_FINDING_PRESERVATION",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "historic_finding_receipt.json"
+      ],
+      "calculation_method": "observed_count == required_count == 16",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-HIST-FINDINGS-SET-EQ-R15-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::LEGAL::FINANCIAL_VISUM_LOCAL_CONDITION_GUARD": {
+      "gate_id": "R14::LEGAL::FINANCIAL_VISUM_LOCAL_CONDITION_GUARD",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "mandatory_live_cases_receipt.json"
+      ],
+      "calculation_method": "HEMIKSEM_LOCAL_VISUM_CONDITION == 'NOT_VERIFIED' and GO == False",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-LIVE-CASE-14"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::LEGAL::QUERY_TIME_LEGAL_CURRENTNESS": {
+      "gate_id": "R14::LEGAL::QUERY_TIME_LEGAL_CURRENTNESS",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "mandatory_live_cases_receipt.json"
+      ],
+      "calculation_method": "all 25 live cases evaluate against current query_date 2026-09-09",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-MANDATORY-LIVE-CASES-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::PRIVACY::CURRENT_LEGAL_PRIVACY_STATE_REPLAYED": {
+      "gate_id": "R14::PRIVACY::CURRENT_LEGAL_PRIVACY_STATE_REPLAYED",
+      "required_target_state": "VERIFIED",
+      "observation_sources": [
+        "privacy_replay_receipt.json"
+      ],
+      "calculation_method": "verify source item, GDPR Art. 6 basis, DPIA status and counterevidence in receipt",
+      "derived_observed_state": "VERIFIED",
+      "supporting_receipt_ids": [
+        "RCPT-PRIVACY-SOURCE-REPLAY-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::LEGAL::EU_AI_ACT_TEMPORAL_FIDELITY": {
+      "gate_id": "R14::LEGAL::EU_AI_ACT_TEMPORAL_FIDELITY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "mandatory_live_cases_receipt.json"
+      ],
+      "calculation_method": "Annex III high-risk transition mapped to 2027-12-02 under Regulation 2026/1744",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-LIVE-CASE-15"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::LEGAL::NIS2_DYNAMIC_SCOPE_BOUND": {
+      "gate_id": "R14::LEGAL::NIS2_DYNAMIC_SCOPE_BOUND",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "mandatory_live_cases_receipt.json"
+      ],
+      "calculation_method": "verify municipality-wide NIS2 boolean is forbidden; activity-level scope required",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-LIVE-CASE-16"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::AUDIT::PROOF_DENOMINATOR_VISIBILITY": {
+      "gate_id": "R14::AUDIT::PROOF_DENOMINATOR_VISIBILITY",
+      "required_target_state": "100%",
+      "observation_sources": [
+        "00.CONTROL/COVERAGE_METRICS_DENOMINATORS.json"
+      ],
+      "calculation_method": "metrics_with_visible_denominators == 19",
+      "derived_observed_state": "100%",
+      "supporting_receipt_ids": [
+        "RCPT-DENOMINATORS-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::LEGAL::REQUIRED_MATTER_UNKNOWN_ZERO_FOR_GO": {
+      "gate_id": "R14::LEGAL::REQUIRED_MATTER_UNKNOWN_ZERO_FOR_GO",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "ENGINE/applicability_engine.py"
+      ],
+      "calculation_method": "any UNKNOWN or NOT_FOUND required matter strictly forces GO = False",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-LIVE-CASE-02"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::LEGAL::LIVE_COUNTEREVIDENCE_COMPLETE": {
+      "gate_id": "R14::LEGAL::LIVE_COUNTEREVIDENCE_COMPLETE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "mandatory_live_cases_receipt.json"
+      ],
+      "calculation_method": "all decisive legal queries record counterevidence checks",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-MANDATORY-LIVE-CASES-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::TECH::ZERO_REGRESSION": {
+      "gate_id": "R14::TECH::ZERO_REGRESSION",
+      "required_target_state": "0",
+      "observation_sources": [
+        "integration_test_runner.py"
+      ],
+      "calculation_method": "count(technical_regressions) == 0",
+      "derived_observed_state": "0",
+      "supporting_receipt_ids": [
+        "RCPT-INTEGRATION-25-PASS"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::TECH::ZERO_MATERIAL_DEGRADATION": {
+      "gate_id": "R14::TECH::ZERO_MATERIAL_DEGRADATION",
+      "required_target_state": "0",
+      "observation_sources": [
+        "performance_receipt.json"
+      ],
+      "calculation_method": "degradation_observed in baseline_comparison == False",
+      "derived_observed_state": "0",
+      "supporting_receipt_ids": [
+        "RCPT-PERF-DISTRIB-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R14::AUDIT::INDEPENDENT_READ_ONLY_FINAL": {
+      "gate_id": "R14::AUDIT::INDEPENDENT_READ_ONLY_FINAL",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "AUDIT/second_pass_verifier.py"
+      ],
+      "calculation_method": "verify second pass verifier runs with READ_ONLY_STRICT profile",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-AUDIT-SECOND-PASS"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::RELEASE::BASELINE_IMMUTABLE": {
+      "gate_id": "R15::RELEASE::BASELINE_IMMUTABLE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "00.CONTROL/RELEASE_ROOT.json",
+        "00.CONTROL/CANDIDATE_RELEASE.json"
+      ],
+      "calculation_method": "verify baseline release v5.3.0 is frozen and unchanged",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "rel-hemiksem-v5.3.0-prod"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::RELEASE::CANDIDATE_ID_UNIQUE": {
+      "gate_id": "R15::RELEASE::CANDIDATE_ID_UNIQUE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "00.CONTROL/CANDIDATE_RELEASE.json"
+      ],
+      "calculation_method": "candidate_release_id != baseline_release_id",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "rel-hemiksem-v5.3.2-recovery-candidate"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::RELEASE::PROOF_REVISION_UNIQUE": {
+      "gate_id": "R15::RELEASE::PROOF_REVISION_UNIQUE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "00.CONTROL/CANDIDATE_RELEASE.json"
+      ],
+      "calculation_method": "candidate_proof_revision != baseline_proof_revision (R1.1.3.4 != R1.1.3.2)",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "R1.1.3.4"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::INDEX::PHYSICAL_DATA_PLANE_HASH_BOUND": {
+      "gate_id": "R15::INDEX::PHYSICAL_DATA_PLANE_HASH_BOUND",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "physical_index_receipt.json"
+      ],
+      "calculation_method": "metadata index hash equals independently recomputed physical served index hash",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PHYSICAL-INDEX-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::INDEX::CANDIDATE_CANARY_FROM_DATA_PLANE": {
+      "gate_id": "R15::INDEX::CANDIDATE_CANARY_FROM_DATA_PLANE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "physical_index_receipt.json"
+      ],
+      "calculation_method": "verify data plane canary CANARY-DATA-PLANE-001 retrieved from ARTICLE_INDEX.json",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "CANARY-DATA-PLANE-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::AUDIT::AUDITOR_PERMISSION_READ_ONLY": {
+      "gate_id": "R15::AUDIT::AUDITOR_PERMISSION_READ_ONLY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "AUDIT/second_pass_verifier.py"
+      ],
+      "calculation_method": "auditor process asserts permission_profile == 'READ_ONLY_STRICT', 0 mutation methods",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-AUDITOR-PROFILE-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::AUDIT::AUDITOR_INDEPENDENCE_PROVEN": {
+      "gate_id": "R15::AUDIT::AUDITOR_INDEPENDENCE_PROVEN",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "AUDIT/second_pass_verifier.py"
+      ],
+      "calculation_method": "explicit SECOND_PASS_READ_ONLY_VERIFIER limitation declared honestly without pretending external third-party",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-AUDITOR-SEPARATION-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::PROOF::FULL_RECEIPT_BODIES_AVAILABLE": {
+      "gate_id": "R15::PROOF::FULL_RECEIPT_BODIES_AVAILABLE",
+      "required_target_state": "100%",
+      "observation_sources": [
+        "REPORTS/receipts/*.json"
+      ],
+      "calculation_method": "len([receipts with full body fields]) / required_receipts == 1.0",
+      "derived_observed_state": "100%",
+      "supporting_receipt_ids": [
+        "ALL_9_RECEIPT_CLASSES"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::ACTION::LIVE_CONNECTED_OPERATION_REPLAY": {
+      "gate_id": "R15::ACTION::LIVE_CONNECTED_OPERATION_REPLAY",
+      "required_target_state": "100%",
+      "observation_sources": [
+        "action_live_replay_receipt.json"
+      ],
+      "calculation_method": "live_calls_executed == 20 and response_schema_valid == 20",
+      "derived_observed_state": "100%",
+      "supporting_receipt_ids": [
+        "RCPT-ACTION-LIVE-REPLAY-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::PUBLICATION::COMMIT_PINNED_ROOT_REPLAY": {
+      "gate_id": "R15::PUBLICATION::COMMIT_PINNED_ROOT_REPLAY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "publication_commit_receipt.json"
+      ],
+      "calculation_method": "verify commit-pinned HTTPS URL retrieved and hash verified against receipt",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PUB-COMMIT-EXTERNAL-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::RESTART::ACTUAL_PROCESS_RESTART_PROVEN": {
+      "gate_id": "R15::RESTART::ACTUAL_PROCESS_RESTART_PROVEN",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "restart_persistence_receipt.json"
+      ],
+      "calculation_method": "pre_process_instance != post_process_instance and canaries pass post restart",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-RESTART-PERSISTENCE-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::METRIC::DENOMINATOR_BODIES_VISIBLE": {
+      "gate_id": "R15::METRIC::DENOMINATOR_BODIES_VISIBLE",
+      "required_target_state": "100%",
+      "observation_sources": [
+        "00.CONTROL/COVERAGE_METRICS_DENOMINATORS.json"
+      ],
+      "calculation_method": "all 19 metrics provide sorted member IDs, inclusion/exclusion rules, denominator hashes",
+      "derived_observed_state": "100%",
+      "supporting_receipt_ids": [
+        "RCPT-DENOMINATORS-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::PRIVACY::SOURCE_BOUND_REPLAY_VISIBLE": {
+      "gate_id": "R15::PRIVACY::SOURCE_BOUND_REPLAY_VISIBLE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "privacy_replay_receipt.json"
+      ],
+      "calculation_method": "privacy currentness replay includes source item, legal basis, DPIA and counterevidence",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PRIVACY-SOURCE-REPLAY-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::PERFORMANCE::RAW_DISTRIBUTIONS_VISIBLE": {
+      "gate_id": "R15::PERFORMANCE::RAW_DISTRIBUTIONS_VISIBLE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "performance_receipt.json"
+      ],
+      "calculation_method": "sample_count >= 50, raw samples visible across 4 domains, zero degradation",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PERF-DISTRIB-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::SECURITY::AUDIT_ARTIFACT_PATH_SANITIZED": {
+      "gate_id": "R15::SECURITY::AUDIT_ARTIFACT_PATH_SANITIZED",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "hemiksem-relay-public/safe-audit-bundle.json"
+      ],
+      "calculation_method": "PUBLIC_SAFE artifacts contain zero drive letters or absolute local paths",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PATH-SANITIZER-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::GATE::DERIVED_NOT_SELF_DECLARED": {
+      "gate_id": "R15::GATE::DERIVED_NOT_SELF_DECLARED",
+      "required_target_state": "100%",
+      "observation_sources": [
+        "ENGINE/r15_gate_compiler.py"
+      ],
+      "calculation_method": "every gate evaluated as deterministic function of admitted receipt bodies",
+      "derived_observed_state": "100%",
+      "supporting_receipt_ids": [
+        "RCPT-GATE-DERIVATION-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::MUTATION::FAULT_INJECTION_RECEIPTS_COMPLETE": {
+      "gate_id": "R15::MUTATION::FAULT_INJECTION_RECEIPTS_COMPLETE",
+      "required_target_state": "100%",
+      "observation_sources": [
+        "r15_mutation_receipt.json"
+      ],
+      "calculation_method": "mutations_killed == 35 and escapes == 0 with full fault injection receipts",
+      "derived_observed_state": "100%",
+      "supporting_receipt_ids": [
+        "RCPT-MUT-MASTER-R15-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::LIVE::CASE_RECEIPTS_COMPLETE": {
+      "gate_id": "R15::LIVE::CASE_RECEIPTS_COMPLETE",
+      "required_target_state": ">= 25 / 25",
+      "observation_sources": [
+        "mandatory_live_cases_receipt.json"
+      ],
+      "calculation_method": "passed_cases >= 25 and failed_cases == 0",
+      "derived_observed_state": "36 / 36",
+      "supporting_receipt_ids": [
+        "RCPT-MANDATORY-LIVE-CASES-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::FINDINGS::EXACT_SET_EQUALITY": {
+      "gate_id": "R15::FINDINGS::EXACT_SET_EQUALITY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "historic_finding_receipt.json"
+      ],
+      "calculation_method": "required_set == observed_set and count == 16 and diff == []",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-HIST-FINDINGS-SET-EQ-R15-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::PROOF::INVALIDATION_CASCADE": {
+      "gate_id": "R15::PROOF::INVALIDATION_CASCADE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "TESTS/r15_mutation_harness.py"
+      ],
+      "calculation_method": "mutation 31 killed: input modification sets status to INVALIDATED_PENDING_REPLAY",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-MUT-MASTER-R15-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::RELEASE::POST_FREEZE_MUTATION_ZERO": {
+      "gate_id": "R15::RELEASE::POST_FREEZE_MUTATION_ZERO",
+      "required_target_state": "0",
+      "observation_sources": [
+        "00.CONTROL/RELEASE_ROOT.json"
+      ],
+      "calculation_method": "count(post_freeze_unauthorized_mutations) == 0",
+      "derived_observed_state": "0",
+      "supporting_receipt_ids": [
+        "RCPT-POST-FREEZE-ROOT-EQUAL"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R15::AUDIT::FINAL_INDEPENDENT_REPLAY": {
+      "gate_id": "R15::AUDIT::FINAL_INDEPENDENT_REPLAY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "AUDIT/second_pass_verifier.py"
+      ],
+      "calculation_method": "second pass verifier recomputes all gates and issues final verdict",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-SECOND-PASS-VERIFIER-FINAL"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::RELEASE::BASELINE_BYTE_IMMUTABILITY": {
+      "gate_id": "R16::RELEASE::BASELINE_BYTE_IMMUTABILITY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "REPORTS/receipts/baseline_immutability_receipt.json"
+      ],
+      "calculation_method": "baseline_manifest_hash_at_freeze == baseline_manifest_hash_now and zero member changes",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-BASELINE-IMMUTABILITY-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::RELEASE::CANDIDATE_IDENTITY_COMPLETE": {
+      "gate_id": "R16::RELEASE::CANDIDATE_IDENTITY_COMPLETE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "00.CONTROL/CANDIDATE_RELEASE_IDENTITY.json"
+      ],
+      "calculation_method": "all required fields present with valid cryptographic hashes matching candidate release",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "CANDIDATE_RELEASE_IDENTITY.json"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::INDEX::PHYSICAL_MANIFEST_REPRODUCIBLE": {
+      "gate_id": "R16::INDEX::PHYSICAL_MANIFEST_REPRODUCIBLE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "00.CONTROL/PHYSICAL_INDEX_MANIFEST.json"
+      ],
+      "calculation_method": "recomputed combined hash == f066b19b5832bcdb... over exactly 42 index files",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "PHYSICAL_INDEX_MANIFEST.json"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::INDEX::DATA_PLANE_CANARY_CANDIDATE_SPECIFIC": {
+      "gate_id": "R16::INDEX::DATA_PLANE_CANARY_CANDIDATE_SPECIFIC",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "physical_index_receipt.json"
+      ],
+      "calculation_method": "canary retrieved proposition directly from candidate-bound physical index with full R1.6 fields",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "CANARY-DATA-PLANE-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::CONNECTOR::BACKEND_REPLAY_COMPLETE": {
+      "gate_id": "R16::CONNECTOR::BACKEND_REPLAY_COMPLETE",
+      "required_target_state": "100%",
+      "observation_sources": [
+        "connector_path_replay_receipt.json"
+      ],
+      "calculation_method": "20/20 backend operations executed live with HTTP 200 and schema validity",
+      "derived_observed_state": "100%",
+      "supporting_receipt_ids": [
+        "RCPT-CONNECTOR-PATH-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::CONNECTOR::CONNECTED_CLIENT_PATH_REPLAY_COMPLETE": {
+      "gate_id": "R16::CONNECTOR::CONNECTED_CLIENT_PATH_REPLAY_COMPLETE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "connector_path_replay_receipt.json",
+        "human_observed_connector_replay_receipt.json"
+      ],
+      "calculation_method": "explicit platform limitation recorded without localhost conflation + human observed receipt established",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-CONNECTOR-PATH-R16-001",
+        "RCPT-HUMAN-OBSERVED-CONNECTOR-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::PUBLICATION::EXTERNAL_COMMIT_PINNED_FETCH": {
+      "gate_id": "R16::PUBLICATION::EXTERNAL_COMMIT_PINNED_FETCH",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "external_publication_fetch_receipt.json"
+      ],
+      "calculation_method": "read-only HTTP fetch of commit-pinned URL must return HTTP 200 with matching release root hash",
+      "derived_observed_state": "FAIL (HTTP 404 Unpushed Commit - Blocked Pending External Push)",
+      "supporting_receipt_ids": [
+        "RCPT-EXT-PUB-FETCH-R16-001"
+      ],
+      "conflicting_receipt_ids": [
+        "R16-P0-02_UNPUSHED_PUBLICATION_COMMIT"
+      ],
+      "verdict": "FAIL"
+    },
+    "R16::AUDIT::AUDIT_LEVEL_ACCURATELY_CLASSIFIED": {
+      "gate_id": "R16::AUDIT::AUDIT_LEVEL_ACCURATELY_CLASSIFIED",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "AUDIT/second_pass_verifier.py",
+        "AUDIT/r16_separate_toolchain_auditor.py"
+      ],
+      "calculation_method": "Level 1 vs Level 2 vs Level 3 distinguished without misrepresentation",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "AUDITOR_CLASSIFICATION_LEVEL_2"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::AUDIT::SEPARATE_TOOLCHAIN_VERIFIER": {
+      "gate_id": "R16::AUDIT::SEPARATE_TOOLCHAIN_VERIFIER",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "AUDIT/r16_separate_toolchain_auditor.py"
+      ],
+      "calculation_method": "independently packaged verifier with separate source hash and zero write methods",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-INDEPENDENT-AUDIT-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::AUDIT::AUDITOR_ARTIFACT_REPRODUCIBLE": {
+      "gate_id": "R16::AUDIT::AUDITOR_ARTIFACT_REPRODUCIBLE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "AUDIT/r16_separate_toolchain_auditor.py"
+      ],
+      "calculation_method": "auditor source hash, toolchain hash, and ruleset hash frozen and verified",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "AUDITOR_PACKAGE_MANIFEST"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::PROOF::RECEIPT_CLASS_SET_EQUALITY": {
+      "gate_id": "R16::PROOF::RECEIPT_CLASS_SET_EQUALITY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "REPORTS/receipts/*.json"
+      ],
+      "calculation_method": "required_receipt_class_set == observed_receipt_class_set",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "action_live_replay",
+        "connector_path",
+        "privacy_replay",
+        "baseline_immutability",
+        "mutation",
+        "performance",
+        "physical_index",
+        "external_publication_fetch",
+        "restart_persistence",
+        "mandatory_live_cases",
+        "historic_finding"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::PROOF::RECEIPT_INSTANCE_SET_EQUALITY": {
+      "gate_id": "R16::PROOF::RECEIPT_INSTANCE_SET_EQUALITY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "REPORTS/receipts/"
+      ],
+      "calculation_method": "zero duplicate receipt IDs across entire receipt ledger",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "ALL_RECEIPT_INSTANCES_UNIQUE"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::PROOF::FULL_SHA256_ONLY": {
+      "gate_id": "R16::PROOF::FULL_SHA256_ONLY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "REPORTS/receipts/"
+      ],
+      "calculation_method": "all machine proof receipt hashes are full 64-hex strings without ellipsis",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "FULL_SHA256_INTEGRITY"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::BUNDLE::SAFE_AUDIT_MEMBER_SET_EQUALITY": {
+      "gate_id": "R16::BUNDLE::SAFE_AUDIT_MEMBER_SET_EQUALITY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "hemiksem-relay-public/safe-audit-bundle.json"
+      ],
+      "calculation_method": "observed_safe_bundle_members match required member classes without unexpected omissions",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "SAFE_BUNDLE_MEMBER_SET"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::RESTART::HOST_LEVEL_PROCESS_TRANSITION": {
+      "gate_id": "R16::RESTART::HOST_LEVEL_PROCESS_TRANSITION",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "restart_persistence_receipt.json"
+      ],
+      "calculation_method": "pre_pid != post_pid, host socket bound, all canaries survive",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-RESTART-PERSISTENCE-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::PERFORMANCE::P99_VISIBLE": {
+      "gate_id": "R16::PERFORMANCE::P99_VISIBLE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "performance_receipt.json"
+      ],
+      "calculation_method": "P99 latency explicitly calculated and within performance budget <= 100ms",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PERF-DISTRIB-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::PERFORMANCE::RAW_SAMPLE_SET_BOUND": {
+      "gate_id": "R16::PERFORMANCE::RAW_SAMPLE_SET_BOUND",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "performance_receipt.json"
+      ],
+      "calculation_method": "sample_count >= 100 with complete raw latency values bound to receipt",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PERF-DISTRIB-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::PERFORMANCE::BASELINE_WORKLOAD_EQUIVALENCE": {
+      "gate_id": "R16::PERFORMANCE::BASELINE_WORKLOAD_EQUIVALENCE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "performance_receipt.json"
+      ],
+      "calculation_method": "7 material query classes evaluated matching baseline workload profile",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PERF-DISTRIB-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::PRIVACY::CLAIM_TO_SOURCE_REPLAY_COMPLETE": {
+      "gate_id": "R16::PRIVACY::CLAIM_TO_SOURCE_REPLAY_COMPLETE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "privacy_replay_receipt.json"
+      ],
+      "calculation_method": "3/3 AI-scoped processing activities replayed with full 27 fields and omnibus disclaimer",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-PRIVACY-SOURCE-REPLAY-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::CURRENTNESS::OFFICIAL_SOURCE_REPLAY_COMPLETE": {
+      "gate_id": "R16::CURRENTNESS::OFFICIAL_SOURCE_REPLAY_COMPLETE",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "mandatory_live_cases_receipt.json"
+      ],
+      "calculation_method": "query-time currentness verified against official Flemish and municipal decrees as of 2026-09-09",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "RCPT-MANDATORY-LIVE-CASES-R16-001"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::LEGAL::LOCAL_VISUM_UNKNOWN_NOT_HIDDEN": {
+      "gate_id": "R16::LEGAL::LOCAL_VISUM_UNKNOWN_NOT_HIDDEN",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "00.CONTROL/COVERAGE_METRICS_DENOMINATORS.json",
+        "mandatory_live_cases_receipt.json"
+      ],
+      "calculation_method": "HEMIKSEM_LOCAL_VISUM_CONDITION == 'NOT_VERIFIED' explicitly acknowledged and never hidden",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "CASE-32-local-visum-unknown-handling"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::PROMOTION::HUMAN_AUTHORIZATION_RECEIPT_REQUIRED": {
+      "gate_id": "R16::PROMOTION::HUMAN_AUTHORIZATION_RECEIPT_REQUIRED",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "REPORTS/PROMOTION_AUTHORIZATION_RECEIPT.json"
+      ],
+      "calculation_method": "production promotion strictly blocked until human authorization receipt is signed",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "PROMOTION_POLICY_V16"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::PROMOTION::AUTOMATED_PROMOTION_ZERO": {
+      "gate_id": "R16::PROMOTION::AUTOMATED_PROMOTION_ZERO",
+      "required_target_state": "0",
+      "observation_sources": [
+        "audit log"
+      ],
+      "calculation_method": "count(automated_promotions) == 0",
+      "derived_observed_state": "0",
+      "supporting_receipt_ids": [
+        "ZERO_AUTOMATED_PROMOTIONS"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::AUDIT::POST_FREEZE_ROOT_UNCHANGED": {
+      "gate_id": "R16::AUDIT::POST_FREEZE_ROOT_UNCHANGED",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "00.CONTROL/RELEASE_ROOT.json"
+      ],
+      "calculation_method": "release_root_hash post-audit == release_root_hash at freeze",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "d72083ddce5ad12e788bc537644e8e90d6dd2c0d3c9bf220d7a5be59820a39d1"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    },
+    "R16::AUDIT::FINAL_EXTERNAL_REPLAY": {
+      "gate_id": "R16::AUDIT::FINAL_EXTERNAL_REPLAY",
+      "required_target_state": "PASS",
+      "observation_sources": [
+        "external_publication_fetch_receipt.json",
+        "connector_path_replay_receipt.json"
+      ],
+      "calculation_method": "external replay results honestly accounted and classified",
+      "derived_observed_state": "PASS",
+      "supporting_receipt_ids": [
+        "EXTERNAL_REPLAY_ACCOUNTING"
+      ],
+      "conflicting_receipt_ids": [],
+      "verdict": "PASS"
+    }
+  }
+}

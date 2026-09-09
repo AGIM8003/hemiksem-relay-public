@@ -1,0 +1,33 @@
+{
+  "spec_id": "HEMIKSEM-AI-RERP-01",
+  "release_id": "rel-hemiksem-v5.3.2-recovery-candidate",
+  "candidate_release_id": "rel-hemiksem-v5.3.2-recovery-candidate",
+  "baseline_release_id": "rel-hemiksem-v5.3.0-prod",
+  "product_version": "5.3.2-RECOVERY-CANDIDATE",
+  "baseline_product_version": "5.3.0",
+  "proof_revision": "R1.1.3.4",
+  "baseline_proof_revision": "R1.1.3.2",
+  "aggregate_release_root_hash": "d72083ddce5ad12e788bc537644e8e90d6dd2c0d3c9bf220d7a5be59820a39d1",
+  "frozen_at": "2026-09-09T13:59:06.323597+00:00",
+  "immutability_state": "FROZEN_CANDIDATE",
+  "subsystems": {
+    "runtime_code_hash": "d55f2f04feeb3fcc89e4040d59254c1e3126c7d531b33c66b0cef4c2120cf05c",
+    "release_controller_hash": "f17c83467ead504780065882b7ccf2e6368be0f7e8efa963c3ff0f5bcbdbdd47",
+    "legal_engine_code_hash": "a41b055d4c2dbfa2895c08e37c174d95ac0b7d09d04b90b044d1012044fd6507",
+    "applicability_engine_hash": "a497a16356f5d7cb5f7ab091a744a2c23318887c7d57104e1cb7ee31deb3986c",
+    "retrieval_engine_hash": "13f7748eb644db52fa2d74f95063717b1bd08111c5a446a942e41db355bad800",
+    "physical_index_hash": "f066b19b5832bcdb893a39f62f15c4353cbf42134cf447c450df1e4e48999af4",
+    "corpus_manifest_hash": "e388318dd8408aa6a1645fb8468f0b5ae830faff76df14081639d2b9902e33b5",
+    "currentness_registry_hash": "d1f6813049217fbef9863b7ae9f3f4706e955acb7165f5c7cca5471d69d799c5",
+    "historic_finding_registry_hash": "0e3a6b999c29adb613e9f14f094d70a3760472d75300849bd953e0cb08aaaad9",
+    "test_registry_hash": "42f8170e1d8a318af524e8c662e71258a702c4b074b8bf63ec329636a7958681",
+    "gate_registry_hash": "af4ef36cd8032b52bb4a71621cabc202e277126a559e8191332ff318d4dba1e2",
+    "mutation_registry_hash": "83ad1e24be361ce6f1dba329175a0b424cd12aa34af5d627f159eb28defa3031",
+    "action_contract_hash": "a427c6df812211bd01d67d997f7496fb4a21a133cde8943ec1f9da0cb177cd42",
+    "openapi_hash": "d6f1b3baa01ea1d8d91bd765a0d6ed0c21a4a40db4506031d45d3d0f43efb419",
+    "rollback_proof_hash": "0e358ca5da9d68ed7518ccdc64f50aa50c3fe0f8948d7ef67cce6cd19ea5c283",
+    "restart_proof_hash": "be2fc48f0806b7cd9649edc54f6120afae20bb76ec9e740b47c1b12aea53f90a",
+    "publication_identity_hash": "8ced48b26e2776520e7280da19f6aea42bc63f91c21b8499eaae0a29bebe1495",
+    "safe_audit_bundle_hash": "72daa7ae1bcc0b270655de8d76be38a14069be006ad9dc1b37b1829e29546074"
+  }
+}

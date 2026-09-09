@@ -1,0 +1,66 @@
+{
+  "receipt_id": "RCPT-CURRENTNESS-REPLAY-R16-001",
+  "spec_id": "HEMIKSEM-AI-CONTROL-R16-LEGAL-R16-EXTERNAL-VERIFICATION-AND-PROMOTION-CLOSURE",
+  "candidate_release_id": "rel-hemiksem-v5.3.1-candidate",
+  "candidate_proof_revision": "R1.1.3.3",
+  "question_date": "2026-09-09",
+  "total_acts_replayed": 10,
+  "acts": [
+    {
+      "act_id": "ACT-DLB-2017",
+      "name": "Decreet Lokaal Bestuur",
+      "currentness": "LIVE_VERIFIED_CURRENT"
+    },
+    {
+      "act_id": "ACT-BBC-2018",
+      "name": "Besluit Beleids- en Beheerscyclus",
+      "currentness": "LIVE_VERIFIED_CURRENT"
+    },
+    {
+      "act_id": "ACT-RUP-SCHELD-2018",
+      "name": "RUP Scheldeboorden Hemiksem",
+      "currentness": "LIVE_VERIFIED_CURRENT"
+    },
+    {
+      "act_id": "ACT-GDPR-2016",
+      "name": "Algemene Verordening Gegevensbescherming (EU) 2016/679",
+      "currentness": "LIVE_VERIFIED_CURRENT"
+    },
+    {
+      "act_id": "ACT-BELG-PRIV-2018",
+      "name": "Wet betreffende bescherming van natuurlijke personen (30 juli 2018)",
+      "currentness": "LIVE_VERIFIED_CURRENT"
+    },
+    {
+      "act_id": "ACT-AIACT-2024",
+      "name": "EU AI Act (Regulation (EU) 2024/1689)",
+      "currentness": "LIVE_VERIFIED_CURRENT"
+    },
+    {
+      "act_id": "ACT-NIS2-2024",
+      "name": "Belgische NIS2-Wetgeving (26 april 2024)",
+      "currentness": "LIVE_VERIFIED_CURRENT"
+    },
+    {
+      "act_id": "ACT-BESTUURSDECR-2018",
+      "name": "Bestuursdecreet van 7 december 2018",
+      "currentness": "LIVE_VERIFIED_CURRENT"
+    },
+    {
+      "act_id": "ACT-KLOKKENLUIDER-2022",
+      "name": "Vlaams Klokkenluidersdecreet",
+      "currentness": "LIVE_VERIFIED_CURRENT"
+    },
+    {
+      "act_id": "ACT-TOEGANKELIJKHEID-2018",
+      "name": "Toegankelijkheid overheidswebsites (Bestuursdecreet)",
+      "currentness": "LIVE_VERIFIED_CURRENT"
+    }
+  ],
+  "counterevidence_checked": true,
+  "counterevidence_result": "ZERO_CONTRADICTIONS_FOUND",
+  "currentness_state": "LIVE_VERIFIED_CURRENT",
+  "verified_at": "2026-09-09T15:02:02+02:00",
+  "pass_fail": "PASS",
+  "status": "PASS"
+}

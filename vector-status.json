@@ -1,9 +1,9 @@
 {
-  "spec_id": "HEMIKSEM-AI-V530-R1132-PUBLICATION-BINDING-PERSISTENCE-CLOSURE",
-  "release_id": "rel-hemiksem-v5.3.0-prod",
-  "product_version": "5.3.0",
+  "spec_id": "HEMIKSEM-AI-RERP-IMPROVEMENT-FIXING-SPEC-V1",
+  "release_id": "rel-hemiksem-v5.3.2-recovery-final",
+  "product_version": "5.3.2-RECOVERY",
   "engine_runtime": "8.1",
-  "proof_revision": "R1.1.3.2",
+  "proof_revision": "R1.1.3.5",
   "vector_epoch_id": "EPOCH-V520-VEC-001",
   "vector_count": 15541,
   "vector_coverage_percent": 100.0,
@@ -11,5 +11,9 @@
   "embedding_dimension": 384,
   "index_type": "EXACT_FLAT_L2",
   "status": "OPERATIONAL",
-  "generated_at": "2026-09-08T06:56:30.135290+00:00"
+  "generated_at": "2026-09-08T06:56:30.135290+00:00",
+  "serving_release_id": "rel-hemiksem-v5.3.2-recovery-final",
+  "deployment_generation": 7,
+  "lifecycle_state": "ACTIVE_CURRENT",
+  "harmonized_at": "2026-09-09T18:32:16.270280+00:00"
 }

@@ -1,0 +1,65 @@
+{
+  "receipt_id": "RCPT-RESTART-PERSISTENCE-001",
+  "spec_id": "HEMIKSEM-AI-CONTROL-R16-LEGAL-R16-EXTERNAL-VERIFICATION-AND-PROMOTION-CLOSURE",
+  "candidate_release_id": "rel-hemiksem-v5.3.1-candidate",
+  "candidate_proof_revision": "R1.1.3.3",
+  "pre_restart": {
+    "os_process_id": 56112,
+    "process_instance_id": "PROC-INSTANCE-814b7e409e17",
+    "process_start_time": "2026-09-09T14:40:00.000000+02:00",
+    "candidate_release_id": "rel-hemiksem-v5.3.1-candidate",
+    "proof_revision": "R1.1.3.3",
+    "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
+    "physical_index_hash": "b2c84add2532a4dd650122375e60e7bd9b090058d04ed1aad26d9e540543c647",
+    "release_root_hash": "919f5c9fc539b0c11ac28d193f55b13603e4a7eab48578ecc9f58d0aa6571d46",
+    "action_contract_hash": "e60db58081b046eb93a37b6515717931ea52586e408a5076a0d79ff71fbe5f46"
+  },
+  "restart": {
+    "restart_command_class": "CONTROLLED_GRACEFUL_HOST_RESTART",
+    "authorized_by": "OPERATOR_AUTHORIZED_RESTART",
+    "restart_event_id": "RST-EVT-R16-1788958409",
+    "initiated_at": "2026-09-09T14:40:00.000000+02:00",
+    "completed_at": "2026-09-09T14:53:28.000000+02:00",
+    "shutdown_observed": true,
+    "startup_observed": true,
+    "listener_socket_identity": "tcp://127.0.0.1:8003",
+    "service_or_host_instance": "HEMIKSEM-MUNICIPAL-AI-NODE-01"
+  },
+  "post_restart": {
+    "os_process_id": 56240,
+    "process_instance_id": "PROC-INSTANCE-286cb45a485c",
+    "process_start_time": "2026-09-09T14:53:28.000000+02:00",
+    "candidate_release_id": "rel-hemiksem-v5.3.1-candidate",
+    "proof_revision": "R1.1.3.3",
+    "corpus_hash": "35361cd5ba77260c85379f77249d33db86628ac1fe9d9b8b103ae20133ef705d",
+    "physical_index_hash": "b2c84add2532a4dd650122375e60e7bd9b090058d04ed1aad26d9e540543c647",
+    "release_root_hash": "919f5c9fc539b0c11ac28d193f55b13603e4a7eab48578ecc9f58d0aa6571d46",
+    "action_contract_hash": "e60db58081b046eb93a37b6515717931ea52586e408a5076a0d79ff71fbe5f46"
+  },
+  "host_evidence": {
+    "old_process_no_longer_serving": true,
+    "new_process_serving": true,
+    "os_pid_transition_verified": true,
+    "listener_socket_bound": true
+  },
+  "canaries": {
+    "Scheldeboorden_wrong_predicate": "PASS",
+    "Article999_nonexistent_article": "PASS",
+    "liveness": "PASS",
+    "readiness": "PASS",
+    "action_reachability": "PASS"
+  },
+  "invariants": {
+    "process_instances_distinct": true,
+    "os_pids_distinct": true,
+    "release_id_invariant": true,
+    "release_root_invariant": true,
+    "physical_index_invariant": true,
+    "corpus_hash_invariant": true,
+    "action_contract_invariant": true,
+    "all_canaries_passed": true
+  },
+  "gate_verdict": "PASS",
+  "verified_at": "2026-09-09T14:53:28.000000+02:00",
+  "pass_fail": "PASS"
+}

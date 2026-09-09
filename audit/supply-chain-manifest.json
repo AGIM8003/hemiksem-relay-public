@@ -1,0 +1,35 @@
+{
+  "spec_id": "HEMIKSEM-AI-CONTROL-R16-LEGAL-R16-EXTERNAL-VERIFICATION-AND-PROMOTION-CLOSURE",
+  "runtime": "Python",
+  "language_version": "3.12.10",
+  "platform": "win32-AMD64",
+  "dependency_lock_hash": "33df7b2689c983cd3a9d4f4a1fd83b6170f1488513301462dcc7061af400a585",
+  "package_names": [
+    "pytest",
+    "requests",
+    "urllib3",
+    "pyyaml",
+    "rank_bm25"
+  ],
+  "package_source": "PyPI_OFFICIAL_PINNED",
+  "critical_dependency_review": "PASS_ZERO_KNOWN_CVE",
+  "build_toolchain": "Python 3.12 standard library runtime + deterministic builders",
+  "build_toolchain_hash": "d6ca1284c7bd7ae5870c8ab738ede617c834b0c6d27e733d7d2a522b2e1e0f98",
+  "container_or_runtime_image": "LOCAL_WINDOWS_HOST",
+  "openapi_generator": "INTERNAL_DETERMINISTIC_PROJECTION",
+  "index_builder": "ENGINE/builder.py",
+  "index_builder_hash": "db7ce3809d1d6bcd7b843bfa2a1cdecf4dcf8efcc887a72fedcd84014f328c6a",
+  "audit_toolchain": "AUDIT/r16_separate_toolchain_auditor.py",
+  "audit_toolchain_hash": "PENDING_AUDITOR_GENERATION",
+  "firewall_status": {
+    "max_external_cost_eur": 0.0,
+    "observed_external_cost_eur": 0.0,
+    "paid_provider_calls": 0,
+    "billing_capable_credentials_present": 0,
+    "outbound_allowlist": [
+      "raw.githubusercontent.com",
+      "agim8003.github.io"
+    ]
+  },
+  "sealed_at": "2026-09-09T14:55:00+02:00"
+}

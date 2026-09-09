@@ -1,0 +1,1250 @@
+{
+  "receipt_id": "RCPT-MANDATORY-LIVE-CASES-R16-001",
+  "spec_id": "HEMIKSEM-AI-CONTROL-R16-LEGAL-R16-EXTERNAL-VERIFICATION-AND-PROMOTION-CLOSURE",
+  "candidate_release_id": "rel-hemiksem-v5.3.1-candidate",
+  "candidate_proof_revision": "R1.1.3.3",
+  "total_cases": 36,
+  "passed_cases": 36,
+  "failed_cases": 0,
+  "question_date": "2026-09-09",
+  "criteria": "all 36 cases (25 inherited + 11 new R1.6) evaluated with full Section 14 evidence bodies",
+  "observed_result": {
+    "total_cases": 36,
+    "passed_cases": 36,
+    "failed_cases": 0,
+    "inherited_count": 25,
+    "new_r16_count": 11,
+    "all_passed": true,
+    "cases": [
+      {
+        "case_id": "CASE-01-scheldeboorden-art4-wrong-predicate",
+        "receipt_id": "RCPT-LIVE-CASE-01",
+        "question": "Geldt artikel 4 van RUP Scheldeboorden voor chemische zware industrie?",
+        "question_date": "2026-09-09",
+        "expected_result": "NOT_SUPPORTED or AMEND; GO=False; predicate does not match zone voorschriften",
+        "actual_result": "AMEND / NOT_SUPPORTED; GO=False",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-RUP-SCHELDEBOORDEN-2018"
+        ],
+        "source_item_ids": [
+          "ITEM-RUP-SCHELD-ART4"
+        ],
+        "document_ids": [
+          "DOC-RUP-SCHELDEBOORDEN-001"
+        ],
+        "article_ids": [
+          "ART-04-ZONE-WATERGEBONDEN"
+        ],
+        "passage_hashes": [
+          "ed85f2f8eb6d5aa103f3ea18c1c8be5b177ae108d4a4fa410a97ed9914c48b49"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "No amendment allowing chemical heavy industry found in BVR or RUP revisions"
+        ],
+        "evidence_state": "SUPPORTED_DOCUMENT_PREDICATE_MISMATCH",
+        "applicability_state": "NOT_APPLICABLE_TO_PREDICATE",
+        "gad_verdict": "AMEND",
+        "human_review_state": "REQUIRED",
+        "go": false,
+        "latency_ms": 1.21,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-02-scheldeboorden-art999-nonexistent",
+        "receipt_id": "RCPT-LIVE-CASE-02",
+        "question": "Artikel 999 van het RUP Scheldeboorden",
+        "question_date": "2026-09-09",
+        "expected_result": "existence=NOT_FOUND, ARTICLE_LEVEL_APPLIES=FORBIDDEN, confidence!=HIGH, GO=False",
+        "actual_result": "existence=NOT_FOUND, state=NOT_FOUND, GO=False",
+        "entity_existence_state": "NOT_FOUND",
+        "source_ids": [
+          "SRC-RUP-SCHELDEBOORDEN-2018"
+        ],
+        "source_item_ids": [],
+        "document_ids": [
+          "DOC-RUP-SCHELDEBOORDEN-001"
+        ],
+        "article_ids": [
+          "ARTICLE_999"
+        ],
+        "passage_hashes": [],
+        "currentness": "NONEXISTENT",
+        "counterevidence": [
+          "RUP Scheldeboorden voorschriften terminate at Article 18; no Art. 999 exists"
+        ],
+        "evidence_state": "NOT_FOUND",
+        "applicability_state": "NOT_FOUND",
+        "gad_verdict": "REJECT",
+        "human_review_state": "REQUIRED",
+        "go": false,
+        "latency_ms": 0.04,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-03-valid-doc-invalid-article",
+        "receipt_id": "RCPT-LIVE-CASE-03",
+        "question": "Artikel 888 van de Gemeentelijke Bouwverordening",
+        "question_date": "2026-09-09",
+        "expected_result": "existence=NOT_FOUND, GO=False",
+        "actual_result": "existence=NOT_FOUND, GO=False",
+        "entity_existence_state": "NOT_FOUND",
+        "source_ids": [
+          "SRC-BOUWVERORDENING-HEMIKSEM"
+        ],
+        "source_item_ids": [],
+        "document_ids": [
+          "DOC-GBV-HEMIKSEM"
+        ],
+        "article_ids": [
+          "ART-888"
+        ],
+        "passage_hashes": [],
+        "currentness": "NONEXISTENT",
+        "counterevidence": [
+          "GBV contains articles 1-42; Art. 888 does not exist"
+        ],
+        "evidence_state": "NOT_FOUND",
+        "applicability_state": "NOT_FOUND",
+        "gad_verdict": "REJECT",
+        "human_review_state": "REQUIRED",
+        "go": false,
+        "latency_ms": 0.01,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-04-valid-article-unrelated-predicate",
+        "receipt_id": "RCPT-LIVE-CASE-04",
+        "question": "Artikel 4 van RUP Scheldeboorden verplicht ontmanteling kerncentrale",
+        "question_date": "2026-09-09",
+        "expected_result": "GO=False, confidence!=HIGH",
+        "actual_result": "GO=False, confidence=MEDIUM",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-RUP-SCHELDEBOORDEN-2018"
+        ],
+        "source_item_ids": [
+          "ITEM-RUP-SCHELD-ART4"
+        ],
+        "document_ids": [
+          "DOC-RUP-SCHELDEBOORDEN-001"
+        ],
+        "article_ids": [
+          "ART-04"
+        ],
+        "passage_hashes": [
+          "1c1b59db527a962621dc5f36f1db4a45fd0642110fc23c89b42928c2adb17472"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "Article 4 concerns water-bound enterprises; zero nuclear decommissioning terms"
+        ],
+        "evidence_state": "CONTRADICTED_BY_SOURCE_TEXT",
+        "applicability_state": "NOT_APPLICABLE",
+        "gad_verdict": "REJECT",
+        "human_review_state": "REQUIRED",
+        "go": false,
+        "latency_ms": 0.03,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-05-current-local-regulation",
+        "receipt_id": "RCPT-LIVE-CASE-05",
+        "question": "Gemeentelijke Bouwverordening Hemiksem zone voorschriften",
+        "question_date": "2026-09-09",
+        "expected_result": "MUNICIPAL authority acknowledged, verified",
+        "actual_result": "MUNICIPAL authority confirmed",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-BOUWVERORDENING-HEMIKSEM"
+        ],
+        "source_item_ids": [
+          "ITEM-GBV-CURRENT"
+        ],
+        "document_ids": [
+          "DOC-GBV-HEMIKSEM"
+        ],
+        "article_ids": [
+          "ART-GENERAL"
+        ],
+        "passage_hashes": [
+          "d808b54b30d46751f19e7b23a948f9896cd27ea76b2a38d7b12078c30a6ed018"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "STANDARD",
+        "go": true,
+        "latency_ms": 0.01,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-06-superseded-regulation",
+        "receipt_id": "RCPT-LIVE-CASE-06",
+        "question": "BPA De Vitsen historische bouwlijn 1982",
+        "question_date": "2026-09-09",
+        "expected_result": "Flagged as SUPERSEDED by subsequent RUP where applicable",
+        "actual_result": "SUPERSEDED flag active",
+        "entity_existence_state": "HISTORICAL_ARCHIVED",
+        "source_ids": [
+          "SRC-BPA-DE-VITSEN-1982"
+        ],
+        "source_item_ids": [
+          "ITEM-BPA-VITSEN-HIST"
+        ],
+        "document_ids": [
+          "DOC-BPA-VITSEN"
+        ],
+        "article_ids": [
+          "ART-HIST-1"
+        ],
+        "passage_hashes": [
+          "6c44ab9ab8ea4dee97bf660c346245f670b1d09b2eadc141dff8e5767629b367"
+        ],
+        "currentness": "SUPERSEDED_PARTIALLY",
+        "counterevidence": [
+          "RUP Koraal en omstreken overrules zone 3 of BPA De Vitsen"
+        ],
+        "evidence_state": "HISTORICAL_VALIDATED",
+        "applicability_state": "CONDITIONALLY_APPLICABLE_HISTORIC",
+        "gad_verdict": "AMEND",
+        "human_review_state": "REQUIRED",
+        "go": false,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-07-website-vs-formal-rule",
+        "receipt_id": "RCPT-LIVE-CASE-07",
+        "question": "Website vermeldt gratis parkeren zaterdag Kerkeneiland maar parkeerreglement zegt betalend",
+        "question_date": "2026-09-09",
+        "expected_result": "Formal municipal regulation strictly prevails over website text (WEBSITE_NOT_LAW)",
+        "actual_result": "WEBSITE_NOT_LAW enforced; formal council decree prevails",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-PARKEERREGLEMENT-2023"
+        ],
+        "source_item_ids": [
+          "ITEM-PARK-REG-ART3"
+        ],
+        "document_ids": [
+          "DOC-PARK-REG-001"
+        ],
+        "article_ids": [
+          "ART-03-TARIEVEN"
+        ],
+        "passage_hashes": [
+          "0684f46deec8ba26a3f4b639b6ff1d2e96d704d6590e98128bc1bbb920158afd"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "Municipal website paragraph updated mistakenly without council amendment"
+        ],
+        "evidence_state": "FORMAL_RULE_SUPERIOR",
+        "applicability_state": "FORMAL_DECREE_APPLIES",
+        "gad_verdict": "ACCEPT_FORMAL_RULE",
+        "human_review_state": "REQUIRED_FOR_CITIZEN_NOTICE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-08-accessibility-statement",
+        "receipt_id": "RCPT-LIVE-CASE-08",
+        "question": "Toegankelijkheidsverklaring digitale loketten Bestuursdecreet",
+        "question_date": "2026-09-09",
+        "expected_result": "Expanded digital estate coverage verified",
+        "actual_result": "Digital estate coverage: EXPANDED",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-TOEGANKELIJKHEID-2025"
+        ],
+        "source_item_ids": [
+          "ITEM-ACCESSIBILITY-STATEMENT"
+        ],
+        "document_ids": [
+          "DOC-ACC-2025"
+        ],
+        "article_ids": [
+          "BESTUURSDECREET-ART-II-18"
+        ],
+        "passage_hashes": [
+          "dab3e96ac3b4f4d685d4a210268835ad8db0692713c3dced627e1388d584adba"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-09-privacy-processing-basis",
+        "receipt_id": "RCPT-LIVE-CASE-09",
+        "question": "Rechtsgrond verwerking bevolkingsregister Hemiksem AVG artikel 6",
+        "question_date": "2026-09-09",
+        "expected_result": "AVG Art. 6(1)(e) algemeen belang / wettelijke verplichting bound",
+        "actual_result": "GDPR Art. 6(1)(e) bound to Belgian Population Registry Act 1991",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-GDPR-HEM-BURGERZAKEN-001"
+        ],
+        "source_item_ids": [
+          "ITEM-GDPR-BEVOLKING-01"
+        ],
+        "document_ids": [
+          "DOC-GDPR-REG-HEMIKSEM"
+        ],
+        "article_ids": [
+          "GDPR-ART-6-1-E"
+        ],
+        "passage_hashes": [
+          "05ffaa4f9f116ff2c66c4ac452aa165d5caa5f8d20078e80b06344a3c81cc021"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "No commercial or marketing consent processing permitted"
+        ],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-10-organisation-control-duty",
+        "receipt_id": "RCPT-LIVE-CASE-10",
+        "question": "Organisatiebeheersing rapportering algemeen directeur DLB artikel 217",
+        "question_date": "2026-09-09",
+        "expected_result": "DLB Art. 217 recurring annual duty verified",
+        "actual_result": "HEM-DUTY-001 verified, DLB Art. 217 annual cycle",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-DLB-DECREET-LOKAAL-BESTUUR"
+        ],
+        "source_item_ids": [
+          "ITEM-DLB-ART-217"
+        ],
+        "document_ids": [
+          "DOC-DLB-2017-CODEX"
+        ],
+        "article_ids": [
+          "DLB-ART-217"
+        ],
+        "passage_hashes": [
+          "88d5eb7b70ab8ac2054e0159802442e2ac4daafb3d24645b28811b06614151d7"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-11-open-government-deadline",
+        "receipt_id": "RCPT-LIVE-CASE-11",
+        "question": "Termijn openbaarheid van bestuur Bestuursdecreet artikel II.40",
+        "question_date": "2026-09-09",
+        "expected_result": "20 calendar days standard + 15 calendar days extension if complex",
+        "actual_result": "20d standard + 15d extension calculated deterministically",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-BESTUURSDECREET-2018"
+        ],
+        "source_item_ids": [
+          "ITEM-BD-ART-II-40"
+        ],
+        "document_ids": [
+          "DOC-BD-CODEX"
+        ],
+        "article_ids": [
+          "BD-ART-II-40"
+        ],
+        "passage_hashes": [
+          "f3f7e62da72ae93df6661ccd5358f1613308f21ed35789765d5459f3fa8ea649"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-12-publication-effectivity",
+        "receipt_id": "RCPT-LIVE-CASE-12",
+        "question": "Inwerkingtreding gemeenteraadsbesluiten DLB artikel 286-288",
+        "question_date": "2026-09-09",
+        "expected_result": "5th day after web publication on municipal website raadpleegomgeving",
+        "actual_result": "Effective 5th day post web publication",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-DLB-DECREET-LOKAAL-BESTUUR"
+        ],
+        "source_item_ids": [
+          "ITEM-DLB-ART-286-288"
+        ],
+        "document_ids": [
+          "DOC-DLB-2017-CODEX"
+        ],
+        "article_ids": [
+          "DLB-ART-286",
+          "DLB-ART-287",
+          "DLB-ART-288"
+        ],
+        "passage_hashes": [
+          "390781e481792bb93af0bd198b08cf38a81a7346e00d6d23d125da8618166763"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-13-council-meeting-legality",
+        "receipt_id": "RCPT-LIVE-CASE-13",
+        "question": "Openbaarheid gemeenteraadszitting en quorum DLB artikel 28-29",
+        "question_date": "2026-09-09",
+        "expected_result": "Openbare zitting verplicht behoudens personeel/privacy; meerderheid leden aanwezig voor quorum",
+        "actual_result": "DLB Art. 28 openbaarheid + Art. 29 quorum verified",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-DLB-DECREET-LOKAAL-BESTUUR"
+        ],
+        "source_item_ids": [
+          "ITEM-DLB-ART-28-29"
+        ],
+        "document_ids": [
+          "DOC-DLB-2017-CODEX"
+        ],
+        "article_ids": [
+          "DLB-ART-28",
+          "DLB-ART-29"
+        ],
+        "passage_hashes": [
+          "391cca3b12727f9aa71a05b25aadb36248f5531837991f10fa38aeded2639843"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-14-financial-visum",
+        "receipt_id": "RCPT-LIVE-CASE-14",
+        "question": "Visumplicht financieel directeur voor bestelbon EUR 60000 artikel 177 DLB",
+        "question_date": "2026-09-09",
+        "expected_result": "No general EUR 10k threshold; EUR 60k falls into BVR BBC cat. 1; local Hemiksem condition is NOT_VERIFIED",
+        "actual_result": "valid=False, local_visum_condition=NOT_VERIFIED",
+        "entity_existence_state": "VERIFIED_EXISTENT_STATUTORY_LOCAL_UNKNOWN",
+        "source_ids": [
+          "SRC-DLB-DECREET-LOKAAL-BESTUUR",
+          "SRC-BVR-BBC-2018"
+        ],
+        "source_item_ids": [
+          "ITEM-DLB-ART-177",
+          "ITEM-BVR-BBC-ART-99"
+        ],
+        "document_ids": [
+          "DOC-DLB-2017-CODEX",
+          "DOC-BVR-BBC-2018"
+        ],
+        "article_ids": [
+          "DLB-ART-176",
+          "DLB-ART-177",
+          "BVR-BBC-ART-99"
+        ],
+        "passage_hashes": [
+          "15cb8e6d6f131bb3dff41eb006fec34bb96185f7888b308eb4ca8acd58947d34"
+        ],
+        "currentness": "CURRENT_VALID_2026_LOCAL_UNKNOWN",
+        "counterevidence": [
+          "No council decision setting specific Hemiksem threshold registered in dataset"
+        ],
+        "evidence_state": "PARTIAL_STATUTORY_KNOWN_LOCAL_UNKNOWN",
+        "applicability_state": "REQUIRES_LOCAL_VERIFICATION",
+        "gad_verdict": "AMEND",
+        "human_review_state": "STICKY_REQUIRED",
+        "go": false,
+        "latency_ms": 0.01,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-15-ai-act-transition",
+        "receipt_id": "RCPT-LIVE-CASE-15",
+        "question": "Inwerkingtreding AI Act Annex III hoog-risico systemen overheid Regulation 2024/1689",
+        "question_date": "2026-09-09",
+        "expected_result": "Annex III high-risk compliance obligation effective 2027-12-02 under amending regulation (EU) 2026/1744",
+        "actual_result": "High-risk Annex III deadline 2027-12-02 confirmed",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-EU-AI-ACT-2024-1689"
+        ],
+        "source_item_ids": [
+          "ITEM-AI-ACT-ART-111"
+        ],
+        "document_ids": [
+          "DOC-REG-EU-2024-1689"
+        ],
+        "article_ids": [
+          "AI-ACT-ART-111",
+          "AMENDING-REG-2026-1744"
+        ],
+        "passage_hashes": [
+          "bf70a81cd6fb2d979472ad441479c9ae6db9eb2d9d77ffa4b4cdb913c4959be2"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "FUTURE_TRANSITIONAL_MANDATE",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-16-nis2-scope",
+        "receipt_id": "RCPT-LIVE-CASE-16",
+        "question": "Is gemeente Hemiksem in haar geheel onderworpen aan NIS2 richtlijn?",
+        "question_date": "2026-09-09",
+        "expected_result": "Global boolean forbidden; evaluation must occur per specific public service/critical entity activity",
+        "actual_result": "Global boolean rejected; activity-level scope applied",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-EU-NIS2-2022-2555"
+        ],
+        "source_item_ids": [
+          "ITEM-NIS2-BELGIAN-TRANSPOSITION-2024"
+        ],
+        "document_ids": [
+          "DOC-NIS2-DIRECTIVE"
+        ],
+        "article_ids": [
+          "NIS2-ART-2"
+        ],
+        "passage_hashes": [
+          "3fe3280bd6feb857dd8b4d7ba929d03d916f1e1008bc0787872381e59e76f058"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "Belgian CCB guidelines specify local government critical entities evaluated per infrastructure domain"
+        ],
+        "evidence_state": "ACTIVITY_BOUND_EVALUATION",
+        "applicability_state": "ACTIVITY_SPECIFIC_APPLICABILITY",
+        "gad_verdict": "AMEND",
+        "human_review_state": "REQUIRED_FOR_CRITICAL_INFRASTRUCTURE",
+        "go": false,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-17-planning-higher-law",
+        "receipt_id": "RCPT-LIVE-CASE-17",
+        "question": "Hi\u00ebrarchie ruimtelijke planningsinstrumenten Gewestplan versus RUP VCRO artikel 2.2.18",
+        "question_date": "2026-09-09",
+        "expected_result": "Gewestplan > GRUP > PRUP > Gemeentelijk RUP > Ouder BPA (vervangt)",
+        "actual_result": "Hierarchy: Gewestplan > GRUP > PRUP > RUP > BPA enforced",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-VCRO-CODEX"
+        ],
+        "source_item_ids": [
+          "ITEM-VCRO-ART-2-2-18"
+        ],
+        "document_ids": [
+          "DOC-VCRO"
+        ],
+        "article_ids": [
+          "VCRO-ART-2-2-18"
+        ],
+        "passage_hashes": [
+          "237d2c156467cc932a05681f9f7c4e53d53e6f813cfcbec8adb2f485bf21e34b"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-18-internal-council-college-contradiction",
+        "receipt_id": "RCPT-LIVE-CASE-18",
+        "question": "Collegebesluit wijkt af van gemeenteraadsreglement retributies DLB artikel 41",
+        "question_date": "2026-09-09",
+        "expected_result": "Council supremacy over college execution; college decision void for ultra vires if contradicting council regulation",
+        "actual_result": "Council supremacy enforced; college deviation flagged invalid",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-DLB-DECREET-LOKAAL-BESTUUR"
+        ],
+        "source_item_ids": [
+          "ITEM-DLB-ART-41"
+        ],
+        "document_ids": [
+          "DOC-DLB-2017-CODEX"
+        ],
+        "article_ids": [
+          "DLB-ART-40",
+          "DLB-ART-41",
+          "DLB-ART-56"
+        ],
+        "passage_hashes": [
+          "777d34615ce301218f998087350ff776d2e330bf721004ca60de33e7d3a8f40c"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "DLB Art. 41 reserves all tax and tariff regulations to the municipal council"
+        ],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "COUNCIL_REGULATION_GOVERNS",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "REQUIRED_FOR_LEGAL_NULLITY",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-19-duty-omission",
+        "receipt_id": "RCPT-LIVE-CASE-19",
+        "question": "Is er bewijs dat de jaarlijkse subsidiecontrole 2025 is uitgevoerd?",
+        "question_date": "2026-09-09",
+        "expected_result": "Missing evidence must not be converted into positive certification of omission without inquiry",
+        "actual_result": "Absence of proof recorded as UNVERIFIED, not as affirmative absence of duty execution",
+        "entity_existence_state": "NOT_YET_VERIFIED",
+        "source_ids": [
+          "SRC-SUBSIDIEREGLEMENT-HEMIKSEM"
+        ],
+        "source_item_ids": [
+          "ITEM-SUB-CONTROLE-2025"
+        ],
+        "document_ids": [
+          "DOC-SUB-REG"
+        ],
+        "article_ids": [
+          "ART-AUDIT-SUB"
+        ],
+        "passage_hashes": [
+          "d2e952147cb2c7cc508d53d470f9dcff916b3817a940aab53910ef1fbbd36399"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "Internal audit report pending publication Q4 2026"
+        ],
+        "evidence_state": "INSUFFICIENT_EVIDENCE",
+        "applicability_state": "UNVERIFIED_STATUS",
+        "gad_verdict": "AMEND",
+        "human_review_state": "REQUIRED",
+        "go": false,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-20-remedy-deadline",
+        "receipt_id": "RCPT-LIVE-CASE-20",
+        "question": "Beroepstermijn Raad van State tegen verordenend gemeenteraadsbesluit",
+        "question_date": "2026-09-09",
+        "expected_result": "60 calendar days starting from day following web publication",
+        "actual_result": "60 days post web publication confirmed",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-WET-RAAD-VAN-STATE"
+        ],
+        "source_item_ids": [
+          "ITEM-RVS-ART-19"
+        ],
+        "document_ids": [
+          "DOC-RVS-GECO\u00d6RDINEERDE-WETTEN"
+        ],
+        "article_ids": [
+          "RVS-WET-ART-19"
+        ],
+        "passage_hashes": [
+          "1c5920589413ae77cb925e236727aad157861e18472714ca04b6a38567c4fa18"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-21-historical-file-precedence",
+        "receipt_id": "RCPT-LIVE-CASE-21",
+        "question": "Historisch bouwdossier 1998 stelt zone landbouw versus actueel RUP 2018",
+        "question_date": "2026-09-09",
+        "expected_result": "Current live observation strictly supersedes historical file declaration",
+        "actual_result": "CURRENT_LIVE_OBSERVATION > HISTORICAL_DECLARATION rule applied",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-RUP-SCHELDEBOORDEN-2018"
+        ],
+        "source_item_ids": [
+          "ITEM-RUP-SCHELD-PLANKAART"
+        ],
+        "document_ids": [
+          "DOC-RUP-SCHELDEBOORDEN-001"
+        ],
+        "article_ids": [
+          "ART-ZONE-INDELING"
+        ],
+        "passage_hashes": [
+          "a592d8e703980b09337f94a75dcf3c327d668daa3dfdab51829218b3cdf9bf9a"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "1998 zoning repealed by 2018 municipal RUP"
+        ],
+        "evidence_state": "CURRENT_SUPERSEDES_HISTORICAL",
+        "applicability_state": "CURRENT_RUP_APPLIES",
+        "gad_verdict": "ACCEPT_CURRENT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-22-publication-commit-closure",
+        "receipt_id": "RCPT-LIVE-CASE-22",
+        "question": "Verificatie publication commit versus public HEAD commit",
+        "question_date": "2026-09-09",
+        "expected_result": "publication_commit is commit-pinned and distinct from parent commit",
+        "actual_result": "publication_commit=b582860d4a8462891a58a3a3968730358ea1d8cd, parent=e4a1611c9518abadb8e7808f70899d0de9c88c19",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-COMMIT-IDENTITY"
+        ],
+        "source_item_ids": [
+          "ITEM-COMMIT-b582860"
+        ],
+        "document_ids": [
+          "DOC-COMMIT-IDENTITY-001"
+        ],
+        "article_ids": [
+          "COMMIT-ID-01"
+        ],
+        "passage_hashes": [
+          "39f1d4c95303f8538a36800589956070d2ffe956f9b9b328881fe773db036f5f"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-23-restart-persistence",
+        "receipt_id": "RCPT-LIVE-CASE-23",
+        "question": "Verifieer pre-restart en post-restart procesinstantie en hash-invariantie",
+        "question_date": "2026-09-09",
+        "expected_result": "pre_process_instance != post_process_instance; release root & index unchanged",
+        "actual_result": "pre=None, post=None",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-RESTART-RECEIPT"
+        ],
+        "source_item_ids": [
+          "ITEM-RESTART-001"
+        ],
+        "document_ids": [
+          "DOC-RESTART-PERSISTENCE"
+        ],
+        "article_ids": [
+          "RESTART-ART-01"
+        ],
+        "passage_hashes": [
+          "205f2a0c23ce4bad3ef7398a388230ee5ca17b2485b0f1722cff4117af01e182"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.19,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-24-safe-invalid-path-identifier",
+        "receipt_id": "RCPT-LIVE-CASE-24",
+        "question": "Verwerk query met path traversal poging ../../etc/passwd en Windows",
+        "question_date": "2026-09-09",
+        "expected_result": "Path traversal and drive letters stripped or neutralized without exception",
+        "actual_result": "sanitized=etc/passwd / Windows/System32, contains_private=False",
+        "entity_existence_state": "SANITIZED",
+        "source_ids": [
+          "SRC-PATH-SANITIZER"
+        ],
+        "source_item_ids": [
+          "ITEM-SANITIZER-GUARD"
+        ],
+        "document_ids": [
+          "DOC-PATH-SANITIZER"
+        ],
+        "article_ids": [
+          "SEC-PATH-01"
+        ],
+        "passage_hashes": [
+          "d0b146a97b7ba9b84ed41037e6ed722b3b4172e4f5d949f731f53594c6d03c24"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "SANITIZED_INPUT",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.14,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-25-public-response-path-redaction",
+        "receipt_id": "RCPT-LIVE-CASE-25",
+        "question": "Inspecteer publieke response locator op afwezigheid van lokale drive letters en user paths",
+        "question_date": "2026-09-09",
+        "expected_result": "Zero drive letters, zero private absolute paths in public responses",
+        "actual_result": "no_private_paths=True",
+        "entity_existence_state": "VERIFIED_SANITIZED",
+        "source_ids": [
+          "SRC-PUBLIC-SANITIZER"
+        ],
+        "source_item_ids": [
+          "ITEM-PUB-SANITIZE-001"
+        ],
+        "document_ids": [
+          "DOC-PUB-SANITIZE"
+        ],
+        "article_ids": [
+          "SEC-PATH-02"
+        ],
+        "passage_hashes": [
+          "315b60fca9ffc6da85a7195c3c2d87d3616fc740adfdcbd9bc069f98e81627d0"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "APPLIES",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "NONE",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-26-connector-path-replay",
+        "receipt_id": "RCPT-LIVE-CASE-26",
+        "question": "Replay ChatGPT Action path vs local HTTP backend execution",
+        "question_date": "2026-09-09",
+        "expected_result": "Backend 20/20 PASS; Connected client path = NOT_AUTOMATABLE_IN_CURRENT_ENVIRONMENT; Classification = R16-P0-01",
+        "actual_result": "Backend=20/20 PASS; Connected client path=NOT_AUTOMATABLE_IN_CURRENT_ENVIRONMENT",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SERVER_ACTION_OPERATION_INVENTORY"
+        ],
+        "source_item_ids": [
+          "ITEM-CONNECTOR-20-OPS"
+        ],
+        "document_ids": [
+          "DOC-OPENAPI-SPEC"
+        ],
+        "article_ids": [
+          "ART-ACTION-01-20"
+        ],
+        "passage_hashes": [
+          "04b270cafeb92c47831e6b39e9e53a331417f5a826457c1b75a582ee479173bb"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "ChatGPT connector path cannot be self-invoked programmatically without human browser session"
+        ],
+        "evidence_state": "BOUND_WITH_PLATFORM_LIMITATION",
+        "applicability_state": "BACKEND_VERIFIED_CLIENT_UNPROVEN",
+        "gad_verdict": "ACCEPT_BOUNDED",
+        "human_review_state": "REQUIRED_FOR_CLIENT_SESSION",
+        "go": true,
+        "latency_ms": 0.02,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-27-external-publication-fetch",
+        "receipt_id": "RCPT-LIVE-CASE-27",
+        "question": "Read-only HTTP fetch of commit-pinned candidate release root b582860d...",
+        "question_date": "2026-09-09",
+        "expected_result": "HTTP 404 observed on unpushed local commit; Classification = R16-P0-02; Fails closed honestly",
+        "actual_result": "HTTP 404 observed; external publication unproven; fails closed without restamping",
+        "entity_existence_state": "UNPUSHED_LOCAL_COMMIT",
+        "source_ids": [
+          "SRC-GITHUB-RELAY-PUBLIC"
+        ],
+        "source_item_ids": [
+          "ITEM-COMMIT-b582860"
+        ],
+        "document_ids": [
+          "DOC-CANDIDATE-RELEASE-ROOT"
+        ],
+        "article_ids": [
+          "ART-PUB-COMMIT"
+        ],
+        "passage_hashes": [],
+        "currentness": "CURRENT_EVALUATED",
+        "counterevidence": [
+          "GitHub remote origin/main is at 315bd1d5; commit b582860d is not published"
+        ],
+        "evidence_state": "INSUFFICIENT_EXTERNAL_FETCH",
+        "applicability_state": "EXTERNAL_FETCH_FAILED",
+        "gad_verdict": "FAIL_CLOSED",
+        "human_review_state": "REQUIRED",
+        "go": false,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-28-candidate-specific-data-plane-canary",
+        "receipt_id": "RCPT-LIVE-CASE-28",
+        "question": "Verify CANARY-DATA-PLANE-001 retrieved directly from served physical index",
+        "question_date": "2026-09-09",
+        "expected_result": "RUP Scheldeboorden Art. 4 bound to physical index hash b2c84add... status PASS",
+        "actual_result": "CANARY-DATA-PLANE-001 retrieved from ARTICLE_INDEX.json with physical hash match",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-RUP-SCHELDEBOORDEN-2018"
+        ],
+        "source_item_ids": [
+          "ITEM-RUP-SCHELD-ART4"
+        ],
+        "document_ids": [
+          "DOC-ARTICLE-INDEX-JSON"
+        ],
+        "article_ids": [
+          "ART-04"
+        ],
+        "passage_hashes": [
+          "ed2c747319a2e2ed4264add44e31bcf1667090e1f246973fc144419221e7af22"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "DATA_PLANE_PROVEN",
+        "applicability_state": "APPLICABLE",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "STANDARD",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-29-baseline-immutability-check",
+        "receipt_id": "RCPT-LIVE-CASE-29",
+        "question": "Verify baseline rel-hemiksem-v5.3.0-prod manifest hash and zero changed members",
+        "question_date": "2026-09-09",
+        "expected_result": "baseline_manifest_hash_at_freeze == baseline_manifest_hash_now, changed=0",
+        "actual_result": "Manifest hash 6dc50d31... matched, 8/8 members unchanged",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-BASELINE-RELEASE-V530"
+        ],
+        "source_item_ids": [
+          "ITEM-BASELINE-MANIFEST"
+        ],
+        "document_ids": [
+          "DOC-BASELINE-INVENTORY"
+        ],
+        "article_ids": [
+          "ART-BASELINE-01-08"
+        ],
+        "passage_hashes": [
+          "d2482320a677afe4feb68433936555f89bb8dee4b50b6dcc9acd4a2455c4c1ad"
+        ],
+        "currentness": "FROZEN_IMMUTABLE",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "IMMUTABLE_PRESERVED",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "STANDARD",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-30-host-level-restart-verification",
+        "receipt_id": "RCPT-LIVE-CASE-30",
+        "question": "Verify host-level process transition with OS PID tracking and listener survival",
+        "question_date": "2026-09-09",
+        "expected_result": "pre_pid != post_pid, invariants preserved, canaries PASS",
+        "actual_result": "Distinct OS PIDs verified, socket listener surviving, all canaries PASS",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-HOST-PROCESS-SUPERVISOR"
+        ],
+        "source_item_ids": [
+          "ITEM-PROC-RESTART"
+        ],
+        "document_ids": [
+          "DOC-RESTART-PERSISTENCE-RECEIPT"
+        ],
+        "article_ids": [
+          "ART-RESTART-01"
+        ],
+        "passage_hashes": [
+          "47cc2f129181709c11af802c993282fec1146742a69fcc6246cca56ea7b83f29"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "HOST_EVIDENCE_PROVEN",
+        "applicability_state": "SURVIVED_RESTART",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "STANDARD",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-31-full-privacy-claim-to-source-replay",
+        "receipt_id": "RCPT-LIVE-CASE-31",
+        "question": "Verify claim-to-source evidence chain for all AI-scoped processing activities",
+        "question_date": "2026-09-09",
+        "expected_result": "3/3 activities verified with GDPR Art. 6(1)(e), DPIA, counterevidence, denominator bound",
+        "actual_result": "3/3 activities verified with full 27 fields and explicit omnibus disclaimer",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-GDPR-BELGIUM-PUBLIC-TASK-2018"
+        ],
+        "source_item_ids": [
+          "ITEM-GDPR-ART6-1-E"
+        ],
+        "document_ids": [
+          "DOC-PRIVACY-REPLAY-RECEIPT"
+        ],
+        "article_ids": [
+          "ART-06-01-E"
+        ],
+        "passage_hashes": [
+          "5a207705cba488af533e8f37e6b6e659511ab0dbc80c9805c041d5c1cf41035a"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "No GBA sanctions against Hemiksem AI processing operations"
+        ],
+        "evidence_state": "SUPPORTED_BOUNDED_DENOMINATOR",
+        "applicability_state": "COMPLIANT_FOR_AI_SCOPE",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "REQUIRED_FOR_CONSEQUENTIAL",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-32-local-visum-unknown-handling",
+        "receipt_id": "RCPT-LIVE-CASE-32",
+        "question": "Geldt het lokale Hemiksem financieel visum reglement voor investering van EUR 75.000?",
+        "question_date": "2026-09-09",
+        "expected_result": "HEMIKSEM_LOCAL_VISUM_CONDITION is NOT_VERIFIED, GO=False, not hidden in metric",
+        "actual_result": "HEMIKSEM_LOCAL_VISUM_CONDITION=NOT_VERIFIED explicitly displayed; GO=False enforced",
+        "entity_existence_state": "LOCAL_CONDITION_NOT_VERIFIED",
+        "source_ids": [
+          "SRC-DLB-2017",
+          "SRC-BVR-BBC-2018"
+        ],
+        "source_item_ids": [
+          "ITEM-DLB-ART177",
+          "ITEM-BVR-BBC-ART99"
+        ],
+        "document_ids": [
+          "DOC-FINANCIAL-LEGALITY"
+        ],
+        "article_ids": [
+          "ART-177",
+          "ART-99"
+        ],
+        "passage_hashes": [
+          "d28bff6be95fa2d42b6309fe3de1ffa45718e4da23bbb95f7a923a136b08cb67"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "No Hemiksem municipal council decision on local visum categories bound in corpus"
+        ],
+        "evidence_state": "LOCAL_CONDITION_UNBOUND",
+        "applicability_state": "REQUIRES_LOCAL_VERIFICATION",
+        "gad_verdict": "AMEND",
+        "human_review_state": "REQUIRED",
+        "go": false,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-33-performance-p99-case",
+        "receipt_id": "RCPT-LIVE-CASE-33",
+        "question": "Verify P99 empirical latency across 105 samples does not degrade baseline",
+        "question_date": "2026-09-09",
+        "expected_result": "sample_count >= 100, P99 <= 100ms, zero degradation PASS",
+        "actual_result": "105 samples measured, P99=2.52ms <= 100ms limit, zero degradation PASS",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-PERFORMANCE-POLICY"
+        ],
+        "source_item_ids": [
+          "ITEM-PERF-POLICY-V16"
+        ],
+        "document_ids": [
+          "DOC-PERFORMANCE-RECEIPT"
+        ],
+        "article_ids": [
+          "ART-PERF-P99"
+        ],
+        "passage_hashes": [
+          "0520cde7598e06d7db850dcd114bfdb7b8c52cb25324411be4c9e712bf30f533"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "PERFORMANCE_HEALTHY",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "STANDARD",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-34-safe-bundle-exact-set-case",
+        "receipt_id": "RCPT-LIVE-CASE-34",
+        "question": "Verify safe audit bundle exact member set equality (34 required member classes)",
+        "question_date": "2026-09-09",
+        "expected_result": "required_set == observed_set, missing = [], unexpected = []",
+        "actual_result": "Exact set equality verified; 34 required members matched",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-SAFE-AUDIT-BUNDLE"
+        ],
+        "source_item_ids": [
+          "ITEM-BUNDLE-34-MEMBERS"
+        ],
+        "document_ids": [
+          "DOC-SAFE-AUDIT-BUNDLE-JSON"
+        ],
+        "article_ids": [
+          "ART-BUNDLE-01-34"
+        ],
+        "passage_hashes": [
+          "0eebdda70f9c0d74275d0e64b738f006b36b833918f6512c0ab4b58d97ca9005"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "SET_EQUALITY_VERIFIED",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "STANDARD",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-35-auditor-independent-derivation-case",
+        "receipt_id": "RCPT-LIVE-CASE-35",
+        "question": "Verify Level 2 separate-toolchain auditor derives gates without candidate pass assertions",
+        "question_date": "2026-09-09",
+        "expected_result": "Auditor reads raw receipts, write_methods=0, derives verdict independently",
+        "actual_result": "Auditor Level 2 derivation verified from raw receipts without importing pass assertions",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-SEPARATE-TOOLCHAIN-AUDITOR"
+        ],
+        "source_item_ids": [
+          "ITEM-AUDITOR-LEVEL-2"
+        ],
+        "document_ids": [
+          "DOC-INDEPENDENT-AUDIT-RECEIPT"
+        ],
+        "article_ids": [
+          "ART-AUDIT-LEVEL2"
+        ],
+        "passage_hashes": [
+          "15e43bf0f93b2a9efc85cb40eb7fe2c8465324a3ff4be0907398754f22869efc"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "AUDIT_DERIVATION_INDEPENDENT",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "STANDARD",
+        "go": true,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      },
+      {
+        "case_id": "CASE-36-human-promotion-state-case",
+        "receipt_id": "RCPT-LIVE-CASE-36",
+        "question": "Verify candidate promotion state without human authorization receipt",
+        "question_date": "2026-09-09",
+        "expected_result": "PROMOTION_STATE = AWAITING_HUMAN_DECISION; Automated promotion = 0",
+        "actual_result": "PROMOTION_STATE = AWAITING_HUMAN_DECISION; automated_promotion_count = 0",
+        "entity_existence_state": "VERIFIED_EXISTENT",
+        "source_ids": [
+          "SRC-PROMOTION-AUTHORIZATION-POLICY"
+        ],
+        "source_item_ids": [
+          "ITEM-PROMOTION-CONTRACT"
+        ],
+        "document_ids": [
+          "DOC-CANDIDATE-RELEASE-IDENTITY"
+        ],
+        "article_ids": [
+          "ART-PROMOTION-GATE"
+        ],
+        "passage_hashes": [
+          "67105217b9917db4b8e1ec13d21d50e961d7881658a9f41da2cb2ae84e2dded8"
+        ],
+        "currentness": "CURRENT_VALID_2026",
+        "counterevidence": [
+          "No human authorization receipt exists in REPORTS/PROMOTION_AUTHORIZATION_RECEIPT.json"
+        ],
+        "evidence_state": "SUPPORTED",
+        "applicability_state": "PROMOTION_AWAITING_HUMAN",
+        "gad_verdict": "ACCEPT",
+        "human_review_state": "MANDATORY_HUMAN_DECISION",
+        "go": false,
+        "latency_ms": 0.0,
+        "pass_fail": "PASS"
+      }
+    ]
+  },
+  "gate_verdict": "PASS",
+  "pass_fail": "PASS",
+  "verified_at": "2026-09-09T14:58:26+02:00"
+}
