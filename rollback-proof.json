@@ -1,11 +1,11 @@
 {
   "schema_version": "hemiksem-rollback-proof-v2",
-  "spec_id": "HEMIKSEM-AI-V530-R1131-FINAL-CURRENT-LIVE-PERSISTENCE-SEAL",
+  "spec_id": "HEMIKSEM-AI-V530-R1132-PUBLICATION-BINDING-PERSISTENCE-CLOSURE",
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
   "engine_runtime": "8.1",
-  "proof_revision": "R1.1.3.1",
-  "candidate_id": "CAND-HEMIKSEM-V530-R1131-PROD",
+  "proof_revision": "R1.1.3.2",
+  "candidate_id": "CAND-HEMIKSEM-V530-R1132-PROD",
   "candidate_generation": 2,
   "deployment_generation": 4,
   "tested_bundle_hash": "d59888bbe9ed81a8df14d6e13ccc9e6f35034930bda8270f0a0055e642ebbad7",
@@ -60,8 +60,8 @@
   "status": "PASS",
   "evaluated_at": "2026-09-08T18:43:43.592172+00:00",
   "functional_source_commit": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
-  "base_publication_commit": "76a9c329cd3a04c06e4b84ffbf01bc51c67d0c1a",
-  "verified_at": "2026-09-08T21:03:00+00:00",
+  "base_publication_commit": "e4a1611c9518abadb8e7808f70899d0de9c88c19",
+  "verified_at": "2026-09-09T06:43:00+00:00",
   "generated_at": "2026-09-08T19:03:00+00:00",
-  "publication_parent_commit": "76a9c329cd3a04c06e4b84ffbf01bc51c67d0c1a"
+  "publication_parent_commit": "e4a1611c9518abadb8e7808f70899d0de9c88c19"
 }

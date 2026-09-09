@@ -1,58 +1,61 @@
 {
   "schema_version": "hemiksem-proof-chain-v3",
-  "spec_id": "HEMIKSEM-AI-V530-R1131-FINAL-CURRENT-LIVE-PERSISTENCE-SEAL",
+  "spec_id": "HEMIKSEM-AI-V530-R1132-PUBLICATION-BINDING-PERSISTENCE-CLOSURE",
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
-  "proof_revision": "R1.1.3.1",
-  "candidate_id": "CAND-HEMIKSEM-V530-R1131-PROD",
-  "promotion_epoch": "EPOCH-V530-R1131-FINAL",
+  "proof_revision": "R1.1.3.2",
+  "candidate_id": "CAND-HEMIKSEM-V530-R1132-PROD",
+  "promotion_epoch": "EPOCH-V530-R1132-FINAL",
   "deployment_generation": 4,
+  "runtime_deployment_generation": 4,
+  "public_proof_generation": 5,
   "functional_source_commit": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
-  "publication_parent_commit": "76a9c329cd3a04c06e4b84ffbf01bc51c67d0c1a",
-  "base_publication_commit": "76a9c329cd3a04c06e4b84ffbf01bc51c67d0c1a",
-  "manifest_sha256": "58a5ff39dd4b546c20efcc66982388d8096249815802cdf6f7b2276a25ddc066",
+  "publication_parent_commit": "e4a1611c9518abadb8e7808f70899d0de9c88c19",
+  "base_publication_commit": "e4a1611c9518abadb8e7808f70899d0de9c88c19",
+  "publication_commit": "e4a1611c9518abadb8e7808f70899d0de9c88c19",
+  "manifest_sha256": "37f70e2d0f67dcf476ecd80c012c6976408034cbcc695dce1fc5b65149244bdb",
   "causal_order_verified": true,
   "chain_nodes": [
     {
       "node": "candidate_context_freeze",
-      "timestamp": "2026-09-08T21:00:00+00:00",
+      "timestamp": "2026-09-09T06:40:00+00:00",
       "status": "PASS"
     },
     {
       "node": "test_proof",
-      "timestamp": "2026-09-08T21:01:00+00:00",
+      "timestamp": "2026-09-09T06:41:00+00:00",
       "status": "PASS",
-      "sha256": "f8fa2638a42b3451e91e38b79e9afe9104b80977373194422451eee3cf3761b2"
+      "sha256": "7e0bbe66a5252362db58101e4feed06b40753b5a0d5b31755503272eb10c9ab5"
     },
     {
       "node": "mutation_proof",
-      "timestamp": "2026-09-08T21:02:00+00:00",
+      "timestamp": "2026-09-09T06:42:00+00:00",
       "status": "PASS",
-      "sha256": "9eb2ae5204973c5cd66f7c0d35f065ef9d9184140f83525f12150924b159fc94"
+      "sha256": "0a6ed6f23eb788b2a4e3fe89ea075696edb9d00947b4dbe3cebde71f3255cf0c"
     },
     {
       "node": "release_gates",
-      "timestamp": "2026-09-08T21:02:30+00:00",
+      "timestamp": "2026-09-09T06:42:30+00:00",
       "status": "PASS",
-      "sha256": "645c124d5dafd3423def5e65d91313b26d01ae81d2d5ab62e6ca7730290201d4"
+      "sha256": "d69b21a8e42506f3d06cc3492da9e6e3662ade234b228e44fa40ecfbfc1ec57f"
     },
     {
       "node": "rollback_proof",
-      "timestamp": "2026-09-08T21:03:00+00:00",
+      "timestamp": "2026-09-09T06:43:00+00:00",
       "status": "PASS",
-      "sha256": "73bf9906e3680c31c65691524d4e5bb40425898c82be53aa77d096be87260d1f"
+      "sha256": "0e358ca5da9d68ed7518ccdc64f50aa50c3fe0f8948d7ef67cce6cd19ea5c283"
     },
     {
       "node": "layer0_payloads_freeze",
-      "timestamp": "2026-09-08T21:04:00+00:00",
+      "timestamp": "2026-09-09T06:44:00+00:00",
       "status": "PASS"
     },
     {
       "node": "manifest",
-      "timestamp": "2026-09-08T21:05:00+00:00",
+      "timestamp": "2026-09-09T06:45:00+00:00",
       "status": "PASS",
-      "sha256": "58a5ff39dd4b546c20efcc66982388d8096249815802cdf6f7b2276a25ddc066"
+      "sha256": "37f70e2d0f67dcf476ecd80c012c6976408034cbcc695dce1fc5b65149244bdb"
     }
   ],
-  "generated_at": "2026-09-08T21:06:00+00:00"
+  "generated_at": "2026-09-09T06:46:00+00:00"
 }

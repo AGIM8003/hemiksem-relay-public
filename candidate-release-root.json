@@ -1,24 +1,27 @@
 {
   "schema_version": "hemiksem-release-root-v3",
-  "spec_id": "HEMIKSEM-AI-V530-R1131-FINAL-CURRENT-LIVE-PERSISTENCE-SEAL",
+  "spec_id": "HEMIKSEM-AI-V530-R1132-PUBLICATION-BINDING-PERSISTENCE-CLOSURE",
   "release_id": "rel-hemiksem-v5.3.0-prod",
   "product_version": "5.3.0",
-  "proof_revision": "R1.1.3.1",
-  "candidate_id": "CAND-HEMIKSEM-V530-R1131-PROD",
-  "promotion_epoch": "EPOCH-V530-R1131-FINAL",
+  "proof_revision": "R1.1.3.2",
+  "candidate_id": "CAND-HEMIKSEM-V530-R1132-PROD",
+  "promotion_epoch": "EPOCH-V530-R1132-FINAL",
   "deployment_generation": 4,
+  "runtime_deployment_generation": 4,
+  "public_proof_generation": 5,
   "engine_runtime": "8.1",
   "functional_source_commit": "ca34b2368df3b8c83e4cd2b9f70df0b405b28a51",
-  "publication_parent_commit": "76a9c329cd3a04c06e4b84ffbf01bc51c67d0c1a",
-  "base_publication_commit": "76a9c329cd3a04c06e4b84ffbf01bc51c67d0c1a",
-  "manifest_sha256": "58a5ff39dd4b546c20efcc66982388d8096249815802cdf6f7b2276a25ddc066",
-  "proof_chain_sha256": "c2ae73bfd49e1d5dd1d8b9702ed9e235d8e7ed464764ff18fb4a7d0a75be0dfe",
+  "publication_parent_commit": "e4a1611c9518abadb8e7808f70899d0de9c88c19",
+  "base_publication_commit": "e4a1611c9518abadb8e7808f70899d0de9c88c19",
+  "publication_commit": "e4a1611c9518abadb8e7808f70899d0de9c88c19",
+  "manifest_sha256": "37f70e2d0f67dcf476ecd80c012c6976408034cbcc695dce1fc5b65149244bdb",
+  "proof_chain_sha256": "cfd7ca09ea3fea83fd600397fc39edcd15c88928713e6c032c18bc845f390f24",
   "machine_verdict": "RELEASE_ALLOWED",
-  "operational_health": "R1131_CANDIDATE_PASS",
+  "operational_health": "R1132_CANDIDATE_PASS",
   "dag_layers": {
     "layer0_payload_count": 44,
-    "layer1_manifest_sha256": "58a5ff39dd4b546c20efcc66982388d8096249815802cdf6f7b2276a25ddc066",
-    "layer2_proof_chain_sha256": "c2ae73bfd49e1d5dd1d8b9702ed9e235d8e7ed464764ff18fb4a7d0a75be0dfe"
+    "layer1_manifest_sha256": "37f70e2d0f67dcf476ecd80c012c6976408034cbcc695dce1fc5b65149244bdb",
+    "layer2_proof_chain_sha256": "cfd7ca09ea3fea83fd600397fc39edcd15c88928713e6c032c18bc845f390f24"
   },
-  "generated_at": "2026-09-08T21:07:00+00:00"
+  "generated_at": "2026-09-09T06:47:00+00:00"
 }
