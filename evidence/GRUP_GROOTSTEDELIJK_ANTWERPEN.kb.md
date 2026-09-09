@@ -9,11 +9,11 @@ source_file: GRUP_GROOTSTEDELIJK_ANTWERPEN.kb.md
 source_sha256: 8374128087b74b744f2fe2007bb4d4de2ab9a09706ba53e805bbf8c7fb2b4fff
 source_authority: "Gemeente Hemiksem"
 source_date: 2024-01-01
-origin_release_id: rel-hemiksem-v5.0.0-prod
-admission_release_id: rel-hemiksem-v5.0.0-prod
-serving_release_id: rel-hemiksem-v5.2.0-prod
-release_id: rel-hemiksem-v5.2.0-prod
-release_version: 5.2.0
+origin_release_id: rel-hemiksem-v5.3.2-recovery-candidate
+admission_release_id: rel-hemiksem-v5.3.2-recovery-candidate
+serving_release_id: rel-hemiksem-v5.3.2-recovery-candidate
+release_id: rel-hemiksem-v5.3.2-recovery-candidate
+release_version: 5.3.2-RECOVERY-CANDIDATE
 lineage_state: INHERITED_VERIFIED
 lineage_validation_state: PASS
 retrieval_channel: server_recall
@@ -36,7 +36,7 @@ Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kennisc
 - **Document ID:** `DOC-HEM-031`
 - **Bronbestand:** `GRUP_GROOTSTEDELIJK_ANTWERPEN.kb.md`
 - **Origin Release:** `rel-hemiksem-v5.0.0-prod`
-- **Serving Release:** `rel-hemiksem-v5.2.0-prod`
+- **Serving Release:** `rel-hemiksem-v5.3.2-recovery-candidate`
 - **Lineage State:** `INHERITED_VERIFIED`
 - **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
 - **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)

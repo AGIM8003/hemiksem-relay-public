@@ -1,9 +1,8 @@
 {
-  "chain_nodes": 15,
-  "claim_chain_count": 37,
-  "engine_runtime": "8.1",
-  "generated_at": "2026-09-07T20:03:07.844737+00:00",
-  "product_version": "5.3.0",
-  "release_id": "rel-hemiksem-v5.3.0-prod",
-  "release_version": "5.3.0"
+  "spec_id": "HEMIKSEM-AI-RERP-01",
+  "release_id": "rel-hemiksem-v5.3.2-recovery-candidate",
+  "proof_revision": "R1.1.3.4",
+  "proof_chain_hash": "eb1f47e0661c28d067e9829fe24645017fa3a26d52c0be48edc4d0b07cb5dcf7",
+  "manifest_hash": "e934bd7bb8ac5c802fed346c115ec9ccc584e5caf7846a9db4c61059d5bea65f",
+  "generated_at": "2026-09-09T14:04:43.889796+00:00"
 }

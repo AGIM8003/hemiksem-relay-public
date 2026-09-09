@@ -9,11 +9,11 @@ source_file: RUP_VARENVELDEN.kb.md
 source_sha256: 11bc01e2db77fb6daa5f70fd755969d47447ce52bd0565424c6302642cd93c6b
 source_authority: "Gemeente Hemiksem"
 source_date: 2024-01-01
-origin_release_id: rel-hemiksem-v5.0.0-prod
-admission_release_id: rel-hemiksem-v5.0.0-prod
-serving_release_id: rel-hemiksem-v5.2.0-prod
-release_id: rel-hemiksem-v5.2.0-prod
-release_version: 5.2.0
+origin_release_id: rel-hemiksem-v5.3.2-recovery-candidate
+admission_release_id: rel-hemiksem-v5.3.2-recovery-candidate
+serving_release_id: rel-hemiksem-v5.3.2-recovery-candidate
+release_id: rel-hemiksem-v5.3.2-recovery-candidate
+release_version: 5.3.2-RECOVERY-CANDIDATE
 lineage_state: INHERITED_VERIFIED
 lineage_validation_state: PASS
 retrieval_channel: server_recall
@@ -36,7 +36,7 @@ Dit geadmitteerde bewijsstuk maakt integraal deel uit van het officiële kennisc
 - **Document ID:** `DOC-HEM-037`
 - **Bronbestand:** `RUP_VARENVELDEN.kb.md`
 - **Origin Release:** `rel-hemiksem-v5.0.0-prod`
-- **Serving Release:** `rel-hemiksem-v5.2.0-prod`
+- **Serving Release:** `rel-hemiksem-v5.3.2-recovery-candidate`
 - **Lineage State:** `INHERITED_VERIFIED`
 - **Geldigheid & Bitemporeel:** `VERIFIED_FOR_DATE`
 - **Toepasbaarheid:** `CONDITIONAL_ON_ZONE` (Gemeente Hemiksem)
