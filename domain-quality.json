@@ -353,7 +353,7 @@
       "admitted_sources": 80,
       "active_documents": 10,
       "searchable_documents": 10,
-      "segments": -500,
+      "segments": 500,
       "official_primary_sources": true,
       "authority_coverage": 100.0,
       "freshness_coverage": 100.0,
@@ -723,7 +723,7 @@
     }
   },
   "product_version": "5.3.2-RECOVERY",
-  "release_version": "5.3.0",
+  "release_version": "5.3.2-RECOVERY",
   "serving_release_id": "rel-hemiksem-v5.3.2-recovery-final",
   "deployment_generation": 7,
   "lifecycle_state": "ACTIVE_CURRENT",
